@@ -1,150 +1,107 @@
+#!/usr/bin/env python3
 """
-Prepares raw audio files for Kokoro TTS fine-tuning:
-1. Resamples to 24,000 Hz mono using high-accuracy NumPy interpolation
-2. Trims leading and trailing silence
-3. Normalizes peak amplitude to prevent clipping and ensure consistent volume
-4. Filters clips by duration (rejects clips too short or too long)
+prepare_dataset.py - Acoustic Normalization & Curation for Kokoro-82M Fine-Tuning.
+Performs:
+1. 24 kHz mono resampling
+2. Boundary silence trimming (top_db=30)
+3. Duration filtering (1.0s to 12.0s)
+4. EBU R128 loudness normalization (-23 LUFS / peak 0.95 limit)
+5. Export to 24 kHz 16-bit PCM WAV
 """
-import os
+
 import argparse
+from pathlib import Path
+import librosa
 import numpy as np
+import pyloudnorm as pyln
 import soundfile as sf
-from typing import Tuple
 
 
-def resample_audio(audio: np.ndarray, orig_sr: int, target_sr: int = 24_000) -> np.ndarray:
-    """Resample audio array to target sample rate using linear interpolation."""
-    if orig_sr == target_sr:
-        return audio
-    duration = len(audio) / orig_sr
-    num_target_samples = int(duration * target_sr)
-    orig_times = np.linspace(0, duration, len(audio), endpoint=False)
-    target_times = np.linspace(0, duration, num_target_samples, endpoint=False)
-    resampled = np.interp(target_times, orig_times, audio)
-    return resampled.astype(np.float32)
-
-
-def trim_silence(audio: np.ndarray, sample_rate: int = 24_000, top_db: float = 30.0) -> np.ndarray:
-    """Trim leading and trailing silence based on energy threshold."""
-    if len(audio) == 0:
-        return audio
-    
-    frame_length = int(sample_rate * 0.02)  # 20ms
-    hop_length = int(sample_rate * 0.01)    # 10ms
-    
-    if len(audio) < frame_length:
-        return audio
-        
-    num_frames = 1 + (len(audio) - frame_length) // hop_length
-    frames = np.lib.stride_tricks.as_strided(
-        audio,
-        shape=(num_frames, frame_length),
-        strides=(audio.strides[0] * hop_length, audio.strides[0]),
-    )
-    
-    rms = np.sqrt(np.mean(frames ** 2, axis=1) + 1e-12)
-    max_rms = np.max(rms)
-    if max_rms == 0:
-        return audio
-        
-    db = 20 * np.log10(rms / max_rms + 1e-12)
-    active = np.where(db > -top_db)[0]
-    
-    if len(active) == 0:
-        return audio
-        
-    start_frame = max(0, active[0] - 2)
-    end_frame = min(num_frames, active[-1] + 3)
-    
-    start_sample = start_frame * hop_length
-    end_sample = min(len(audio), end_frame * hop_length + frame_length)
-    
-    return audio[start_sample:end_sample]
-
-
-def normalize_audio(audio: np.ndarray, target_peak: float = 0.95) -> np.ndarray:
-    """Normalize peak amplitude to target_peak (e.g. 0.95)."""
-    peak = np.max(np.abs(audio))
-    if peak == 0:
-        return audio
-    return (audio * (target_peak / peak)).astype(np.float32)
-
-
-def process_audio_file(
-    in_path: str,
-    out_path: str,
-    target_sr: int = 24_000,
+def normalize_audio(
+    audio_path: Path,
+    output_path: Path,
+    target_sr: int = 24000,
+    target_lufs: float = -23.0,
+    peak_limit: float = 0.95,
+    top_db: int = 30,
     min_sec: float = 1.0,
     max_sec: float = 12.0,
-) -> Tuple[bool, str]:
-    """
-    Process a single audio file and write to out_path.
-    Returns (success, message).
-    """
+) -> bool:
+    """Processes a single audio file to strict Kokoro/StyleTTS 2 acoustic specifications."""
     try:
-        data, sr = sf.read(in_path, dtype="float32", always_2d=False)
+        # 1. Load audio & resample to 24 kHz mono
+        y, sr = librosa.load(audio_path, sr=target_sr, mono=True)
+
+        # 2. Boundary Silence Trimming (top_db=30)
+        # Long boundary silences cause Monotonic Alignment Search (MAS) failures
+        intervals = librosa.effects.split(y, top_db=top_db)
+        if len(intervals) == 0:
+            return False
+        y_trimmed = np.concatenate([y[start:end] for start, end in intervals])
+
+        # 3. Duration Filtering (1.0s - 12.0s)
+        # Clips < 1.0s break duration predictors; clips > 12.0s cause CUDA OOM
+        duration = len(y_trimmed) / target_sr
+        if duration < min_sec or duration > max_sec:
+            return False
+
+        # 4. EBU R128 Loudness Normalization (-23 LUFS, Peak 0.95)
+        meter = pyln.Meter(target_sr)
+        loudness = meter.integrated_loudness(y_trimmed)
+        
+        # Guard against silent/near-silent files
+        if np.isinf(loudness) or np.isnan(loudness):
+            return False
+
+        y_norm = pyln.normalize.loudness(y_trimmed, loudness, target_lufs)
+        
+        # Peak limiting to prevent digital clipping in iSTFTNet
+        max_peak = np.max(np.abs(y_norm))
+        if max_peak > peak_limit:
+            y_norm = y_norm * (peak_limit / max_peak)
+
+        # 5. Export 24 kHz 16-bit PCM WAV
+        output_path.parent.mkdir(parents=True, exist_ok=True)
+        sf.write(output_path, y_norm.astype(np.float32), target_sr, subtype="PCM_16")
+        return True
+
     except Exception as e:
-        return False, f"Failed to read {in_path}: {e}"
-        
-    # Convert stereo to mono
-    if data.ndim > 1:
-        data = np.mean(data, axis=1)
-        
-    # Resample if needed
-    if sr != target_sr:
-        data = resample_audio(data, sr, target_sr)
-        
-    # Trim silence
-    data = trim_silence(data, target_sr, top_db=30.0)
-    
-    # Check duration bounds
-    dur = len(data) / target_sr
-    if dur < min_sec:
-        return False, f"Audio too short ({dur:.2f}s < {min_sec}s)"
-    if dur > max_sec:
-        return False, f"Audio too long ({dur:.2f}s > {max_sec}s)"
-        
-    # Normalize peak
-    data = normalize_audio(data, target_peak=0.95)
-    
-    # Ensure directory exists and write
-    os.makedirs(os.path.dirname(out_path), exist_ok=True)
-    sf.write(out_path, data, target_sr)
-    return True, f"Processed ({dur:.2f}s)"
+        print(f"Error processing {audio_path.name}: {e}")
+        return False
 
 
-def batch_prepare(input_dir: str, output_dir: str, target_sr: int = 24_000, min_sec: float = 1.0, max_sec: float = 12.0):
-    valid_exts = {".wav", ".mp3", ".flac", ".ogg", ".m4a"}
-    os.makedirs(output_dir, exist_ok=True)
-    
-    processed = 0
-    skipped = 0
-    
-    for root, _, files in os.walk(input_dir):
-        for f in files:
-            ext = os.path.splitext(f)[1].lower()
-            if ext in valid_exts:
-                in_file = os.path.join(root, f)
-                rel_path = os.path.relpath(in_file, input_dir)
-                out_name = os.path.splitext(rel_path)[0] + ".wav"
-                out_file = os.path.join(output_dir, out_name)
-                
-                success, msg = process_audio_file(in_file, out_file, target_sr, min_sec, max_sec)
-                if success:
-                    processed += 1
-                else:
-                    skipped += 1
-                    
-    print(f"Dataset preparation complete: {processed} files processed, {skipped} files skipped.")
+def main():
+    parser = argparse.ArgumentParser(description="Batch process audio for Kokoro TTS.")
+    parser.add_argument("--input_dir", type=Path, required=True, help="Path to raw audio clips")
+    parser.add_argument("--output_dir", type=Path, required=True, help="Target 24kHz directory")
+    parser.add_argument("--target_sr", type=int, default=24000, help="Sampling rate (default: 24000)")
+    parser.add_argument("--min_sec", type=float, default=1.0)
+    parser.add_argument("--max_sec", type=float, default=12.0)
+    args = parser.parse_args()
+
+    audio_files = (
+        list(args.input_dir.rglob("*.wav")) +
+        list(args.input_dir.rglob("*.flac")) +
+        list(args.input_dir.rglob("*.mp3")) +
+        list(args.input_dir.rglob("*.ogg"))
+    )
+    print(f"Found {len(audio_files)} raw audio files. Starting normalization...")
+
+    passed = 0
+    for file_path in audio_files:
+        rel_path = file_path.relative_to(args.input_dir)
+        out_path = args.output_dir / rel_path.with_suffix(".wav")
+        if normalize_audio(
+            file_path, out_path, target_sr=args.target_sr, min_sec=args.min_sec, max_sec=args.max_sec
+        ):
+            passed += 1
+
+    total = len(audio_files)
+    if total > 0:
+        print(f"Successfully processed {passed}/{total} clips ({passed/total:.1%}).")
+    else:
+        print("No audio files found in input directory.")
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="Prepare audio files for Kokoro TTS fine-tuning.")
-    parser.add_argument("--input_dir", type=str, required=True, help="Directory with raw audio files")
-    parser.add_argument("--output_dir", type=str, required=True, help="Destination directory for processed 24kHz WAVs")
-    parser.add_argument("--target_sr", type=int, default=24000, help="Target sample rate (default 24000)")
-    parser.add_argument("--min_sec", type=float, default=1.0, help="Minimum duration in seconds")
-    parser.add_argument("--max_sec", type=float, default=12.0, help="Maximum duration in seconds")
-    args = parser.parse_args()
-    
-    batch_prepare(args.input_dir, args.output_dir, args.target_sr, args.min_sec, args.max_sec)
+    main()
