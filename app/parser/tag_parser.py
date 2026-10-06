@@ -23,6 +23,29 @@ _SCREENPLAY = re.compile(
 )
 
 
+import dataclasses
+
+
+def calculate_punctuation_pause(text: str, base_pause_ms: int = 50) -> int:
+    """Calculates natural human cadence pause based on ending punctuation."""
+    t = text.rstrip()
+    if not t:
+        return base_pause_ms
+    if t.endswith("..."):
+        return max(base_pause_ms, 450)
+    if t.endswith("—") or t.endswith("--"):
+        return max(base_pause_ms, 350)
+    if t.endswith("?") or t.endswith("!"):
+        return max(base_pause_ms, 220)
+    if t.endswith("."):
+        return max(base_pause_ms, 200)
+    if t.endswith(":") or t.endswith(";"):
+        return max(base_pause_ms, 250)
+    if t.endswith(","):
+        return max(base_pause_ms, 160)
+    return base_pause_ms
+
+
 @dataclass
 class SpeechSegment:
     """One unit of speech: text to synthesize + how to synthesize it."""
@@ -76,6 +99,11 @@ class TagParser:
                 canonical_emotion = _ALIASES.get(first_tag, first_tag)
                 text = m.group("text").strip()
                 profile = resolve_profile(canonical_emotion)
+                if profile.silence_ms is None and text:
+                    profile = dataclasses.replace(
+                        profile,
+                        pause_after_ms=calculate_punctuation_pause(text, profile.pause_after_ms)
+                    )
                 segments.append(SpeechSegment(
                     text=text,
                     emotion=canonical_emotion,
@@ -113,6 +141,11 @@ class TagParser:
             before = line[pos:match.start()].strip()
             if before:
                 profile = resolve_profile(active_emotion)
+                if profile.silence_ms is None:
+                    profile = dataclasses.replace(
+                        profile,
+                        pause_after_ms=calculate_punctuation_pause(before, profile.pause_after_ms)
+                    )
                 segments.append(SpeechSegment(
                     text=before,
                     emotion=active_emotion,
@@ -146,6 +179,11 @@ class TagParser:
         remaining = line[pos:].strip()
         if remaining:
             profile = resolve_profile(active_emotion)
+            if profile.silence_ms is None:
+                profile = dataclasses.replace(
+                    profile,
+                    pause_after_ms=calculate_punctuation_pause(remaining, profile.pause_after_ms)
+                )
             segments.append(SpeechSegment(
                 text=remaining,
                 emotion=active_emotion,

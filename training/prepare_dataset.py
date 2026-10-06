@@ -70,13 +70,28 @@ def normalize_audio(
         return False
 
 
+def _process_single_clip(args_tuple):
+    """Worker helper for parallel execution."""
+    file_path, out_path, target_sr, min_sec, max_sec, skip_existing = args_tuple
+    if skip_existing and out_path.exists():
+        return True
+    return normalize_audio(
+        file_path, out_path, target_sr=target_sr, min_sec=min_sec, max_sec=max_sec
+    )
+
+
 def main():
+    import os
+    from concurrent.futures import ProcessPoolExecutor, as_completed
+
     parser = argparse.ArgumentParser(description="Batch process audio for Kokoro TTS.")
     parser.add_argument("--input_dir", type=Path, required=True, help="Path to raw audio clips")
     parser.add_argument("--output_dir", type=Path, required=True, help="Target 24kHz directory")
     parser.add_argument("--target_sr", type=int, default=24000, help="Sampling rate (default: 24000)")
     parser.add_argument("--min_sec", type=float, default=1.0)
     parser.add_argument("--max_sec", type=float, default=12.0)
+    parser.add_argument("--workers", type=int, default=max(1, (os.cpu_count() or 4) - 2), help="Parallel workers")
+    parser.add_argument("--skip_existing", action="store_true", default=True, help="Skip already processed files")
     args = parser.parse_args()
 
     audio_files = (
@@ -85,20 +100,28 @@ def main():
         list(args.input_dir.rglob("*.mp3")) +
         list(args.input_dir.rglob("*.ogg"))
     )
-    print(f"Found {len(audio_files)} raw audio files. Starting normalization...")
+    total = len(audio_files)
+    print(f"Found {total} raw audio files. Starting normalization with {args.workers} worker processes...")
 
-    passed = 0
+    tasks = []
     for file_path in audio_files:
         rel_path = file_path.relative_to(args.input_dir)
         out_path = args.output_dir / rel_path.with_suffix(".wav")
-        if normalize_audio(
-            file_path, out_path, target_sr=args.target_sr, min_sec=args.min_sec, max_sec=args.max_sec
-        ):
-            passed += 1
+        tasks.append((file_path, out_path, args.target_sr, args.min_sec, args.max_sec, args.skip_existing))
 
-    total = len(audio_files)
+    passed = 0
+    done = 0
+    with ProcessPoolExecutor(max_workers=args.workers) as executor:
+        for res in executor.map(_process_single_clip, tasks, chunksize=32):
+            if res:
+                passed += 1
+            done += 1
+            if done % 1000 == 0 or done == total:
+                print(f"  Processed {done}/{total} clips ({passed} valid, {done/total:.1%})...")
+
     if total > 0:
-        print(f"Successfully processed {passed}/{total} clips ({passed/total:.1%}).")
+        print(f"\nFinished normalization: {passed}/{total} clips passed criteria ({passed/total:.1%}).")
+        print(f"Standardized WAVs saved to: {args.output_dir}")
     else:
         print("No audio files found in input directory.")
 

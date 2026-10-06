@@ -5,5 +5,12 @@ __pycache__/
 *.mp3
 models/*.onnx
 models/*.bin
-emotions/*.npy
 .pytest_cache/
+output/
+
+# Exclude heavy dataset clips and archives
+data/processed_24k/
+data/raw_datasets/
+data/*.zip
+*.zip
+*.tar.gz

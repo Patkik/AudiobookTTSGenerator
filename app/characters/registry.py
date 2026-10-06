@@ -4,9 +4,10 @@ Kokoro voice IDs. Persists in memory for the duration of a session.
 """
 
 DEFAULT_CHARACTERS: dict[str, dict] = {
-    "NARRATOR": {"voice_id": "af_heart",   "gender": "female"},
-    "ALICE":    {"voice_id": "af_bella",   "gender": "female"},
-    "BOB":      {"voice_id": "am_michael", "gender": "male"},
+    "NARRATOR":   {"voice_id": "af_heart",   "gender": "female"},
+    "ALICE":      {"voice_id": "af_bella",   "gender": "female"},
+    "BOB":        {"voice_id": "am_michael", "gender": "male"},
+    "SYLPHIETTE": {"voice_id": "af_sky",     "gender": "female"},
 }
 
 

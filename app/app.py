@@ -3,7 +3,16 @@ Kokoro Expressive Audiobook TTS - Gradio Web UI
 Run: python -m app.app
 """
 import os
+import sys
+from pathlib import Path
+
+# Ensure project root is in sys.path when running app/app.py directly
+ROOT_DIR = Path(__file__).resolve().parent.parent
+if str(ROOT_DIR) not in sys.path:
+    sys.path.insert(0, str(ROOT_DIR))
+
 import tempfile
+import dataclasses
 import numpy as np
 import gradio as gr
 import soundfile as sf
@@ -23,35 +32,66 @@ engine: SynthesisEngine | None = None
 SAMPLE_RATE = 24_000
 ALL_TAGS = sorted(EMOTION_PROFILES.keys())
 
+def get_model_path() -> str:
+    int8 = str(ROOT_DIR / "models" / "kokoro-expressive.int8.onnx")
+    if os.path.exists(int8) and os.path.getsize(int8) > 50_000_000:
+        return int8
+    v1 = str(ROOT_DIR / "models" / "kokoro-v1.0.onnx")
+    if os.path.exists(v1):
+        return v1
+    return int8
+
 def check_models_ok() -> bool:
+    m = get_model_path()
+    voices = str(ROOT_DIR / "models" / "voices-v1.0.bin")
     return (
-        os.path.exists("models/kokoro-v1.0.onnx")
-        and os.path.exists("models/voices-v1.0.bin")
-        and os.path.getsize("models/kokoro-v1.0.onnx") > 100_000_000
+        os.path.exists(m)
+        and os.path.exists(voices)
+        and os.path.getsize(m) > 50_000_000
     )
 
 def _get_engine() -> SynthesisEngine:
     global engine
     if engine is None:
+        m = get_model_path()
+        voices = str(ROOT_DIR / "models" / "voices-v1.0.bin")
+        emotions = str(ROOT_DIR / "emotions")
+        print(f"Loading SynthesisEngine with model: {m}, voices: {voices}")
         engine = SynthesisEngine(
-            model_path="models/kokoro-v1.0.onnx",
-            voices_path="models/voices-v1.0.bin",
+            model_path=m,
+            voices_path=voices,
+            emotions_dir=emotions,
         )
     return engine
 
-def generate_audio(text: str, global_speed: float) -> tuple[str | None, str]:
+def generate_audio(
+    text: str,
+    global_speed: float = 1.0,
+    intensity: float = 0.35,
+    enable_mastering: bool = True,
+) -> tuple[str | None, str]:
     """Parse text and synthesize audio. Returns (wav_path, segment_summary)."""
     if not check_models_ok():
-        return None, "⚠️ Model files not ready or still downloading. Please verify models/kokoro-v1.0.onnx and models/voices-v1.0.bin."
+        return None, "⚠️ Model files not ready. Please verify models/kokoro-expressive.int8.onnx (or kokoro-v1.0.onnx) and models/voices-v1.0.bin."
     if not text or not text.strip():
         return None, "⚠️ No text provided."
 
     eng = _get_engine()
+    eng.set_emotion_alpha(intensity)
+    eng.set_mastering(enable_mastering)
+
     segments = parser.parse(text)
     if not segments:
         return None, "⚠️ No speech segments found."
 
-    audio, sr = eng.synthesize_segments(segments, registry)
+    if global_speed != 1.0:
+        adjusted = []
+        for s in segments:
+            new_profile = dataclasses.replace(s.profile, speed=s.profile.speed * global_speed)
+            adjusted.append(dataclasses.replace(s, profile=new_profile))
+        segments = adjusted
+
+    audio, sr = eng.synthesize_segments(segments, registry, enable_mastering=enable_mastering)
 
     if len(audio) == 0:
         return None, "⚠️ Synthesis produced no audio."
@@ -104,15 +144,16 @@ def export_mp3(wav_path: str) -> str | None:
     return mp3_path
 
 def _get_voices():
-    if os.path.exists("models/voices-v1.0.bin"):
+    voices_path = str(ROOT_DIR / "models" / "voices-v1.0.bin")
+    if os.path.exists(voices_path):
         try:
-            voices_data = np.load("models/voices-v1.0.bin")
+            voices_data = np.load(voices_path)
             return list(voices_data.keys())
         except Exception:
             pass
     return ["af_heart", "af_bella", "am_michael", "bm_george"]
 
-with gr.Blocks(title="🎙️ Kokoro Expressive Audiobook TTS", theme=gr.themes.Soft()) as demo:
+with gr.Blocks(title="🎙️ Kokoro Expressive Audiobook TTS") as demo:
     gr.Markdown("# 🎙️ Kokoro Expressive Audiobook TTS")
     
     with gr.Tabs():
@@ -158,10 +199,21 @@ with gr.Blocks(title="🎙️ Kokoro Expressive Audiobook TTS", theme=gr.themes.
                     mp3_output = gr.File(label="MP3 Download", visible=False)
 
             with gr.Row():
-                generate_btn = gr.Button("▶ Generate Audio", variant="primary", scale=3)
+                generate_btn = gr.Button("▶ Generate Audio", variant="primary", scale=2)
+                intensity_slider = gr.Slider(
+                    minimum=0.0, maximum=0.8, value=0.35, step=0.05,
+                    label="🎭 Expression Intensity", scale=1,
+                    info="0.0=Neutral, 0.35=Genuine & Conversational, 0.7=Dramatic",
+                )
                 speed_slider = gr.Slider(
                     minimum=0.5, maximum=2.0, value=1.0, step=0.05,
-                    label="Global Speed", scale=1,
+                    label="⚡ Global Speed", scale=1,
+                )
+                mastering_toggle = gr.Checkbox(
+                    value=True,
+                    label="🎛️ Studio Mastering",
+                    scale=1,
+                    info="EQ, De-Esser & Room Tone",
                 )
 
         # ── TAB 2: CHARACTERS ─────────────────────────────────────────────────
@@ -217,7 +269,7 @@ with gr.Blocks(title="🎙️ Kokoro Expressive Audiobook TTS", theme=gr.themes.
     # ── Event Wiring ──────────────────────────────────────────────────────────
     generate_btn.click(
         fn=generate_audio,
-        inputs=[text_input, speed_slider],
+        inputs=[text_input, speed_slider, intensity_slider, mastering_toggle],
         outputs=[audio_output, segment_summary],
     )
     upload_btn.upload(

@@ -4,17 +4,39 @@ Wraps kokoro-onnx with per-segment emotion profile application.
 """
 import os
 import tempfile
+import dataclasses
 import numpy as np
-from typing import Generator
+from dataclasses import dataclass
+from typing import Callable, Generator, Optional
 
 from kokoro_onnx import Kokoro
 
-from app.parser.tag_parser import SpeechSegment
+from app.parser.emotion_profiles import EMOTION_PROFILES, _ALIASES, resolve_profile
+from app.parser.tag_parser import SpeechSegment, calculate_punctuation_pause
 from app.synthesis.voicepack_store import VoicepackStore
 from app.synthesis.audio_pipeline import AudioPipeline
 from app.characters.registry import CharacterRegistry
 
 SAMPLE_RATE = 24_000
+
+
+@dataclass(frozen=True)
+class NarrativeContextFrame:
+    """Optional synthesis controls produced from scene/dialogue context.
+
+    A context resolver can return an emotion plus any explicit acoustic
+    overrides. The context itself is metadata and is never added to dialogue.
+    """
+
+    emotion: Optional[str] = None
+    speed: Optional[float] = None
+    alpha: Optional[float] = None
+    volume_db: Optional[float] = None
+    pause_before_ms: Optional[int] = None
+    pause_after_ms: Optional[int] = None
+
+
+NarrativeContextResolver = Callable[[str, SpeechSegment], Optional[NarrativeContextFrame]]
 
 
 class SynthesisEngine:
@@ -35,16 +57,30 @@ class SynthesisEngine:
         model_path: str = "models/kokoro-v1.0.onnx",
         voices_path: str = "models/voices-v1.0.bin",
         emotions_dir: str = "emotions",
-        emotion_alpha: float = 0.7,
+        emotion_alpha: float = 0.35,
+        enable_mastering: bool = True,
+        narrative_context_resolver: Optional[NarrativeContextResolver] = None,
     ) -> None:
         self._kokoro = Kokoro(model_path, voices_path)
         self._store = VoicepackStore(voices_path, emotions_dir)
         self._alpha = emotion_alpha
+        self._enable_mastering = enable_mastering
+        self._narrative_context_resolver = narrative_context_resolver
+
+    def set_emotion_alpha(self, alpha: float) -> None:
+        """Update global emotion intensity scale."""
+        self._alpha = alpha
+
+    def set_mastering(self, enabled: bool) -> None:
+        """Enable or disable studio DSP audio mastering."""
+        self._enable_mastering = enabled
 
     def synthesize_segments(
         self,
         segments: list[SpeechSegment],
         registry: CharacterRegistry,
+        enable_mastering: Optional[bool] = None,
+        narrative_context: Optional[str] = None,
     ) -> tuple[np.ndarray, int]:
         """
         Synthesize all segments and return concatenated audio.
@@ -52,6 +88,9 @@ class SynthesisEngine:
         Args:
             segments: Parsed speech segments from TagParser
             registry: Character -> voice mapping
+            enable_mastering: Override studio mastering DSP (defaults to engine setting)
+            narrative_context: Non-spoken scene context interpreted by the optional
+                narrative_context_resolver into per-segment synthesis controls.
 
         Returns:
             (audio_array, sample_rate) where audio_array is float32 at 24kHz
@@ -59,6 +98,7 @@ class SynthesisEngine:
         chunks: list[tuple[np.ndarray, int]] = []
 
         for seg in segments:
+            seg = self._apply_narrative_context(seg, narrative_context)
             audio = self._synthesize_one(seg, registry)
             if audio is not None and len(audio) > 0:
                 chunks.append((audio, seg.profile.pause_after_ms))
@@ -73,18 +113,25 @@ class SynthesisEngine:
             return np.array([], dtype=np.float32), SAMPLE_RATE
 
         final = AudioPipeline.concat_with_pauses(chunks, SAMPLE_RATE)
+
+        do_master = self._enable_mastering if enable_mastering is None else enable_mastering
+        if do_master and len(final) > 0:
+            final = AudioPipeline.master_audio(final, SAMPLE_RATE)
+
         return final, SAMPLE_RATE
 
     def synthesize_streaming(
         self,
         segments: list[SpeechSegment],
         registry: CharacterRegistry,
+        narrative_context: Optional[str] = None,
     ) -> Generator[tuple[np.ndarray, int], None, None]:
         """
         Yield (audio, sample_rate) for each segment as it's synthesized.
         Used by streaming interfaces.
         """
         for seg in segments:
+            seg = self._apply_narrative_context(seg, narrative_context)
             audio = self._synthesize_one(seg, registry)
             if audio is not None and len(audio) > 0:
                 yield audio, SAMPLE_RATE
@@ -93,6 +140,71 @@ class SynthesisEngine:
                 sfx = AudioPipeline.load_sfx(seg.profile.sfx_file)
                 if len(sfx) > 0:
                     yield sfx, SAMPLE_RATE
+
+    def _apply_narrative_context(
+        self,
+        seg: SpeechSegment,
+        narrative_context: Optional[str],
+    ) -> SpeechSegment:
+        """Resolve optional scene context into explicit per-segment controls.
+
+        Kokoro ONNX does not accept a separate narrative prompt. Keeping this
+        as metadata avoids accidentally speaking stage directions aloud.
+        """
+        if narrative_context is None:
+            return seg
+        if not narrative_context.strip():
+            raise ValueError("narrative_context must not be empty")
+        if self._narrative_context_resolver is None:
+            raise ValueError(
+                "narrative_context requires a narrative_context_resolver; "
+                "Kokoro ONNX has no separate context-conditioning input"
+            )
+
+        frame = self._narrative_context_resolver(narrative_context, seg)
+        if frame is None:
+            return seg
+        if not isinstance(frame, NarrativeContextFrame):
+            raise TypeError("narrative_context_resolver must return NarrativeContextFrame or None")
+
+        emotion = seg.emotion
+        profile = seg.profile
+        if frame.emotion is not None:
+            emotion = _ALIASES.get(frame.emotion.strip().lower(), frame.emotion.strip().lower())
+            if emotion not in EMOTION_PROFILES or EMOTION_PROFILES[emotion].silence_ms is not None:
+                raise ValueError(f"Unsupported contextual emotion: {frame.emotion!r}")
+            emotion_profile = resolve_profile(emotion)
+            profile = dataclasses.replace(
+                profile,
+                speed=emotion_profile.speed,
+                alpha=emotion_profile.alpha,
+                volume_db=emotion_profile.volume_db,
+                pause_before_ms=emotion_profile.pause_before_ms,
+                pause_after_ms=calculate_punctuation_pause(
+                    seg.text, emotion_profile.pause_after_ms
+                ),
+            )
+
+        overrides = {
+            "speed": frame.speed,
+            "alpha": frame.alpha,
+            "volume_db": frame.volume_db,
+            "pause_before_ms": frame.pause_before_ms,
+            "pause_after_ms": frame.pause_after_ms,
+        }
+        for name, value in overrides.items():
+            if value is not None:
+                if name in {"speed", "alpha", "volume_db"} and not np.isfinite(value):
+                    raise ValueError(f"Context frame {name} must be finite")
+                if name == "speed" and value <= 0:
+                    raise ValueError("Context frame speed must be greater than zero")
+                if name == "alpha" and not 0.0 <= value <= 1.0:
+                    raise ValueError("Context frame alpha must be between 0 and 1")
+                if name in {"pause_before_ms", "pause_after_ms"} and value < 0:
+                    raise ValueError(f"Context frame {name} cannot be negative")
+                profile = dataclasses.replace(profile, **{name: value})
+
+        return dataclasses.replace(seg, emotion=emotion, profile=profile)
 
     def _synthesize_one(
         self,
@@ -115,17 +227,23 @@ class SynthesisEngine:
         if seg.profile.pause_before_ms > 0:
             parts.append(AudioPipeline.make_silence(seg.profile.pause_before_ms, SAMPLE_RATE))
 
-        # Get voice for this character
+        # Get voice and gender for this character
         voice_id = registry.get_voice(seg.character)
+        gender = registry.get_gender(seg.character)
 
-        # Get style vector (emotion-blended)
+        # Get style vector (identity-preserving emotion-blended)
         # We estimate token_len from text length (~1.5 chars per phoneme)
         estimated_tokens = max(1, min(int(len(seg.text) * 1.5), 510))
+        # Resolve segment-calibrated alpha scaled by global intensity
+        base_alpha = seg.profile.alpha if hasattr(seg.profile, "alpha") and seg.profile.alpha is not None else 0.35
+        effective_alpha = base_alpha * (self._alpha / 0.35) if self._alpha > 0 else 0.0
+
         style = self._store.get_style(
             voice_id=voice_id,
             token_len=estimated_tokens,
             emotion=seg.emotion,
-            alpha=self._alpha,
+            alpha=effective_alpha,
+            gender=gender,
         )
 
         # Synthesize via kokoro-onnx
@@ -139,9 +257,15 @@ class SynthesisEngine:
         except Exception:
             return None
 
+        # Ensure 1D float32 audio
+        audio = np.asarray(audio, dtype=np.float32).squeeze()
+        if audio.ndim == 0:
+            audio = np.array([audio], dtype=np.float32)
+
         # Apply volume post-processing
         if seg.profile.volume_db != 0.0:
             audio = AudioPipeline.apply_volume(audio, seg.profile.volume_db)
 
         parts.append(audio)
-        return np.concatenate(parts).astype(np.float32)
+        flattened_parts = [np.asarray(p, dtype=np.float32).squeeze() for p in parts if len(p) > 0]
+        return np.concatenate(flattened_parts).astype(np.float32)

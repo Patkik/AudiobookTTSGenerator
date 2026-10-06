@@ -34,31 +34,49 @@ class VoicepackStore:
         voice_id: str,
         token_len: int = 0,
         emotion: str = "neutral",
-        alpha: float = 0.7,
+        alpha: float = 0.35,
+        gender: Optional[str] = None,
     ) -> np.ndarray:
         """
         Return the 3D style tensor of shape (N, 1, 256) expected by kokoro-onnx.
 
-        In Phase 1 (no emotion voicepacks): returns the base voice tensor.
-        In Phase 3 (emotion .npy files present): blends emotion * alpha + voice * (1-alpha).
+        Identity-Preserving Split Embedding:
+        - Dimensions 0-127 (speaker timbre, vocal tract, gender) are 100% PRESERVED
+          from the base voice so the character's vocal identity is never corrupted.
+        - Dimensions 128-255 (prosody, pitch contour, rhythm) receive the emotional delta.
 
         Args:
             voice_id: Kokoro voice name (e.g. "af_heart")
             token_len: Unused (retained for backward compatibility)
-            emotion: Emotion name (e.g. "happy") - used only if emotion voicepack exists
-            alpha: Emotion blend strength [0.0 = pure voice, 1.0 = pure emotion]
+            emotion: Emotion name (e.g. "happy")
+            alpha: Emotion blend strength [0.0 = pure voice, 1.0 = full emotional delta]
+            gender: Optional gender hint ("male" or "female") for delta routing
 
         Returns:
             float32 ndarray of shape (510, 1, 256)
         """
         base_tensor = self._load_base_tensor(voice_id)
+        if emotion == "neutral" or alpha <= 0.0:
+            return base_tensor
 
-        emotion_tensor = self._load_emotion_tensor(emotion)
-        if emotion_tensor is not None and emotion != "neutral" and alpha > 0.0:
-            blended = alpha * emotion_tensor + (1.0 - alpha) * base_tensor
-            return blended.astype(np.float32)
+        emotion_tensor = self._load_emotion_tensor(emotion, gender=gender)
+        if emotion_tensor is None:
+            return base_tensor
 
-        return base_tensor
+        # Extract split halves
+        base_timbre = base_tensor[:, :, :128]
+        base_prosody = base_tensor[:, :, 128:]
+
+        # Handle 128-dim pure prosody deltas or 256-dim full tensors
+        if emotion_tensor.shape[2] == 128:
+            blended_prosody = base_prosody + (alpha * emotion_tensor)
+        else:
+            emotion_prosody = emotion_tensor[:, :, 128:]
+            blended_prosody = (1.0 - alpha) * base_prosody + (alpha * emotion_prosody)
+
+        # Recombine: Timbre is 100% untouched base voice!
+        blended = np.concatenate([base_timbre, blended_prosody], axis=2)
+        return blended.astype(np.float32)
 
     def available_voices(self) -> list[str]:
         """Return list of available voice IDs from voices-v1.0.bin."""
@@ -73,15 +91,23 @@ class VoicepackStore:
                 return self._voices[self._fallback_voice].astype(np.float32)
             return np.zeros((510, 1, 256), dtype=np.float32)
 
-    def _load_emotion_tensor(self, emotion: str) -> Optional[np.ndarray]:
-        """Load per-emotion voicepack if it exists. Returns None if not found."""
-        if emotion in self._emotion_cache:
-            return self._emotion_cache[emotion]
+    def _load_emotion_tensor(self, emotion: str, gender: Optional[str] = None) -> Optional[np.ndarray]:
+        """Load per-emotion voicepack/delta if it exists. Checks gender variants first."""
+        cache_key = f"{gender}_{emotion}" if gender else emotion
+        if cache_key in self._emotion_cache:
+            return self._emotion_cache[cache_key]
 
-        npy_path = os.path.join(self._emotions_dir, f"{emotion}.npy")
-        if not os.path.exists(npy_path):
-            return None
+        candidate_paths = []
+        if gender:
+            candidate_paths.append(os.path.join(self._emotions_dir, "deltas", f"{gender.lower()}_{emotion}.npy"))
+            candidate_paths.append(os.path.join(self._emotions_dir, f"{gender.lower()}_{emotion}.npy"))
+        candidate_paths.append(os.path.join(self._emotions_dir, "deltas", f"{emotion}.npy"))
+        candidate_paths.append(os.path.join(self._emotions_dir, f"{emotion}.npy"))
 
-        tensor = np.load(npy_path).astype(np.float32)
-        self._emotion_cache[emotion] = tensor
-        return tensor
+        for p in candidate_paths:
+            if os.path.exists(p):
+                tensor = np.load(p).astype(np.float32)
+                self._emotion_cache[cache_key] = tensor
+                return tensor
+
+        return None

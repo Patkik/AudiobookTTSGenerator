@@ -1,0 +1,1488 @@
+/content/data/processed_24k/ESD/Speaker_0015/0015_surprise_05_01172.wav|aɪd dʒˈʌst æz sˈuːn swˈɪm jʊɹ wˈeɪ æz ˈʌðɚz dˈuː.|ESD_0015_surprise
+/content/data/processed_24k/ESD/Speaker_0011/0011_anger_03_02712.wav|lˈɛt ɪt ɡˈɪv ˌʌs ɐ tʃˈæns, maɪ pɹˈɛʃəs.|ESD_0011_anger
+/content/data/processed_24k/ESD/Speaker_0017/0017_surprise_05_04596.wav|fˈɜː flˈuː θɹuː ðɪ ˈɛɹ, tˈiːθ nˈæʃt.|ESD_0017_surprise
+/content/data/processed_24k/ESD/Speaker_0011/0011_happiness_03_03074.wav|hɜːɹ ɛɡzˈɪstəns mˌeɪks hˌɪm plˈɛzənt.|ESD_0011_happiness
+/content/data/processed_24k/ESD/Speaker_0020/0020_anger_06_03325.wav|ðə hˈæɡ lˈʊkt ɪnðə stˈoʊv.|ESD_0020_anger
+/content/data/processed_24k/Expresso/ex02/ex02_default_emphasis_00047.wav|ðɛɹz ɐlˈɑːɹmz sˈɛt fɔːɹ ˈæstɚɹˌɪsk təmˈɑːɹoʊ ˈæstɚɹˌɪsk æt tˈuː θˈɜːɾi ˌeɪˈɛm ænd æt wˈʌn əklˈɑːk pˌiːˈɛm.|Expresso_ex02_emphasis
+/content/data/processed_24k/ESD/Speaker_0019/0019_happiness_06_02065.wav|ɪɾ ˌɪzənt pˈɪkt æɾ ˈɔːl.|ESD_0019_happiness
+/content/data/processed_24k/ESD/Speaker_0018/0018_happiness_06_00330.wav|hiː tˈoʊld mˌiː ðæt aɪ ˈɔːt tə tʃˈeɪndʒ.|ESD_0018_happiness
+/content/data/processed_24k/ESD/Speaker_0013/0013_surprise_04_02690.wav|ðɪ ˈɛnd ʌv fˈɛbɹuːˌɛɹi fˈɔːɹtiːnθ.|ESD_0013_surprise
+/content/data/processed_24k/ESD/Speaker_0020/0020_happiness_06_03666.wav|aɪ səpˈoʊz nˈoʊ, ɪt dˈʌzənt!|ESD_0020_happiness
+/content/data/processed_24k/ESD/Speaker_0013/0013_neutral_04_01815.wav|nˈoʊ, aɪ bˈɜːst ðə bəlˈuːn!|ESD_0013
+/content/data/processed_24k/Expresso/ex04/ex04_sad_00225.wav|bˌʌt tɹˈaɪ ˈɛks mˈɛn, dˈeɪz ʌv fjˈuːtʃɚ pˈæst.|Expresso_ex04_sad
+/content/data/processed_24k/ESD/Speaker_0013/0013_anger_04_01203.wav|ðə sˈɔŋ ɪz ɹˈiəli lˈaʊdɪŋ ˌɔn ɐ ɡˈeɪt.|ESD_0013_anger
+/content/data/processed_24k/ESD/Speaker_0012/0012_happiness_03_04696.wav|kənfˈɛs ðæt juː ˈoʊpənd ðə θˈɜːtiːnθ dˈɔːɹ.|ESD_0012_happiness
+/content/data/processed_24k/Expresso/ex04/ex04_confused_00077.wav|jˈɛs, "ðə kˈɪŋz spˈiːtʃ" ɪz pˈɑːpjʊlɚ.|Expresso_ex04_confused
+/content/data/processed_24k/ESD/Speaker_0020/0020_surprise_06_04706.wav|hˈænɪbəl kˈʌm tə sˈiː juː.|ESD_0020_surprise
+/content/data/processed_24k/Expresso/ex04/ex04_default_00338.wav|skˈɛdʒuːld tə dᵻpˈɑːɹt ˌɔn tˈaɪm?|Expresso_ex04_default
+/content/data/processed_24k/Expresso/ex01/ex01_default_emphasis_00146.wav|aɪ kˌʊdənt ˈæstɚɹˌɪsk lˈaɪv ˈæstɚɹˌɪsk wɪðˌaʊt θˈɛɹəpi.|Expresso_ex01_emphasis
+/content/data/processed_24k/ESD/Speaker_0016/0016_sadness_05_02507.wav|haʊˈɛvɚ, sˈʌmbɑːdi kˈɪld sˈʌmθɪŋ.|ESD_0016_sadness
+/content/data/processed_24k/ESD/Speaker_0018/0018_surprise_06_01391.wav|ɡˈɪv mˌiː jʊɹ hˈænd ɔːɹ aɪ wɪl kɹˈaɪ hˈɑːɹdɚ ðɐn bᵻfˈɔːɹ.|ESD_0018_surprise
+/content/data/processed_24k/ESD/Speaker_0018/0018_anger_05_04889.wav|wˌʌt ɐn ɪmpˈɛtʃuːəs bˈɔɪ hiː ɪz!|ESD_0018_anger
+/content/data/processed_24k/ESD/Speaker_0013/0013_happiness_04_01507.wav|ɪt lˈʊks mˈʌtʃ bˈɛɾɚ.|ESD_0013_happiness
+/content/data/processed_24k/Expresso/ex04/ex04_enunciated_00259.wav|ænd ðˈɛn dˈeɪvɪd wˈɔltən tˈɛl ˌʌs hˈɪz.|Expresso_ex04_enunciated
+/content/data/processed_24k/Expresso/ex02/ex02_confused_00282.wav|juː ˈæstɚɹˌɪsk mˈeɪld ˈæstɚɹˌɪsk ðˌɛm ðə lˈæst ˈɛseɪ juː ɹˈoʊt?|Expresso_ex02_confused
+/content/data/processed_24k/ESD/Speaker_0019/0019_anger_06_01620.wav|fˈɪn ænd ðə fˈɛɹi ʃˈuːmeɪkɚ.|ESD_0019_anger
+/content/data/processed_24k/Expresso/ex02/ex02_default_00012.wav|ɪts nˌɑːt hˈɑːt æɾ ˈɔːl ɪn hɛlsˈɪŋki.|Expresso_ex02_default
+/content/data/processed_24k/Expresso/ex03/ex03_default_00055.wav|ænd ðæt æmbˈɪʃənz ˈɔːl pˈʌmpt ˈʌp, tˈuː, hˈʌ?|Expresso_ex03_default
+/content/data/processed_24k/ESD/Speaker_0013/0013_anger_04_01017.wav|ðˈɛn sˈædli ɪɾ ɪz mˈʌtʃ fˈɑːɹðɚ.|ESD_0013_anger
+/content/data/processed_24k/ESD/Speaker_0013/0013_happiness_04_01653.wav|hˌaʊ dˈuː juː lˈaɪk juː dˈɜːɾi bˈɜːd!|ESD_0013_happiness
+/content/data/processed_24k/ESD/Speaker_0011/0011_neutral_03_03368.wav|sˈæm wˈeɪvd hɪz ˈɑːɹm vˈeɪɡli.|ESD_0011
+/content/data/processed_24k/Expresso/ex04/ex04_enunciated_00225.wav|bˌʌt tɹˈaɪ ˈɛks mˈɛn, dˈeɪz ʌv fjˈuːtʃɚ pˈæst.|Expresso_ex04_enunciated
+/content/data/processed_24k/ESD/Speaker_0016/0016_neutral_05_02263.wav|bˈɑːb ɡoʊz tʊ ɐ nˈuː skˈuːl.|ESD_0016
+/content/data/processed_24k/Expresso/ex01/ex01_enunciated_00074.wav|wˌʌt ɐbˌaʊt ðə bˈɔːl?|Expresso_ex01_enunciated
+/content/data/processed_24k/ESD/Speaker_0017/0017_happiness_05_03500.wav|ˈɔːl ðə wˈeɪ tə tʃˈaɪnə ɪz hˈoʊm.|ESD_0017_happiness
+/content/data/processed_24k/Expresso/ex01/ex01_enunciated_00287.wav|kˈɑːpɪɹˌaɪt ˈoʊnɚz dʒˈɛnɚɹəli tɹˈiːt pɚmˈɪʃənz æz bˌiːɪŋ ˈæstɚɹˌɪsk mˈɔːɹ ˈæstɚɹˌɪsk ɪnfˈɔːɹməl ðɐn lˈaɪsənsᵻz.|Expresso_ex01_enunciated
+/content/data/processed_24k/ESD/Speaker_0018/0018_anger_05_04906.wav|blˈækbɜːd, ænd dʒˈeɪ.|ESD_0018_anger
+/content/data/processed_24k/ESD/Speaker_0020/0020_happiness_06_03817.wav|aɪl sˈɛnd fɔːɹ tˈɑːm tə maɪ bˈuːdwɑːɹ.|ESD_0020_happiness
+/content/data/processed_24k/RAVDESS/Actor_17/03-01-06-01-02-01-17.wav|dˈɑːɡz ɑːɹ sˈɪɾɪŋ baɪ ðə dˈɔːɹ.|Actor_17_fearful
+/content/data/processed_24k/ESD/Speaker_0016/0016_happiness_05_01894.wav|aɪ nˈoʊ hˌaʊ tʊ oʊbˈeɪ ˈɔːɹdɚz.|ESD_0016_happiness
+/content/data/processed_24k/RAVDESS/Actor_10/03-01-03-01-01-01-10.wav|kˈɪdz ɑːɹ tˈɔːkɪŋ baɪ ðə dˈɔːɹ.|Actor_10_happy
+/content/data/processed_24k/ESD/Speaker_0016/0016_surprise_05_02912.wav|ʃiː sˈɛd ɪn sʌbdˈuːd vˈɔɪs.|ESD_0016_surprise
+/content/data/processed_24k/Expresso/ex01/ex01_enunciated_00362.wav|juː bˌɪn tʊ ɑːsˈɑːkə?|Expresso_ex01_enunciated
+/content/data/processed_24k/Expresso/ex02/ex02_confused_00076.wav|dˈɪd juː wˈɔnə dᵻlˈiːt ðɪ ˈæstɚɹˌɪsk fˈɜːst ˈæstɚɹˌɪsk ɔːɹ ðɪ ˈæstɚɹˌɪsk sˈɛkənd ˈæstɚɹˌɪsk wˌʌn?|Expresso_ex02_confused
+/content/data/processed_24k/Expresso/ex01/ex01_happy_00080.wav|juː nˈoʊ wˌɛɹ wiː lˈɪv.|Expresso_ex01_happy
+/content/data/processed_24k/ESD/Speaker_0015/0015_surprise_05_01221.wav|ɐ spˈɛʃəl pˈɑːt tˈuː.|ESD_0015_surprise
+/content/data/processed_24k/Expresso/ex01/ex01_laughing_00280.wav|jˈɛs, bɹˈɛθ "bˌɔːdəlˈiːnoʊ" hˈæzbiːn ɐdˈæptᵻd æz ɐ fˈɪlm. bɹˈɛθ ɑːɹ juː θˈɪŋkɪŋ ʌv wˈɑːtʃɪŋ ɪt?|Expresso_ex01_laughing
+/content/data/processed_24k/Expresso/ex03/ex03_default_emphasis_00183.wav|ðə sˌuːdənˈiːz ˈæstɚɹˌɪsk ɡˈʌvɚnmənt ˈæstɚɹˌɪsk dɪdnˌɑːt wˈɔnt tə ɹˈɪsk mˈɔːɹ bˈæd pʌblˈɪsᵻɾi.|Expresso_ex03_emphasis
+/content/data/processed_24k/RAVDESS/Actor_20/03-01-02-01-01-02-20.wav|kˈɪdz ɑːɹ tˈɔːkɪŋ baɪ ðə dˈɔːɹ.|Actor_20_calm
+/content/data/processed_24k/ESD/Speaker_0013/0013_surprise_04_02540.wav|kæn aɪ lˈɑːdʒ hˈɪɹ tənˈaɪt?|ESD_0013_surprise
+/content/data/processed_24k/ESD/Speaker_0013/0013_surprise_04_02450.wav|sˈɛd ðɪ ɐmˈɛɹɪkən tə tʃaɪnˈiːz.|ESD_0013_surprise
+/content/data/processed_24k/ESD/Speaker_0014/0014_happiness_04_03382.wav|ðeɪ hɐdbɪn nˈeɪmd tˈɑːm ænd dʒˈɛɹi.|ESD_0014_happiness
+/content/data/processed_24k/RAVDESS/Actor_12/03-01-03-02-01-01-12.wav|kˈɪdz ɑːɹ tˈɔːkɪŋ baɪ ðə dˈɔːɹ.|Actor_12_strong_happy
+/content/data/processed_24k/ESD/Speaker_0019/0019_happiness_06_01934.wav|səpˈoʊz aɪ tˈeɪk ɡɹˈændmʌðɚɹ ɐ fɹˈɛʃ vˈɛdʒɪɾəbəl.|ESD_0019_happiness
+/content/data/processed_24k/ESD/Speaker_0011/0011_surprise_03_04159.wav|æz sˈuːn æz ʃiː wɛnt ˈɪn, ðɛɹwˌʌz dɪsˈɔːɹdɚ.|ESD_0011_surprise
+/content/data/processed_24k/ESD/Speaker_0018/0018_neutral_06_00713.wav|slˈæm ðə dˈɔːɹz ænd wˈɛdʒ ðˌɛm!|ESD_0018
+/content/data/processed_24k/ESD/Speaker_0017/0017_sadness_05_04171.wav|æm aɪ ɐn ˈæbsəlˌuːt pˈɔːpɚ?|ESD_0017_sadness
+/content/data/processed_24k/ESD/Speaker_0013/0013_sadness_04_02103.wav|ɑːɹ juː ɐ ɹˈɛɡjʊlɚ dˈɑːɹki ɹˈiəli?|ESD_0013_sadness
+/content/data/processed_24k/RAVDESS/Actor_19/03-01-06-02-02-01-19.wav|dˈɑːɡz ɑːɹ sˈɪɾɪŋ baɪ ðə dˈɔːɹ.|Actor_19_strong_fearful
+/content/data/processed_24k/RAVDESS/Actor_09/03-01-06-02-02-01-09.wav|dˈɑːɡz ɑːɹ sˈɪɾɪŋ baɪ ðə dˈɔːɹ.|Actor_09_strong_fearful
+/content/data/processed_24k/ESD/Speaker_0018/0018_happiness_06_00300.wav|ɐ lˈeɪdi, ɪz ˌɔn ˈælɪsᵻz lˈæp!|ESD_0018_happiness
+/content/data/processed_24k/ESD/Speaker_0020/0020_anger_06_03313.wav|ænd wiː ɑːɹ sˌoʊ θˈɜːsti!|ESD_0020_anger
+/content/data/processed_24k/ESD/Speaker_0018/0018_neutral_06_00724.wav|juː ʃˌʊdənthəv pɹˈɪkt hˌɪm wɪð jʊɹ hˈɔːɹn.|ESD_0018
+/content/data/processed_24k/Expresso/ex01/ex01_enunciated_00045.wav|ɹˈaɪən wɪl tˈɛl juː wɪðˌɪn sˈɪksti wˈʌn dˈeɪz wɛn ðə nˈɛkst pɹˈɑːdʌkts wɪl kˈʌm ˈaʊt.|Expresso_ex01_enunciated
+/content/data/processed_24k/Expresso/ex02/ex02_whisper_00268.wav|ðiːz ɑːɹ kɹˈaɪmz kəmˈɪɾᵻd baɪ ɐ dʒˈuːvənˌaɪl.|Expresso_ex02_whisper
+/content/data/processed_24k/Expresso/ex04/ex04_enunciated_00135.wav|kəŋɡɹˈætʃʊlˈeɪʃənz, juː ɑːɹ nˈaʊ əfˈɪʃəli ɐn ˈɛkskˈɔfi dɹˈɪŋkɚ.|Expresso_ex04_enunciated
+/content/data/processed_24k/ESD/Speaker_0019/0019_surprise_06_03217.wav|ðə nˈeɪm ʌvðə sˈɔŋ ɪz kˈɔːld hˈædəks.|ESD_0019_surprise
+/content/data/processed_24k/Expresso/ex02/ex02_happy_00214.wav|ɔːlɹˈaɪt pˈiːpəl, wɪɹ ɡˌənə tɹˈaɪ sˈʌmθɪŋ ɐ ˈæstɚɹˌɪsk lˈɪɾəl ˈæstɚɹˌɪsk dˈɪfɹənt tədˈeɪ.|Expresso_ex02_happy
+/content/data/processed_24k/ESD/Speaker_0015/0015_neutral_05_00266.wav|aɪ səpˈoʊz nˈoʊ, ɪt dˈʌzənt!|ESD_0015
+/content/data/processed_24k/ESD/Speaker_0018/0018_anger_05_04897.wav|ænd ɔnðə tˈɑːp ʌv ðˌɛm, kˈeɪm wˈɪni, ðə kjˈuːt bˈɛɹ.|ESD_0018_anger
+/content/data/processed_24k/ESD/Speaker_0015/0015_neutral_05_00329.wav|ænd wʊd spˈɔɪl maɪ dʒˈoʊk.|ESD_0015
+/content/data/processed_24k/ESD/Speaker_0018/0018_sadness_06_01142.wav|ænd wʌt dˈʌz ɪt mˈiːn?|ESD_0018_sadness
+/content/data/processed_24k/Expresso/ex03/ex03_laughing_00299.wav|hˌaʊ ɐbˌaʊt sˌʌm ˈoʊtmiəl ɹˈeɪzən?|Expresso_ex03_laughing
+/content/data/processed_24k/ESD/Speaker_0020/0020_happiness_06_03747.wav|ænd ɔnðə tˈɑːp ʌv ðˌɛm, kˈeɪm wˈɪni, ðə kjˈuːt bˈɛɹ.|ESD_0020_happiness
+/content/data/processed_24k/ESD/Speaker_0014/0014_neutral_04_03579.wav|ænd wʊd spˈɔɪl maɪ dʒˈoʊk.|ESD_0014
+/content/data/processed_24k/ESD/Speaker_0016/0016_surprise_05_02826.wav|tˈɑːm fˈɛl wɪð ɐ klˈoʊvən hˈɛd.|ESD_0016_surprise
+/content/data/processed_24k/ESD/Speaker_0012/0012_neutral_03_04990.wav|aɪ tʃˈoʊz ðə ɹˈaɪt wˈeɪ.|ESD_0012
+/content/data/processed_24k/ESD/Speaker_0014/0014_sadness_04_03981.wav|ˈeɪdʒ fˈɔːɹɾi fˈaɪv ɪf ɐ dˈeɪ ɐ lˈaɪ.|ESD_0014_sadness
+/content/data/processed_24k/ESD/Speaker_0020/0020_neutral_06_04084.wav|aɪ blˈɪŋkt maɪ ˈaɪz hˈɑːɹd.|ESD_0020
+/content/data/processed_24k/Expresso/ex03/ex03_sad_00055.wav|ænd ðæt æmbˈɪʃənz ˈɔːl pˈʌmpt ˈʌp, tˈuː, hˈɛh?|Expresso_ex03_sad
+/content/data/processed_24k/ESD/Speaker_0015/0015_happiness_05_00057.wav|haʊˈɛvɚ, sˈʌmbɑːdi kˈɪld sˈʌmθɪŋ.|ESD_0015_happiness
+/content/data/processed_24k/ESD/Speaker_0012/0012_sadness_04_00327.wav|ʃiː hæd sˈɛd, sˌoʊ ðˈætwˌʌn kʊd kˈiːp ˌʌp ɐ kɑːnvɚsˈeɪʃən!|ESD_0012_sadness
+/content/data/processed_24k/ESD/Speaker_0012/0012_surprise_04_00781.wav|aɪ θˈæŋk juː fɔːɹ ðɪs mˈɜːsi!|ESD_0012_surprise
+/content/data/processed_24k/Expresso/ex01/ex01_enunciated_00185.wav|ðə "ˌɛmvˈiː ˈæɡʌstə bɹˈuːɾeɪl θˈɜːɾi sˈɛvən" ɪz fˈɪɾᵻd wɪð ɐn ˈʌpsaɪd dˌaʊn fˈɔːɹk, ænd ʃˈɑːk ɐbsˈɔːɹbɚ wɪð haɪdɹˈɔːlɪk ɹᵻspˈɑːns.|Expresso_ex01_enunciated
+/content/data/processed_24k/Expresso/ex04/ex04_confused_00091.wav|blˈæk swˈɑːn stˈɑːɹd nˈæɾɐli pˈɔːɹtmən.|Expresso_ex04_confused
+/content/data/processed_24k/Expresso/ex03/ex03_whisper_00203.wav|hˌaʊ kæn ɪt biː dˈeɪndʒɚɹəs fɔːɹ kˈɪdz pɐdʒˈɑːməz, bˌʌt sˈeɪf fɔːɹ sˈoʊfəz?|Expresso_ex03_whisper
+/content/data/processed_24k/Expresso/ex01/ex01_happy_00047.wav|jˈɛs, təmˈɑːɹoʊ ɪn ɡˈɔːɹdʒᵻz ðɛɹ ʃˌʊd biː ɐ lˈaɪt dɹˈɪzəl.|Expresso_ex01_happy
+/content/data/processed_24k/Expresso/ex04/ex04_whisper_00345.wav|aɪ ˈæstɚɹˌɪsk dʒˈʌst ˈæstɚɹˌɪsk wˈʌznt ˈeɪbəl tə tˈɔːk hˌɪm ˌaʊɾəv ɪt.|Expresso_ex04_whisper
+/content/data/processed_24k/Expresso/ex04/ex04_laughing_00340.wav|lˈæf kæn wiː ɡˌoʊ ðɛɹ ˈæstɚɹˌɪsk plˈiːz ˈæstɚɹˌɪsk?|Expresso_ex04_laughing
+/content/data/processed_24k/Expresso/ex02/ex02_laughing_00332.wav|wˈɜːld dˌaɪəbˈiːɾiːz dˈeɪ ɪz tədˈeɪ.|Expresso_ex02_laughing
+/content/data/processed_24k/ESD/Speaker_0013/0013_happiness_04_01504.wav|ðɪs spˈiːtʃ ɹˈaʊzd dˈeɪm ˈɪls tʊ ˈæŋɡɚ.|ESD_0013_happiness
+/content/data/processed_24k/Expresso/ex03/ex03_confused_00007.wav|kˈænt ˈiːvən ɹˈiːd ɐ mˈæp!|Expresso_ex03_confused
+/content/data/processed_24k/RAVDESS/Actor_23/03-01-05-02-02-02-23.wav|dˈɑːɡz ɑːɹ sˈɪɾɪŋ baɪ ðə dˈɔːɹ.|Actor_23_strong_angry
+/content/data/processed_24k/ESD/Speaker_0017/0017_anger_05_03283.wav|tʃˈæptɚɹ ˈeɪtiːn, ðə ɹᵻtˈɜːn dʒˈɜːni.|ESD_0017_anger
+/content/data/processed_24k/Expresso/ex04/ex04_whisper_00351.wav|ˈæstɚɹˌɪsk ˈoʊ ˈæstɚɹˌɪsk, wʊd juː stˈɑːp fˈʌsɪŋ?|Expresso_ex04_whisper
+/content/data/processed_24k/ESD/Speaker_0015/0015_sadness_05_00574.wav|ʃiː ɪz nˈaʊ tʃˈuːzɪŋ skˈɜːt tə wˈɛɹ.|ESD_0015_sadness
+/content/data/processed_24k/Expresso/ex04/ex04_default_emphasis_00066.wav|wˌaɪ ˈæstɚɹˌɪsk dˈoʊnt ˈæstɚɹˌɪsk juː bᵻlˈiːv ɪt?|Expresso_ex04_emphasis
+/content/data/processed_24k/ESD/Speaker_0012/0012_sadness_04_00539.wav|bˈoʊθ sˈaɪd wɜː sˈɔftli kˈɜːvd.|ESD_0012_sadness
+/content/data/processed_24k/ESD/Speaker_0016/0016_neutral_05_02138.wav|wˌɛn sˈʌtʃ wˈɔndɚɹɚz mˈiːt.|ESD_0016
+/content/data/processed_24k/Expresso/ex01/ex01_default_00166.wav|dˈaʊnloʊd ɐdˈoʊbi fˈoʊɾoʊʃˌɑːp.|Expresso_ex01_default
+/content/data/processed_24k/ESD/Speaker_0017/0017_surprise_05_04591.wav|aɪ hæv hædtə ɡɹˈoʊ ˈoʊld.|ESD_0017_surprise
+/content/data/processed_24k/ESD/Speaker_0020/0020_surprise_06_04809.wav|kˈɪɾi, kæn juː plˈeɪ tʃˈɛs?|ESD_0020_surprise
+/content/data/processed_24k/ESD/Speaker_0011/0011_happiness_03_02869.wav|æt ðə ɹˈuːts əvə bˈʊʃ əvə ɡɹˈæs.|ESD_0011_happiness
+/content/data/processed_24k/Expresso/ex03/ex03_enunciated_00030.wav|ɹˈaɪt nˈaʊ ɪn nˈɑːpə, ɪts tˈuː ænd pˈɑːɹtli klˈaʊdi.|Expresso_ex03_enunciated
+/content/data/processed_24k/Expresso/ex04/ex04_whisper_00300.wav|ðə kwˈɛstʃən ɪz, ɪz ˈæstɚɹˌɪsk ðæt ˈæstɚɹˌɪsk ɐ nˈɛɡətˌɪv?|Expresso_ex04_whisper
+/content/data/processed_24k/ESD/Speaker_0012/0012_surprise_04_00910.wav|ˈæftɚɹ ɐ wˈaɪl hiː pɚsˈiːvd bˈoʊθ dʒˈaɪənts.|ESD_0012_surprise
+/content/data/processed_24k/ESD/Speaker_0018/0018_surprise_06_01344.wav|ɐ bˈoʊt pˌʊt ˈaʊtɔnðə bˈeɪ.|ESD_0018_surprise
+/content/data/processed_24k/ESD/Speaker_0016/0016_sadness_05_02432.wav|aɪ smˈɛl ðə bɹˈɛθ əvən ˈɪŋɡlɪʃ.|ESD_0016_sadness
+/content/data/processed_24k/Expresso/ex01/ex01_sad_00065.wav|ˈæbuː zjˈuːbeɪdə, lˈiːdɚɹ ʌv ˈæl kˈaɪdəz ɛkstˈɜːnəl ˌɑːpɚɹˈeɪʃənz, klˈeɪmd ɹᵻspˌɑːnsəbˈɪlᵻɾi fɚðɪ ɐtˈæk ɪn ɐ nˈuː vˈɪdɪoʊ.|Expresso_ex01_sad
+/content/data/processed_24k/ESD/Speaker_0020/0020_surprise_06_04844.wav|ɐ bˈoʊt pˌʊt ˈaʊtɔnðə bˈeɪ.|ESD_0020_surprise
+/content/data/processed_24k/ESD/Speaker_0020/0020_sadness_06_04418.wav|ðɪ ˈaʊl flˈuː ˌɪntʊ ɐ bˈʊʃ.|ESD_0020_sadness
+/content/data/processed_24k/RAVDESS/Actor_21/03-01-04-01-02-02-21.wav|dˈɑːɡz ɑːɹ sˈɪɾɪŋ baɪ ðə dˈɔːɹ.|Actor_21_sad
+/content/data/processed_24k/ESD/Speaker_0020/0020_happiness_06_03723.wav|juː nˈoʊ, ˈænsɚz tə ðə nˈeɪm ʌv tˈɑːmz sˈʌn.|ESD_0020_happiness
+/content/data/processed_24k/Expresso/ex02/ex02_sad_00104.wav|nˈɛkst wˈiːk, ðɛɹl biː ɹˈeɪn ʃˈaʊɚz, wɪð ɐ hˈaɪ ʌv ᵻlˈɛvən ænd ɐ lˈoʊ ʌv zˈiəɹoʊ.|Expresso_ex02_sad
+/content/data/processed_24k/Expresso/ex01/ex01_happy_00342.wav|hiː wˈoʊk ˌʌp ɪn maɪ pˈuːlhaʊs hˈʌŋ ˌoʊvɚ ænd ɡˈɪlt ɹˈɪdən.|Expresso_ex01_happy
+/content/data/processed_24k/ESD/Speaker_0011/0011_neutral_03_03479.wav|jʊɹ pˈæθ nˈaʊ ɡoʊz sˈaʊθ.|ESD_0011
+/content/data/processed_24k/Expresso/ex03/ex03_sad_00150.wav|wˌaɪ ɪz hiː ˈɔːɹdɚɹɪŋ blˈuːpɹɪnts ænd tʃˈɪnts kˈɜːtənz?|Expresso_ex03_sad
+/content/data/processed_24k/ESD/Speaker_0013/0013_sadness_04_02096.wav|plˈiːz ɛkskjˈuːs mˌiː.|ESD_0013_sadness
+/content/data/processed_24k/ESD/Speaker_0011/0011_sadness_03_03863.wav|bˈɑːb ɡoʊz tʊ ɐ nˈuː skˈuːl.|ESD_0011_sadness
+/content/data/processed_24k/ESD/Speaker_0019/0019_neutral_06_02516.wav|æt lˈɛŋθ ðeɪ kˈeɪm tʊ ɐ ʃˈɑːɹp bˈɛnd.|ESD_0019
+/content/data/processed_24k/ESD/Speaker_0020/0020_anger_06_03427.wav|ænd vˈaʊd hiːd tʃˈeɪndʒ ðə pˈɪɡteɪlz plˈeɪs.|ESD_0020_anger
+/content/data/processed_24k/ESD/Speaker_0018/0018_neutral_06_00526.wav|bˌʌt aɪ sˈɔː juː wˈɔːkɪŋ.|ESD_0018
+/content/data/processed_24k/Expresso/ex03/ex03_happy_00085.wav|wʌz ðæt jʊɹ lˈændlɔːɹd?|Expresso_ex03_happy
+/content/data/processed_24k/ESD/Speaker_0016/0016_neutral_05_02073.wav|juː nˈoʊ, ˈænsɚz tə ðə nˈeɪm ʌv tˈɑːmz sˈʌn.|ESD_0016
+/content/data/processed_24k/Expresso/ex03/ex03_default_emphasis_00123.wav|hˌaʊ dˈuː juː ɡɛt jʊɹ ˈæstɚɹˌɪsk hˈɛɹ ˈæstɚɹˌɪsk tə lˈʊk lˈaɪk ðˈæt?|Expresso_ex03_emphasis
+/content/data/processed_24k/ESD/Speaker_0018/0018_sadness_06_00868.wav|nˌɑːt mˈʌtʃ jˈuːs ɪz ɪt, sˈæm?|ESD_0018_sadness
+/content/data/processed_24k/Expresso/ex03/ex03_default_00087.wav|bˈæŋkɪŋ stˈɑːks wɜː hˈɪt hˈɑːɹd.|Expresso_ex03_default
+/content/data/processed_24k/ESD/Speaker_0011/0011_sadness_03_03635.wav|ænd tˈɪk ɐ tˈæk tˈuː.|ESD_0011_sadness
+/content/data/processed_24k/Expresso/ex03/ex03_default_emphasis_00086.wav|kɹˈɪkɪts ænd ˈæstɚɹˌɪsk fɹˈɑːɡz ˈæstɚɹˌɪsk ˈɔːlweɪz ɹᵻmˈaɪnd mˌiː ʌv kˈæmpɪŋ ˈaʊt.|Expresso_ex03_emphasis
+/content/data/processed_24k/ESD/Speaker_0012/0012_neutral_04_00292.wav|ænd wʌt dˈʌz ɪt mˈiːn?|ESD_0012
+/content/data/processed_24k/ESD/Speaker_0014/0014_surprise_04_04305.wav|ðɪ ˈaɪ kʊd nˌɑːt kˈætʃ ðˌɛm.|ESD_0014_surprise
+/content/data/processed_24k/Expresso/ex04/ex04_laughing_00032.wav|lˈæf ɹˈɪŋ ɐ bˈɛl?|Expresso_ex04_laughing
+/content/data/processed_24k/ESD/Speaker_0013/0013_neutral_04_01825.wav|ðɪs tˈɜːn ɡoʊz tə ðə hˈɪl.|ESD_0013
+/content/data/processed_24k/ESD/Speaker_0015/0015_anger_04_04519.wav|æt ðə ɹˈuːtsəvə bˈʊʃ əvə ɡɹˈæs.|ESD_0015_anger
+/content/data/processed_24k/ESD/Speaker_0011/0011_sadness_03_03621.wav|hˈaʊ ɑːɹ juː, dˈɪɹ tʃˈaɪld?|ESD_0011_sadness
+/content/data/processed_24k/Expresso/ex01/ex01_default_00329.wav|sˌoʊ ɪn ˈɔːl fˈɛɹnəs, aɪ dˈoʊnt nˈoʊ wʌt ɪt wʌz ɐbˈaʊt.|Expresso_ex01_default
+/content/data/processed_24k/ESD/Speaker_0012/0012_anger_03_04517.wav|hiː ʃˈoʊd nˈoʊ sˈaɪnz ʌv ˈeɪdʒ.|ESD_0012_anger
+/content/data/processed_24k/Expresso/ex01/ex01_happy_00317.wav|wˌʌts ðɪ ɪmˈɜːdʒənsi?|Expresso_ex01_happy
+/content/data/processed_24k/ESD/Speaker_0016/0016_surprise_05_02964.wav|ɪts tə sˈeɪ hˌaʊ dˈuː juː dˈuː wɪð tˈɑːmz ˈænsɚ.|ESD_0016_surprise
+/content/data/processed_24k/ESD/Speaker_0017/0017_anger_05_03085.wav|ænd tˈɪk ɐ tˈæk tˈuː.|ESD_0017_anger
+/content/data/processed_24k/ESD/Speaker_0017/0017_neutral_05_03988.wav|nˈoʊ, sˈɛd pˈɪɡi kˈɛɹləsli.|ESD_0017
+/content/data/processed_24k/ESD/Speaker_0020/0020_sadness_06_04371.wav|hˈaʊ ɑːɹ juː, dˈɪɹ tʃˈaɪld?|ESD_0020_sadness
+/content/data/processed_24k/Expresso/ex03/ex03_default_00348.wav|wˌʌt wɜː ðə fˈʌnɪɪst vˈɪdɪoʊz ʌv twˈɛnti sˈɛvəntˌiːn?|Expresso_ex03_default
+/content/data/processed_24k/ESD/Speaker_0019/0019_sadness_06_02568.wav|æt ðɪ ˈɛnd ʌv fˈɔːɹ.|ESD_0019_sadness
+/content/data/processed_24k/ESD/Speaker_0011/0011_happiness_03_03083.wav|hˈɜːɹi ˈʌp, hˈɜːɹi ˈʌp!|ESD_0011_happiness
+/content/data/processed_24k/ESD/Speaker_0018/0018_anger_06_00074.wav|ʃiː hɐz nˈoʊ plˈeɪs fɔːɹ hˈɑːt pˈɛpɚ .|ESD_0018_anger
+/content/data/processed_24k/Expresso/ex01/ex01_enunciated_00182.wav|ɑːɹ juː ɪn ðɪs mˈuːvi?|Expresso_ex01_enunciated
+/content/data/processed_24k/ESD/Speaker_0018/0018_surprise_06_01282.wav|aɪ smˈɛl ðə bɹˈɛθ əvən ˈɪŋɡlɪʃ.|ESD_0018_surprise
+/content/data/processed_24k/ESD/Speaker_0016/0016_surprise_05_02998.wav|wˌʌt dˈuː juː θˈɪŋk ʌv ðɪs kwˈɛstʃən?|ESD_0016_surprise
+/content/data/processed_24k/Expresso/ex01/ex01_confused_00221.wav|ɡɹˈeɪt!|Expresso_ex01_confused
+/content/data/processed_24k/ESD/Speaker_0016/0016_happiness_05_01758.wav|sˈʌtʃ tˈuːnz ɑːɹ dʒˈɔɪ tʊ ɐ dˈænsɪŋ fˈeɪ.|ESD_0016_happiness
+/content/data/processed_24k/ESD/Speaker_0018/0018_surprise_06_01156.wav|aɪm æz bˈæd æz aɪ kæn bˈiː.|ESD_0018_surprise
+/content/data/processed_24k/Expresso/ex02/ex02_laughing_00047.wav|ðɛɹl biː θˈʌndɚstˌɔːɹmz ænd tˈɛmpɹɪtʃɚz fɹʌm nˈɛɡətˌɪv wˈʌn tə sˈɛvən.|Expresso_ex02_laughing
+/content/data/processed_24k/ESD/Speaker_0013/0013_happiness_04_01460.wav|wiː nˈaɪtli dˈæns ˌaʊɚ hˈeɪdeɪ ɡˈaɪz.|ESD_0013_happiness
+/content/data/processed_24k/ESD/Speaker_0013/0013_anger_04_01231.wav|wɪl kˈɔːl hɜː lˈɪli, fɔːɹ ʃˈɔːɹt.|ESD_0013_anger
+/content/data/processed_24k/Expresso/ex02/ex02_default_00030.wav|bˌʌt wiː ˈɔːl hæv tə lˈʊk æɾ aʊɚsˈɛlvz.|Expresso_ex02_default
+/content/data/processed_24k/Expresso/ex03/ex03_default_emphasis_00149.wav|wɜː juː ˈæstɚɹˌɪsk bˈɔːɹn ˈæstɚɹˌɪsk ɪn sˈɛvənti ˈeɪt?|Expresso_ex03_emphasis
+/content/data/processed_24k/Expresso/ex02/ex02_laughing_00113.wav|ˌoʊkˈeɪ, wɪɹ ɹˈiəli ɡɹˈeɪtfəl tʊ ˈɔːl ðə tʃˈæɹᵻɾiz ænd pˈiːpəl hˌuː hæv ɹˈiːtʃt ˈaʊt.|Expresso_ex02_laughing
+/content/data/processed_24k/ESD/Speaker_0011/0011_sadness_03_03872.wav|wˌaɪ dˈɪd aɪ wˈeɪk ˈʌp!|ESD_0011_sadness
+/content/data/processed_24k/Expresso/ex03/ex03_happy_00126.wav|aɪm nˌɑːt stˈuːpɪd ɪnˈʌf tə ɹᵻpˈiːt jʊɹ mɪstˈeɪks.|Expresso_ex03_happy
+/content/data/processed_24k/ESD/Speaker_0019/0019_surprise_06_02914.wav|pˈʊɹ tˈɑːm nˈaʊ ɪz dˈɛd!|ESD_0019_surprise
+/content/data/processed_24k/Expresso/ex01/ex01_confused_00091.wav|jˈɛh, aɪ fˈiːl kˈʌmftəbəl ɚɹˈaʊnd pˈiːpəl.|Expresso_ex01_confused
+/content/data/processed_24k/ESD/Speaker_0018/0018_sadness_06_01141.wav|wˌaɪ ʃˌʊd aɪ pˈɜːtʃɪs maɪ ˈoʊn?|ESD_0018_sadness
+/content/data/processed_24k/ESD/Speaker_0014/0014_sadness_04_03970.wav|aɪ sˈeɪ nˈiːðɚ jˈeɪ nˈɔːɹ nˈeɪ.|ESD_0014_sadness
+/content/data/processed_24k/RAVDESS/Actor_24/03-01-07-01-01-02-24.wav|kˈɪdz ɑːɹ tˈɔːkɪŋ baɪ ðə dˈɔːɹ.|Actor_24_disgust
+/content/data/processed_24k/ESD/Speaker_0019/0019_surprise_06_03110.wav|fɹʌm ˈiːtʃ kˈeɪk, ðɛɹ spɹˈæŋ ɐ hjˈuːdʒ dˈɑːɡ.|ESD_0019_surprise
+/content/data/processed_24k/RAVDESS/Actor_03/03-01-04-02-01-01-03.wav|kˈɪdz ɑːɹ tˈɔːkɪŋ baɪ ðə dˈɔːɹ.|Actor_03_strong_sad
+/content/data/processed_24k/Expresso/ex04/ex04_sad_00292.wav|ɑːɹ juː sˈɪŋɡəl ænd ɹˈɛdi tə mˈɪŋɡəl?|Expresso_ex04_sad
+/content/data/processed_24k/ESD/Speaker_0019/0019_anger_06_01527.wav|ʃiː hæd sˈɛd, sˌoʊ ðˈætwˌʌn kʊd kˈiːp ˌʌp ɐ kɑːnvɚsˈeɪʃən!|ESD_0019_anger
+/content/data/processed_24k/Expresso/ex04/ex04_laughing_00081.wav|ðɪs ˈiːvnɪŋ ɪn lˌɑːs ˈændʒəlɪs ɪɾ ˌɪzənt ɡˌənə biː klˈaʊdi, ˌɪɾəl biː dˈʌsti, wɪð tˈɛmpɹɪtʃɚz bᵻtwˌiːn zˈiəɹoʊ ænd fˈɔːɹ.|Expresso_ex04_laughing
+/content/data/processed_24k/Expresso/ex01/ex01_laughing_00368.wav|lˈæf sˌoʊ juːl bˈæk mˌiː ˌʌp ˌɔn ðˈɪs, kˈʌz?|Expresso_ex01_laughing
+/content/data/processed_24k/ESD/Speaker_0016/0016_neutral_05_02260.wav|aɪɐm sˈeɪf bˈæk ɐɡˈɛn.|ESD_0016
+/content/data/processed_24k/RAVDESS/Actor_02/03-01-03-02-02-01-02.wav|dˈɑːɡz ɑːɹ sˈɪɾɪŋ baɪ ðə dˈɔːɹ.|Actor_02_strong_happy
+/content/data/processed_24k/Expresso/ex02/ex02_happy_00189.wav|wˌʌt ɐbˌaʊt ɛnhˈænsɪŋ kˈɔːɹ ɹˈiːdɪŋ ɪnstɹˈʌkʃənz?|Expresso_ex02_happy
+/content/data/processed_24k/ESD/Speaker_0015/0015_sadness_05_00657.wav|ðə skwˈaɪɚ hɪmsˈɛlf ʃˈoʊd pˈɜːfɛkt.|ESD_0015_sadness
+/content/data/processed_24k/ESD/Speaker_0011/0011_surprise_03_03948.wav|ðˈɛn wiː ˈɔːl sˈeɪ ɑːhˈɑː!|ESD_0011_surprise
+/content/data/processed_24k/ESD/Speaker_0015/0015_sadness_05_00710.wav|ðæts ɐ fˈʊl ɡɹˈoʊn kˈoʊlt.|ESD_0015_sadness
+/content/data/processed_24k/ESD/Speaker_0013/0013_anger_04_01074.wav|aɪd fˈɑːɹ ɹˈæðɚ ɡˌoʊ wɪðˌaʊt ðˌɛm ðɐn ˈiːt ðˌɛm!|ESD_0013_anger
+/content/data/processed_24k/ESD/Speaker_0015/0015_happiness_04_04878.wav|ɹˈæt kˈeɪm ænd ɹᵻplˈaɪd ɔnðə lˈiːvz.|ESD_0015_happiness
+/content/data/processed_24k/ESD/Speaker_0012/0012_happiness_03_04807.wav|haʊˈɛvɚ, sˈʌmbɑːdi kˈɪld sˈʌmθɪŋ.|ESD_0012_happiness
+/content/data/processed_24k/ESD/Speaker_0019/0019_anger_06_01543.wav|tˈeɪk kˈɜːɹɪdʒ ˈɔːl ˌɪzənt lˈɔst jˈɛt.|ESD_0019_anger
+/content/data/processed_24k/ESD/Speaker_0011/0011_surprise_03_04228.wav|ænd hɪz hˈɑːɹt wˈæɡd wɪð dʒˈɔɪ lˈaɪk ɐ lˈæmz tˈeɪl.|ESD_0011_surprise
+/content/data/processed_24k/Expresso/ex04/ex04_default_00012.wav|ðə flˈaɪɪŋ skˈɑːtsmən hɐz dʒˈɑːni lˈiː mˈɪlɚɹ ɪn ɪt ænd ɪts ɐbˌaʊt ɐ bˈɑːbslɛdɪŋ tˈiːm.|Expresso_ex04_default
+/content/data/processed_24k/RAVDESS/Actor_18/03-01-03-01-01-02-18.wav|kˈɪdz ɑːɹ tˈɔːkɪŋ baɪ ðə dˈɔːɹ.|Actor_18_happy
+/content/data/processed_24k/Expresso/ex01/ex01_enunciated_00051.wav|hˌuːz ðə wˈɛlθiɪst juː tˈuːbɚ?|Expresso_ex01_enunciated
+/content/data/processed_24k/Expresso/ex02/ex02_happy_00074.wav|ɹɪˈɔːɹdɚ fɹʌm dˈɑːmɪnˌoʊz pˈiːtsə?|Expresso_ex02_happy
+/content/data/processed_24k/ESD/Speaker_0020/0020_surprise_06_04823.wav|aɪ pˈeɪ hˈæf ɐ kɹˈaʊn ɐ wˈiːk ˈɛkstɹə.|ESD_0020_surprise
+/content/data/processed_24k/Expresso/ex04/ex04_whisper_00078.wav|wˌʌt ɐ fˈɛndɚ bˈɛndɚ.|Expresso_ex04_whisper
+/content/data/processed_24k/ESD/Speaker_0016/0016_anger_05_01265.wav|mˈɪstɚ ʃˈɛɹ mˈæn, aɪ mˈuːv fɚɹə dᵻvˈɪʒən.|ESD_0016_anger
+/content/data/processed_24k/ESD/Speaker_0018/0018_neutral_06_00706.wav|aɪ wʊd skˈɔf æt ðiːz fˈɑːloʊɚz.|ESD_0018
+/content/data/processed_24k/ESD/Speaker_0017/0017_happiness_05_03684.wav|bˌʌt θˈɪŋz hˈævənt tʃˈeɪndʒ jˈɛt.|ESD_0017_happiness
+/content/data/processed_24k/Expresso/ex03/ex03_whisper_00380.wav|mˌiː ænd stˈiːv ænd ɡɹˈɛɡ wɜːɹ ˈɔːl hˌævɪŋ lˈʌntʃ təɡˈɛðɚ.|Expresso_ex03_whisper
+/content/data/processed_24k/RAVDESS/Actor_09/03-01-08-02-01-01-09.wav|kˈɪdz ɑːɹ tˈɔːkɪŋ baɪ ðə dˈɔːɹ.|Actor_09_strong_surprised
+/content/data/processed_24k/ESD/Speaker_0017/0017_neutral_05_04011.wav|fˈɑːðɚ hɐz jˈɛloʊ ˈaɪz.|ESD_0017
+/content/data/processed_24k/Expresso/ex04/ex04_default_00005.wav|tˈeɪk sˈɪks ˈaʊɚz ænd tˈuː mˈɪnɪts ˈɔf jʊɹ fˈɔːɹtiːn ˈaʊɚ ænd twˈɛnti sˈɛvən mˈɪnɪt tˈaɪmɚ, ɹˈaɪt?|Expresso_ex04_default
+/content/data/processed_24k/ESD/Speaker_0020/0020_happiness_06_03634.wav|ðə nˈeɪm ɹˈiəli ɪz ðɪ ˈeɪdʒd ˈeɪdʒd mˈæn.|ESD_0020_happiness
+/content/data/processed_24k/ESD/Speaker_0016/0016_neutral_05_02285.wav|ˌoʊvɚ ðˌɛm swˈuːpt ðɪ ˈiːɡəlz.|ESD_0016
+/content/data/processed_24k/Expresso/ex02/ex02_happy_00216.wav|ʃiː stˈeɪd ɪn ᵻlˈɛvən dˈɪfɹənt fˈɑːstɚ hˈoʊmz?|Expresso_ex02_happy
+/content/data/processed_24k/ESD/Speaker_0015/0015_happiness_05_00143.wav|nˈaʊ aɪ ˌʌndɚstˈænd.|ESD_0015_happiness
+/content/data/processed_24k/Expresso/ex01/ex01_laughing_00173.wav|wʊd ðæt biː fɔːɹ mˈɛn ænd wˈɪmɪn?|Expresso_ex01_laughing
+/content/data/processed_24k/ESD/Speaker_0012/0012_sadness_04_00554.wav|ðɪs wʌzðə twˈɛnti fˈɪfθ ʌv noʊvˈɛmbɚ, sˈɛvəntˌiːn ˈeɪɾi θɹˈiː.|ESD_0012_sadness
+/content/data/processed_24k/Expresso/ex03/ex03_laughing_00123.wav|ðæt juː stˈɑːɹt jʊɹ sˈɛntənsᵻz mˈɪdθˈɔːt!|Expresso_ex03_laughing
+/content/data/processed_24k/ESD/Speaker_0015/0015_surprise_05_01152.wav|aɪ hæv ɐ sˈuːθseɪɚ.|ESD_0015_surprise
+/content/data/processed_24k/ESD/Speaker_0017/0017_surprise_05_04520.wav|fˈɪn ænd ðə fˈɛɹi ʃˈuːmeɪkɚ.|ESD_0017_surprise
+/content/data/processed_24k/ESD/Speaker_0020/0020_surprise_06_04666.wav|wˌaɪ hɐz ðɪs ˈɛɡ nˌɑːt bɹˈoʊkən?|ESD_0020_surprise
+/content/data/processed_24k/ESD/Speaker_0016/0016_surprise_05_02681.wav|hˌuː ɪz bˌɪn ɹᵻpˈiːɾɪŋ ˈɔːl ðæt hˈɑːɹd stˈʌf tə juː?|ESD_0016_surprise
+/content/data/processed_24k/ESD/Speaker_0020/0020_happiness_06_03887.wav|ʃiː hɐz fˈɛlt ʃˈaɪ ʌv ɪt.|ESD_0020_happiness
+/content/data/processed_24k/Expresso/ex04/ex04_laughing_00020.wav|lˈæf fˈʊl tˈaɪm ɛmplˈɔɪiːz wɪð fˈʊl bˈɛnɪfˌɪts.|Expresso_ex04_laughing
+/content/data/processed_24k/ESD/Speaker_0015/0015_happiness_04_04921.wav|hˈaʊ ɑːɹ juː, dˈɪɹ tʃˈaɪld?|ESD_0015_happiness
+/content/data/processed_24k/Expresso/ex02/ex02_happy_00362.wav|ˈæsk ænd juː ʃˌæl ɹᵻsˈiːv!|Expresso_ex02_happy
+/content/data/processed_24k/ESD/Speaker_0011/0011_neutral_03_03282.wav|biː ˈɔf nˈaʊ æz kwˈɪk æz juː mˈeɪ!|ESD_0011
+/content/data/processed_24k/ESD/Speaker_0016/0016_happiness_05_01890.wav|ðɪ ˈɛnd ʌv fˈɛbɹuːˌɛɹi fˈɔːɹtiːnθ.|ESD_0016_happiness
+/content/data/processed_24k/ESD/Speaker_0020/0020_happiness_06_03638.wav|ˌaʊɚ θˈæŋks tə ɡˈɑːdz ˈoʊθ.|ESD_0020_happiness
+/content/data/processed_24k/ESD/Speaker_0019/0019_neutral_06_02273.wav|kˈʌm ˌɔn maɪ dʒˈæk ɪnðə bˈɑːksᵻz!|ESD_0019
+/content/data/processed_24k/ESD/Speaker_0017/0017_sadness_05_04202.wav|bˌʌt wiː ɑːɹ nˌɑːt hˈaɪ jˈɛt.|ESD_0017_sadness
+/content/data/processed_24k/ESD/Speaker_0017/0017_anger_05_03213.wav|bˌʌt wʌt ɐbˌaʊt ðɪs θˈɪŋ, stˈɪki!|ESD_0017_anger
+/content/data/processed_24k/ESD/Speaker_0011/0011_happiness_03_03022.wav|hiː sˈɜːtʃt θɹuː ðə bˈɑːks.|ESD_0011_happiness
+/content/data/processed_24k/Expresso/ex01/ex01_laughing_00317.wav|wˌʌts ðɪ ɪmˈɜːdʒənsi?|Expresso_ex01_laughing
+/content/data/processed_24k/ESD/Speaker_0020/0020_anger_06_03292.wav|stˈɔːɹi twˈɛnti nˈaɪn ɐ bˈɔɪ ænd ɐ mˈʌŋki.|ESD_0020_anger
+/content/data/processed_24k/ESD/Speaker_0011/0011_neutral_03_03507.wav|pɚhˈæps juː θˈɪŋk ðæt ɪz ɐ kwˈɪɹ tˈaɪɾəl fɔːɹ ðɪs tʃˈæptɚ.|ESD_0011
+/content/data/processed_24k/RAVDESS/Actor_07/03-01-01-01-02-02-07.wav|dˈɑːɡz ɑːɹ sˈɪɾɪŋ baɪ ðə dˈɔːɹ.|Actor_07
+/content/data/processed_24k/ESD/Speaker_0020/0020_sadness_06_04596.wav|hˌaʊ tˈɑːm ænd dʒˈɛɹi wɛnt tə vˈɪzɪt mˈɪstɚ sˈæm.|ESD_0020_sadness
+/content/data/processed_24k/ESD/Speaker_0017/0017_happiness_05_03586.wav|wˌʌt wʊd ðeɪ dˈuː æt ðɪ ˈɛnd ʌvðə jˈɪɹ?|ESD_0017_happiness
+/content/data/processed_24k/Expresso/ex02/ex02_enunciated_00331.wav|hˈeɪ, hˈoʊmbɔɪ...|Expresso_ex02_enunciated
+/content/data/processed_24k/ESD/Speaker_0013/0013_happiness_04_01444.wav|ɑːhˈɑː wʌt ˈaɪ hæv wiː hˈɪɹ?|ESD_0013_happiness
+/content/data/processed_24k/ESD/Speaker_0016/0016_neutral_05_02011.wav|tˈɑːm, wɛnt ˌɔn ˈiːjɔːɹ ɡlˈuːmili.|ESD_0016
+/content/data/processed_24k/Expresso/ex03/ex03_default_emphasis_00108.wav|ˈʌpdeɪt təmˈɑːɹoʊz sˈɪks fˈɔːɹɾi fˈaɪv pˌiːˈɛm ɐlˈɑːɹm.|Expresso_ex03_emphasis
+/content/data/processed_24k/Expresso/ex04/ex04_enunciated_00262.wav|bˈɜːt bˈɑːɹkt ɐ lˈæf.|Expresso_ex04_enunciated
+/content/data/processed_24k/ESD/Speaker_0013/0013_anger_04_01096.wav|kənfˈɛs ðæt juː ˈoʊpənd ðə θˈɜːtiːnθ dˈɔːɹ.|ESD_0013_anger
+/content/data/processed_24k/Expresso/ex04/ex04_enunciated_00044.wav|aɪ dˈɪd ˈæktʃuːəli! ðə kˈɪdz wɜː wˈɑːtʃɪŋ "ˌænɪmˈeɪnɪˌæks" ˌoʊvɚ ðə wˈiːkɛnd. aɪ stˈɪl lˈʌv ðæt ʃˈoʊ!|Expresso_ex04_enunciated
+/content/data/processed_24k/ESD/Speaker_0014/0014_neutral_04_03497.wav|juː ɑːɹ nˌɑːɾɚ ɹˈʌnəwˌeɪ,hˈuː ɑːɹ juː?|ESD_0014
+/content/data/processed_24k/Expresso/ex04/ex04_sad_00131.wav|nˈoʊ, bɪkˈʌz ɪt woʊnt ɹˈeɪn tədˈeɪ ɪn tʃˈændlɚ.|Expresso_ex04_sad
+/content/data/processed_24k/ESD/Speaker_0015/0015_surprise_05_01184.wav|ðə stɹˈɔː, tʃˈɑːɹkoʊl ænd ðə pˈiː.|ESD_0015_surprise
+/content/data/processed_24k/Expresso/ex04/ex04_default_00180.wav|wˌʌt bˈɪɡ bˈaɪsɛps juː hˈæv!|Expresso_ex04_default
+/content/data/processed_24k/ESD/Speaker_0019/0019_neutral_06_02310.wav|wiː nˈaɪtli dˈæns ˌaʊɚ hˈeɪdeɪ ɡˈaɪz.|ESD_0019
+/content/data/processed_24k/Expresso/ex03/ex03_happy_00081.wav|bˈɪlt wɪð ɐ lˈaɪtnɪŋ bˈoʊlt?|Expresso_ex03_happy
+/content/data/processed_24k/ESD/Speaker_0011/0011_sadness_03_03685.wav|ʃiː hɐz ˈiːʔn ðə tˌæpɪˈoʊkə ˈɔːl ʌv ɪt.|ESD_0011_sadness
+/content/data/processed_24k/Expresso/ex01/ex01_confused_00047.wav|jˈɛs, ˈʌ təmˈɑːɹoʊ ɪn ɡˈɔːɹdʒᵻz ðɛɹ ʃˌʊd biː ɐ lˈaɪt dɹˈɪzəl.|Expresso_ex01_confused
+/content/data/processed_24k/ESD/Speaker_0011/0011_anger_03_02570.wav|ʃiː wʌz bˈɔːɹn ˌɔn ˈeɪpɹəl nˈaɪntiːn fˈɔːɹɾi θɹˈiː.|ESD_0011_anger
+/content/data/processed_24k/ESD/Speaker_0017/0017_happiness_05_03370.wav|æz ɹˈɪtʃ æz pˈiːɾɚz sˈʌn ɪn lˈɔː!|ESD_0017_happiness
+/content/data/processed_24k/ESD/Speaker_0011/0011_anger_03_02607.wav|ðə skwˈaɪɚ hɪmsˈɛlf ʃˈoʊd pˈɜːfɛkt.|ESD_0011_anger
+/content/data/processed_24k/ESD/Speaker_0011/0011_sadness_03_03604.wav|ɐ dˈɛfənɪŋ tʃˈɪɹuːpɪŋ ɹˈɛnt ðɪ ˈɛɹ.|ESD_0011_sadness
+/content/data/processed_24k/ESD/Speaker_0017/0017_sadness_05_04053.wav|ðeɪ wɛnt ˌʌp tə ðə dˈɑːɹk mˈæs dʒˈɑːb hæd pˈɔɪntᵻd ˈaʊt.|ESD_0017_sadness
+/content/data/processed_24k/Expresso/ex04/ex04_default_00284.wav|juː kˌʊdɐv ˈæstɚɹˌɪsk ɹˈɛkt ˈæstɚɹˌɪsk hɪz lˈaɪf.|Expresso_ex04_default
+/content/data/processed_24k/Expresso/ex01/ex01_laughing_00164.wav|lˈæf lˈʊk æɾ ˈæstɚɹˌɪsk ˈɛvɹɪθˌɪŋ ˈæstɚɹˌɪsk! lˈæf|Expresso_ex01_laughing
+/content/data/processed_24k/Expresso/ex02/ex02_laughing_00174.wav|aɪ dˈoʊnt θˈɪŋk wɪɹ ɡˌoʊɪŋ tə ɡɛt ˈɛnɪwˌɛɹ.|Expresso_ex02_laughing
+/content/data/processed_24k/Expresso/ex02/ex02_enunciated_00121.wav|kæn juː hˈɛlp mˌiː mˌeɪk ɐ mˈaɪ tˈaɪ?|Expresso_ex02_enunciated
+/content/data/processed_24k/ESD/Speaker_0014/0014_anger_04_02820.wav|ʃiː wʌz bˈɔːɹn ˌɔn ˈeɪpɹəl nˈaɪntiːn fˈɔːɹɾi θɹˈiː.|ESD_0014_anger
+/content/data/processed_24k/Expresso/ex02/ex02_sad_00155.wav|kæn juː pɹədˈuːs ðiːz vˈɪdɪoʊ ɹᵻkˈɔːɹdɪŋz?|Expresso_ex02_sad
+/content/data/processed_24k/ESD/Speaker_0012/0012_anger_03_04417.wav|aɪ sˈɛd juː lˈʊkt lˈaɪk ɐn ˈɛɡ, sˌɜː.|ESD_0012_anger
+/content/data/processed_24k/Expresso/ex04/ex04_whisper_00004.wav|hˈɛviɚ ðɐn juː θˈɔːt ɪt wʊd bˈiː?|Expresso_ex04_whisper
+/content/data/processed_24k/ESD/Speaker_0011/0011_happiness_03_03045.wav|klˈɪɹ ɑːɹ jʊɹ ˈaɪz ænd bɹˈaɪt jʊɹ bɹˈɛθ!|ESD_0011_happiness
+/content/data/processed_24k/ESD/Speaker_0019/0019_happiness_06_01905.wav|jʊɹ mˈɪdʒɪt wˈaɪf nˈɛvɚ kæn sˈɪŋ ɐ sˈɔŋ.|ESD_0019_happiness
+/content/data/processed_24k/ESD/Speaker_0013/0013_neutral_04_01958.wav|ðə sˈɔŋ ɪz kˈɔːld wˈeɪz ænd mˈiːnz.|ESD_0013
+/content/data/processed_24k/ESD/Speaker_0017/0017_neutral_05_03948.wav|juː mˈeɪ ɪmˈædʒɪn hˌaʊ aɪ ɡˈeɪp.|ESD_0017
+/content/data/processed_24k/ESD/Speaker_0018/0018_neutral_06_00578.wav|ɐ lˈɑːɹdʒ flˈæt fˈɛɹi bˈoʊt wʌz mˈʊɹd bᵻsˌaɪdɪt.|ESD_0018
+/content/data/processed_24k/ESD/Speaker_0011/0011_neutral_03_03386.wav|ɐn ˈaʊɚɹ ˌaʊɾəv ɡˈɪldfɚd tˈaʊn.|ESD_0011
+/content/data/processed_24k/ESD/Speaker_0012/0012_happiness_03_04743.wav|wiː ˈɔːl sˈiː pˈændə ˌɔn tˌiːvˈiː ɔːɹ ɪnðə zˈuː.|ESD_0012_happiness
+/content/data/processed_24k/ESD/Speaker_0015/0015_neutral_05_00405.wav|stˈɪl juː ˈoʊ ɪɾ ɐ dˈuːɾi.|ESD_0015
+/content/data/processed_24k/Expresso/ex04/ex04_whisper_00360.wav|wˌʌt ɹˈuːm hɐz nˈoʊ wˈɔːlz? ɐ ˈæstɚɹˌɪsk mˈʌʃɹuːm ˈæstɚɹˌɪsk!|Expresso_ex04_whisper
+/content/data/processed_24k/ESD/Speaker_0017/0017_neutral_05_03934.wav|ɪf nˈɑːt, aɪʃˌɐl ɡˌoʊ nˈoʊ fˈɜːðɚ.|ESD_0017
+/content/data/processed_24k/Expresso/ex02/ex02_confused_00236.wav|ɡɑːt ɐn ˈʌpdeɪt fɔːɹ mˌiː?|Expresso_ex02_confused
+/content/data/processed_24k/ESD/Speaker_0020/0020_neutral_06_04288.wav|ænd biː wɪð juː,tˈɑːm!|ESD_0020
+/content/data/processed_24k/ESD/Speaker_0020/0020_sadness_06_04311.wav|hɜː ʃˈuːz wɜː lˈaɪk fˈɪʃᵻz.|ESD_0020_sadness
+/content/data/processed_24k/Expresso/ex01/ex01_default_emphasis_00124.wav|ʃiː ʃˈʊɹ dˈʌzənt hæv ɐn ˈæstɚɹˌɪsk ˈæksənt ˈæstɚɹˌɪsk wɛn ʃiː dˈʌz ðiːz ˈæstɚɹˌɪsk ɐmˈɛɹɪkən ˈæstɚɹˌɪsk ʃˈoʊz.|Expresso_ex01_emphasis
+/content/data/processed_24k/ESD/Speaker_0017/0017_anger_05_03172.wav|hiː sˈɜːtʃt θɹuː ðə bˈɑːks.|ESD_0017_anger
+/content/data/processed_24k/ESD/Speaker_0015/0015_anger_04_04621.wav|æm aɪ ɐn ˈæbsəlˌuːt pˈɔːpɚ?|ESD_0015_anger
+/content/data/processed_24k/Expresso/ex03/ex03_happy_00355.wav|ɪts ɐ dˈɛlɪkəsi ɪn sˈuːʃi ɹˈɛstɹɑːnts.|Expresso_ex03_happy
+/content/data/processed_24k/Expresso/ex03/ex03_laughing_00201.wav|snˈɪfəlz.|Expresso_ex03_laughing
+/content/data/processed_24k/ESD/Speaker_0011/0011_sadness_03_03611.wav|tˈɑːm, wɛnt ˌɔn ˈiːjɔːɹ ɡlˈuːmili.|ESD_0011_sadness
+/content/data/processed_24k/Expresso/ex04/ex04_laughing_00043.wav|lˈæf lˈaɪk ɪt ɡɑːt wˈɜːs.|Expresso_ex04_laughing
+/content/data/processed_24k/Expresso/ex01/ex01_confused_00077.wav|aɪv sˈiːn sˈɪlvɚ lˈaɪnɪŋ plˈeɪbʊk.|Expresso_ex01_confused
+/content/data/processed_24k/ESD/Speaker_0012/0012_sadness_04_00504.wav|fˈɪɹ nˈiːðɚ ɹˈuːt nˈɔːɹ spɹˈaʊt!|ESD_0012_sadness
+/content/data/processed_24k/ESD/Speaker_0016/0016_surprise_05_02670.wav|æz ɹˈɪtʃæz pˈiːɾɚz sˈʌn ɪn lˈɔː!|ESD_0016_surprise
+/content/data/processed_24k/Expresso/ex03/ex03_enunciated_00125.wav|ˈɔːɹdɚɹ ɪnðə kˈɔːɹt!|Expresso_ex03_enunciated
+/content/data/processed_24k/Expresso/ex02/ex02_enunciated_00158.wav|θˈæŋkfəli ðeɪ lˈaɪkt ɪt.|Expresso_ex02_enunciated
+/content/data/processed_24k/Expresso/ex04/ex04_happy_00309.wav|ðə kˈɔːɹt wʌz ʃˈoʊn ɐ vˈɪdɪoʊ ʌvðə hˈaʊs ˌɔn ðæt dˈeɪ.|Expresso_ex04_happy
+/content/data/processed_24k/ESD/Speaker_0019/0019_happiness_06_01856.wav|aɪm æz bˈæd æz aɪ kæn bˈiː.|ESD_0019_happiness
+/content/data/processed_24k/Expresso/ex02/ex02_laughing_00270.wav|ɛndʒˈɔɪ jʊɹ kˈɔfi, kəntɹˈoʊl fɹˈiːk.|Expresso_ex02_laughing
+/content/data/processed_24k/ESD/Speaker_0017/0017_sadness_05_04319.wav|tʃˈuː lˈiːvz kwˈɪkli, sˈɛd ɹˈæbɪt.|ESD_0017_sadness
+/content/data/processed_24k/Expresso/ex04/ex04_sad_00029.wav|wˌʌts ðɪs ˈɔːθɚz nˈeɪm?|Expresso_ex04_sad
+/content/data/processed_24k/ESD/Speaker_0018/0018_sadness_06_01079.wav|jʊɹ pˈæθ nˈaʊ ɡoʊz sˈaʊθ.|ESD_0018_sadness
+/content/data/processed_24k/Expresso/ex01/ex01_confused_00322.wav|ðæts wʌt aɪ wˈɔntᵻd.|Expresso_ex01_confused
+/content/data/processed_24k/ESD/Speaker_0019/0019_sadness_06_02877.wav|ɪt wʊd biː ɐ hˈɑːɹd tʃˈɔɪs.|ESD_0019_sadness
+/content/data/processed_24k/ESD/Speaker_0020/0020_surprise_06_04979.wav|ʃiː kˈiːps sˈeɪɪŋ aɪm hˈɜːz.|ESD_0020_surprise
+/content/data/processed_24k/ESD/Speaker_0019/0019_happiness_06_01923.wav|kˈʌm ˌɔn maɪ dʒˈæk ɪnðə bˈɑːksᵻz!|ESD_0019_happiness
+/content/data/processed_24k/ESD/Speaker_0015/0015_sadness_05_00632.wav|biː ˈɔf nˈaʊ æz kwˈɪk æz juː mˈeɪ!|ESD_0015_sadness
+/content/data/processed_24k/ESD/Speaker_0012/0012_sadness_04_00596.wav|hˌaʊ tˈɑːm ænd dʒˈɛɹi wɛnt tə vˈɪzɪt mˈɪstɚ sˈæm.|ESD_0012_sadness
+/content/data/processed_24k/Expresso/ex01/ex01_default_00022.wav|ðɛɹz ˈæstɚɹˌɪsk nˈoʊ ˈæstɚɹˌɪsk lˈaɪbəl ɪnðə blˈɑːɡəsfˌɪɹ?|Expresso_ex01_default
+/content/data/processed_24k/Expresso/ex04/ex04_confused_00036.wav|dˈɪd juː tɹˈaɪ ˈæstɚɹˌɪsk tˈɪklɪŋ ˈæstɚɹˌɪsk ðə mˈɔnstɚ?|Expresso_ex04_confused
+/content/data/processed_24k/Expresso/ex02/ex02_confused_00249.wav|ɐɡˈɛn, aɪ ˈæstɚɹˌɪsk nˈoʊ ˈæstɚɹˌɪsk.|Expresso_ex02_confused
+/content/data/processed_24k/ESD/Speaker_0012/0012_neutral_03_04971.wav|ænd wʌt ɑːɹ dˈoʊvz. ænd wʌt ɑːɹ dˈoʊvz.|ESD_0012
+/content/data/processed_24k/Expresso/ex03/ex03_sad_00019.wav|juː nˈoʊ, juː dʒˈʌst dˈoʊnt ˌʌndɚstˈænd ðə pɹˈɛʃɚ ðæt ðeɪ kæn pˌʊt ˈɔn juː!|Expresso_ex03_sad
+/content/data/processed_24k/Expresso/ex02/ex02_sad_00307.wav|wˌɪtʃ ˈænɪməl dˈuː juː nˌɑːt wˈɔnə plˈeɪ ɡˈeɪmz wɪð? ɐ tʃˈiːɾə.|Expresso_ex02_sad
+/content/data/processed_24k/ESD/Speaker_0016/0016_happiness_05_01776.wav|tˈɑːm fˈɛl wɪð ɐ klˈoʊvən hˈɛd.|ESD_0016_happiness
+/content/data/processed_24k/Expresso/ex03/ex03_confused_00022.wav|dˈʌn! pˈɜːtʃɪs ɪz kəmplˈiːt. ɪz ðɛɹ ˈɛnɪθˌɪŋ ˈɛls?|Expresso_ex03_confused
+/content/data/processed_24k/RAVDESS/Actor_21/03-01-03-01-02-01-21.wav|dˈɑːɡz ɑːɹ sˈɪɾɪŋ baɪ ðə dˈɔːɹ.|Actor_21_happy
+/content/data/processed_24k/ESD/Speaker_0012/0012_sadness_04_00350.wav|sˈɛd ðɪ ɐmˈɛɹɪkən tə tʃaɪnˈiːz.|ESD_0012_sadness
+/content/data/processed_24k/ESD/Speaker_0016/0016_happiness_05_01668.wav|nˌɑːt mˈʌtʃ jˈuːs ɪz ɪt, sˈæm?|ESD_0016_happiness
+/content/data/processed_24k/ESD/Speaker_0014/0014_sadness_04_03996.wav|fˈɜː flˈuː θɹuː ðɪ ˈɛɹ, tˈiːθ nˈæʃt.|ESD_0014_sadness
+/content/data/processed_24k/Expresso/ex02/ex02_enunciated_00123.wav|mˈæm, ɑːɹ juː kwˈɛstʃənɪŋ ɐ nˈeɪvi sˈiːl?|Expresso_ex02_enunciated
+/content/data/processed_24k/ESD/Speaker_0018/0018_surprise_06_01285.wav|ʃiː hɐz ˈiːʔn ðə tˌæpɪˈoʊkə ˈɔːl ʌv ɪt.|ESD_0018_surprise
+/content/data/processed_24k/ESD/Speaker_0011/0011_surprise_03_04054.wav|ðɪs spˈiːtʃ ɹˈaʊzd dˈeɪm ˈɪls tʊ ˈæŋɡɚ.|ESD_0011_surprise
+/content/data/processed_24k/ESD/Speaker_0014/0014_sadness_04_03807.wav|ðæt wʌz hɪz tʃˈiːf θˈɔːt.|ESD_0014_sadness
+/content/data/processed_24k/ESD/Speaker_0018/0018_happiness_06_00373.wav|bɪkˈʌz hiː wʌzɐ mˈæn wɪð ˈɪnfɪnət ɹᵻsˈɔːɹs ænd səɡˈæsᵻɾi.|ESD_0018_happiness
+/content/data/processed_24k/ESD/Speaker_0012/0012_sadness_04_00346.wav|plˈiːz ɛkskjˈuːs mˌiː.|ESD_0012_sadness
+/content/data/processed_24k/Expresso/ex01/ex01_default_emphasis_00052.wav|wiː ʃˌʊd sˈiː sˌʌm ɹˈeɪnfɔːl lˈeɪɾɚɹ ˈæstɚɹˌɪsk tədˈeɪ ˈæstɚɹˌɪsk.|Expresso_ex01_emphasis
+/content/data/processed_24k/Expresso/ex03/ex03_enunciated_00352.wav|wˌʌts ðə vˈɜːdɪkt?|Expresso_ex03_enunciated
+/content/data/processed_24k/ESD/Speaker_0011/0011_surprise_03_04026.wav|kˈɑːs aɪ nˈoʊ aɪ hˌæd sʌm hˈʌni.|ESD_0011_surprise
+/content/data/processed_24k/ESD/Speaker_0011/0011_neutral_03_03377.wav|ænd vˈaʊd hiːd tʃˈeɪndʒ ðə pˈɪɡteɪlz plˈeɪs.|ESD_0011
+/content/data/processed_24k/Expresso/ex04/ex04_enunciated_00344.wav|stɹˈɔːbɛɹi ˈaɪs kɹˈiːm sˈʌndeɪ, ɹˈaɪt?|Expresso_ex04_enunciated
+/content/data/processed_24k/Expresso/ex04/ex04_confused_00331.wav|kˈɔːl dʒˈoʊsəf ˈɛvənz, ɹˈaɪt?|Expresso_ex04_confused
+/content/data/processed_24k/ESD/Speaker_0011/0011_sadness_03_03723.wav|aɪ pˈeɪ hˈæf ɐ kɹˈaʊn ɐ wˈiːk ˈɛkstɹə.|ESD_0011_sadness
+/content/data/processed_24k/Expresso/ex04/ex04_default_00119.wav|nˈaʊ maɪ tˈɔɪlɪt bˈoʊl klˈiːnɚ ænd maɪ pˈɜːfjuːm mˈætʃ!|Expresso_ex04_default
+/content/data/processed_24k/RAVDESS/Actor_14/03-01-05-02-01-02-14.wav|kˈɪdz ɑːɹ tˈɔːkɪŋ baɪ ðə dˈɔːɹ.|Actor_14_strong_angry
+/content/data/processed_24k/Expresso/ex02/ex02_default_00026.wav|ˈɛvɹɪbˌɑːdi wʌz tʃˈæntɪŋ "ɡˈoʊ, ɡˈoʊ, ɡˈoʊ"!|Expresso_ex02_default
+/content/data/processed_24k/RAVDESS/Actor_12/03-01-02-02-01-02-12.wav|kˈɪdz ɑːɹ tˈɔːkɪŋ baɪ ðə dˈɔːɹ.|Actor_12_strong_calm
+/content/data/processed_24k/ESD/Speaker_0019/0019_anger_06_01797.wav|ʃiː kˈʌm bˈæk tə ðə vˈæli.|ESD_0019_anger
+/content/data/processed_24k/ESD/Speaker_0020/0020_anger_06_03446.wav|fˈɜː flˈuː θɹuː ðɪ ˈɛɹ, tˈiːθ nˈæʃt.|ESD_0020_anger
+/content/data/processed_24k/ESD/Speaker_0016/0016_sadness_05_02313.wav|ˈæni plˈiːz plˈiːz dˈoʊnt hˈɜːt mˌiː!|ESD_0016_sadness
+/content/data/processed_24k/ESD/Speaker_0013/0013_surprise_04_02434.wav|ðə mˈæn ɹˈiəli ɪz ðɪ ˈeɪdʒɛdɪdʒd mˈæn.|ESD_0013_surprise
+/content/data/processed_24k/RAVDESS/Actor_03/03-01-06-02-02-01-03.wav|dˈɑːɡz ɑːɹ sˈɪɾɪŋ baɪ ðə dˈɔːɹ.|Actor_03_strong_fearful
+/content/data/processed_24k/ESD/Speaker_0019/0019_neutral_06_02216.wav|wˌaɪ hɐz ðɪs ˈɛɡ nˌɑːt bɹˈoʊkən?|ESD_0019
+/content/data/processed_24k/ESD/Speaker_0017/0017_anger_05_03086.wav|ɐ hˈɪpoʊ lˈaɪvz ɪnðə zˈuː.|ESD_0017_anger
+/content/data/processed_24k/Expresso/ex03/ex03_confused_00008.wav|aɪ dˈʌnoʊ, fˈʊtbɔːl ɔːɹ bˈeɪsbɔːl?|Expresso_ex03_confused
+/content/data/processed_24k/Expresso/ex04/ex04_laughing_00132.wav|ˈæd twˈɛnti wˈʌn ˈaʊɚz fˈɪfti θɹˈiː mˈɪnɪts tə jʊɹ ᵻlˈɛvən mˈɪnɪt twˈɛlv sˈɛkənd tˈaɪmɚ, ɹˈaɪt?|Expresso_ex04_laughing
+/content/data/processed_24k/Expresso/ex01/ex01_sad_00309.wav|hˌaʊz ɪt ɡˈoʊɪŋ, ɜːmˈɪlə?|Expresso_ex01_sad
+/content/data/processed_24k/Expresso/ex03/ex03_happy_00314.wav|dˈɪd juː nˈoʊ hiː wʌz ˈɔːlsoʊ ɪn ɐ ɹᵻkˈɜːɹɪŋ ɹˈoʊl ɪnðə tˈɛlᵻvˌɪʒən sˈɪɹiz ðɪ ˌoʊsˈiː?|Expresso_ex03_happy
+/content/data/processed_24k/ESD/Speaker_0014/0014_happiness_04_03337.wav|tədˈeɪ ˌɪzənt ˌɛni ˈʌðɚ dˈeɪ.|ESD_0014_happiness
+/content/data/processed_24k/Expresso/ex02/ex02_enunciated_00328.wav|ɡɛt bˈæk hˈɪɹ!|Expresso_ex02_enunciated
+/content/data/processed_24k/Expresso/ex04/ex04_default_00300.wav|ðə kwˈɛstʃən ɪz, ɪz ˈæstɚɹˌɪsk ðæt ˈæstɚɹˌɪsk ɐ nˈɛɡətˌɪv?|Expresso_ex04_default
+/content/data/processed_24k/ESD/Speaker_0017/0017_neutral_05_04007.wav|pɚhˈæps juː θˈɪŋk ðæt ɪz ɐ kwˈɪɹ tˈaɪɾəl fɔːɹ ðɪs tʃˈæptɚ.|ESD_0017
+/content/data/processed_24k/ESD/Speaker_0013/0013_surprise_04_02658.wav|ðə sˈɔŋ ɪz kˈɔːld wˈeɪz ænd mˈiːnz.|ESD_0013_surprise
+/content/data/processed_24k/ESD/Speaker_0014/0014_happiness_04_03115.wav|mˈɪstɚ ʃˈɛɹ mˈæn, aɪ mˈuːv fɚɹə dᵻvˈɪʒən.|ESD_0014_happiness
+/content/data/processed_24k/Expresso/ex04/ex04_enunciated_00345.wav|aɪ ˈæstɚɹˌɪsk dʒˈʌst ˈæstɚɹˌɪsk wˈʌznt ˈeɪbəl tə tˈɔːk hˌɪm ˌaʊɾəv ɪt.|Expresso_ex04_enunciated
+/content/data/processed_24k/Expresso/ex01/ex01_confused_00034.wav|sˌoʊ wɛnz jʊɹ ˈæstɚɹˌɪsk fˈɜːst ˈæstɚɹˌɪsk ɡˈeɪm wɪð ɹˈɪdʒvjuː?|Expresso_ex01_confused
+/content/data/processed_24k/RAVDESS/Actor_12/03-01-08-01-02-02-12.wav|dˈɑːɡz ɑːɹ sˈɪɾɪŋ baɪ ðə dˈɔːɹ.|Actor_12_surprised
+/content/data/processed_24k/ESD/Speaker_0015/0015_sadness_05_00611.wav|tˈɑːm, wɛnt ˌɔn ˈiːjɔːɹ ɡlˈuːmili.|ESD_0015_sadness
+/content/data/processed_24k/Expresso/ex04/ex04_whisper_00127.wav|blˈɛɹ hˈʌmz.|Expresso_ex04_whisper
+/content/data/processed_24k/ESD/Speaker_0012/0012_sadness_04_00567.wav|hiː ʃˈoʊd nˈoʊ sˈaɪnz ʌv ˈeɪdʒ.|ESD_0012_sadness
+/content/data/processed_24k/ESD/Speaker_0019/0019_neutral_06_02504.wav|ðə fˈɪʃɚmən ænd hɪz wˈaɪf sˈiː dʒˈɔːɹdʒ ˈɛvɹi dˈeɪ.|ESD_0019
+/content/data/processed_24k/ESD/Speaker_0014/0014_neutral_04_03570.wav|fˈɪn ænd ðə fˈɛɹi ʃˈuːmeɪkɚ.|ESD_0014
+/content/data/processed_24k/Expresso/ex02/ex02_laughing_00337.wav|ɪn mʊmbˈaɪ ðɪs ˈiːvnɪŋ, ɪt woʊnt biː klˈaʊdi. lˈæf|Expresso_ex02_laughing
+/content/data/processed_24k/ESD/Speaker_0013/0013_sadness_04_02373.wav|ænd ʃiː kˈɔːt æt ðə bɹˈoʊtʃ.|ESD_0013_sadness
+/content/data/processed_24k/ESD/Speaker_0020/0020_anger_06_03581.wav|wˌɛɹ ɑːɹ juː ɡˈoʊɪŋ?|ESD_0020_anger
+/content/data/processed_24k/ESD/Speaker_0017/0017_anger_05_03317.wav|ðə nˈeɪm ʌvðə sˈɔŋ ɪz kˈɔːld hˈædəks.|ESD_0017_anger
+/content/data/processed_24k/Expresso/ex03/ex03_default_emphasis_00145.wav|maɪ ˈɛɹiə kˈoʊd ɪz ˈæstɚɹˌɪsk sˈɪks ˈæstɚɹˌɪsk tˈuː sˈɪks.|Expresso_ex03_emphasis
+/content/data/processed_24k/Expresso/ex04/ex04_happy_00027.wav|nˌɑːɾə fˈɜːsttˈaɪm hˈoʊm bˈaɪɚ?|Expresso_ex04_happy
+/content/data/processed_24k/Expresso/ex04/ex04_default_00009.wav|ɪt kˈeɪm ɐ bˈɪt lˈeɪt.|Expresso_ex04_default
+/content/data/processed_24k/ESD/Speaker_0020/0020_anger_06_03432.wav|fɹˈɛʃ pˈeɪn sˈiːzd pˈɔːlz bˈɑːdi.|ESD_0020_anger
+/content/data/processed_24k/RAVDESS/Actor_20/03-01-05-01-02-02-20.wav|dˈɑːɡz ɑːɹ sˈɪɾɪŋ baɪ ðə dˈɔːɹ.|Actor_20_angry
+/content/data/processed_24k/ESD/Speaker_0017/0017_happiness_05_03478.wav|ɐ lˈɑːɹdʒ flˈæt fˈɛɹi bˈoʊt wʌz mˈʊɹd bᵻsˌaɪdɪt.|ESD_0017_happiness
+/content/data/processed_24k/RAVDESS/Actor_11/03-01-05-01-02-02-11.wav|dˈɑːɡz ɑːɹ sˈɪɾɪŋ baɪ ðə dˈɔːɹ.|Actor_11_angry
+/content/data/processed_24k/ESD/Speaker_0013/0013_anger_04_01255.wav|aɪ mˈʌstɐv tˈuː tə fˈɛtʃ ænd kˈæɹi.|ESD_0013_anger
+/content/data/processed_24k/ESD/Speaker_0011/0011_neutral_03_03293.wav|ðeɪ fˈaʊnd ɐ kˈaʊ ɡɹˈeɪzɪŋ ɪn ɐ fˈiːld.|ESD_0011
+/content/data/processed_24k/ESD/Speaker_0014/0014_anger_04_02936.wav|ɐn ˈaʊɚɹ ˌaʊɾəv ɡˈɪldfɚd tˈaʊn.|ESD_0014_anger
+/content/data/processed_24k/ESD/Speaker_0014/0014_happiness_04_03250.wav|ˈɔːl ðə wˈeɪ tə tʃˈaɪnə ɪz hˈoʊm.|ESD_0014_happiness
+/content/data/processed_24k/Expresso/ex02/ex02_confused_00182.wav|ʃˈʊɹ! hiːz ɐ ɹˈaɪɾɚ. hiːz nˈoʊn fɔːɹ ɹˈaɪɾɪŋ "ðə wˈɔːkɪŋ dˈɛd".|Expresso_ex02_confused
+/content/data/processed_24k/Expresso/ex02/ex02_default_emphasis_00077.wav|hiː ˌoʊvɚsˈiːz ðə mˈɑːnɪɾɚɹɪŋ ʌv ɹˌɛzᵻdˈɛnʃəl hˈɑːspɪs pˈeɪʃənts.|Expresso_ex02_emphasis
+/content/data/processed_24k/ESD/Speaker_0019/0019_neutral_06_02250.wav|sˈɛd ðɪ ɐmˈɛɹɪkən tə tʃaɪnˈiːz.|ESD_0019
+/content/data/processed_24k/ESD/Speaker_0012/0012_happiness_03_04854.wav|ðɪs wʌzðə twˈɛnti fˈɪfθ ʌv noʊvˈɛmbɚ, sˈɛvəntˌiːn ˈeɪɾi θɹˈiː.|ESD_0012_happiness
+/content/data/processed_24k/ESD/Speaker_0015/0015_neutral_05_00389.wav|ænd ðeɪ wɜː sˈændi jˈɛloʊ bɹˈaʊnɪʃ ˈɔːl ˈoʊvɚ.|ESD_0015
+/content/data/processed_24k/Expresso/ex02/ex02_confused_00302.wav|pɹaɪˈɔːɹᵻɾiz ʌvðɪ ˌɛnˌiːˈeɪ?|Expresso_ex02_confused
+/content/data/processed_24k/Expresso/ex04/ex04_whisper_00028.wav|nˈoʊ. hˌuː ɑːɹ ðeɪ ɹˈɪʔn baɪ ænd wʌt ɑːɹ ðə ʒˈɑːnɹəz?|Expresso_ex04_whisper
+/content/data/processed_24k/ESD/Speaker_0011/0011_surprise_03_04238.wav|ænd biː wɪð juː,tˈɑːm!|ESD_0011_surprise
+/content/data/processed_24k/ESD/Speaker_0017/0017_happiness_05_03362.wav|aɪ hæv bˈʌnbɛɹid ˈɔːl ˌoʊvɚ ɡˈoʊt ˌɔn tˈuː sˈɛpɹət əkˈeɪʒənz.|ESD_0017_happiness
+/content/data/processed_24k/ESD/Speaker_0019/0019_anger_06_01680.wav|fˈɜːst, ˈɪʃuː ɐ ɹᵻwˈɔːɹd.|ESD_0019_anger
+/content/data/processed_24k/ESD/Speaker_0018/0018_sadness_06_00820.wav|æz ɹˈɪtʃæz pˈiːɾɚz sˈʌn ɪn lˈɔː!|ESD_0018_sadness
+/content/data/processed_24k/ESD/Speaker_0017/0017_happiness_05_03381.wav|hˌuː ɪz bˌɪn ɹᵻpˈiːɾɪŋ ˈɔːl ðæt hˈɑːɹd stˈʌf tə juː?|ESD_0017_happiness
+/content/data/processed_24k/ESD/Speaker_0014/0014_anger_04_02878.wav|ɐ lˈɑːɹdʒ flˈæt fˈɛɹi bˈoʊt wʌz mˈʊɹd bᵻsˌaɪdɪt.|ESD_0014_anger
+/content/data/processed_24k/Expresso/ex04/ex04_whisper_00235.wav|mˈuːv ˌʌp ðə dˈeɪt?|Expresso_ex04_whisper
+/content/data/processed_24k/ESD/Speaker_0020/0020_anger_06_03358.wav|ɪf ðeɪ mˈʌðɚ nˈuː ɪt.|ESD_0020_anger
+/content/data/processed_24k/ESD/Speaker_0019/0019_surprise_06_03079.wav|tˈoʊst fɹʌmðə bɹˈɛd fɹˈuːt tɹˈiː.|ESD_0019_surprise
+/content/data/processed_24k/ESD/Speaker_0014/0014_sadness_04_04053.wav|ʃiː lˈæft.|ESD_0014_sadness
+/content/data/processed_24k/ESD/Speaker_0014/0014_neutral_04_03687.wav|tədˈeɪ ˌɪzənt ˌɛni ˈʌðɚ dˈeɪ.|ESD_0014
+/content/data/processed_24k/ESD/Speaker_0014/0014_sadness_04_03944.wav|ɹˈiːd baɪ ðə lˈɪvɪŋ pˈuːl!|ESD_0014_sadness
+/content/data/processed_24k/ESD/Speaker_0019/0019_neutral_06_02260.wav|mˈɪdjɪɹ ɪz dˈeɪ, ʃˈaɪɚ jˈɪɹ.|ESD_0019
+/content/data/processed_24k/Expresso/ex02/ex02_enunciated_00338.wav|ʃiː ɹᵻplˈaɪd, ɪt kʊd bˈiː.|Expresso_ex02_enunciated
+/content/data/processed_24k/ESD/Speaker_0011/0011_sadness_03_03798.wav|juː mˈeɪ ɪmˈædʒɪn hˌaʊ aɪ ɡˈeɪp.|ESD_0011_sadness
+/content/data/processed_24k/Expresso/ex02/ex02_whisper_00378.wav|ðɪs ɪz jˈuːʒuːəli ˌɪnɛkspˈɛnsɪv, hɐz ɐ mˈaɪld flˈeɪvɚ, kˈʊks kwˈɪkli.|Expresso_ex02_whisper
+/content/data/processed_24k/ESD/Speaker_0012/0012_happiness_03_04667.wav|aɪ duːnˌɑːt ˈiːt bɹˈɛd.|ESD_0012_happiness
+/content/data/processed_24k/ESD/Speaker_0017/0017_sadness_05_04369.wav|ɡˈoʊt bˈɪli ˈæskt ðɪ ˈoʊld tʃaɪnˈiːz ɡˈaɪ.|ESD_0017_sadness
+/content/data/processed_24k/ESD/Speaker_0012/0012_neutral_04_00142.wav|plˈiːz hˈaɪɚ mˌiː ˈæftɚ juː.|ESD_0012
+/content/data/processed_24k/Expresso/ex03/ex03_default_emphasis_00056.wav|dˈuː wiː ˈæstɚɹˌɪsk hæv ˈæstɚɹˌɪsk tə lˈɪsən tʊ ɐn ɪnstɹˈʌkʃənəl tˈɔːk ɐbˌaʊt fˈæmɪli vˈæljuːz?|Expresso_ex03_emphasis
+/content/data/processed_24k/ESD/Speaker_0013/0013_surprise_04_02653.wav|ʃiː lˈæft.|ESD_0013_surprise
+/content/data/processed_24k/Expresso/ex02/ex02_sad_00013.wav|ɪts ˈæstɚɹˌɪsk ˈɔːlweɪz ˈæstɚɹˌɪsk ðə sˈeɪm, ˈɪzənt ɪt?|Expresso_ex02_sad
+/content/data/processed_24k/Expresso/ex02/ex02_whisper_00244.wav|ðæt ˈæstɚɹˌɪsk ɪz ˈæstɚɹˌɪsk ðə dˈɪfɹəns bᵻtwˌiːn sˈʌmwʌn ðæts ɛkspˈiəɹɪənsɪŋ wʌt juː dˈɪd ænd wʌt aɪ dˈɪd.|Expresso_ex02_whisper
+/content/data/processed_24k/Expresso/ex04/ex04_happy_00303.wav|dˈoʊnt juː dˈɛɹ bᵻlˈɪɾəl ɔːɹ kɹˈɪɾɪsˌaɪz hˌɪm.|Expresso_ex04_happy
+/content/data/processed_24k/ESD/Speaker_0015/0015_neutral_05_00522.wav|wˌaɪ dˈɪd aɪ wˈeɪk ˈʌp!|ESD_0015
+/content/data/processed_24k/Expresso/ex04/ex04_sad_00317.wav|mˈɪstɚ dˈuːɔːɹ ˌʌndɚstˈʊd ðˈæt.|Expresso_ex04_sad
+/content/data/processed_24k/ESD/Speaker_0020/0020_neutral_06_04070.wav|fˈɪn ænd ðə fˈɛɹi ʃˈuːmeɪkɚ.|ESD_0020
+/content/data/processed_24k/Expresso/ex02/ex02_sad_00174.wav|aɪ dˈoʊnt θˈɪŋk wɪɹ ɡˌənə ɡɛt ˈɛnɪwˌɛɹ.|Expresso_ex02_sad
+/content/data/processed_24k/Expresso/ex04/ex04_whisper_00129.wav|wiː dˈoʊnt ɹᵻvˈɑːlv ɚɹˈaʊnd juː.|Expresso_ex04_whisper
+/content/data/processed_24k/Expresso/ex03/ex03_whisper_00273.wav|wˈɛl jˈɛh, bˌʌt juː kæn ɡɛt ɪɾ ɐɡˈɛn.|Expresso_ex03_whisper
+/content/data/processed_24k/ESD/Speaker_0014/0014_happiness_04_03225.wav|ðɪs tˈɜːn ɡoʊz tə ðə hˈɪl.|ESD_0014_happiness
+/content/data/processed_24k/ESD/Speaker_0013/0013_anger_04_01125.wav|ðɪs tˈɜːn ɡoʊz tə ðə hˈɪl.|ESD_0013_anger
+/content/data/processed_24k/ESD/Speaker_0016/0016_surprise_05_02950.wav|aɪm ʃˈʊɹ jʊɹ fɹˈɛndz kæn wˈeɪt!|ESD_0016_surprise
+/content/data/processed_24k/RAVDESS/Actor_17/03-01-05-02-02-02-17.wav|dˈɑːɡz ɑːɹ sˈɪɾɪŋ baɪ ðə dˈɔːɹ.|Actor_17_strong_angry
+/content/data/processed_24k/Expresso/ex02/ex02_default_00014.wav|ˈoʊpən kˈɑːks ˌɔn dᵻmˈænd.|Expresso_ex02_default
+/content/data/processed_24k/RAVDESS/Actor_20/03-01-04-02-02-02-20.wav|dˈɑːɡz ɑːɹ sˈɪɾɪŋ baɪ ðə dˈɔːɹ.|Actor_20_strong_sad
+/content/data/processed_24k/ESD/Speaker_0016/0016_happiness_05_01938.wav|ænd biː wɪð juː,tˈɑːm!|ESD_0016_happiness
+/content/data/processed_24k/Expresso/ex01/ex01_laughing_00290.wav|lˈæf maɪ lˈɪps ɑːɹ sˈiːld!|Expresso_ex01_laughing
+/content/data/processed_24k/Expresso/ex01/ex01_whisper_00376.wav|ɹˈɑːdʒɚ hˈuː?|Expresso_ex01_whisper
+/content/data/processed_24k/Expresso/ex02/ex02_enunciated_00078.wav|jˈɛs, tˈuːzdeɪ ɪz dʒˈuːn fˈɔːɹθ.|Expresso_ex02_enunciated
+/content/data/processed_24k/Expresso/ex02/ex02_confused_00280.wav|ðæts nˈoʊ kˈaɪnd ʌv lˈaɪf!|Expresso_ex02_confused
+/content/data/processed_24k/ESD/Speaker_0013/0013_anger_04_01339.wav|sˌoʊ tˈɑːm sˈɔː nˈaɪt æz ɪt wɜː bɹˈɔːd dˈeɪlaɪt.|ESD_0013_anger
+/content/data/processed_24k/ESD/Speaker_0020/0020_sadness_06_04475.wav|ʃiː dʒˈʌst smˈaɪld kˈɑːmli, mˈʌðɚ nˈoʊz ðæt ɪz ðə bˈɛst smˈaɪl.|ESD_0020_sadness
+/content/data/processed_24k/Expresso/ex01/ex01_whisper_00128.wav|kwˈɪk, ɡɛt ɪn hˈɪɹ!|Expresso_ex01_whisper
+/content/data/processed_24k/ESD/Speaker_0016/0016_happiness_05_01792.wav|plˈiːz hˈaɪɚ mˌiː ˈæftɚ juː.|ESD_0016_happiness
+/content/data/processed_24k/ESD/Speaker_0017/0017_anger_05_03304.wav|ðə fˈɪʃɚmən ænd hɪz wˈaɪf sˈiː dʒˈɔːɹdʒ ˈɛvɹi dˈeɪ.|ESD_0017_anger
+/content/data/processed_24k/Expresso/ex02/ex02_whisper_00127.wav|tɹˈaɪ nˌɑːt tə ɡɛt θˈɜːd dᵻɡɹˈiː bˈɜːnz fɹʌmðə kˌæpuːtʃˈiːnoʊ məʃˈiːn.|Expresso_ex02_whisper
+/content/data/processed_24k/ESD/Speaker_0018/0018_surprise_06_01479.wav|ʃiː kˈiːps sˈeɪɪŋ aɪm hˈɜːz.|ESD_0018_surprise
+/content/data/processed_24k/Expresso/ex04/ex04_sad_00015.wav|fˈɛnəl ɪz ɐ bˈʌlb vˈɛdʒɪɾəbəl wɪð ɐ lˈɪkɔːɹɪs, ˈænɪs flˈeɪvɚ tʊ ɪt.|Expresso_ex04_sad
+/content/data/processed_24k/Expresso/ex03/ex03_laughing_00301.wav|aɪ wɛnt tə ðə hˈɑːspɪɾəl ɹˈɛkɚdz ˈɑːfɪs ɪnðə tˈaʊn wˌɛɹ aɪ wʌz ˈæktʃuːəli bˈɔːɹn!|Expresso_ex03_laughing
+/content/data/processed_24k/Expresso/ex03/ex03_default_00377.wav|wiː dˈɪd ɐ mˈuːvi kˈɔːld dᵻspɚɹˈɑːdoʊz fɔːɹ nˈɛtflɪks lˈæst jˈɪɹ.|Expresso_ex03_default
+/content/data/processed_24k/ESD/Speaker_0011/0011_surprise_03_03975.wav|ðə hˈæɡ lˈʊkt ɪnðə stˈoʊv.|ESD_0011_surprise
+/content/data/processed_24k/ESD/Speaker_0020/0020_anger_06_03279.wav|mˈʌst ɐ nˈeɪm mˈiːn sˈʌmθɪŋ?|ESD_0020_anger
+/content/data/processed_24k/Expresso/ex01/ex01_laughing_00221.wav|lˈæf ɡɹˈeɪt!|Expresso_ex01_laughing
+/content/data/processed_24k/ESD/Speaker_0014/0014_sadness_04_03805.wav|ˈændi wʌts ðə dʒˈaɪɚ ænd tə ɡˈɪmbəl.|ESD_0014_sadness
+/content/data/processed_24k/ESD/Speaker_0018/0018_happiness_06_00184.wav|səpˈoʊz aɪ tˈeɪk ɡɹˈændmʌðɚɹ ɐ fɹˈɛʃ vˈɛdʒɪɾəbəl.|ESD_0018_happiness
+/content/data/processed_24k/ESD/Speaker_0020/0020_happiness_06_03628.wav|ɹˈæt kˈeɪm ænd ɹᵻplˈaɪd ɔnðə lˈiːvz.|ESD_0020_happiness
+/content/data/processed_24k/ESD/Speaker_0017/0017_anger_05_03263.wav|slˈæm ðə dˈɔːɹz ænd wˈɛdʒ ðˌɛm!|ESD_0017_anger
+/content/data/processed_24k/Expresso/ex01/ex01_default_00102.wav|aɪ kʊd sˈiː hɪz dɪzˈaɪɚ fɚðə dʒˈɑːb ɪn hɪz ˈæstɚɹˌɪsk ˈaɪz ˈæstɚɹˌɪsk.|Expresso_ex01_default
+/content/data/processed_24k/Expresso/ex02/ex02_default_00256.wav|ɡˈɪni ɪz loʊkˈeɪɾᵻd ɪnðə kənˈækɹi tˈaɪm zˈoʊn, ænd ɪts ᵻlˈɛvən fˈɪfti θɹˈiː æt nˈaɪt ðˈɛɹ.|Expresso_ex02_default
+/content/data/processed_24k/Expresso/ex01/ex01_default_emphasis_00169.wav|ˈæstɚɹˌɪsk juː ˈæstɚɹˌɪsk dˈoʊnt mˈɪs hˈʌɡɪŋ pˈiːpəl?|Expresso_ex01_emphasis
+/content/data/processed_24k/ESD/Speaker_0019/0019_anger_06_01515.wav|mˈɪstɚ ʃˈɛɹ mˈæn, aɪ mˈuːv fɚɹə dᵻvˈɪʒən.|ESD_0019_anger
+/content/data/processed_24k/RAVDESS/Actor_24/03-01-05-01-01-01-24.wav|kˈɪdz ɑːɹ tˈɔːkɪŋ baɪ ðə dˈɔːɹ.|Actor_24_angry
+/content/data/processed_24k/ESD/Speaker_0018/0018_happiness_06_00327.wav|ɪt sˈɛz nˈoʊ wˈeɪ! ʃˈaʊɾᵻd dˈeɪzi.|ESD_0018_happiness
+/content/data/processed_24k/Expresso/ex04/ex04_enunciated_00168.wav|aɪ dɪdnˌɑːt kˈʌm hˈɪɹ tʊ ˈɑːɹɡjuː wɪð juː.|Expresso_ex04_enunciated
+/content/data/processed_24k/Expresso/ex02/ex02_confused_00317.wav|aɪ sədʒˈɛst ðə wˈɪtʃɪŋ ˈaʊɚ ɪf jʊɹ ɪnðə fˈæntəsi mˈuːd!|Expresso_ex02_confused
+/content/data/processed_24k/ESD/Speaker_0020/0020_anger_06_03340.wav|wiː ɛkspˈɛktᵻd tˈɑːm wʊd dʒˈʌmp fɔːɹ dʒˈɔɪ.|ESD_0020_anger
+/content/data/processed_24k/ESD/Speaker_0018/0018_neutral_06_00793.wav|lˈuːsi, ɐ klˈɛvɚ fˈɑːɹmɚ.|ESD_0018
+/content/data/processed_24k/Expresso/ex04/ex04_default_00122.wav|dʒˈɛnɪfɚ lˈʌv hjˈuːɪt hɐz hɜːɹ ˈoʊn lˈaɪfstaɪl bɹˈænd.|Expresso_ex04_default
+/content/data/processed_24k/ESD/Speaker_0016/0016_anger_05_01273.wav|ðə fˈʊtbɔːl tˈiːmz ɡˈɪv ɐ tˈiː pˈɑːɹɾi.|ESD_0016_anger
+/content/data/processed_24k/Expresso/ex04/ex04_default_00225.wav|bˌʌt tɹˈaɪ ˈɛks mˈɛn, dˈeɪz ʌv fjˈuːtʃɚ pˈæst.|Expresso_ex04_default
+/content/data/processed_24k/ESD/Speaker_0011/0011_sadness_03_03551.wav|aɪ dˈɪd ɡˈoʊ, ænd mˌeɪd mˈɛni mˈɛni pɹˈɪzənɚz.|ESD_0011_sadness
+/content/data/processed_24k/Expresso/ex04/ex04_sad_00354.wav|sˌoʊ dˈʌz ðæt kwˈɔlᵻfˌaɪ mˌiː fɔːɹ ɹᵻdˈɛmpʃən?|Expresso_ex04_sad
+/content/data/processed_24k/Expresso/ex03/ex03_happy_00334.wav|ɐ bˈæɾɚɹi, ɐ stˈeɪpəl, ænd bᵻhˈoʊld ɐ fˈaɪɚ!|Expresso_ex03_happy
+/content/data/processed_24k/Expresso/ex03/ex03_whisper_00184.wav|ɛndʒˈɔɪ wɪð sˌʌm kˈændi ænd pˈɑːpkɔːɹn ænd mˌeɪk ʃˈʊɹ nˌɑːt tə stˈiːl smˈɔːɡz ɡˈoʊld!|Expresso_ex03_whisper
+/content/data/processed_24k/Expresso/ex01/ex01_enunciated_00104.wav|bɹˈaɪb jʊɹ wˈeɪ θɹuː ðə kˈɔːɹts?|Expresso_ex01_enunciated
+/content/data/processed_24k/Expresso/ex01/ex01_enunciated_00207.wav|juː ɹᵻmˈɛmbɚ jʊɹ dʒˈʌst ɐ dˈuːd hˌuː lˈʌvz sˈɪŋɪŋ ænd pɚfˈɔːɹmɪŋ, ænd ðˈɛn ðə θˈɪŋ tˈeɪks ˈɔf.|Expresso_ex01_enunciated
+/content/data/processed_24k/ESD/Speaker_0019/0019_anger_06_01756.wav|aɪ wʊd skˈɔf æt ðiːz fˈɑːloʊɚz.|ESD_0019_anger
+/content/data/processed_24k/ESD/Speaker_0011/0011_anger_03_02526.wav|mˈɔnstɚ mˌeɪd ɐ dˈiːp bˈoʊ.|ESD_0011_anger
+/content/data/processed_24k/ESD/Speaker_0020/0020_happiness_06_03924.wav|ʃiː hɐz nˈoʊ plˈeɪs fɔːɹ hˈɑːt pˈɛpɚ .|ESD_0020_happiness
+/content/data/processed_24k/ESD/Speaker_0017/0017_anger_05_03182.wav|fɹˈɛʃ pˈeɪn sˈiːzd pˈɔːlz bˈɑːdi.|ESD_0017_anger
+/content/data/processed_24k/Expresso/ex02/ex02_confused_00246.wav|sˈoʊ, ʃˌæl wiː ˈiːt?|Expresso_ex02_confused
+/content/data/processed_24k/ESD/Speaker_0020/0020_neutral_06_03968.wav|æt ðɪ ˈɛnd ʌv fˈɔːɹ.|ESD_0020
+/content/data/processed_24k/ESD/Speaker_0015/0015_happiness_04_04869.wav|æt ðə ɹˈuːtsəvə bˈʊʃ əvə ɡɹˈæs.|ESD_0015_happiness
+/content/data/processed_24k/ESD/Speaker_0020/0020_happiness_06_03652.wav|hiː wʌz stˈɪl ɪnðə fˈɔːɹɪst!|ESD_0020_happiness
+/content/data/processed_24k/Expresso/ex04/ex04_laughing_00206.wav|ɛndʒˈɔɪ ðə mˈuːvi!|Expresso_ex04_laughing
+/content/data/processed_24k/ESD/Speaker_0017/0017_surprise_05_04516.wav|ðeɪ wɜː tʃˈɪldɹən ʌv mˈaɪn.|ESD_0017_surprise
+/content/data/processed_24k/ESD/Speaker_0018/0018_anger_06_00008.wav|ðə sˈɔŋ ɪz kˈɔːld wˈeɪz ænd mˈiːnz.|ESD_0018_anger
+/content/data/processed_24k/Expresso/ex01/ex01_sad_00072.wav|sˈændz ʌvðɪ ˈeɪntʃənts, ɡˈɪv ˌʌs ɐ nˈeɪm.|Expresso_ex01_sad
+/content/data/processed_24k/ESD/Speaker_0020/0020_anger_06_03421.wav|aɪʃˌɐl sˈeɪ ɡˈʊd bˈaɪ.|ESD_0020_anger
+/content/data/processed_24k/ESD/Speaker_0017/0017_neutral_05_03809.wav|ˈækt dɹˈɑːp sˈɛkənd ˈækt sˈiːn.|ESD_0017
+/content/data/processed_24k/ESD/Speaker_0011/0011_neutral_03_03462.wav|ʃiː sˈɛd ɪn sʌbdˈuːd vˈɔɪs.|ESD_0011
+/content/data/processed_24k/Expresso/ex03/ex03_whisper_00090.wav|pˈɔːl ɪz ɡˈɪvɪŋ ɐwˈeɪ ˈɔːl hɪz mˈʌni?|Expresso_ex03_whisper
+/content/data/processed_24k/ESD/Speaker_0012/0012_surprise_04_00795.wav|hiː sˈɛd tə dʒˈæk, ðə tʃˈæɾɚɹɚ.|ESD_0012_surprise
+/content/data/processed_24k/ESD/Speaker_0019/0019_happiness_06_01936.wav|ɐ hˈɪpoʊ lˈaɪvz ɪnðə zˈuː.|ESD_0019_happiness
+/content/data/processed_24k/ESD/Speaker_0013/0013_neutral_04_01752.wav|hiː wʌz stˈɪl ɪnðə fˈɔːɹɪst!|ESD_0013
+/content/data/processed_24k/Expresso/ex01/ex01_enunciated_00152.wav|ɪts sˈɪɾɪŋ ɹˈaɪt ðˈɛɹ.|Expresso_ex01_enunciated
+/content/data/processed_24k/ESD/Speaker_0013/0013_surprise_04_02718.wav|hˌaʊ kʊd aɪ dˈɪɡ bˈɜːɹoʊz wɪð ʃˈɔːɹt tˈoʊ nˈeɪlz?|ESD_0013_surprise
+/content/data/processed_24k/ESD/Speaker_0018/0018_happiness_06_00229.wav|ænd wʊd spˈɔɪl maɪ dʒˈoʊk.|ESD_0018_happiness
+/content/data/processed_24k/ESD/Speaker_0017/0017_sadness_05_04097.wav|juː ɑːɹ nˌɑːɾɚ ɹˈʌnəwˌeɪ,hˈuː ɑːɹ juː?|ESD_0017_sadness
+/content/data/processed_24k/Expresso/ex04/ex04_confused_00090.wav|sˌoʊ juː tˈʊk ðˌɛm θɹuː ðə tʃˈɛkpɔɪnt ˈɔːl ðə wˈeɪ ˌʌp tə sᵻkjˈʊɹɹᵻɾi?|Expresso_ex04_confused
+/content/data/processed_24k/ESD/Speaker_0017/0017_anger_05_03315.wav|ɐ θˈiːf ɪnðə nˈaɪt.|ESD_0017_anger
+/content/data/processed_24k/ESD/Speaker_0019/0019_surprise_06_02943.wav|tˈeɪk kˈɜːɹɪdʒ ˈɔːl ˌɪzənt lˈɔst jˈɛt.|ESD_0019_surprise
+/content/data/processed_24k/ESD/Speaker_0019/0019_anger_06_01767.wav|hiː ʃˈoʊd nˈoʊ sˈaɪnz ʌv ˈeɪdʒ.|ESD_0019_anger
+/content/data/processed_24k/Expresso/ex01/ex01_whisper_00100.wav|ˈæbaɪ tˈælɪbz ɐ dɪsˈaɪpəl ʌvðə pɹˈɑːfɪt.|Expresso_ex01_whisper
+/content/data/processed_24k/ESD/Speaker_0017/0017_sadness_05_04383.wav|ɐnˈʌðɚ wˌʌn, tˈɛn θˈaʊzənd dˈɑːlɚz.|ESD_0017_sadness
+/content/data/processed_24k/ESD/Speaker_0015/0015_surprise_05_00912.wav|aɪ hæv bˈʌnbɛɹid ˈɔːl ˌoʊvɚ ɡˈoʊt ˌɔn tˈuː sˈɛpɹət əkˈeɪʒənz.|ESD_0015_surprise
+/content/data/processed_24k/ESD/Speaker_0018/0018_surprise_06_01386.wav|wˌʌt wʊd ðeɪ dˈuː æt ðɪ ˈɛnd ʌvðə jˈɪɹ?|ESD_0018_surprise
+/content/data/processed_24k/ESD/Speaker_0015/0015_neutral_05_00288.wav|lˈɛt ɡˌoʊ ʌv maɪ tˈɑːp nˈɑːt.|ESD_0015
+/content/data/processed_24k/ESD/Speaker_0012/0012_neutral_04_00253.wav|hˌaʊ dˈuː juː lˈaɪk juː dˈɜːɾi bˈɜːd!|ESD_0012
+/content/data/processed_24k/RAVDESS/Actor_14/03-01-07-01-02-01-14.wav|dˈɑːɡz ɑːɹ sˈɪɾɪŋ baɪ ðə dˈɔːɹ.|Actor_14_disgust
+/content/data/processed_24k/Expresso/ex02/ex02_happy_00273.wav|hiːz bˌɪn wˈɜːkɪŋ ˈæstɚɹˌɪsk nˌɑːnstˈɑːp ˈæstɚɹˌɪsk ɐplˈaɪɪŋ tə kˈɑːlɪdʒᵻz.|Expresso_ex02_happy
+/content/data/processed_24k/ESD/Speaker_0013/0013_surprise_04_02677.wav|aɪ nˈoʊ juː .|ESD_0013_surprise
+/content/data/processed_24k/Expresso/ex03/ex03_happy_00180.wav|wˈɔnə sˈiː "ðə kˈʌlɚ pˈɜːpəl" ˌɔn bɹˈɔːdweɪ?|Expresso_ex03_happy
+/content/data/processed_24k/ESD/Speaker_0011/0011_happiness_03_03075.wav|ænd ðə nˈɛkst dˈeɪ. nˈɜːs wɪl biː ɹᵻlˈiːst.|ESD_0011_happiness
+/content/data/processed_24k/ESD/Speaker_0019/0019_anger_06_01764.wav|aɪv dʒˈʌst ʃˈɑːt ɐ stˈæɡ.|ESD_0019_anger
+/content/data/processed_24k/Expresso/ex02/ex02_whisper_00185.wav|ɡˈɪv ðˌɛm ðə mˈaɪk, wiː wɪl biː ˌɔn ˈæstɚɹˌɪsk ðɛɹ ˈæstɚɹˌɪsk sˈaɪd.|Expresso_ex02_whisper
+/content/data/processed_24k/Expresso/ex04/ex04_default_00241.wav|tˈuːzdeɪ wʌz mˈeɪ twˈɛnti fˈɜːst.|Expresso_ex04_default
+/content/data/processed_24k/RAVDESS/Actor_02/03-01-03-01-01-01-02.wav|kˈɪdz ɑːɹ tˈɔːkɪŋ baɪ ðə dˈɔːɹ.|Actor_02_happy
+/content/data/processed_24k/ESD/Speaker_0015/0015_happiness_05_00072.wav|pˈɪk, pˈɪk, pˈɪk!|ESD_0015_happiness
+/content/data/processed_24k/ESD/Speaker_0017/0017_surprise_05_04628.wav|ðə fˈɜːst jˈɪɹ ðeɪ sˈoʊd ɹˈaɪ.|ESD_0017_surprise
+/content/data/processed_24k/Expresso/ex02/ex02_sad_00375.wav|wˈʌn pˌiːˈɛm tə nˈaɪn pˌiːˈɛm, ˌɪɾəl biː klˈaʊdi, ænd ɪnðə lˈoʊ fˈɪftiz.|Expresso_ex02_sad
+/content/data/processed_24k/Expresso/ex04/ex04_confused_00318.wav|aɪm ɪnðə mˈɪdəl.|Expresso_ex04_confused
+/content/data/processed_24k/Expresso/ex02/ex02_happy_00103.wav|dˈuː juː lˈaɪk ˈæstɚɹˌɪsk fˈiːmeɪl ˈæstɚɹˌɪsk kˈʌmɪŋ ʌv ˈeɪdʒ stˈɔːɹiz?|Expresso_ex02_happy
+/content/data/processed_24k/ESD/Speaker_0014/0014_neutral_04_03478.wav|ɹˈæt kˈeɪm ænd ɹᵻplˈaɪd ɔnðə lˈiːvz.|ESD_0014
+/content/data/processed_24k/Expresso/ex01/ex01_sad_00207.wav|juː ɹᵻmˈɛmbɚ jʊɹ dʒˈʌst ɐ dˈuːd hˌuː lˈʌvz sˈɪŋɪŋ ænd pɚfˈɔːɹmɪŋ, ænd ðˈɛn ðə θˈɪŋ tˈeɪks ˈɔf.|Expresso_ex01_sad
+/content/data/processed_24k/ESD/Speaker_0014/0014_neutral_04_03598.wav|maɪ wˈaɪndɪŋ ʃˈiːt!|ESD_0014
+/content/data/processed_24k/Expresso/ex03/ex03_happy_00098.wav|wˌʌt kˈʌlɚɹ ɑːɹ ðiːz skɹˈʌbz?|Expresso_ex03_happy
+/content/data/processed_24k/Expresso/ex04/ex04_whisper_00324.wav|fˈaɪt klˈʌb ɪz wˌʌn.|Expresso_ex04_whisper
+/content/data/processed_24k/ESD/Speaker_0020/0020_surprise_06_04904.wav|ðɪs wʌzðə twˈɛnti fˈɪfθ ʌv noʊvˈɛmbɚ, sˈɛvəntˌiːn ˈeɪɾi θɹˈiː.|ESD_0020_surprise
+/content/data/processed_24k/Expresso/ex04/ex04_laughing_00071.wav|lˈæf ðɛɹz θɹˈiː tˈaɪmɚz sˈɛt.|Expresso_ex04_laughing
+/content/data/processed_24k/Expresso/ex01/ex01_sad_00260.wav|ɐ bˈɑːks kˈʌɾɚ ɔːɹ ɐ skɹˈuːdɹaɪvɚ?|Expresso_ex01_sad
+/content/data/processed_24k/Expresso/ex01/ex01_happy_00021.wav|bɹˈɪŋ pˈɑːpkɔːɹn ænd ɐ blˈæŋkɪt!|Expresso_ex01_happy
+/content/data/processed_24k/ESD/Speaker_0014/0014_anger_04_02946.wav|fˈɜː flˈuː θɹuː ðɪ ˈɛɹ, tˈiːθ nˈæʃt.|ESD_0014_anger
+/content/data/processed_24k/Expresso/ex03/ex03_enunciated_00010.wav|ɪz ðæt səksˈɛs?|Expresso_ex03_enunciated
+/content/data/processed_24k/ESD/Speaker_0016/0016_neutral_05_01953.wav|ðeɪ wɛnt ˌʌp tə ðə dˈɑːɹk mˈæs dʒˈɑːb hæd pˈɔɪntᵻd ˈaʊt.|ESD_0016
+/content/data/processed_24k/ESD/Speaker_0011/0011_happiness_03_03102.wav|aɪ hæv ɐ sˈuːθseɪɚ.|ESD_0011_happiness
+/content/data/processed_24k/ESD/Speaker_0013/0013_anger_04_01232.wav|wˌaɪ ʃˌʊd ˈaɪ kˈɛɹ ðˌoʊ dˈeɪvɪdz lˈɪps wɜː twˈɪtʃɪŋ?|ESD_0013_anger
+/content/data/processed_24k/Expresso/ex02/ex02_default_emphasis_00186.wav|ðæts bˈɛɾɚ ðɐn sˈɛksiɪst mˈæn ˈæstɚɹˌɪsk ɐlˈaɪv.ˈæstɚɹˌɪsk|Expresso_ex02_emphasis
+/content/data/processed_24k/Expresso/ex02/ex02_default_00380.wav|juː kæn lˈɔɡ ˌɪntʊ jʊɹ ɐkˈaʊnt ˌɛni tˈaɪm ænd sˈɛnd ɐ mˈɛsɪdʒ tə jʊɹ kˈaʊnsəlɚ tə ɡɛt tˈaɪmli ænd θˈɔːtfəl ɹᵻspˈɑːnsᵻz.|Expresso_ex02_default
+/content/data/processed_24k/Expresso/ex03/ex03_whisper_00097.wav|dˈuː juː wˈɔnt tə nˈoʊ mˈɔːɹ ɐbˌaʊt ˌɛni ʌv ðiːz ɪn pɚtˈɪkjʊlɚ?|Expresso_ex03_whisper
+/content/data/processed_24k/ESD/Speaker_0014/0014_neutral_04_03572.wav|aɪɐm fɹʌm tˈaʊəl lˈænd.|ESD_0014
+/content/data/processed_24k/ESD/Speaker_0016/0016_neutral_05_02072.wav|aɪɐm fɹʌm tˈaʊəl lˈænd.|ESD_0016
+/content/data/processed_24k/ESD/Speaker_0020/0020_neutral_06_04019.wav|tˈɑːm nˈaʊ lˈɛt ˌaʊɚɹ ˈæɹoʊz flˈaɪ!|ESD_0020
+/content/data/processed_24k/Expresso/ex03/ex03_default_00155.wav|mˌɛdɪtˈeɪʃən hˈæzbiːn kˈænsəld.|Expresso_ex03_default
+/content/data/processed_24k/ESD/Speaker_0018/0018_sadness_06_00896.wav|kənfˈɛs ðæt juː ˈoʊpənd ðə θˈɜːtiːnθ dˈɔːɹ.|ESD_0018_sadness
+/content/data/processed_24k/ESD/Speaker_0020/0020_sadness_06_04338.wav|ˌaʊɚ θˈæŋks tə ɡˈɑːdz ˈoʊθ.|ESD_0020_sadness
+/content/data/processed_24k/ESD/Speaker_0016/0016_happiness_05_01765.wav|ðeɪ ˈeɪt bˈiːf æt ðə bˈʊtʃɚ ʃˈɑːp.|ESD_0016_happiness
+/content/data/processed_24k/Expresso/ex03/ex03_sad_00249.wav|ˈoʊ, kˈuːl, aɪ wɪl dˈuː ðˈæt. θˈæŋks!|Expresso_ex03_sad
+/content/data/processed_24k/Expresso/ex04/ex04_whisper_00256.wav|ðə vˈɔɪsᵻz tˈoʊld mˌiː tə dˈuː ɪt.|Expresso_ex04_whisper
+/content/data/processed_24k/ESD/Speaker_0014/0014_happiness_04_03305.wav|stˈɪl juː ˈoʊ ɪɾ ɐ dˈuːɾi.|ESD_0014_happiness
+/content/data/processed_24k/Expresso/ex03/ex03_confused_00231.wav|fˌɜːðɚmˈɔːɹ, lˈændi nˈoʊɾᵻd ɐ stɹˈɔŋ tˈɛndənsi tə diːˈɛmfɐsˌaɪz pˌɜːsənˈælᵻɾi, ɔːɹ pˈɜːsənlˈɛvəl kˌæɹɪktɚɹˈɪstɪks.|Expresso_ex03_confused
+/content/data/processed_24k/Expresso/ex01/ex01_laughing_00166.wav|ænd dˈaʊnloʊd ɐdˈoʊbi fˈoʊɾoʊʃˌɑːp.|Expresso_ex01_laughing
+/content/data/processed_24k/Expresso/ex04/ex04_default_00201.wav|ɪt wʌz lˈaɪk ɐ wˈiːkli wˈeɪdʒ.|Expresso_ex04_default
+/content/data/processed_24k/ESD/Speaker_0015/0015_neutral_05_00475.wav|kæn jʊɹ nˈeɪm biː mˈɔːɹ hɪlˈɛɹiəs?|ESD_0015
+/content/data/processed_24k/ESD/Speaker_0015/0015_anger_04_04506.wav|aɪm æz bˈæd æz aɪ kæn bˈiː.|ESD_0015_anger
+/content/data/processed_24k/ESD/Speaker_0019/0019_happiness_06_02012.wav|hˌaʊ ðeɪ wɛnt tə ðə mˈaʊntɪnz tʊ ˈiːt nˈʌts.|ESD_0019_happiness
+/content/data/processed_24k/RAVDESS/Actor_18/03-01-07-01-02-01-18.wav|dˈɑːɡz ɑːɹ sˈɪɾɪŋ baɪ ðə dˈɔːɹ.|Actor_18_disgust
+/content/data/processed_24k/ESD/Speaker_0016/0016_sadness_05_02621.wav|ɐ spˈɛʃəl pˈɑːt tˈuː.|ESD_0016_sadness
+/content/data/processed_24k/ESD/Speaker_0016/0016_happiness_05_01852.wav|aɪ hæv ɐ sˈuːθseɪɚ.|ESD_0016_happiness
+/content/data/processed_24k/Expresso/ex04/ex04_whisper_00331.wav|kˈɔːl dʒˈoʊsəf ˈɛvənz, ɹˈaɪt?|Expresso_ex04_whisper
+/content/data/processed_24k/Expresso/ex02/ex02_enunciated_00198.wav|oʊkˈeɪ, ɑːɹ juː hˈæpi nˈaʊ?|Expresso_ex02_enunciated
+/content/data/processed_24k/Expresso/ex01/ex01_confused_00124.wav|hiː mˈʌst lˈʌv plˈeɪɪŋ ɐ ɹˈoʊbɑːt!|Expresso_ex01_confused
+/content/data/processed_24k/ESD/Speaker_0012/0012_sadness_04_00302.wav|ðæt aɪ ˈoʊ maɪ θˈæŋks tə juː.|ESD_0012_sadness
+/content/data/processed_24k/ESD/Speaker_0013/0013_surprise_04_02547.wav|ænd ɔnðə tˈɑːp ʌv ðˌɛm, kˈeɪm wˈɪni, ðə kjˈuːt bˈɛɹ.|ESD_0013_surprise
+/content/data/processed_24k/ESD/Speaker_0017/0017_surprise_05_04455.wav|jʊɹ mˈɪdʒɪt wˈaɪf nˈɛvɚ kæn sˈɪŋ ɐ sˈɔŋ.|ESD_0017_surprise
+/content/data/processed_24k/Expresso/ex02/ex02_whisper_00186.wav|wˌʌt ɑːɹ sˌʌm bˈʊk klˈʌbz ɪn mˌɪniːˈæpəlɪs?|Expresso_ex02_whisper
+/content/data/processed_24k/Expresso/ex01/ex01_happy_00226.wav|juː nˈoʊ, ɪf juː dˈuː ɡˌoʊ ˈaʊt wɪð bɪˈɑːŋkə, juːd biː sˈɛt.|Expresso_ex01_happy
+/content/data/processed_24k/ESD/Speaker_0015/0015_sadness_05_00775.wav|ænd ðə nˈɛkst dˈeɪ. nˈɜːs wɪl biː ɹᵻlˈiːst.|ESD_0015_sadness
+/content/data/processed_24k/Expresso/ex02/ex02_confused_00096.wav|wˌʌts wɪððə lˈʊk?|Expresso_ex02_confused
+/content/data/processed_24k/ESD/Speaker_0017/0017_happiness_05_03366.wav|wˌaɪ hɐz ðɪs ˈɛɡ nˌɑːt bɹˈoʊkən?|ESD_0017_happiness
+/content/data/processed_24k/Expresso/ex03/ex03_happy_00349.wav|ɪts nˌɑːt ɡˌoʊɪŋ təbi wˈɪndi tədˈeɪ ɪn bɹˈændən.|Expresso_ex03_happy
+/content/data/processed_24k/ESD/Speaker_0014/0014_happiness_04_03171.wav|hˈaʊ ɑːɹ juː, dˈɪɹ tʃˈaɪld?|ESD_0014_happiness
+/content/data/processed_24k/Expresso/ex03/ex03_laughing_00248.wav|aɪm sˈɑːɹi, aɪ dˈoʊnt hæv ðæt ˌɪnfɚmˈeɪʃən, haʊˈɛvɚ, təmˈɑːɹoʊ ɪn lˌɑːs ˈændʒəlɪs, kˌælɪfˈɔːɹniə ɪt wɪl biː pˈɑːɹtli klˈaʊdi wɪð ɐ hˈaɪ ʌv fˈɔːɹɾi ænd lˈoʊz dˌaʊn tə nˈaɪntiːn dᵻɡɹˈiːz fˈæɹənhˌaɪt.|Expresso_ex03_laughing
+/content/data/processed_24k/ESD/Speaker_0020/0020_surprise_06_04662.wav|aɪ hæv bˈʌnbɛɹid ˈɔːl ˌoʊvɚ ɡˈoʊt ˌɔn tˈuː sˈɛpɹət əkˈeɪʒənz.|ESD_0020_surprise
+/content/data/processed_24k/ESD/Speaker_0016/0016_sadness_05_02428.wav|ɐ lˈɑːɹdʒ flˈæt fˈɛɹi bˈoʊt wʌz mˈʊɹd bᵻsˌaɪdɪt.|ESD_0016_sadness
+/content/data/processed_24k/Expresso/ex03/ex03_confused_00076.wav|wˌʌt ɪz ðə pˈɔɪnt ʌv dʒˈeɪlɪŋ hˌɪm?|Expresso_ex03_confused
+/content/data/processed_24k/Expresso/ex02/ex02_enunciated_00372.wav|dˈʌz ʃiː hæv vˈɪʒənz ʌvðɪ ˌɑːɹmɐɡˈɛdən, spˈiːk ɪn tˈʌŋz?|Expresso_ex02_enunciated
+/content/data/processed_24k/ESD/Speaker_0019/0019_sadness_06_02873.wav|ænd ʃiː kˈɔːt æt ðə bɹˈoʊtʃ.|ESD_0019_sadness
+/content/data/processed_24k/ESD/Speaker_0019/0019_surprise_06_02960.wav|mˈɪdjɪɹ ɪz dˈeɪ, ʃˈaɪɚ jˈɪɹ.|ESD_0019_surprise
+/content/data/processed_24k/Expresso/ex04/ex04_happy_00067.wav|dˈʌz jˈiːst ɹˈaɪz?|Expresso_ex04_happy
+/content/data/processed_24k/ESD/Speaker_0015/0015_anger_04_04636.wav|lˈɛt ðə ɡlˈæs ɡlˈoʊb bˈiː.|ESD_0015_anger
+/content/data/processed_24k/Expresso/ex04/ex04_laughing_00011.wav|tɹˈuː, bˌʌt, jʊɹ ðə smˈɑːɹɾɪst, ɹˈaɪt?|Expresso_ex04_laughing
+/content/data/processed_24k/Expresso/ex04/ex04_happy_00321.wav|aɪ θˈɪŋk ðə ʃˈɛɹz ɑːɹ ɡˈʊd vˈæljuː.|Expresso_ex04_happy
+/content/data/processed_24k/ESD/Speaker_0017/0017_surprise_05_04558.wav|sˈʌtʃ tˈuːnz ɑːɹ dʒˈɔɪ tʊ ɐ dˈænsɪŋ fˈeɪ.|ESD_0017_surprise
+/content/data/processed_24k/ESD/Speaker_0018/0018_anger_05_04781.wav|hˌuː ɪz bˌɪn ɹᵻpˈiːɾɪŋ ˈɔːl ðæt hˈɑːɹd stˈʌf tə juː?|ESD_0018_anger
+/content/data/processed_24k/ESD/Speaker_0018/0018_surprise_06_01324.wav|ˈɔːl ðɪs hæv wiː wˈʌn baɪ ˌaʊɚ lˈeɪbɚ.|ESD_0018_surprise
+/content/data/processed_24k/Expresso/ex01/ex01_sad_00301.wav|oʊkˈeɪ, ɪz ðæt ɪz ðæt ɡlˈʌvɚ?|Expresso_ex01_sad
+/content/data/processed_24k/ESD/Speaker_0019/0019_happiness_06_02198.wav|wˌʌt dˈuː juː θˈɪŋk ʌv ðɪs kwˈɛstʃən?|ESD_0019_happiness
+/content/data/processed_24k/ESD/Speaker_0013/0013_sadness_04_02387.wav|pˈɔːlz tˈiːθ ˈeɪkt bɪkˈʌz ʌv lˈɛmən.|ESD_0013_sadness
+/content/data/processed_24k/ESD/Speaker_0015/0015_happiness_04_04884.wav|ðə nˈeɪm ɹˈiəli ɪz ðɪ ˈeɪdʒɛdɪdʒd mˈæn.|ESD_0015_happiness
+/content/data/processed_24k/ESD/Speaker_0016/0016_anger_05_01486.wav|wˌʌt wʊd ðeɪ dˈuː æt ðɪ ˈɛnd ʌvðə jˈɪɹ?|ESD_0016_anger
+/content/data/processed_24k/Expresso/ex02/ex02_confused_00167.wav|dˈuː juː bɹˈɪŋ hɜː ðə hˈɑːt tʃˈɑːklət?|Expresso_ex02_confused
+/content/data/processed_24k/ESD/Speaker_0016/0016_surprise_05_02999.wav|dˈuː juː hæv ˈɛnɪθˌɪŋ ɪn mˈaɪnd?|ESD_0016_surprise
+/content/data/processed_24k/ESD/Speaker_0020/0020_anger_06_03500.wav|ðə lˈeɪdɪbˌʌɡ tˈoʊld ðˌɛm pɹˈaʊdli.|ESD_0020_anger
+/content/data/processed_24k/ESD/Speaker_0019/0019_sadness_06_02594.wav|ðə nˈæstiɪst θˈɪŋz ðeɪ sˈɔː wɜː ðə kˈɑːbwɛbz.|ESD_0019_sadness
+/content/data/processed_24k/Expresso/ex04/ex04_laughing_00133.wav|ɔːlɹˈaɪt!|Expresso_ex04_laughing
+/content/data/processed_24k/ESD/Speaker_0011/0011_surprise_03_04245.wav|aɪɐm ɡˌoʊɪŋ tə ɡˌoʊ bˈæk hˈoʊm.|ESD_0011_surprise
+/content/data/processed_24k/Expresso/ex02/ex02_enunciated_00080.wav|lˈʊk ˈaʊt bᵻhˈaɪnd juː!|Expresso_ex02_enunciated
+/content/data/processed_24k/Expresso/ex01/ex01_default_00379.wav|sˌoʊ kəŋɡɹˈæts tə mˈɜːɹeɪ.|Expresso_ex01_default
+/content/data/processed_24k/ESD/Speaker_0011/0011_sadness_03_03555.wav|ˈændi wʌts ðə ɡˈaɪ tə ɡˈɪmbəl.|ESD_0011_sadness
+/content/data/processed_24k/Expresso/ex03/ex03_whisper_00351.wav|ænd aɪ wʌz pˈʊɾɪŋ ɪɾ ˈɔːl ˈɔn juː.|Expresso_ex03_whisper
+/content/data/processed_24k/ESD/Speaker_0013/0013_happiness_04_01360.wav|tʃˈæptɚ tˈɛn ɐ wˈɔːɹm wˈɛlkʌm.|ESD_0013_happiness
+/content/data/processed_24k/Expresso/ex03/ex03_default_00147.wav|ˌoʊkˈeɪ, dˈænjəl mˈɪlɚ. wˌʌt wʌz ɪt juː wˈɔntᵻd tə sˈeɪ?|Expresso_ex03_default
+/content/data/processed_24k/Expresso/ex01/ex01_default_emphasis_00194.wav|ænd ðɛɹz ɐn ɑːpɚtˈuːnᵻɾi hˈɪɹ tʊ ɛmbɹˈeɪs ðə bˈɑːɾəm ænd mˌeɪk sˌʌm ɹˈiːəl tʃˈeɪndʒ.|Expresso_ex01_emphasis
+/content/data/processed_24k/ESD/Speaker_0014/0014_sadness_04_04141.wav|wˌaɪ ʃˌʊd aɪ pˈɜːtʃɪs maɪ ˈoʊn?|ESD_0014_sadness
+/content/data/processed_24k/ESD/Speaker_0011/0011_anger_03_02500.wav|ðə nˈaɪn ðɪ ˈɛɡz, aɪ kˈiːp.|ESD_0011_anger
+/content/data/processed_24k/ESD/Speaker_0016/0016_sadness_05_02634.wav|bˌʌt θˈɪŋz hˈævənt tʃˈeɪndʒ jˈɛt.|ESD_0016_sadness
+/content/data/processed_24k/RAVDESS/Actor_03/03-01-06-02-02-02-03.wav|dˈɑːɡz ɑːɹ sˈɪɾɪŋ baɪ ðə dˈɔːɹ.|Actor_03_strong_fearful
+/content/data/processed_24k/ESD/Speaker_0012/0012_happiness_03_04862.wav|ʃiː sˈɛd ɪn sʌbdˈuːd vˈɔɪs.|ESD_0012_happiness
+/content/data/processed_24k/ESD/Speaker_0017/0017_sadness_05_04150.wav|ɪts mˌiː pˈɪɡ lˈɪt, hˈɛlp hˈɛlp!|ESD_0017_sadness
+/content/data/processed_24k/ESD/Speaker_0015/0015_neutral_05_00207.wav|ðæt wʌz hɪz tʃˈiːf θˈɔːt.|ESD_0015
+/content/data/processed_24k/ESD/Speaker_0019/0019_anger_06_01636.wav|lˈɛt ðə ɡlˈæs ɡlˈoʊb bˈiː.|ESD_0019_anger
+/content/data/processed_24k/Expresso/ex02/ex02_enunciated_00089.wav|kəmpˈɛɹɪŋ ænd kəntɹˈæstɪŋ ðə vˈɛɹiəs əfˈɛndɚ tˈaɪps ɪz ˈæstɚɹˌɪsk ɪlˈuːmᵻnˌeɪɾɪŋ ˈæstɚɹˌɪsk.|Expresso_ex02_enunciated
+/content/data/processed_24k/ESD/Speaker_0017/0017_neutral_05_03969.wav|tʃˈuː lˈiːvz kwˈɪkli, sˈɛd ɹˈæbɪt.|ESD_0017
+/content/data/processed_24k/Expresso/ex01/ex01_happy_00055.wav|hˈæpi ɹˈiːdɪŋ!|Expresso_ex01_happy
+/content/data/processed_24k/ESD/Speaker_0016/0016_neutral_05_02133.wav|wiː hɐvbɪn fˈaɪn, hˈævənt wiː?|ESD_0016
+/content/data/processed_24k/Expresso/ex01/ex01_laughing_00060.wav|lˈæf juː ɡˈaɪz dˈuː ɹˈiːəlaɪz bɹˈɛθ ðæt juː bˈɔːt wˈʌn ʌvðə mˈoʊst ɪndˈɛpθ, kˈʌstəmˌaɪzəbəl fˈoʊnz ɔnðə mˈɑːɹkɪt, ɹˈaɪt? bɹˈɛθ|Expresso_ex01_laughing
+/content/data/processed_24k/ESD/Speaker_0019/0019_surprise_06_03227.wav|ɪt wʊd biː ɐ hˈɑːɹd tʃˈɔɪs.|ESD_0019_surprise
+/content/data/processed_24k/ESD/Speaker_0019/0019_surprise_06_02922.wav|aɪ θˈɔːt juː mˈɛnt hˌaʊ ˈoʊld ɑːɹ juː?|ESD_0019_surprise
+/content/data/processed_24k/ESD/Speaker_0017/0017_sadness_05_04381.wav|wˌɛɹ ɑːɹ juː ɡˈoʊɪŋ?|ESD_0017_sadness
+/content/data/processed_24k/ESD/Speaker_0020/0020_happiness_06_03901.wav|fˈaɪv hˈʌndɹɪd ænd wˈʌn mˈɪliən ɹˈaɪt?|ESD_0020_happiness
+/content/data/processed_24k/Expresso/ex02/ex02_whisper_00147.wav|dʒˈæksᵻz ˈɔːlweɪz pˈeɪ ˈɔf ðɛɹ dˈɛts.|Expresso_ex02_whisper
+/content/data/processed_24k/ESD/Speaker_0014/0014_anger_04_02896.wav|ænd ðɛɹ juːl fˈaɪnd ɐ snˈæp dɹˈæɡən flˈaɪ.|ESD_0014_anger
+/content/data/processed_24k/ESD/Speaker_0015/0015_sadness_05_00838.wav|nˈoʊ, sˈɛd pˈɪɡi kˈɛɹləsli.|ESD_0015_sadness
+/content/data/processed_24k/ESD/Speaker_0013/0013_anger_04_01157.wav|ɪt lˈʊks mˈʌtʃ bˈɛɾɚ.|ESD_0013_anger
+/content/data/processed_24k/Expresso/ex02/ex02_laughing_00183.wav|aɪ hæv hˈɜːd ʌv wˈɪkᵻd lˈʌvli. θˈæŋks fɚðɪ ˈɪnfoʊ!|Expresso_ex02_laughing
+/content/data/processed_24k/ESD/Speaker_0018/0018_surprise_06_01171.wav|ænd wʌt ɑːɹ dˈoʊvz. ænd wʌt ɑːɹ dˈoʊvz.|ESD_0018_surprise
+/content/data/processed_24k/Expresso/ex03/ex03_default_emphasis_00162.wav|ðæt dʒˈækɪt lˈʊks ˈæstɚɹˌɪsk tˈuː ˈæstɚɹˌɪsk bˈɪɡ ˈɔn juː.|Expresso_ex03_emphasis
+/content/data/processed_24k/Expresso/ex01/ex01_happy_00176.wav|wˈʌn kæn nˈɛvɚ hæv ɪnˈʌf swˈɪmsuːts.|Expresso_ex01_happy
+/content/data/processed_24k/Expresso/ex02/ex02_default_00140.wav|sˌʌm kˈaɪnd ʌv tˈɪt fɔːɹ tˈæt?|Expresso_ex02_default
+/content/data/processed_24k/Expresso/ex01/ex01_default_essentials_00031.wav|juː mˈɪst ɐ kˈɔːl fɹʌm nˈaɪn fˈaɪv fˈɔːɹ, wˈʌn nˈaɪn θɹˈiː, wˈʌn sˈɪks tˈuː tˈuː.|Expresso_ex01_essentials
+/content/data/processed_24k/RAVDESS/Actor_24/03-01-03-01-02-02-24.wav|dˈɑːɡz ɑːɹ sˈɪɾɪŋ baɪ ðə dˈɔːɹ.|Actor_24_happy
+/content/data/processed_24k/ESD/Speaker_0012/0012_happiness_03_04610.wav|tʃˈæptɚ tˈɛn ɐ wˈɔːɹm wˈɛlkʌm.|ESD_0012_happiness
+/content/data/processed_24k/Expresso/ex03/ex03_happy_00231.wav|fˌɜːðɚmˈɔːɹ, lˈændi nˈoʊɾᵻd ɐ stɹˈɔŋ tˈɛndənsi tə diːˈɛmfɐsˌaɪz pˌɜːsənˈælᵻɾi, ɔːɹ pˈɜːsənlˈɛvəl kˌæɹɪktɚɹˈɪstɪks.|Expresso_ex03_happy
+/content/data/processed_24k/Expresso/ex02/ex02_sad_00007.wav|ɐ sˈuːpɚ lˈɔɪɚ fɚðə sˈuːpɚstˌɑːɹz?|Expresso_ex02_sad
+/content/data/processed_24k/Expresso/ex02/ex02_default_00184.wav|ðə pɹˈiːst sˈɛz, "ˈɛnɪbˌɑːdi hæv ˈæstɚɹˌɪsk ˌɛni ˈæstɚɹˌɪsk ɑːbdʒˈɛkʃənz"?|Expresso_ex02_default
+/content/data/processed_24k/ESD/Speaker_0015/0015_neutral_05_00503.wav|hˌaʊ dˈuː juː lˈaɪk juː dˈɜːɾi bˈɜːd!|ESD_0015
+/content/data/processed_24k/ESD/Speaker_0020/0020_anger_06_03576.wav|ɪts pˈɑːɹt ʌv maɪ sˈiːkɹᵻt.|ESD_0020_anger
+/content/data/processed_24k/ESD/Speaker_0020/0020_happiness_06_03678.wav|ˈɔːl maɪ ɡˈʌm tˈɪps ɡɔn æz wˈɛl.|ESD_0020_happiness
+/content/data/processed_24k/ESD/Speaker_0018/0018_sadness_06_01051.wav|aɪɐm ɹˈʌn ˈɔf maɪ fˈiːt.|ESD_0018_sadness
+/content/data/processed_24k/Expresso/ex04/ex04_laughing_00063.wav|lˈæf ðɛɹ juː ɡˈoʊ!|Expresso_ex04_laughing
+/content/data/processed_24k/ESD/Speaker_0020/0020_surprise_06_04906.wav|aɪ wʊd skˈɔf æt ðiːz fˈɑːloʊɚz.|ESD_0020_surprise
+/content/data/processed_24k/ESD/Speaker_0019/0019_neutral_06_02523.wav|ænd ʃiː kˈɔːt æt ðə bɹˈoʊtʃ.|ESD_0019
+/content/data/processed_24k/ESD/Speaker_0012/0012_neutral_04_00065.wav|nˈoʊ, aɪ bˈɜːst ðə bəlˈuːn!|ESD_0012
+/content/data/processed_24k/Expresso/ex02/ex02_confused_00278.wav|ðə pɹəfˈɛsɚ ɡˈɪv juː hˈoʊmwɜːk, tˈuː?|Expresso_ex02_confused
+/content/data/processed_24k/ESD/Speaker_0018/0018_surprise_06_01236.wav|ɐ hˈɪpoʊ lˈaɪvz ɪnðə zˈuː.|ESD_0018_surprise
+/content/data/processed_24k/ESD/Speaker_0019/0019_sadness_06_02747.wav|aɪd ʃˈuːt maɪsˈɛlf. ɐ pˈɔːz.|ESD_0019_sadness
+/content/data/processed_24k/ESD/Speaker_0020/0020_neutral_06_04130.wav|fˈɜːst, ˈɪʃuː ɐ ɹᵻwˈɔːɹd.|ESD_0020
+/content/data/processed_24k/ESD/Speaker_0014/0014_anger_04_02910.wav|ðæts ɐ fˈʊl ɡɹˈoʊn kˈoʊlt.|ESD_0014_anger
+/content/data/processed_24k/ESD/Speaker_0015/0015_happiness_04_04850.wav|ðə nˈaɪn ðɪ ˈɛɡz, aɪ kˈiːp.|ESD_0015_happiness
+/content/data/processed_24k/ESD/Speaker_0017/0017_surprise_05_04468.wav|nˌɑːt mˈʌtʃ jˈuːs ɪz ɪt, sˈæm?|ESD_0017_surprise
+/content/data/processed_24k/ESD/Speaker_0013/0013_neutral_04_01840.wav|kæn aɪ lˈɑːdʒ hˈɪɹ tənˈaɪt?|ESD_0013
+/content/data/processed_24k/ESD/Speaker_0012/0012_happiness_03_04881.wav|ˈælɪs aɪ woʊnt fɚɡˈɛt ɪɾ ɐɡˈɛn.|ESD_0012_happiness
+/content/data/processed_24k/Expresso/ex04/ex04_laughing_00374.wav|lˈæf hiː ɪz hˈʌŋɡɹi fɔːɹ səksˈɛs ænd aɪɐm ðə sˈeɪm.|Expresso_ex04_laughing
+/content/data/processed_24k/ESD/Speaker_0017/0017_neutral_05_04020.wav|kˈɔːld ˈaʊt ðə klˈaʊd.|ESD_0017
+/content/data/processed_24k/ESD/Speaker_0016/0016_happiness_05_01718.wav|ðɪ ˈaʊl flˈuː ˌɪntʊ ɐ bˈʊʃ.|ESD_0016_happiness
+/content/data/processed_24k/Expresso/ex04/ex04_default_emphasis_00013.wav|hiː ɪz ɪn ɐ ˈæstɚɹˌɪsk lˈɑːt ˈæstɚɹˌɪsk ʌv pˈeɪn, ɪɾ ɪz vˈɛɹi dɪstɹˈɛsɪŋ.|Expresso_ex04_emphasis
+/content/data/processed_24k/ESD/Speaker_0019/0019_happiness_06_01874.wav|ʃiː ɪz nˈaʊ tʃˈuːzɪŋ skˈɜːt tə wˈɛɹ.|ESD_0019_happiness
+/content/data/processed_24k/ESD/Speaker_0015/0015_surprise_05_01156.wav|aɪ wʊd skˈɔf æt ðiːz fˈɑːloʊɚz.|ESD_0015_surprise
+/content/data/processed_24k/ESD/Speaker_0014/0014_neutral_04_03575.wav|ðɪs tˈɜːn ɡoʊz tə ðə hˈɪl.|ESD_0014
+/content/data/processed_24k/Expresso/ex01/ex01_happy_00069.wav|sˌoʊ wˌʌɾəl ɪt bˈiː?|Expresso_ex01_happy
+/content/data/processed_24k/ESD/Speaker_0015/0015_surprise_05_01121.wav|ˈæsk ɡˈɑːd tə hˈɛlp juː.|ESD_0015_surprise
+/content/data/processed_24k/ESD/Speaker_0017/0017_neutral_05_03903.wav|ðə sˈɔŋ ɪz ɹˈiəli lˈaʊdɪŋ ˌɔn ɐ ɡˈeɪt.|ESD_0017
+/content/data/processed_24k/RAVDESS/Actor_12/03-01-07-01-02-02-12.wav|dˈɑːɡz ɑːɹ sˈɪɾɪŋ baɪ ðə dˈɔːɹ.|Actor_12_disgust
+/content/data/processed_24k/Expresso/ex01/ex01_sad_00027.wav|hˌuː æm aɪ təbi mˈɑːdɪst?|Expresso_ex01_sad
+/content/data/processed_24k/ESD/Speaker_0020/0020_happiness_06_03663.wav|ænd wiː ɑːɹ sˌoʊ θˈɜːsti!|ESD_0020_happiness
+/content/data/processed_24k/Expresso/ex03/ex03_enunciated_00079.wav|hˌuː kˈɛɹz ɐbˌaʊt ðˈæt?|Expresso_ex03_enunciated
+/content/data/processed_24k/ESD/Speaker_0020/0020_happiness_06_03826.wav|bˈɔːɹn wˈʌns ˈɛvɹi wˈʌn hˈʌndɹɪd jˈɪɹz, dˈaɪz ɪn flˈeɪmz!|ESD_0020_happiness
+/content/data/processed_24k/ESD/Speaker_0014/0014_anger_04_02789.wav|ɪnwˌɪtʃ fˈɑːks lˈuːzᵻz ɐ tˈeɪl ænd ɪts ˈɛldɚ sˈɪstɚ fˈaɪndz wˌʌn.|ESD_0014_anger
+/content/data/processed_24k/ESD/Speaker_0019/0019_neutral_06_02442.wav|ænd hɐz juː slˈeɪn hˌɪm?|ESD_0019
+/content/data/processed_24k/Expresso/ex02/ex02_confused_00071.wav|ðə ɡˈeɪlə tʊ ˈɛnd ˈɔːl ɡˈeɪləz.|Expresso_ex02_confused
+/content/data/processed_24k/ESD/Speaker_0015/0015_surprise_05_01176.wav|ðɪ ˈɛnd pˈɑːɹt ɪz fˈɪʃ mˈaʊθ.|ESD_0015_surprise
+/content/data/processed_24k/RAVDESS/Actor_23/03-01-06-02-01-01-23.wav|kˈɪdz ɑːɹ tˈɔːkɪŋ baɪ ðə dˈɔːɹ.|Actor_23_strong_fearful
+/content/data/processed_24k/ESD/Speaker_0018/0018_surprise_06_01227.wav|ðɪ ˈɑːɹt kwˈaɪt sˈeɪf wɪð mˌiː.|ESD_0018_surprise
+/content/data/processed_24k/ESD/Speaker_0019/0019_anger_06_01749.wav|hɜː kˈaɪnd ænd fˈɜːm ɡlˈæns.|ESD_0019_anger
+/content/data/processed_24k/Expresso/ex02/ex02_enunciated_00236.wav|ɡɑːt ɐn ˈʌpdeɪt fɔːɹ mˌiː?|Expresso_ex02_enunciated
+/content/data/processed_24k/Expresso/ex04/ex04_whisper_00021.wav|ʃˈʌt jʊɹ mˈaʊθ!|Expresso_ex04_whisper
+/content/data/processed_24k/ESD/Speaker_0013/0013_sadness_04_02112.wav|ˈæstɚɹˌɔɪd θɹˈiː hˈʌndɹɪd ænd twˈɛnti fˈaɪv.|ESD_0013_sadness
+/content/data/processed_24k/Expresso/ex02/ex02_whisper_00231.wav|ðæts ɡɹˈeɪt! aɪ ɹˌɛkəmˈɛnd "ðə lˈæst kˈɑːləni" ænd "ðə mɛfˈɪstoʊ klˈʌb" ɪf juː hˈævənt ɹˈɛd ðoʊz tˈuː jˈɛt.|Expresso_ex02_whisper
+/content/data/processed_24k/ESD/Speaker_0015/0015_happiness_05_00128.wav|ðiːz wˈɜːdz bᵻhˌaɪnd ðɪ ˈɪɹz ɪz nˈɑːnsəns.|ESD_0015_happiness
+/content/data/processed_24k/ESD/Speaker_0011/0011_sadness_03_03883.wav|ɐnˈʌðɚ wˌʌn, tˈɛn θˈaʊzənd dˈɑːlɚz.|ESD_0011_sadness
+/content/data/processed_24k/ESD/Speaker_0014/0014_happiness_04_03393.wav|nˈaʊ aɪ ˌʌndɚstˈænd.|ESD_0014_happiness
+/content/data/processed_24k/Expresso/ex02/ex02_default_emphasis_00109.wav|nˈoʊ, ɪt woʊnt ɹˈeɪn ˈæstɚɹˌɪsk tənˈaɪt ˈæstɚɹˌɪsk ɪn lˈɛhaɪ.|Expresso_ex02_emphasis
+/content/data/processed_24k/Expresso/ex01/ex01_default_emphasis_00046.wav|wiː ʃˌʊd sˈiː sˌʌm ɹˈeɪnfɔːl lˈeɪɾɚ tədˈeɪ.|Expresso_ex01_emphasis
+/content/data/processed_24k/RAVDESS/Actor_16/03-01-05-02-02-01-16.wav|dˈɑːɡz ɑːɹ sˈɪɾɪŋ baɪ ðə dˈɔːɹ.|Actor_16_strong_angry
+/content/data/processed_24k/ESD/Speaker_0012/0012_anger_03_04513.wav|slˈæm ðə dˈɔːɹz ænd wˈɛdʒ ðˌɛm!|ESD_0012_anger
+/content/data/processed_24k/ESD/Speaker_0015/0015_neutral_05_00387.wav|nˈaʊ kwˈɪkɚ ðə fˈɪdəl wˈɛnt.|ESD_0015
+/content/data/processed_24k/ESD/Speaker_0019/0019_sadness_06_02598.wav|ðˈɛn wiː ˈɔːl sˈeɪ ɑːhˈɑː!|ESD_0019_sadness
+/content/data/processed_24k/ESD/Speaker_0015/0015_surprise_05_00932.wav|ðɪs jˈuːzd təbi dʒˈɛɹiz ˌɑːkjʊpˈeɪʃən.|ESD_0015_surprise
+/content/data/processed_24k/Expresso/ex03/ex03_whisper_00292.wav|hˌuː wɜː juː ɹᵻfˈɜːɹɪŋ tʊ æz ɐ nˈʌtdʒɑːb?|Expresso_ex03_whisper
+/content/data/processed_24k/RAVDESS/Actor_15/03-01-07-02-01-02-15.wav|kˈɪdz ɑːɹ tˈɔːkɪŋ baɪ ðə dˈɔːɹ.|Actor_15_strong_disgust
+/content/data/processed_24k/ESD/Speaker_0020/0020_surprise_06_04926.wav|ðɪ ˈɛnd pˈɑːɹt ɪz fˈɪʃ mˈaʊθ.|ESD_0020_surprise
+/content/data/processed_24k/Expresso/ex04/ex04_happy_00012.wav|ðə flˈaɪɪŋ skˈɑːtsmən hɐz dʒˈɑːni lˈiː mˈɪlɚɹ ɪn ɪt ænd ɪts ɐbˌaʊt ɐ bˈɑːbslɛdɪŋ tˈiːm.|Expresso_ex04_happy
+/content/data/processed_24k/ESD/Speaker_0018/0018_surprise_06_01468.wav|hˌaʊ kʊd aɪ dˈɪɡ bˈɜːɹoʊz wɪð ʃˈɔːɹt tˈoʊ nˈeɪlz?|ESD_0018_surprise
+/content/data/processed_24k/ESD/Speaker_0017/0017_happiness_05_03490.wav|kæn aɪ lˈɑːdʒ hˈɪɹ tənˈaɪt?|ESD_0017_happiness
+/content/data/processed_24k/ESD/Speaker_0019/0019_happiness_06_01925.wav|ðə hˈæɡ lˈʊkt ɪnðə stˈoʊv.|ESD_0019_happiness
+/content/data/processed_24k/Expresso/ex04/ex04_confused_00009.wav|ɪt kˈeɪm ɐ bˈɪt lˈeɪt.|Expresso_ex04_confused
+/content/data/processed_24k/ESD/Speaker_0016/0016_surprise_05_02764.wav|hiː mˌaɪt kˈɔːl ɪt, fɔːɹ ɛɡzˈæmpəl.|ESD_0016_surprise
+/content/data/processed_24k/Expresso/ex04/ex04_sad_00084.wav|ˈɛvɹɪwˌʌn ɪz tˈeɪkɪŋ ɐ bɹˈɛθ ænd wˈeɪɾɪŋ.|Expresso_ex04_sad
+/content/data/processed_24k/ESD/Speaker_0016/0016_happiness_05_01846.wav|ʃiː ænd ˈaɪ ɑːɹ ɹˈʌnɪŋ ɐ nˈɛk ænd nˈɛk ɹˈeɪs.|ESD_0016_happiness
+/content/data/processed_24k/ESD/Speaker_0020/0020_surprise_06_04653.wav|ðeɪ wɛnt ˌʌp tə ðə dˈɑːɹk mˈæs dʒˈɑːb hæd pˈɔɪntᵻd ˈaʊt.|ESD_0020_surprise
+/content/data/processed_24k/ESD/Speaker_0020/0020_sadness_06_04396.wav|kənfˈɛs ðæt juː ˈoʊpənd ðə θˈɜːtiːnθ dˈɔːɹ.|ESD_0020_sadness
+/content/data/processed_24k/ESD/Speaker_0013/0013_anger_04_01282.wav|ðeɪ hɐdbɪn nˈeɪmd tˈɑːm ænd dʒˈɛɹi.|ESD_0013_anger
+/content/data/processed_24k/Expresso/ex01/ex01_enunciated_00192.wav|sˌoʊ aɪ hædtə ɡɛt maɪsˈɛlf bˈæk ɪn ðæt ɪmˈoʊʃənəl plˈeɪs ænd ɡɛt sˈæd ɐɡˈɛn.|Expresso_ex01_enunciated
+/content/data/processed_24k/Expresso/ex03/ex03_happy_00063.wav|wˌʌts ðə bˈɛst θˈɪŋ tə dˈuː?|Expresso_ex03_happy
+/content/data/processed_24k/Expresso/ex02/ex02_whisper_00173.wav|dˈʌmpstɚ dˈaɪvɪŋ æt ðə dˈæns hˈɔːl!|Expresso_ex02_whisper
+/content/data/processed_24k/ESD/Speaker_0016/0016_anger_05_01324.wav|aɪd fˈɑːɹ ɹˈæðɚ ɡˌoʊ wɪðˌaʊt ðˌɛm ðɐn ˈiːt ðˌɛm!|ESD_0016_anger
+/content/data/processed_24k/ESD/Speaker_0013/0013_neutral_04_01942.wav|ænd hɐz juː slˈeɪn hˌɪm?|ESD_0013
+/content/data/processed_24k/Expresso/ex04/ex04_confused_00016.wav|ˈoʊ, nˈoʊ, pˈiːpəl dˈuː.|Expresso_ex04_confused
+/content/data/processed_24k/ESD/Speaker_0016/0016_neutral_05_02054.wav|hiː wʌz kˈɪld baɪ ɐn ˈæɹoʊ.|ESD_0016
+/content/data/processed_24k/ESD/Speaker_0013/0013_neutral_04_01986.wav|ɐ vˈɔɪs sˈɛd: kˈʌm ˈɪn.|ESD_0013
+/content/data/processed_24k/ESD/Speaker_0020/0020_neutral_06_04049.wav|wˈɛl ˈɛnɪhˌaʊ ɪt dˈɪdnt ɹˈeɪn, hiː sˈɛd.|ESD_0020
+/content/data/processed_24k/Expresso/ex01/ex01_whisper_00178.wav|jʊɹ ɡˌoʊɪŋ təbi ɹᵻsˈɪliənt tə sˈʌmθɪŋ mˈiːnɪŋ lˈaɪk ɐ mˈʌsəl.|Expresso_ex01_whisper
+/content/data/processed_24k/ESD/Speaker_0017/0017_anger_05_03217.wav|aɪl sˈɛnd fɔːɹ tˈɑːm tə maɪ bˈuːdwɑːɹ.|ESD_0017_anger
+/content/data/processed_24k/Expresso/ex02/ex02_enunciated_00071.wav|ðə ɡˈeɪlə tʊ ˈɛnd ˈɔːl ɡˈeɪləz.|Expresso_ex02_enunciated
+/content/data/processed_24k/ESD/Speaker_0012/0012_neutral_04_00278.wav|ænd hɪz hˈɑːɹt wˈæɡd wɪð dʒˈɔɪ lˈaɪk ɐ lˈæmz tˈeɪl.|ESD_0012
+/content/data/processed_24k/Expresso/ex02/ex02_default_emphasis_00140.wav|jˈɛs, ɪn ɹˈoʊm ˈæstɚɹˌɪsk təmˈɑːɹoʊ ˈæstɚɹˌɪsk ˌæftɚnˈuːn, lˈʊk fɔːɹ ɹˈeɪn.|Expresso_ex02_emphasis
+/content/data/processed_24k/ESD/Speaker_0017/0017_neutral_05_04037.wav|pˈɔːlz tˈiːθ ˈeɪkt bɪkˈʌz ʌv lˈɛmən.|ESD_0017
+/content/data/processed_24k/ESD/Speaker_0015/0015_sadness_05_00600.wav|sˈɛd ðɪ ɐmˈɛɹɪkən tə tʃaɪnˈiːz.|ESD_0015_sadness
+/content/data/processed_24k/ESD/Speaker_0013/0013_surprise_04_02558.wav|sˈʌtʃ tˈuːnz ɑːɹ dʒˈɔɪ tʊ ɐ dˈænsɪŋ fˈeɪ.|ESD_0013_surprise
+/content/data/processed_24k/Expresso/ex04/ex04_laughing_00298.wav|lˈæf ɹˈeɪtʃəl smˈaɪlz wˈɔːɹmli, kˈɪsᵻz hˌɪm ɔnðə fˈɔːɹhɛd.|Expresso_ex04_laughing
+/content/data/processed_24k/ESD/Speaker_0018/0018_sadness_06_01094.wav|aɪ nˈoʊ hˌaʊ tʊ oʊbˈeɪ ˈɔːɹdɚz.|ESD_0018_sadness
+/content/data/processed_24k/Expresso/ex01/ex01_enunciated_00227.wav|sˈʌmθɪŋ lˈaɪk ɐ bˈɑːbi pˈɪn?|Expresso_ex01_enunciated
+/content/data/processed_24k/Expresso/ex02/ex02_confused_00103.wav|dˈuː juː lˈaɪk ˈæstɚɹˌɪsk fˈiːmeɪl ˈæstɚɹˌɪsk kˈʌmɪŋ ʌv ˈeɪdʒ stˈɔːɹiz?|Expresso_ex02_confused
+/content/data/processed_24k/ESD/Speaker_0014/0014_surprise_04_04446.wav|hˌaʊ tˈɑːm ænd dʒˈɛɹi wɛnt tə vˈɪzɪt mˈɪstɚ sˈæm.|ESD_0014_surprise
+/content/data/processed_24k/ESD/Speaker_0015/0015_sadness_05_00877.wav|ɪt wʊd biː ɐ hˈɑːɹd tʃˈɔɪs.|ESD_0015_sadness
+/content/data/processed_24k/ESD/Speaker_0012/0012_neutral_04_00013.wav|ænd wiː ɑːɹ sˌoʊ θˈɜːsti!|ESD_0012
+/content/data/processed_24k/ESD/Speaker_0015/0015_sadness_05_00603.wav|ɑːɹ juː ɐ ɹˈɛɡjʊlɚ dˈɑːɹki ɹˈiəli?|ESD_0015_sadness
+/content/data/processed_24k/ESD/Speaker_0011/0011_surprise_03_03988.wav|lˈɛt ɡˌoʊ ʌv maɪ tˈɑːp nˈɑːt.|ESD_0011_surprise
+/content/data/processed_24k/ESD/Speaker_0015/0015_anger_04_04732.wav|wˌaɪ ʃˌʊd ˈaɪ kˈɛɹ ðˌoʊ dˈeɪvɪdz lˈɪps wɜː twˈɪtʃɪŋ?|ESD_0015_anger
+/content/data/processed_24k/ESD/Speaker_0018/0018_anger_05_04885.wav|ʃiː hɐz ˈiːʔn ðə tˌæpɪˈoʊkə ˈɔːl ʌv ɪt.|ESD_0018_anger
+/content/data/processed_24k/Expresso/ex01/ex01_enunciated_00281.wav|dˈuː aɪ lˈʊk ðæt dˈɪfɹənt?|Expresso_ex01_enunciated
+/content/data/processed_24k/Expresso/ex01/ex01_laughing_00380.wav|lˈæf bˌʌt aɪm vˈɛɹi kjˈʊɹɹiəs ɐbˌaʊt wʌt mˈaɪndfəlnəs bɹˈɛθ ɛntˈeɪlz tə juː.|Expresso_ex01_laughing
+/content/data/processed_24k/ESD/Speaker_0012/0012_happiness_03_04847.wav|ɪnwˌɪtʃ pˈɪɡlɪt mˈiːts ɐ ˈɛlɪfənt.|ESD_0012_happiness
+/content/data/processed_24k/ESD/Speaker_0011/0011_happiness_03_02918.wav|nˌɑːt mˈʌtʃ jˈuːs ɪz ɪt, sˈæm?|ESD_0011_happiness
+/content/data/processed_24k/ESD/Speaker_0018/0018_sadness_06_00875.wav|ðə hˈæɡ lˈʊkt ɪnðə stˈoʊv.|ESD_0018_sadness
+/content/data/processed_24k/Expresso/ex03/ex03_confused_00178.wav|jˈɛh, nˈɛkst dˈɔːɹ!|Expresso_ex03_confused
+/content/data/processed_24k/ESD/Speaker_0015/0015_neutral_05_00400.wav|ɐ lˈeɪdi, ɪz ˌɔn ˈælɪsᵻz lˈæp!|ESD_0015
+/content/data/processed_24k/ESD/Speaker_0012/0012_surprise_04_00849.wav|wˌʌt klˈɔθ dʌznˌɑːt lˈʊk wˈɜːθ mˈʌtʃ!|ESD_0012_surprise
+/content/data/processed_24k/ESD/Speaker_0014/0014_neutral_04_03558.wav|ɪf ðeɪ mˈʌðɚ nˈuː ɪt.|ESD_0014
+/content/data/processed_24k/ESD/Speaker_0014/0014_sadness_04_03848.wav|ðˈɛn wiː ˈɔːl sˈeɪ ɑːhˈɑː!|ESD_0014_sadness
+/content/data/processed_24k/ESD/Speaker_0016/0016_anger_05_01588.wav|ænd biː wɪð juː,tˈɑːm!|ESD_0016_anger
+/content/data/processed_24k/Expresso/ex03/ex03_happy_00070.wav|wˌʌt ɪz ˈeɪkɔːɹnz ˌoʊvɚɹˈɔːl ɹᵻsˈiːt ʌv ɡˈʌvɚnmənt fˈʌndz ˈɪɹmɑːɹkt fɔːɹ hˈaʊzɪŋ pɹˈɑːdʒɛkts?|Expresso_ex03_happy
+/content/data/processed_24k/ESD/Speaker_0013/0013_sadness_04_02113.wav|ænd wiː ɑːɹ sˌoʊ θˈɜːsti!|ESD_0013_sadness
+/content/data/processed_24k/Expresso/ex04/ex04_default_emphasis_00053.wav|blˈɑːk ˈæstɚɹˌɪsk ˈiː?ˈæstɚɹˌɪsk|Expresso_ex04_emphasis
+/content/data/processed_24k/ESD/Speaker_0011/0011_surprise_03_04172.wav|aɪd dʒˈʌst æz sˈuːn swˈɪm jʊɹ wˈeɪ æz ˈʌðɚz dˈuː.|ESD_0011_surprise
+/content/data/processed_24k/ESD/Speaker_0012/0012_sadness_04_00468.wav|sˈæm wˈeɪvd hɪz ˈɑːɹm vˈeɪɡli.|ESD_0012_sadness
+/content/data/processed_24k/ESD/Speaker_0013/0013_anger_04_01086.wav|ɐ hˈɪpoʊ lˈaɪvz ɪnðə zˈuː.|ESD_0013_anger
+/content/data/processed_24k/Expresso/ex04/ex04_confused_00234.wav|tədˈeɪ ɪn wˈaɪldwʊd ɪts klˈaʊdi, ænd tˈɛmpɹɪtʃɚz ʃˌʊd ɡˌoʊ fɹʌm fˈɔːɹɾi tə fˈɪftiːn.|Expresso_ex04_confused
+/content/data/processed_24k/RAVDESS/Actor_21/03-01-04-01-01-02-21.wav|kˈɪdz ɑːɹ tˈɔːkɪŋ baɪ ðə dˈɔːɹ.|Actor_21_sad
+/content/data/processed_24k/ESD/Speaker_0016/0016_sadness_05_02326.wav|mˈɔnstɚ mˌeɪd ɐ dˈiːp bˈoʊ.|ESD_0016_sadness
+/content/data/processed_24k/ESD/Speaker_0018/0018_neutral_06_00504.wav|ɐ dˈɛfənɪŋ tʃˈɪɹuːpɪŋ ɹˈɛnt ðɪ ˈɛɹ.|ESD_0018
+/content/data/processed_24k/ESD/Speaker_0017/0017_anger_05_03101.wav|ðɪs ɪz dʒˈæk, ðə ɹˈɛlətˌɪvz ʌv tˈɑːm.|ESD_0017_anger
+/content/data/processed_24k/ESD/Speaker_0013/0013_happiness_04_01517.wav|aɪ sˈɛd juː lˈʊkt lˈaɪk ɐn ˈɛɡ, sˌɜː.|ESD_0013_happiness
+/content/data/processed_24k/Expresso/ex01/ex01_laughing_00126.wav|lˈæf wʊd juː lˈaɪk tə kˈænsəl ðə fˈɜːst wˈʌn bɹˈɛθ ɔːɹ ðə sˈɛkənd wˌʌn? lˈæf|Expresso_ex01_laughing
+/content/data/processed_24k/ESD/Speaker_0020/0020_surprise_06_04782.wav|aɪ smˈɛl ðə bɹˈɛθ əvən ˈɪŋɡlɪʃ.|ESD_0020_surprise
+/content/data/processed_24k/ESD/Speaker_0018/0018_anger_05_04783.wav|ɐ dᵻvˈaɪn ɹˈæθ mˌeɪd hɜː blˈuː ˈaɪz ˈɔːfəl.|ESD_0018_anger
+/content/data/processed_24k/ESD/Speaker_0012/0012_anger_03_04368.wav|ðɪ ˈaʊl flˈuː ˌɪntʊ ɐ bˈʊʃ.|ESD_0012_anger
+/content/data/processed_24k/Expresso/ex02/ex02_whisper_00252.wav|hˈæŋ ɡlˈaɪdɪŋ ænd bˈʌndʒiː dʒˈʌmpɪŋ sˈaʊnd skˈɛɹi.|Expresso_ex02_whisper
+/content/data/processed_24k/Expresso/ex04/ex04_laughing_00144.wav|sˈɑːɹi, aɪ kˈænt ˈænsɚ ðæt kwˈɛstʃən, bˌʌt tədˈeɪ ɪn mˈæɹiən, ˌɪɾəl biː sˈʌni ænd tˈɛmpɹɪtʃɚz ʃˌʊd ɡˌoʊ fɹʌm sˈɛvənti tə nˈaɪnti ˈeɪt.|Expresso_ex04_laughing
+/content/data/processed_24k/Expresso/ex04/ex04_whisper_00350.wav|pɹˈaɪd ænd pɹˈɛdʒuːdɪs wʌz ɐnˈʌðɚ hjˈuːdʒ hˈɪt fɹʌm hɜː.|Expresso_ex04_whisper
+/content/data/processed_24k/ESD/Speaker_0012/0012_surprise_04_00704.wav|ɐ dˈɛfənɪŋ tʃˈɪɹuːpɪŋ ɹˈɛnt ðɪ ˈɛɹ.|ESD_0012_surprise
+/content/data/processed_24k/ESD/Speaker_0017/0017_sadness_05_04090.wav|aɪ tʃˈoʊz ðə ɹˈaɪt wˈeɪ.|ESD_0017_sadness
+/content/data/processed_24k/Expresso/ex04/ex04_laughing_00198.wav|bɹˈɛθ wɪl ðɛɹbˈiː ˌɛni ˈʌðɚ mˈɔːɹnɚz?|Expresso_ex04_laughing
+/content/data/processed_24k/ESD/Speaker_0011/0011_anger_03_02674.wav|ˈɔːl ðɪs wiː wˈʌn baɪ ˌaʊɚ lˈeɪbɚ.|ESD_0011_anger
+/content/data/processed_24k/ESD/Speaker_0014/0014_happiness_04_03136.wav|aɪ θˈɪŋk ˌɪɾəl ɛŋkˈɜːɹɪdʒ mˌiː.|ESD_0014_happiness
+/content/data/processed_24k/ESD/Speaker_0020/0020_happiness_06_03846.wav|ʃiː ænd ˈaɪ ɑːɹ ɹˈʌnɪŋ ɐ nˈɛk ænd nˈɛk ɹˈeɪs.|ESD_0020_happiness
+/content/data/processed_24k/ESD/Speaker_0019/0019_surprise_06_03144.wav|dˈuː juː θˈɪŋk ɪts ɐ wˈuːzəl?|ESD_0019_surprise
+/content/data/processed_24k/ESD/Speaker_0013/0013_happiness_04_01518.wav|sˈæm wˈeɪvd hɪz ˈɑːɹm vˈeɪɡli.|ESD_0013_happiness
+/content/data/processed_24k/Expresso/ex01/ex01_happy_00104.wav|bɹˈaɪb jʊɹ wˈeɪ θɹuː ðə kˈɔːɹts?|Expresso_ex01_happy
+/content/data/processed_24k/Expresso/ex02/ex02_default_00011.wav|aɪ ɹᵻmˈɛmbɚ bɪkˈʌz aɪ hæd wˈʌn fɚɹə wˈaɪl.|Expresso_ex02_default
+/content/data/processed_24k/Expresso/ex01/ex01_laughing_00120.wav|lˈæf hiː sˈɜːʔnli dˈɪd ɐ ɡˈʊd dʒˈɑːb! bɹˈɛθ|Expresso_ex01_laughing
+/content/data/processed_24k/ESD/Speaker_0012/0012_sadness_04_00474.wav|ˈɔːl ðɪs hæv wiː wˈʌn baɪ ˌaʊɚ lˈeɪbɚ.|ESD_0012_sadness
+/content/data/processed_24k/ESD/Speaker_0012/0012_neutral_04_00155.wav|stˈɪl juː ˈoʊ ɪɾ ɐ dˈuːɾi.|ESD_0012
+/content/data/processed_24k/Expresso/ex03/ex03_laughing_00162.wav|stˈɛfəni wɪl biː hˈɛld ɐkˈaʊntəbəl!|Expresso_ex03_laughing
+/content/data/processed_24k/ESD/Speaker_0018/0018_surprise_06_01489.wav|sˌoʊ tˈɑːm sˈɔː nˈaɪt æz ɪt wɜː bɹˈɔːd dˈeɪlaɪt.|ESD_0018_surprise
+/content/data/processed_24k/Expresso/ex02/ex02_laughing_00227.wav|wiː kʊd ˈæstɚɹˌɪsk sˈuːn ˈæstɚɹˌɪsk biː ɪn ðæt sˈeɪm pəzˈɪʃən!|Expresso_ex02_laughing
+/content/data/processed_24k/Expresso/ex04/ex04_happy_00166.wav|hiː plˈeɪd bˈɑːɹmən ˈɪn "ðə dˈɑːɹk nˈaɪt ɹˈaɪzᵻz"!|Expresso_ex04_happy
+/content/data/processed_24k/ESD/Speaker_0019/0019_neutral_06_02204.wav|klˈɪɹ ðɐn klˈɪɹ wˈɔːɾɚ!|ESD_0019
+/content/data/processed_24k/ESD/Speaker_0016/0016_happiness_05_01707.wav|ðə skwˈaɪɚ hɪmsˈɛlf ʃˈoʊd pˈɜːfɛkt.|ESD_0016_happiness
+/content/data/processed_24k/ESD/Speaker_0012/0012_anger_03_04415.wav|ðeɪ ˈeɪt bˈiːf æt ðə bˈʊtʃɚ ʃˈɑːp.|ESD_0012_anger
+/content/data/processed_24k/ESD/Speaker_0015/0015_happiness_05_00026.wav|tˈɑːm fˈɛl wɪð ɐ klˈoʊvən hˈɛd.|ESD_0015_happiness
+/content/data/processed_24k/ESD/Speaker_0013/0013_happiness_04_01457.wav|ðə skwˈaɪɚ hɪmsˈɛlf ʃˈoʊd pˈɜːfɛkt.|ESD_0013_happiness
+/content/data/processed_24k/ESD/Speaker_0019/0019_anger_06_01637.wav|bˌʌt wˈʌn ɹᵻkwˈaɪɚz ðɪ ɛksplˈɔːɹɚ tə fˈɜːnɪʃ pɹˈuːfs.|ESD_0019_anger
+/content/data/processed_24k/ESD/Speaker_0016/0016_surprise_05_02994.wav|ɐ wˈɜːɹɪŋ nˈɔɪz wʌz hˈɜːd.|ESD_0016_surprise
+/content/data/processed_24k/ESD/Speaker_0013/0013_happiness_04_01601.wav|aɪɐm ɹˈʌn ˈɔf maɪ fˈiːt.|ESD_0013_happiness
+/content/data/processed_24k/ESD/Speaker_0013/0013_surprise_04_02525.wav|ðɪs tˈɜːn ɡoʊz tə ðə hˈɪl.|ESD_0013_surprise
+/content/data/processed_24k/ESD/Speaker_0015/0015_anger_04_04601.wav|ðɪs ɪz dʒˈæk, ðə ɹˈɛlətˌɪvz ʌv tˈɑːm.|ESD_0015_anger
+/content/data/processed_24k/ESD/Speaker_0014/0014_anger_04_02779.wav|mˈʌst ɐ nˈeɪm mˈiːn sˈʌmθɪŋ?|ESD_0014_anger
+/content/data/processed_24k/ESD/Speaker_0018/0018_anger_06_00036.wav|ɐ vˈɔɪs sˈɛd: kˈʌm ˈɪn.|ESD_0018_anger
+/content/data/processed_24k/Expresso/ex04/ex04_enunciated_00096.wav|sˌoʊ wɛn aɪ ʌnfˈoʊld ðɪs flˈæp, kənfˈɛɾiz ɡˌoʊɪŋ tə flˈaɪ ˈaʊt, ɹˈaɪt?|Expresso_ex04_enunciated
+/content/data/processed_24k/Expresso/ex02/ex02_whisper_00114.wav|wiː dˈoʊnt ɡɛt hˈaɪ.|Expresso_ex02_whisper
+/content/data/processed_24k/Expresso/ex04/ex04_laughing_00060.wav|lˈæf tˈiːbaɪlˈɪsi ɪz ɪn tˈiːbaɪlˈɪsi tˈaɪm ænd ɪts twˈɛlv sˈɛvəntˌiːn ɪnðɪ ˌæftɚnˈuːn, fɹˈaɪdeɪ.|Expresso_ex04_laughing
+/content/data/processed_24k/ESD/Speaker_0012/0012_happiness_03_04888.wav|nˈoʊ, sˈɛd pˈɪɡi kˈɛɹləsli.|ESD_0012_happiness
+/content/data/processed_24k/ESD/Speaker_0019/0019_happiness_06_01926.wav|bˌʌt aɪ sˈɔː juː wˈɔːkɪŋ.|ESD_0019_happiness
+/content/data/processed_24k/Expresso/ex03/ex03_laughing_00313.wav|hiː ˈædᵻd ðæt hɜː kˈɑːmɛnts wɜː nˈoʊɾᵻd.|Expresso_ex03_laughing
+/content/data/processed_24k/ESD/Speaker_0013/0013_surprise_04_02495.wav|aɪ dˈoʊnt pˈeɪntᵻd tˈaɪɡɚ.|ESD_0013_surprise
+/content/data/processed_24k/Expresso/ex01/ex01_sad_00359.wav|ðɛɹz ɐn ɐlˈɑːɹm æt wˈʌn pˌiːˈɛm təmˈɑːɹoʊ, æt fˈaɪv pˌiːˈɛm ˌɔn fɹˈaɪdeɪ, ænd æt nˈaɪn ˌeɪˈɛm nˈɛkst wˈɛnzdeɪ.|Expresso_ex01_sad
+/content/data/processed_24k/Expresso/ex03/ex03_confused_00220.wav|wˌʌt ɪz ðˈɪs, ɡɹˈeɪd skˈuːl?|Expresso_ex03_confused
+/content/data/processed_24k/ESD/Speaker_0013/0013_anger_04_01147.wav|ænd ɔnðə tˈɑːp ʌv ðˌɛm, kˈeɪm wˈɪni, ðə kjˈuːt bˈɛɹ.|ESD_0013_anger
+/content/data/processed_24k/ESD/Speaker_0014/0014_neutral_04_03771.wav|ɐ spˈɛʃəl pˈɑːt tˈuː.|ESD_0014
+/content/data/processed_24k/ESD/Speaker_0019/0019_surprise_06_03018.wav|ðɪ ˈaʊl flˈuː ˌɪntʊ ɐ bˈʊʃ.|ESD_0019_surprise
+/content/data/processed_24k/ESD/Speaker_0017/0017_sadness_05_04391.wav|wˌaɪ ʃˌʊd aɪ pˈɜːtʃɪs maɪ ˈoʊn?|ESD_0017_sadness
+/content/data/processed_24k/ESD/Speaker_0016/0016_anger_05_01501.wav|aɪɐm ɹˈʌn ˈɔf maɪ fˈiːt.|ESD_0016_anger
+/content/data/processed_24k/Expresso/ex02/ex02_default_emphasis_00011.wav|fɹˈæŋk sɪnˈɑːtɹə hɐz nˈʌθɪŋ tʊ ˈæstɚɹˌɪsk dˈuː ˈæstɚɹˌɪsk wɪð ˈændʒələ lˈænzbɛɹi.|Expresso_ex02_emphasis
+/content/data/processed_24k/ESD/Speaker_0014/0014_anger_04_03053.wav|hˌaʊ dˈuː juː lˈaɪk juː dˈɜːɾi bˈɜːd!|ESD_0014_anger
+/content/data/processed_24k/ESD/Speaker_0017/0017_anger_05_03227.wav|ɪt sˈɛz nˈoʊ wˈeɪ! ʃˈaʊɾᵻd dˈeɪzi.|ESD_0017_anger
+/content/data/processed_24k/ESD/Speaker_0020/0020_surprise_06_04879.wav|jʊɹ ˈoʊn wˈaɪf ɪz nˌɑːt æt hˈoʊm.|ESD_0020_surprise
+/content/data/processed_24k/ESD/Speaker_0011/0011_sadness_03_03586.wav|aɪ θˈɪŋk ˌɪɾəl ɛŋkˈɜːɹɪdʒ mˌiː.|ESD_0011_sadness
+/content/data/processed_24k/ESD/Speaker_0011/0011_surprise_03_04063.wav|hɪz lˈɑːɹdʒ mˈaʊθ kˈɜːld ˌɪntʊ ɐ snˈɪɹ.|ESD_0011_surprise
+/content/data/processed_24k/ESD/Speaker_0017/0017_sadness_05_04291.wav|ɡˈɪv mˌiː jʊɹ hˈænd ɔːɹ aɪ wɪl kɹˈaɪ hˈɑːɹdɚ ðɐn bᵻfˈɔːɹ.|ESD_0017_sadness
+/content/data/processed_24k/RAVDESS/Actor_20/03-01-02-02-02-01-20.wav|dˈɑːɡz ɑːɹ sˈɪɾɪŋ baɪ ðə dˈɔːɹ.|Actor_20_strong_calm
+/content/data/processed_24k/ESD/Speaker_0018/0018_surprise_06_01454.wav|ðə fˈɪʃɚmən ænd hɪz wˈaɪf sˈiː dʒˈɔːɹdʒ ˈɛvɹi dˈeɪ.|ESD_0018_surprise
+/content/data/processed_24k/ESD/Speaker_0015/0015_anger_04_04597.wav|sˈɛd ðə wˈɪtʃ.|ESD_0015_anger
+/content/data/processed_24k/ESD/Speaker_0012/0012_anger_03_04473.wav|dˈuː juː nˈoʊ ðə lˈɪd ˈoʊpənz?|ESD_0012_anger
+/content/data/processed_24k/ESD/Speaker_0016/0016_anger_05_01320.wav|ʃiː wʌz bˈɔːɹn ˌɔn ˈeɪpɹəl nˈaɪntiːn fˈɔːɹɾi θɹˈiː.|ESD_0016_anger
+/content/data/processed_24k/ESD/Speaker_0014/0014_neutral_04_03676.wav|bˈɔːɹn wˈʌns ˈɛvɹi wˈʌn hˈʌndɹɪd jˈɪɹz, dˈaɪz ɪn flˈeɪmz!|ESD_0014
+/content/data/processed_24k/RAVDESS/Actor_06/03-01-01-01-01-01-06.wav|kˈɪdz ɑːɹ tˈɔːkɪŋ baɪ ðə dˈɔːɹ.|Actor_06
+/content/data/processed_24k/ESD/Speaker_0018/0018_sadness_06_00908.wav|ɪf ðeɪ mˈʌðɚ nˈuː ɪt.|ESD_0018_sadness
+/content/data/processed_24k/Expresso/ex01/ex01_confused_00365.wav|kɹˈæft tˈaɪm.|Expresso_ex01_confused
+/content/data/processed_24k/Expresso/ex01/ex01_laughing_00324.wav|dˈɪd ɪt wˈɜːk?|Expresso_ex01_laughing
+/content/data/processed_24k/RAVDESS/Actor_13/03-01-08-02-02-02-13.wav|dˈɑːɡz ɑːɹ sˈɪɾɪŋ baɪ ðə dˈɔːɹ.|Actor_13_strong_surprised
+/content/data/processed_24k/Expresso/ex03/ex03_enunciated_00134.wav|hˌuː stˈɑːɹz ˈɪn "ðə nˈʌɾi pɹəfˈɛsɚ"?|Expresso_ex03_enunciated
+/content/data/processed_24k/ESD/Speaker_0019/0019_surprise_06_02968.wav|nˌɑːt mˈʌtʃ jˈuːs ɪz ɪt, sˈæm?|ESD_0019_surprise
+/content/data/processed_24k/ESD/Speaker_0018/0018_sadness_06_00840.wav|aɪ tʃˈoʊz ðə ɹˈaɪt wˈeɪ.|ESD_0018_sadness
+/content/data/processed_24k/Expresso/ex01/ex01_happy_00016.wav|ɹˈaɪt ɐ tʃˈɛk, pɹˈɑːbləm sˈɑːlvd!|Expresso_ex01_happy
+/content/data/processed_24k/ESD/Speaker_0020/0020_anger_06_03578.wav|ænd hɪz hˈɑːɹt wˈæɡd wɪð dʒˈɔɪ lˈaɪk ɐ lˈæmz tˈeɪl.|ESD_0020_anger
+/content/data/processed_24k/ESD/Speaker_0018/0018_sadness_06_00927.wav|pˌʊt ðæt ɹˈuːd ɡɹˈæshɑːpɚɹ ɪn dʒˈeɪl!|ESD_0018_sadness
+/content/data/processed_24k/ESD/Speaker_0019/0019_happiness_06_01906.wav|hˈænɪbəl kˈʌm tə sˈiː juː.|ESD_0019_happiness
+/content/data/processed_24k/ESD/Speaker_0017/0017_neutral_05_03877.wav|ænd vˈaʊd hiːd tʃˈeɪndʒ ðə pˈɪɡteɪlz plˈeɪs.|ESD_0017
+/content/data/processed_24k/ESD/Speaker_0011/0011_anger_03_02681.wav|ˈeɪdʒ fˈɔːɹɾi fˈaɪv ɪf ɐ dˈeɪ ɐ lˈaɪ.|ESD_0011_anger
+/content/data/processed_24k/ESD/Speaker_0020/0020_surprise_06_04793.wav|wiː ˈɔːl sˈiː pˈændə ˌɔn tˌiːvˈiː ɔːɹ ɪnðə zˈuː.|ESD_0020_surprise
+/content/data/processed_24k/ESD/Speaker_0015/0015_anger_04_04627.wav|pˌʊt ðæt ɹˈuːd ɡɹˈæshɑːpɚɹ ɪn dʒˈeɪl!|ESD_0015_anger
+/content/data/processed_24k/ESD/Speaker_0014/0014_anger_04_02924.wav|ˈɔːl ðɪs hæv wiː wˈʌn baɪ ˌaʊɚ lˈeɪbɚ.|ESD_0014_anger
+/content/data/processed_24k/ESD/Speaker_0014/0014_happiness_04_03118.wav|æt ðɪ ˈɛnd ʌv fˈɔːɹ.|ESD_0014_happiness
+/content/data/processed_24k/Expresso/ex03/ex03_happy_00221.wav|sˌoʊ æz ɐ kˈɪd, aɪ lˈʌvd ðə lˈaɪfstaɪlz ʌvðə ɹˈɪtʃ ænd fˈeɪməs.|Expresso_ex03_happy
+/content/data/processed_24k/Expresso/ex02/ex02_enunciated_00248.wav|plˈʌs, ʃiː hˈæzbiːn mˌeɪkɪŋ sˌʌm hjˈuːdʒ wɪθdɹˈɔːlz ænd dᵻpˈɑːzɪts fɹʌm hɜː bˈæŋkɪŋ ɐkˈaʊnt.|Expresso_ex02_enunciated
+/content/data/processed_24k/ESD/Speaker_0016/0016_happiness_05_01602.wav|ðæt aɪ ˈoʊ maɪ θˈæŋks tə juː.|ESD_0016_happiness
+/content/data/processed_24k/ESD/Speaker_0016/0016_sadness_05_02370.wav|ʃiː wʌz bˈɔːɹn ˌɔn ˈeɪpɹəl nˈaɪntiːn fˈɔːɹɾi θɹˈiː.|ESD_0016_sadness
+/content/data/processed_24k/Expresso/ex01/ex01_default_emphasis_00008.wav|ˈæd ˈæstɚɹˌɪsk fˈɪfti ˈæstɚɹˌɪsk fˈaɪv mˈɪnɪts tə jʊɹ twˈɛnti fˈaɪv mˈɪnɪt tˈaɪmɚ, ɹˈaɪt?|Expresso_ex01_emphasis
+/content/data/processed_24k/ESD/Speaker_0018/0018_happiness_06_00240.wav|kæn aɪ lˈɑːdʒ hˈɪɹ tənˈaɪt?|ESD_0018_happiness
+/content/data/processed_24k/Expresso/ex01/ex01_whisper_00332.wav|hˌaʊ kʊd maɪ ˈoʊn, ˈɑːnɪst tə ɡˈɑːd, fˈæmɪli dˈuː ðˈɪs?|Expresso_ex01_whisper
+/content/data/processed_24k/ESD/Speaker_0020/0020_happiness_06_03631.wav|hˌuː ɪz bˌɪn ɹᵻpˈiːɾɪŋ ˈɔːl ðæt hˈɑːɹd stˈʌf tə juː?|ESD_0020_happiness
+/content/data/processed_24k/ESD/Speaker_0020/0020_anger_06_03418.wav|sˈæm wˈeɪvd hɪz ˈɑːɹm vˈeɪɡli.|ESD_0020_anger
+/content/data/processed_24k/ESD/Speaker_0011/0011_anger_03_02678.wav|dˈeɪzi kɹˈiːmz wɪð pˈɪŋk ˈɛdʒᵻz.|ESD_0011_anger
+/content/data/processed_24k/ESD/Speaker_0019/0019_sadness_06_02849.wav|sˈɪks wʌz hˈæf wˈeɪ dˌaʊn ðə ɹˈuːm.|ESD_0019_sadness
+/content/data/processed_24k/Expresso/ex04/ex04_confused_00375.wav|ðeɪ duːnˌɑːt wˈɜːk fɔːɹ ɡlˈæzɡoʊ sˈɪɾi kˈaʊnsəl.|Expresso_ex04_confused
+/content/data/processed_24k/ESD/Speaker_0019/0019_happiness_06_01919.wav|tˈɑːm nˈaʊ lˈɛt ˌaʊɚɹ ˈæɹoʊz flˈaɪ!|ESD_0019_happiness
+/content/data/processed_24k/ESD/Speaker_0013/0013_anger_04_01309.wav|wˌaɪ ɪɾ ɪz dʒˈʌst lˈaɪk ðə ɹˈaʊnd ˈɛɡ wˌɪtʃ sˈaʊndz θˈɪn.|ESD_0013_anger
+/content/data/processed_24k/Expresso/ex01/ex01_enunciated_00046.wav|ʃˌæl aɪ plˈeɪs ðɪs ˈɔːɹdɚ wɪð wˈɪltən kˈeɪk dˈɛkɚɹˌeɪɾɪŋ?|Expresso_ex01_enunciated
+/content/data/processed_24k/ESD/Speaker_0017/0017_happiness_05_03611.wav|aɪ bᵻlˈiːv juː ɑːɹ wˈʌn ʌv ðˌɛm!|ESD_0017_happiness
+/content/data/processed_24k/Expresso/ex04/ex04_enunciated_00157.wav|wˌʌts ðə stˈɔːɹi, bˈɔs?|Expresso_ex04_enunciated
+/content/data/processed_24k/ESD/Speaker_0017/0017_sadness_05_04271.wav|ˈæsk ɡˈɑːd tə hˈɛlp juː.|ESD_0017_sadness
+/content/data/processed_24k/Expresso/ex01/ex01_enunciated_00047.wav|jˈɛs, təmˈɑːɹoʊ ɪn ɡˈɔːɹdʒᵻz ðɛɹ ʃˌʊd biː ɐ lˈaɪt dɹˈɪzəl.|Expresso_ex01_enunciated
+/content/data/processed_24k/ESD/Speaker_0019/0019_anger_06_01745.wav|wiː kæn nˌɑːt dˈuː ɪt sˌɜː.|ESD_0019_anger
+/content/data/processed_24k/ESD/Speaker_0016/0016_anger_05_01509.wav|æz sˈuːn æz ʃiː wɛnt ˈɪn, ðɛɹwˌʌz dɪsˈɔːɹdɚ.|ESD_0016_anger
+/content/data/processed_24k/Expresso/ex01/ex01_enunciated_00379.wav|sˌoʊ kəŋɡɹˈæts tə mˈɜːɹeɪ.|Expresso_ex01_enunciated
+/content/data/processed_24k/ESD/Speaker_0015/0015_surprise_05_01003.wav|hˈɪɹ æm ˈaɪ hˈuːm juː sˈiːk.|ESD_0015_surprise
+/content/data/processed_24k/Expresso/ex03/ex03_confused_00345.wav|wˌaɪ dˈuː bˈiːz hæv ɹˈiəli stˈɪki hˈɛɹ? bɪkˈʌz ðeɪ jˈuːz ˈæstɚɹˌɪsk hˈʌni kˈoʊmz ˈæstɚɹˌɪsk.|Expresso_ex03_confused
+/content/data/processed_24k/Expresso/ex03/ex03_default_00096.wav|hˌuː pɹɪzˈɛnts ðɪs tʃˈaɪld fɚðə sˈækɹəmənt ʌv bˈæptɪzəm?|Expresso_ex03_default
+/content/data/processed_24k/ESD/Speaker_0019/0019_neutral_06_02363.wav|hɪz lˈɑːɹdʒ mˈaʊθ kˈɜːld ˌɪntʊ ɐ snˈɪɹ.|ESD_0019
+/content/data/processed_24k/Expresso/ex01/ex01_enunciated_00380.wav|bˌʌt aɪm vˈɛɹi kjˈʊɹɹiəs ɐbˌaʊt wʌt mˈaɪndfəlnəs ɛntˈeɪlz tə juː.|Expresso_ex01_enunciated
+/content/data/processed_24k/ESD/Speaker_0019/0019_neutral_06_02421.wav|ˈæsk ɡˈɑːd tə hˈɛlp juː.|ESD_0019
+/content/data/processed_24k/Expresso/ex01/ex01_happy_00360.wav|ɪz mˈæntʃɛstɚ juːnˈaɪɾᵻd wˈɪnɪŋ?|Expresso_ex01_happy
+/content/data/processed_24k/ESD/Speaker_0016/0016_anger_05_01423.wav|aɪ pˈeɪ hˈæf ɐ kɹˈaʊn ɐ wˈiːk ˈɛkstɹə.|ESD_0016_anger
+/content/data/processed_24k/ESD/Speaker_0019/0019_neutral_06_02529.wav|ʃiː kˈiːps sˈeɪɪŋ aɪm hˈɜːz.|ESD_0019
+/content/data/processed_24k/Expresso/ex01/ex01_default_00284.wav|wˌɛɹd maɪ pˈɑːps ɡˈoʊ?|Expresso_ex01_default
+/content/data/processed_24k/ESD/Speaker_0020/0020_sadness_06_04304.wav|klˈɪɹ ðɐn klˈɪɹ wˈɔːɾɚ!|ESD_0020_sadness
+/content/data/processed_24k/Expresso/ex04/ex04_laughing_00176.wav|lˈæf sˈaʊnd ɡˈʊd?|Expresso_ex04_laughing
+/content/data/processed_24k/ESD/Speaker_0012/0012_surprise_04_00856.wav|wˌʌt æm ˈaɪ, aɪm ɐ ɹˈeɪsɚ, sˈʌn ʌv ɡˈɑːd.|ESD_0012_surprise
+/content/data/processed_24k/ESD/Speaker_0011/0011_happiness_03_02978.wav|ɐ lˈɑːɹdʒ flˈæt fˈɛɹi bˈoʊt wʌz mˈʊɹd bᵻsˈaɪd ɪt.|ESD_0011_happiness
+/content/data/processed_24k/ESD/Speaker_0015/0015_surprise_05_00919.wav|æt ðə ɹˈuːtsəvə bˈʊʃ əvə ɡɹˈæs.|ESD_0015_surprise
+/content/data/processed_24k/ESD/Speaker_0014/0014_anger_04_02838.wav|lˈɛt ɡˌoʊ ʌv maɪ tˈɑːp nˈɑːt.|ESD_0014_anger
+/content/data/processed_24k/ESD/Speaker_0020/0020_sadness_06_04328.wav|ɹˈæt kˈeɪm ænd ɹᵻplˈaɪd ɔnðə lˈiːvz.|ESD_0020_sadness
+/content/data/processed_24k/ESD/Speaker_0015/0015_anger_04_04526.wav|mˈɔnstɚ mˌeɪd ɐ dˈiːp bˈoʊ.|ESD_0015_anger
+/content/data/processed_24k/ESD/Speaker_0019/0019_anger_06_01531.wav|hˌuː ɪz bˌɪn ɹᵻpˈiːɾɪŋ ˈɔːl ðæt hˈɑːɹd stˈʌf tə juː?|ESD_0019_anger
+/content/data/processed_24k/ESD/Speaker_0015/0015_sadness_05_00731.wav|ˈeɪdʒ fˈɔːɹɾi fˈaɪv ɪf ɐ dˈeɪ ɐ lˈaɪ.|ESD_0015_sadness
+/content/data/processed_24k/ESD/Speaker_0019/0019_surprise_06_03135.wav|hˌaʊ ɹˈæʃ juː ɑːɹ!|ESD_0019_surprise
+/content/data/processed_24k/ESD/Speaker_0017/0017_surprise_05_04713.wav|bˈɑːb ɡoʊz tʊ ɐ nˈuː skˈuːl.|ESD_0017_surprise
+/content/data/processed_24k/ESD/Speaker_0018/0018_sadness_06_00837.wav|hˈoʊld ˌʌp maɪ tʃˈɪn, slˈoʊ ænd sˈɑːlɪd.|ESD_0018_sadness
+/content/data/processed_24k/ESD/Speaker_0020/0020_happiness_06_03600.wav|ðə nˈaɪn ðɪ ˈɛɡz, aɪ kˈiːp.|ESD_0020_happiness
+/content/data/processed_24k/ESD/Speaker_0019/0019_neutral_06_02445.wav|wiː kæn nˌɑːt dˈuː ɪt sˌɜː.|ESD_0019
+/content/data/processed_24k/ESD/Speaker_0020/0020_anger_06_03274.wav|ʃiː ɪz nˈaʊ tʃˈuːzɪŋ skˈɜːt tə wˈɛɹ.|ESD_0020_anger
+/content/data/processed_24k/RAVDESS/Actor_20/03-01-02-02-01-01-20.wav|kˈɪdz ɑːɹ tˈɔːkɪŋ baɪ ðə dˈɔːɹ.|Actor_20_strong_calm
+/content/data/processed_24k/Expresso/ex02/ex02_laughing_00145.wav|ɪts ɐn ˈæstɚɹˌɪsk ɐmˈeɪzɪŋ ˈæstɚɹˌɪsk lˈændskeɪp!|Expresso_ex02_laughing
+/content/data/processed_24k/Expresso/ex04/ex04_default_emphasis_00047.wav|maɪ nˈeɪm ɪz dʒˈɛf.|Expresso_ex04_emphasis
+/content/data/processed_24k/ESD/Speaker_0011/0011_surprise_03_03997.wav|sˈɛd ðə wˈɪtʃ.|ESD_0011_surprise
+/content/data/processed_24k/Expresso/ex03/ex03_whisper_00329.wav|ɑːɹ juː ɡˌoʊɪŋ tə lˈɛt sˌʌm mˈɑːbstɚz mˈaʊθpiːs tˈɔːk tə juː lˈaɪk ðˈæt?|Expresso_ex03_whisper
+/content/data/processed_24k/ESD/Speaker_0014/0014_sadness_04_03992.wav|plˈiːz hˈaɪɚ mˌiː ˈæftɚ juː.|ESD_0014_sadness
+/content/data/processed_24k/Expresso/ex02/ex02_sad_00270.wav|ɛndʒˈɔɪ jʊɹ kˈɔfi, kəntɹˈoʊl fɹˈiːk.|Expresso_ex02_sad
+/content/data/processed_24k/ESD/Speaker_0014/0014_anger_04_02845.wav|aɪ dˈoʊnt pˈeɪntᵻd tˈaɪɡɚ.|ESD_0014_anger
+/content/data/processed_24k/Expresso/ex02/ex02_sad_00060.wav|ænd ðˈɛn aɪ ˌʌndɚstˈʊd ðæt maɪ tʃˈɔɪsᵻz wɜː təbi ˈiːðɚɹ ɐ sˈɜːvənt ɔːɹ ðə dɹˈʌɡ dˈiːlɚ ɡˈɜːlfɹɛnd.|Expresso_ex02_sad
+/content/data/processed_24k/Expresso/ex04/ex04_sad_00343.wav|ænd nˈuːm hˈɛlps mˌiː mˈænɪdʒ ðˈæt.|Expresso_ex04_sad
+/content/data/processed_24k/Expresso/ex01/ex01_sad_00278.wav|ænd hiːz nˌɑːt ɐlˈoʊn.|Expresso_ex01_sad
+/content/data/processed_24k/ESD/Speaker_0015/0015_happiness_05_00054.wav|fˈɪɹ nˈiːðɚ ɹˈuːt nˈɔːɹ spɹˈaʊt!|ESD_0015_happiness
+/content/data/processed_24k/RAVDESS/Actor_17/03-01-07-01-01-02-17.wav|kˈɪdz ɑːɹ tˈɔːkɪŋ baɪ ðə dˈɔːɹ.|Actor_17_disgust
+/content/data/processed_24k/ESD/Speaker_0011/0011_sadness_03_03637.wav|ɪn maɪ əpˈɪniən ðæt ɪz ɐ ɡˈʊd aɪdˈiə!|ESD_0011_sadness
+/content/data/processed_24k/ESD/Speaker_0019/0019_neutral_06_02208.wav|ɔnðə twˈɛnti sˈɛkənd ʌv lˈæst mˈɑːɹtʃ.|ESD_0019
+/content/data/processed_24k/Expresso/ex02/ex02_confused_00373.wav|fˈɪks ðə dˈɔːɹ bˈɛndɚ!|Expresso_ex02_confused
+/content/data/processed_24k/Expresso/ex03/ex03_whisper_00053.wav|ænd ˈæstɚɹˌɪsk ðæts ˈæstɚɹˌɪsk ðə ɡɹˈeɪt θˈɪŋ ɐbˌaʊt ˈɛnɚdʒˌaɪzɚɹ ˈʌltᵻmət lˈɪθiəm bˈæɾɚɹiz, ðə nˈʌmbɚ wˈʌn lˈɔŋɡɪst lˈæstɪŋ bˈæɾɚɹiz.|Expresso_ex03_whisper
+/content/data/processed_24k/ESD/Speaker_0013/0013_surprise_04_02675.wav|kæn jʊɹ nˈeɪm biː mˈɔːɹ hɪlˈɛɹiəs?|ESD_0013_surprise
+/content/data/processed_24k/ESD/Speaker_0019/0019_neutral_06_02348.wav|maɪ wˈaɪndɪŋ ʃˈiːt!|ESD_0019
+/content/data/processed_24k/Expresso/ex04/ex04_sad_00239.wav|jʊɹ lˈɜːnɪŋ ˌaʊɚ kˈɑːmədi mˈuːvz ˈiːvən ðˌoʊ ɪts nˈaɪntiːn sˈɛvənti fˈɔːɹ.|Expresso_ex04_sad
+/content/data/processed_24k/ESD/Speaker_0015/0015_surprise_05_01150.wav|ðə lˈeɪdɪbˌʌɡ tˈoʊld ðˌɛm pɹˈaʊdli.|ESD_0015_surprise
+/content/data/processed_24k/Expresso/ex04/ex04_confused_00229.wav|ðɪs ˈɑːɹɾɪkəl ɪz fɹʌm ɐ wˈɛdɪŋ mˌæɡɐzˈiːn.|Expresso_ex04_confused
+/content/data/processed_24k/ESD/Speaker_0016/0016_happiness_05_01863.wav|slˈæm ðə dˈɔːɹz ænd wˈɛdʒ ðˌɛm!|ESD_0016_happiness
+/content/data/processed_24k/ESD/Speaker_0016/0016_neutral_05_01956.wav|aɪm æz bˈæd æz aɪ kæn bˈiː.|ESD_0016
+/content/data/processed_24k/ESD/Speaker_0018/0018_sadness_06_01007.wav|haʊˈɛvɚ, sˈʌmbɑːdi kˈɪld sˈʌmθɪŋ.|ESD_0018_sadness
+/content/data/processed_24k/Expresso/ex03/ex03_happy_00023.wav|ˌaʊɚɹ ˈæstɚɹˌɪsk mˈɛsɪdʒ ˈæstɚɹˌɪsk ɪz ɡˌɛɾɪŋ θɹˈuː.|Expresso_ex03_happy
+/content/data/processed_24k/ESD/Speaker_0015/0015_neutral_05_00303.wav|hˈɪɹ æm ˈaɪ hˈuːm juː sˈiːk.|ESD_0015
+/content/data/processed_24k/ESD/Speaker_0013/0013_happiness_04_01502.wav|bˌʌt wiː ɑːɹ nˌɑːt hˈaɪ jˈɛt.|ESD_0013_happiness
+/content/data/processed_24k/ESD/Speaker_0013/0013_neutral_04_01923.wav|dˈuː juː nˈoʊ ðə lˈɪd ˈoʊpənz?|ESD_0013
+/content/data/processed_24k/ESD/Speaker_0016/0016_anger_05_01474.wav|hɜːɹ ɛɡzˈɪstəns mˌeɪks hˌɪm plˈɛzənt.|ESD_0016_anger
+/content/data/processed_24k/ESD/Speaker_0018/0018_anger_05_04803.wav|ɑːɹ juː ɐ ɹˈɛɡjʊlɚ dˈɑːɹki ɹˈiəli?|ESD_0018_anger
+/content/data/processed_24k/ESD/Speaker_0020/0020_anger_06_03344.wav|ɑːhˈɑː wʌt ˈaɪ hæv wiː hˈɪɹ?|ESD_0020_anger
+/content/data/processed_24k/ESD/Speaker_0019/0019_anger_06_01601.wav|ðɪs ɪz dʒˈæk, ðə ɹˈɛlətˌɪvz ʌv tˈɑːm.|ESD_0019_anger
+/content/data/processed_24k/ESD/Speaker_0014/0014_anger_04_02873.wav|juː nˈoʊ, ˈænsɚz tə ðə nˈeɪm ʌv tˈɑːmz sˈʌn.|ESD_0014_anger
+/content/data/processed_24k/ESD/Speaker_0013/0013_happiness_04_01484.wav|aɪ blˈɪŋkt maɪ ˈaɪz hˈɑːɹd.|ESD_0013_happiness
+/content/data/processed_24k/Expresso/ex03/ex03_whisper_00131.wav|nˈɪk zˈɑːnoʊ, hiːz hɪlˈɛɹiəs.|Expresso_ex03_whisper
+/content/data/processed_24k/Expresso/ex03/ex03_confused_00069.wav|jˈɛs, tədˈeɪ ɪn dˈɔːɹəl ðə hˈaɪz ɑːɹ ɪnðə mˈɪd fˈɪftiz ænd lˈoʊz ɑːɹ ɪnðə lˈoʊ fˈɔːɹɾiz.|Expresso_ex03_confused
+/content/data/processed_24k/ESD/Speaker_0015/0015_happiness_05_00041.wav|aɪ hæv hædtə ɡɹˈoʊ ˈoʊld.|ESD_0015_happiness
+/content/data/processed_24k/ESD/Speaker_0016/0016_sadness_05_02431.wav|aɪ θˈæŋk juː fɔːɹ ðɪs mˈɜːsi!|ESD_0016_sadness
+/content/data/processed_24k/ESD/Speaker_0020/0020_happiness_06_03783.wav|wiː hɐvbɪn fˈaɪn, hˈævənt wiː?|ESD_0020_happiness
+/content/data/processed_24k/ESD/Speaker_0014/0014_happiness_04_03177.wav|ðɪ ˈɑːɹt kwˈaɪt sˈeɪf wɪð mˌiː.|ESD_0014_happiness
+/content/data/processed_24k/ESD/Speaker_0018/0018_sadness_06_01120.wav|kˈɔːld ˈaʊt ðə klˈaʊd.|ESD_0018_sadness
+/content/data/processed_24k/Expresso/ex03/ex03_default_emphasis_00009.wav|ɪt wʌzɐ mˈɪzɹəbəl ˌæftɚnˈuːn ɪn ˈæstɚɹˌɪsk təkˈoʊmə.ˈæstɚɹˌɪsk|Expresso_ex03_emphasis
+/content/data/processed_24k/ESD/Speaker_0019/0019_anger_06_01769.wav|tʃˈuː lˈiːvz kwˈɪkli, sˈɛd ɹˈæbɪt.|ESD_0019_anger
+/content/data/processed_24k/ESD/Speaker_0013/0013_surprise_04_02573.wav|aɪ pˈeɪ hˈæf ɐ kɹˈaʊn ɐ wˈiːk ˈɛkstɹə.|ESD_0013_surprise
+/content/data/processed_24k/ESD/Speaker_0013/0013_happiness_04_01671.wav|ɐ spˈɛʃəl pˈɑːt tˈuː.|ESD_0013_happiness
+/content/data/processed_24k/ESD/Speaker_0018/0018_surprise_06_01202.wav|hiː wʌz stˈɪl ɪnðə fˈɔːɹɪst!|ESD_0018_surprise
+/content/data/processed_24k/ESD/Speaker_0011/0011_sadness_03_03774.wav|hɜːɹ ɛɡzˈɪstəns mˌeɪks hˌɪm plˈɛzənt.|ESD_0011_sadness
+/content/data/processed_24k/RAVDESS/Actor_20/03-01-03-02-01-01-20.wav|kˈɪdz ɑːɹ tˈɔːkɪŋ baɪ ðə dˈɔːɹ.|Actor_20_strong_happy
+/content/data/processed_24k/ESD/Speaker_0012/0012_anger_03_04515.wav|hiː mˈeɪ dʒˈɔɪn wɪð ðæt pˈaʊɚ.|ESD_0012_anger
+/content/data/processed_24k/Expresso/ex03/ex03_confused_00296.wav|ɐ lˈaɪftaɪm səplˈaɪ ʌv fˈeɪʃəl hˈɛɹ?|Expresso_ex03_confused
+/content/data/processed_24k/Expresso/ex04/ex04_whisper_00119.wav|nˈaʊ maɪ tˈɔɪlɪt bˈoʊl klˈiːnɚ ænd maɪ pˈɜːfjuːm mˈætʃ!|Expresso_ex04_whisper
+/content/data/processed_24k/RAVDESS/Actor_06/03-01-05-02-01-02-06.wav|kˈɪdz ɑːɹ tˈɔːkɪŋ baɪ ðə dˈɔːɹ.|Actor_06_strong_angry
+/content/data/processed_24k/ESD/Speaker_0017/0017_sadness_05_04320.wav|aɪ sˈeɪ aɪ wɪl biː ˈɛmpɚɹɚ.|ESD_0017_sadness
+/content/data/processed_24k/ESD/Speaker_0012/0012_neutral_03_04962.wav|aɪ hæv bˈʌnbɛɹid ˈɔːl ˌoʊvɚ ɡˈoʊt ˌɔn tˈuː sˈɛpɹət əkˈeɪʒənz.|ESD_0012
+/content/data/processed_24k/ESD/Speaker_0011/0011_anger_03_02532.wav|ðɪs jˈuːzd təbi dʒˈɛɹiz ˌɑːkjʊpˈeɪʃən.|ESD_0011_anger
+/content/data/processed_24k/Expresso/ex02/ex02_laughing_00061.wav|sˈeɪm hˈɪɹ!|Expresso_ex02_laughing
+/content/data/processed_24k/ESD/Speaker_0020/0020_anger_06_03304.wav|ɐ dˈɛfənɪŋ tʃˈɪɹuːpɪŋ ɹˈɛnt ðɪ ˈɛɹ.|ESD_0020_anger
+/content/data/processed_24k/ESD/Speaker_0020/0020_surprise_06_04794.wav|ɹˈiːd baɪ ðə lˈɪvɪŋ pˈuːl!|ESD_0020_surprise
+/content/data/processed_24k/Expresso/ex03/ex03_whisper_00321.wav|sˈʌtʃ ɐ ɡɹˈeɪt fˈɪlm!|Expresso_ex03_whisper
+/content/data/processed_24k/ESD/Speaker_0018/0018_sadness_06_00907.wav|ðə skwˈaɪɚ hɪmsˈɛlf ʃˈoʊd pˈɜːfɛkt.|ESD_0018_sadness
+/content/data/processed_24k/ESD/Speaker_0014/0014_surprise_04_04231.wav|ɐ fˈɛɹ dʒˈɔː kɹˈækɚ dwˈɔːɹf lˈæŋɡwɪdʒ mˈʌst bˈiː!|ESD_0014_surprise
+/content/data/processed_24k/Expresso/ex02/ex02_default_00166.wav|wɪɹ nˌɑːt ˈiːvən wˈɪlɪŋ tʊ ʌpdˈeɪt.|Expresso_ex02_default
+/content/data/processed_24k/ESD/Speaker_0011/0011_neutral_03_03491.wav|ʃiː hɐz ɐ hˈaɪ vˈɔɪs.|ESD_0011
+/content/data/processed_24k/Expresso/ex04/ex04_happy_00116.wav|jʊɹ mˈɛntəli ænd mˈɔːɹəli ɪnfˈɪɹiɚ!|Expresso_ex04_happy
+/content/data/processed_24k/ESD/Speaker_0017/0017_sadness_05_04216.wav|aɪ tˈɔɪ wɪð maɪ lᵻkˈɜː.|ESD_0017_sadness
+/content/data/processed_24k/ESD/Speaker_0016/0016_sadness_05_02635.wav|ˌoʊvɚ ðˌɛm swˈuːpt ðɪ ˈiːɡəlz.|ESD_0016_sadness
+/content/data/processed_24k/ESD/Speaker_0015/0015_happiness_05_00094.wav|dˈuː juː θˈɪŋk ɪts ɐ wˈuːzəl?|ESD_0015_happiness
+/content/data/processed_24k/ESD/Speaker_0019/0019_surprise_06_03204.wav|ðə fˈɪʃɚmən ænd hɪz wˈaɪf sˈiː dʒˈɔːɹdʒ ˈɛvɹi dˈeɪ.|ESD_0019_surprise
+/content/data/processed_24k/ESD/Speaker_0017/0017_surprise_05_04495.wav|aɪ dˈoʊnt pˈeɪntᵻd tˈaɪɡɚ.|ESD_0017_surprise
+/content/data/processed_24k/Expresso/ex01/ex01_sad_00063.wav|ðɪ ɐdvˈænsᵻz ɪn tɛknˈɑːlədʒi, ðə kˈaɪndz ʌv bɹˈeɪkθɹuːz ðæt ˈɛvən wˈɔlʃ ɪz wˈɜːkɪŋ ˌɔn ɑːɹ ðə fjˈuːtʃɚ!|Expresso_ex01_sad
+/content/data/processed_24k/Expresso/ex04/ex04_enunciated_00302.wav|ænd ðiːz ɑːɹ tʃˈæləndʒˌɪŋ tˈaɪmz.|Expresso_ex04_enunciated
+/content/data/processed_24k/Expresso/ex02/ex02_enunciated_00179.wav|dᵻfˈɛns kˈaʊnsəl, jʊɹ ˈoʊpənɪŋ stˈeɪtmənt.|Expresso_ex02_enunciated
+/content/data/processed_24k/ESD/Speaker_0018/0018_happiness_06_00136.wav|aɪ θˈɪŋk ˌɪɾəl ɛŋkˈɜːɹɪdʒ mˌiː.|ESD_0018_happiness
+/content/data/processed_24k/ESD/Speaker_0011/0011_sadness_03_03781.wav|wɪl kˈɔːl hɜː lˈɪli, fɔːɹ ʃˈɔːɹt.|ESD_0011_sadness
+/content/data/processed_24k/Expresso/ex04/ex04_confused_00280.wav|stˈiːlɪŋ maɪ θˈʌndɚ ɔːɹ ɡˌɛɾɪŋ kˈɔːt?|Expresso_ex04_confused
+/content/data/processed_24k/Expresso/ex04/ex04_enunciated_00131.wav|nˈoʊ, bɪkˈʌz ɪt woʊnt ɹˈeɪn tədˈeɪ ɪn tʃˈændlɚ.|Expresso_ex04_enunciated
+/content/data/processed_24k/Expresso/ex03/ex03_laughing_00061.wav|wiː nˈiːd hɜː dˈaɪpɚ bˈæɡ.|Expresso_ex03_laughing
+/content/data/processed_24k/ESD/Speaker_0011/0011_sadness_03_03595.wav|ðeɪd nˈɛvɚ nˈoʊ aɪd ɹˈɛɡjʊlɚ ɹˈæn ɐwˈeɪ.|ESD_0011_sadness
+/content/data/processed_24k/Expresso/ex04/ex04_confused_00284.wav|juː kˌʊdɐv ˈæstɚɹˌɪsk ɹˈɛkt ˈæstɚɹˌɪsk hɪz lˈaɪf.|Expresso_ex04_confused
+/content/data/processed_24k/ESD/Speaker_0019/0019_anger_06_01820.wav|kˈɔːld ˈaʊt ðə klˈaʊd.|ESD_0019_anger
+/content/data/processed_24k/ESD/Speaker_0014/0014_sadness_04_04094.wav|aɪ nˈoʊ hˌaʊ tʊ oʊbˈeɪ ˈɔːɹdɚz.|ESD_0014_sadness
+/content/data/processed_24k/Expresso/ex02/ex02_enunciated_00086.wav|mæɡnˈɪfɪsənt!|Expresso_ex02_enunciated
+/content/data/processed_24k/RAVDESS/Actor_10/03-01-01-01-01-02-10.wav|kˈɪdz ɑːɹ tˈɔːkɪŋ baɪ ðə dˈɔːɹ.|Actor_10
+/content/data/processed_24k/ESD/Speaker_0018/0018_neutral_06_00555.wav|aɪ ɡˈɛs ɪts ɐ tʃˈɔɪs fˈiːst.|ESD_0018
+/content/data/processed_24k/Expresso/ex02/ex02_sad_00080.wav|lˈʊk ˈaʊt bᵻhˈaɪnd juː!|Expresso_ex02_sad
+/content/data/processed_24k/ESD/Speaker_0019/0019_anger_06_01644.wav|ɹˈiːd baɪ ðə lˈɪvɪŋ pˈuːl!|ESD_0019_anger
+/content/data/processed_24k/ESD/Speaker_0018/0018_neutral_06_00575.wav|ðɪs tˈɜːn ɡoʊz tə ðə hˈɪl.|ESD_0018
+/content/data/processed_24k/ESD/Speaker_0018/0018_anger_05_04850.wav|ɪts mˌiː pˈɪɡlɪt, hˈɛlp hˈɛlp!|ESD_0018_anger
+/content/data/processed_24k/ESD/Speaker_0015/0015_neutral_05_00240.wav|aɪ tʃˈoʊz ðə ɹˈaɪt wˈeɪ.|ESD_0015
+/content/data/processed_24k/Expresso/ex04/ex04_default_00193.wav|wˌʌt kæn juː tˈɛl mˌiː ɐbˈaʊt "pˈɜːfjuːm: ðə stˈɔːɹi əvə mˈɜːdɚɹɚ"?|Expresso_ex04_default
+/content/data/processed_24k/Expresso/ex03/ex03_sad_00180.wav|wˈɔnə sˈiː "ðə kˈʌlɚ pˈɜːpəl" ˌɔn bɹˈɔːdweɪ?|Expresso_ex03_sad
+/content/data/processed_24k/ESD/Speaker_0015/0015_happiness_04_04867.wav|ðˈɛn sˈædli ɪɾ ɪz mˈʌtʃ fˈɑːɹðɚ.|ESD_0015_happiness
+/content/data/processed_24k/Expresso/ex02/ex02_default_emphasis_00150.wav|ðə kjˈuːpaɪ lˈaʊndʒd ɪn ɐ kˈɔːɹnɚɹ ʌv hɜː ɹˈuːm, kənfˈɜːmɪŋ ðə mˈɛmɚɹi, ɪts kˈʌlɚz klˈæʃɪŋ pˈeɪnfəli wɪð hɜː fˈɔːɹtʌni dɹˈeɪps.|Expresso_ex02_emphasis
+/content/data/processed_24k/RAVDESS/Actor_22/03-01-02-01-01-01-22.wav|kˈɪdz ɑːɹ tˈɔːkɪŋ baɪ ðə dˈɔːɹ.|Actor_22_calm
+/content/data/processed_24k/ESD/Speaker_0018/0018_surprise_06_01187.wav|hˈoʊld ˌʌp maɪ tʃˈɪn, slˈoʊ ænd sˈɑːlɪd.|ESD_0018_surprise
+/content/data/processed_24k/Expresso/ex01/ex01_whisper_00338.wav|ænd ɪts ðə bˈɛst dɹˈʌmɪŋ aɪv ˈɛvɚ sˈiːn.|Expresso_ex01_whisper
+/content/data/processed_24k/ESD/Speaker_0012/0012_sadness_04_00568.wav|bˌʌt ʃˈoʊ mˌiː nˈaʊ jʊɹ mˈæp!|ESD_0012_sadness
+/content/data/processed_24k/Expresso/ex02/ex02_confused_00109.wav|wiː ˈæstɚɹˌɪsk hæv ˈæstɚɹˌɪsk tə ɡɛt ɐ pˈɪktʃɚɹ ʌv juː wɪð ðæt tˈiːkʌp.|Expresso_ex02_confused
+/content/data/processed_24k/ESD/Speaker_0016/0016_surprise_05_02977.wav|ɪt wʊd biː ɐ hˈɑːɹd tʃˈɔɪs.|ESD_0016_surprise
+/content/data/processed_24k/ESD/Speaker_0015/0015_sadness_05_00741.wav|aɪ hæv hædtə ɡɹˈoʊ ˈoʊld.|ESD_0015_sadness
+/content/data/processed_24k/ESD/Speaker_0020/0020_happiness_06_03904.wav|ðə fˈɪʃɚmən ænd hɪz wˈaɪf sˈiː dʒˈɔːɹdʒ ˈɛvɹi dˈeɪ.|ESD_0020_happiness
+/content/data/processed_24k/Expresso/ex01/ex01_default_emphasis_00039.wav|aɪ ˈæstɚɹˌɪsk kæn ˈæstɚɹˌɪsk dˈɛfɪnətli hˈɛlp juː wɪð ðˈæt.|Expresso_ex01_emphasis
+/content/data/processed_24k/ESD/Speaker_0016/0016_sadness_05_02356.wav|hˈænɪbəl kˈʌm tə sˈiː juː.|ESD_0016_sadness
+/content/data/processed_24k/ESD/Speaker_0015/0015_anger_04_04607.wav|ðə skwˈaɪɚ hɪmsˈɛlf ʃˈoʊd pˈɜːfɛkt.|ESD_0015_anger
+/content/data/processed_24k/ESD/Speaker_0019/0019_neutral_06_02266.wav|aɪ səpˈoʊz nˈoʊ, ɪt dˈʌzənt!|ESD_0019
+/content/data/processed_24k/ESD/Speaker_0011/0011_anger_03_02617.wav|lˈʊk ˈaʊt! sˈɛd ˈælɪs.|ESD_0011_anger
+/content/data/processed_24k/ESD/Speaker_0011/0011_sadness_03_03836.wav|ɐ vˈɔɪs sˈɛd: kˈʌm ˈɪn.|ESD_0011_sadness
+/content/data/processed_24k/RAVDESS/Actor_10/03-01-07-02-01-01-10.wav|kˈɪdz ɑːɹ tˈɔːkɪŋ baɪ ðə dˈɔːɹ.|Actor_10_strong_disgust
+/content/data/processed_24k/ESD/Speaker_0019/0019_surprise_06_03199.wav|sˈɪks wʌz hˈæf wˈeɪ dˌaʊn ðə ɹˈuːm.|ESD_0019_surprise
+/content/data/processed_24k/Expresso/ex04/ex04_whisper_00140.wav|ðə fjˈuːʒən ɡɹˈiːn pɹˈɑːdʌkt lˈaɪn ɪz skˈɛdʒuːld tə lˈɑːntʃ nˈɛkst wˈiːk.|Expresso_ex04_whisper
+/content/data/processed_24k/Expresso/ex01/ex01_enunciated_00013.wav|hˌaʊ wʌz jʊɹ dˈædi sˈʌn ˈaʊɾɪŋ?|Expresso_ex01_enunciated
+/content/data/processed_24k/ESD/Speaker_0016/0016_surprise_05_02661.wav|hɜː ʃˈuːz wɜː lˈaɪk fˈɪʃᵻz.|ESD_0016_surprise
+/content/data/processed_24k/Expresso/ex02/ex02_whisper_00233.wav|dˈɪd ʃiː dʒˈʌmp ɪn ɐ kˈæb?|Expresso_ex02_whisper
+/content/data/processed_24k/Expresso/ex02/ex02_whisper_00157.wav|wˈɛdɪŋ mjˈuːzɪk stˈɑːps.|Expresso_ex02_whisper
+/content/data/processed_24k/ESD/Speaker_0012/0012_sadness_04_00407.wav|ðə skwˈaɪɚ hɪmsˈɛlf ʃˈoʊd pˈɜːfɛkt.|ESD_0012_sadness
+/content/data/processed_24k/ESD/Speaker_0016/0016_surprise_05_02935.wav|wˈʌn tˈuː θɹˈiː, wˌɛɹ ɪz jʊɹ bɹˈɛkfəst.|ESD_0016_surprise
+/content/data/processed_24k/ESD/Speaker_0018/0018_anger_06_00026.wav|ðɪ ˈɛnd pˈɑːɹt ɪz fˈɪʃ mˈaʊθ.|ESD_0018_anger
+/content/data/processed_24k/RAVDESS/Actor_17/03-01-05-01-01-01-17.wav|kˈɪdz ɑːɹ tˈɔːkɪŋ baɪ ðə dˈɔːɹ.|Actor_17_angry
+/content/data/processed_24k/ESD/Speaker_0016/0016_anger_05_01590.wav|ɪnˈʌf,juː ɐ fˈuːlɪʃ tʃˈæɾɚ.|ESD_0016_anger
+/content/data/processed_24k/Expresso/ex03/ex03_whisper_00279.wav|nˈoʊ, ðɛɹz nˈoʊ ɹˈeɪn ɛkspˈɛktᵻd tədˈeɪ ɪn pɹˈɑːɡ.|Expresso_ex03_whisper
+/content/data/processed_24k/ESD/Speaker_0017/0017_sadness_05_04356.wav|aɪ ˈoʊ ðˌɛm fˈaɪv hˈʌndɹɪd dˈɑːlɚz.|ESD_0017_sadness
+/content/data/processed_24k/ESD/Speaker_0015/0015_sadness_05_00660.wav|wiː nˈaɪtli dˈæns ˌaʊɚ hˈeɪdeɪ ɡˈaɪz.|ESD_0015_sadness
+/content/data/processed_24k/ESD/Speaker_0014/0014_sadness_04_04071.wav|nˈoʊ ɐdmˈɪtəns ɛksˈɛpt ˌɔn pˈɑːɹɾi bˈɪznəs.|ESD_0014_sadness
+/content/data/processed_24k/ESD/Speaker_0018/0018_happiness_06_00173.wav|kˈʌm ˌɔn maɪ dʒˈæk ɪnðə bˈɑːksᵻz!|ESD_0018_happiness
+/content/data/processed_24k/Expresso/ex02/ex02_laughing_00322.wav|ˈæstɚɹˌɪsk hˌuː ˈæstɚɹˌɪsk hˈɪt juː?|Expresso_ex02_laughing
+/content/data/processed_24k/ESD/Speaker_0020/0020_happiness_06_03681.wav|ɐ fˈɛɹ dʒˈɔː kɹˈækɚ dwˈɔːɹf lˈæŋɡwɪdʒ mˈʌst bˈiː!|ESD_0020_happiness
+/content/data/processed_24k/Expresso/ex01/ex01_enunciated_00005.wav|ɡˌoʊ tə hˈɛl!|Expresso_ex01_enunciated
+/content/data/processed_24k/Expresso/ex02/ex02_default_00178.wav|aɪ wˈɔnə biː ˈæstɚɹˌɪsk blˈoʊn ˈæstɚɹˌɪsk ɐwˈeɪ.|Expresso_ex02_default
+/content/data/processed_24k/ESD/Speaker_0013/0013_happiness_04_01506.wav|blˈækbɜːd, ænd dʒˈeɪ.|ESD_0013_happiness
+/content/data/processed_24k/ESD/Speaker_0016/0016_surprise_05_02816.wav|aɪ tˈɔɪ wɪð maɪ lᵻkˈɜː.|ESD_0016_surprise
+/content/data/processed_24k/ESD/Speaker_0012/0012_happiness_03_04929.wav|ʃiː kˈiːps sˈeɪɪŋ aɪm hˈɜːz.|ESD_0012_happiness
+/content/data/processed_24k/ESD/Speaker_0013/0013_happiness_04_01588.wav|ðɪs ɪz ðə wˈeɪ ðæt snˈeɪks ˈɔːlweɪz tˈɔːk.|ESD_0013_happiness
+/content/data/processed_24k/Expresso/ex01/ex01_confused_00063.wav|ðɪ ɐdvˈænsᵻz ɪn tɛknˈɑːlədʒi, ðɪ ˈʌ kˈaɪndz ʌv bɹˈeɪkθɹuːz ðæt ˈɛvən wˈɔlʃ ɪz wˈɜːkɪŋ ˌɔn ɑːɹ ðə fjˈuːtʃɚ!|Expresso_ex01_confused
+/content/data/processed_24k/Expresso/ex02/ex02_confused_00015.wav|hiːz ɪnðə ɹɪzˈɜːvz, ɹˈaɪt?|Expresso_ex02_confused
+/content/data/processed_24k/ESD/Speaker_0016/0016_happiness_05_01805.wav|stˈɪl juː ˈoʊ ɪɾ ɐ dˈuːɾi.|ESD_0016_happiness
+/content/data/processed_24k/ESD/Speaker_0012/0012_anger_03_04395.wav|hiː sˈɛd tə dʒˈæk, ðə tʃˈæɾɚɹɚ.|ESD_0012_anger
+/content/data/processed_24k/ESD/Speaker_0013/0013_neutral_04_01962.wav|ʃiː sˈɛd ɪn sʌbdˈuːd vˈɔɪs.|ESD_0013
+/content/data/processed_24k/Expresso/ex01/ex01_enunciated_00132.wav|dˈuː juː nˈoʊ ˈɛnɪθˌɪŋ ɐbˈaʊt "dˈuː ˈændɹɔɪdz dɹˈiːm ʌv ᵻlˈɛktɹɪk ʃˈiːp"?|Expresso_ex01_enunciated
+/content/data/processed_24k/ESD/Speaker_0019/0019_surprise_06_02984.wav|səpˈoʊz aɪ tˈeɪk ɡɹˈændmʌðɚɹ ɐ fɹˈɛʃ vˈɛdʒɪɾəbəl.|ESD_0019_surprise
+/content/data/processed_24k/ESD/Speaker_0014/0014_neutral_04_03659.wav|ɪt wˈeɪz sˈɛvən pˈɔɪnt fˈaɪv kˈɪləɡɹˌæm.|ESD_0014
+/content/data/processed_24k/ESD/Speaker_0014/0014_happiness_04_03437.wav|pˈɔːlz tˈiːθ ˈeɪkt bɪkˈʌz ʌv lˈɛmən.|ESD_0014_happiness
+/content/data/processed_24k/Expresso/ex02/ex02_whisper_00023.wav|wˈɛl, ˈɛnɪwˌeɪ, mɪsɐdvˈɛntʃɚ ɹˈaɪt ðɪs wˈeɪ.|Expresso_ex02_whisper
+/content/data/processed_24k/Expresso/ex02/ex02_laughing_00365.wav|wˌʌt dˈuː juː dˈuː?|Expresso_ex02_laughing
+/content/data/processed_24k/Expresso/ex01/ex01_enunciated_00022.wav|ðɛɹz ˈæstɚɹˌɪsk nˈoʊ ˈæstɚɹˌɪsk lˈaɪbəl ɪnðə blˈɑːɡəsfˌɪɹ?|Expresso_ex01_enunciated
+/content/data/processed_24k/ESD/Speaker_0014/0014_neutral_04_03762.wav|ɡˈɪv mˌiː ɐ fˈaɪn fˈæt ɡˈuːs.|ESD_0014
+/content/data/processed_24k/Expresso/ex01/ex01_whisper_00317.wav|wˌʌts ðɪ ɪmˈɜːdʒənsi?|Expresso_ex01_whisper
+/content/data/processed_24k/Expresso/ex04/ex04_whisper_00156.wav|hˌaʊ ɐbˌaʊt sˌʌm wˈɪpt kɹˈiːm"?|Expresso_ex04_whisper
+/content/data/processed_24k/Expresso/ex02/ex02_enunciated_00313.wav|wˌʌt wɜː ðeɪ?|Expresso_ex02_enunciated
+/content/data/processed_24k/ESD/Speaker_0017/0017_sadness_05_04241.wav|aɪ hæv hædtə ɡɹˈoʊ ˈoʊld.|ESD_0017_sadness
+/content/data/processed_24k/ESD/Speaker_0020/0020_neutral_06_04165.wav|ɪɾ ˌɪzənt pˈɪkt æɾ ˈɔːl.|ESD_0020
+/content/data/processed_24k/ESD/Speaker_0016/0016_neutral_05_02120.wav|aɪ sˈeɪ nˈiːðɚ jˈeɪ nˈɔːɹ nˈeɪ.|ESD_0016
+/content/data/processed_24k/ESD/Speaker_0017/0017_sadness_05_04089.wav|ɪnwˌɪtʃ fˈɑːks lˈuːzᵻz ɐ tˈeɪl ænd ɪts ˈɛldɚ sˈɪstɚ fˈaɪndz wˌʌn.|ESD_0017_sadness
+/content/data/processed_24k/ESD/Speaker_0012/0012_surprise_04_00950.wav|aɪm ʃˈʊɹ jʊɹ fɹˈɛndz kæn wˈeɪt!|ESD_0012_surprise
+/content/data/processed_24k/ESD/Speaker_0016/0016_neutral_05_01992.wav|stˈɔːɹi twˈɛnti nˈaɪn ɐ bˈɔɪ ænd ɐ mˈʌŋki.|ESD_0016
+/content/data/processed_24k/Expresso/ex03/ex03_whisper_00067.wav|ˌaʊɾəv nˈoʊwɛɹ.|Expresso_ex03_whisper
+/content/data/processed_24k/Expresso/ex04/ex04_sad_00045.wav|ænd juːl biː ɪnðə kˈɔːɹnɚ, pˈɑːlɪʃɪŋ jʊɹ hˈeɪloʊ?|Expresso_ex04_sad
+/content/data/processed_24k/Expresso/ex01/ex01_laughing_00300.wav|lˈæf ɐbˌaʊt wˈɔntɪŋ tə stɹˈæŋɡəl hɜː?|Expresso_ex01_laughing
+/content/data/processed_24k/ESD/Speaker_0019/0019_anger_06_01846.wav|wˌʌt ɑːɹ juː wˈeɪɾɪŋ fɔːɹ? mˈæn.|ESD_0019_anger
+/content/data/processed_24k/Expresso/ex02/ex02_whisper_00297.wav|lˈɛts kˈiːp ɪɾ ˈæstɚɹˌɪsk sˈɪmpəl ˈæstɚɹˌɪsk.|Expresso_ex02_whisper
+/content/data/processed_24k/ESD/Speaker_0011/0011_anger_03_02722.wav|pˈɪk, pˈɪk, pˈɪk!|ESD_0011_anger
+/content/data/processed_24k/Expresso/ex02/ex02_enunciated_00266.wav|sˌoʊ ðæts ɐ ɡˈʊd tˈaɪm fɔːɹ mˌiː.|Expresso_ex02_enunciated
+/content/data/processed_24k/Expresso/ex01/ex01_happy_00181.wav|lˈuːʃə kˈoʊvɪtʃ ɔːɹ lˈuːsi kˈoʊ?|Expresso_ex01_happy
+/content/data/processed_24k/Expresso/ex02/ex02_confused_00178.wav|aɪ wˈɔnt təbi ˈæstɚɹˌɪsk blˈoʊn ˈæstɚɹˌɪsk ɐwˈeɪ.|Expresso_ex02_confused
+/content/data/processed_24k/RAVDESS/Actor_14/03-01-05-01-02-02-14.wav|dˈɑːɡz ɑːɹ sˈɪɾɪŋ baɪ ðə dˈɔːɹ.|Actor_14_angry
+/content/data/processed_24k/ESD/Speaker_0016/0016_neutral_05_02253.wav|hˌaʊ dˈuː juː lˈaɪk juː dˈɜːɾi bˈɜːd!|ESD_0016
+/content/data/processed_24k/ESD/Speaker_0011/0011_sadness_03_03677.wav|pˌʊt ðæt ɹˈuːd ɡɹˈæshɑːpɚɹ ɪn dʒˈeɪl!|ESD_0011_sadness
+/content/data/processed_24k/RAVDESS/Actor_19/03-01-08-02-02-01-19.wav|dˈɑːɡz ɑːɹ sˈɪɾɪŋ baɪ ðə dˈɔːɹ.|Actor_19_strong_surprised
+/content/data/processed_24k/ESD/Speaker_0019/0019_anger_06_01586.wav|ɐ hˈɪpoʊ lˈaɪvz ɪnðə zˈuː.|ESD_0019_anger
+/content/data/processed_24k/Expresso/ex04/ex04_confused_00315.wav|tʌʃˈeɪ.|Expresso_ex04_confused
+/content/data/processed_24k/ESD/Speaker_0018/0018_sadness_06_00884.wav|səpˈoʊz aɪ tˈeɪk ɡɹˈændmʌðɚɹ ɐ fɹˈɛʃ vˈɛdʒɪɾəbəl.|ESD_0018_sadness
+/content/data/processed_24k/Expresso/ex02/ex02_sad_00275.wav|ðɛɹz nˈoʊ sˈɔlt hˈɪɹ.|Expresso_ex02_sad
+/content/data/processed_24k/RAVDESS/Actor_16/03-01-01-01-01-02-16.wav|kˈɪdz ɑːɹ tˈɔːkɪŋ baɪ ðə dˈɔːɹ.|Actor_16
+/content/data/processed_24k/ESD/Speaker_0015/0015_sadness_05_00755.wav|stˈɪl juː ˈoʊ ɪɾ ɐ dˈuːɾi.|ESD_0015_sadness
+/content/data/processed_24k/ESD/Speaker_0017/0017_anger_05_03346.wav|wˌʌt ɑːɹ juː wˈeɪɾɪŋ fɔːɹ? mˈæn.|ESD_0017_anger
+/content/data/processed_24k/Expresso/ex01/ex01_whisper_00266.wav|wˌʌt dˈuː juː dˈuː ɪf juː dˈoʊnt lˈaɪk jʊɹ sˈuːp? tˈeɪk ɪt tə ðə stˈɑːk ɛkstʃˈeɪndʒ.|Expresso_ex01_whisper
+/content/data/processed_24k/Expresso/ex03/ex03_whisper_00154.wav|ðə suːpɹˈiːm kˈɔːɹt ɪz dᵻlˈɪbɚɹˌeɪɾɪŋ.|Expresso_ex03_whisper
+/content/data/processed_24k/ESD/Speaker_0019/0019_sadness_06_02713.wav|hɪz lˈɑːɹdʒ mˈaʊθ kˈɜːld ˌɪntʊ ɐ snˈɪɹ.|ESD_0019_sadness
+/content/data/processed_24k/RAVDESS/Actor_18/03-01-05-02-01-02-18.wav|kˈɪdz ɑːɹ tˈɔːkɪŋ baɪ ðə dˈɔːɹ.|Actor_18_strong_angry
+/content/data/processed_24k/Expresso/ex02/ex02_default_00189.wav|wˌʌt ɐbˌaʊt ɛnhˈænsɪŋ kˈɔːɹ ɹˈiːdɪŋ ɪnstɹˈʌkʃənz?|Expresso_ex02_default
+/content/data/processed_24k/ESD/Speaker_0017/0017_happiness_05_03693.wav|lˈuːsi, ɐ klˈɛvɚ fˈɑːɹmɚ.|ESD_0017_happiness
+/content/data/processed_24k/ESD/Speaker_0016/0016_neutral_05_02210.wav|ˈæftɚɹ ɐ wˈaɪl hiː pɚsˈiːvd bˈoʊθ dʒˈaɪənts.|ESD_0016
+/content/data/processed_24k/Expresso/ex01/ex01_default_emphasis_00092.wav|wiː ˈæstɚɹˌɪsk ʃˌʊd ˈæstɚɹˌɪsk sˈiː ðiːz klˈaʊdz ˈæstɚɹˌɪsk dˈɪsᵻpˌeɪt ˈæstɚɹˌɪsk baɪ ðɪ ˌæftɚnˈuːn.|Expresso_ex01_emphasis
+/content/data/processed_24k/Expresso/ex04/ex04_confused_00263.wav|wˌʌts ɪɾ ɐbˈaʊt?|Expresso_ex04_confused
+/content/data/processed_24k/ESD/Speaker_0017/0017_surprise_05_04438.wav|ˌaʊɚ θˈæŋks tə ɡˈɑːdz ˈoʊθ.|ESD_0017_surprise
+/content/data/processed_24k/ESD/Speaker_0018/0018_sadness_06_00811.wav|hɜː ʃˈuːz wɜː lˈaɪk fˈɪʃᵻz.|ESD_0018_sadness
+/content/data/processed_24k/ESD/Speaker_0018/0018_sadness_06_00998.wav|kˈæptɪn tˈɑːm ɹᵻsˈiːvz ɐn ˈæŋɡɹi lˈɛɾɚ.|ESD_0018_sadness
+/content/data/processed_24k/ESD/Speaker_0019/0019_sadness_06_02623.wav|kˈʌm ˌɔn maɪ dʒˈæk ɪnðə bˈɑːksᵻz!|ESD_0019_sadness
+/content/data/processed_24k/ESD/Speaker_0016/0016_happiness_05_01660.wav|mˈɪdjɪɹ ɪz dˈeɪ, ʃˈaɪɚ jˈɪɹ.|ESD_0016_happiness
+/content/data/processed_24k/Expresso/ex04/ex04_sad_00243.wav|dˈuː juː wˈɔnt tə tʃˈeɪndʒ ðə fˈɜːst, ɔːɹ sˈɛkənd ɐlˈɑːɹm?|Expresso_ex04_sad
+/content/data/processed_24k/ESD/Speaker_0016/0016_anger_05_01373.wav|juː nˈoʊ, ˈænsɚz tə ðə nˈeɪm ʌv tˈɑːmz sˈʌn.|ESD_0016_anger
+/content/data/processed_24k/ESD/Speaker_0018/0018_sadness_06_01135.wav|ˌoʊvɚ ðˌɛm swˈuːpt ðɪ ˈiːɡəlz.|ESD_0018_sadness
+/content/data/processed_24k/ESD/Speaker_0015/0015_happiness_05_00077.wav|ɪt sˈɛz nˈoʊ wˈeɪ! ʃˈaʊɾᵻd dˈeɪzi.|ESD_0015_happiness
+/content/data/processed_24k/Expresso/ex02/ex02_enunciated_00363.wav|wˌɛn juː plˈeɪs ɐ bˈɛt wɪð wˈɪljəm hˈɪl spˈɔːɹts bˈʊk, ˈɛvɹi spˈɔːɹts mˈoʊmənt bɪkˌʌmz ˈiːvən mˈɔːɹ ˈɪntɹɛstɪŋ.|Expresso_ex02_enunciated
+/content/data/processed_24k/RAVDESS/Actor_13/03-01-07-01-01-01-13.wav|kˈɪdz ɑːɹ tˈɔːkɪŋ baɪ ðə dˈɔːɹ.|Actor_13_disgust
+/content/data/processed_24k/ESD/Speaker_0014/0014_anger_04_02966.wav|juː kɹˈuːəlti ʃˌæl kˈɔst jʊɹ lˈaɪf !|ESD_0014_anger
+/content/data/processed_24k/ESD/Speaker_0017/0017_neutral_05_03818.wav|ðɪ ˈaʊl flˈuː ˌɪntʊ ɐ bˈʊʃ.|ESD_0017
+/content/data/processed_24k/Expresso/ex04/ex04_enunciated_00045.wav|ænd juːl biː ɪnðə kˈɔːɹnɚ, pˈɑːlɪʃɪŋ jʊɹ hˈeɪloʊ?|Expresso_ex04_enunciated
+/content/data/processed_24k/RAVDESS/Actor_13/03-01-04-01-02-01-13.wav|dˈɑːɡz ɑːɹ sˈɪɾɪŋ baɪ ðə dˈɔːɹ.|Actor_13_sad
+/content/data/processed_24k/ESD/Speaker_0017/0017_sadness_05_04303.wav|ʃiː lˈæft.|ESD_0017_sadness
+/content/data/processed_24k/ESD/Speaker_0014/0014_neutral_04_03596.wav|ænd ðɛɹ juːl fˈaɪnd ɐ snˈæp dɹˈæɡən flˈaɪ.|ESD_0014
+/content/data/processed_24k/Expresso/ex02/ex02_happy_00016.wav|ðɛɹ woʊnt biː ˌɛni ɹˈeɪn tədˈeɪ ɪn sˌɪnsɪnˈæɾi.|Expresso_ex02_happy
+/content/data/processed_24k/ESD/Speaker_0018/0018_neutral_06_00450.wav|ðə nˈaɪn ðɪ ˈɛɡz, aɪ kˈiːp.|ESD_0018
+/content/data/processed_24k/Expresso/ex02/ex02_whisper_00363.wav|wˌɛn juː plˈeɪs ɐ bˈɛt wɪð wˈɪljəm hˈɪl spˈɔːɹts bˈʊk, ˈɛvɹi spˈɔːɹts mˈoʊmənt bɪkˌʌmz ˈiːvən mˈɔːɹ ænd mˈɔːɹ ˈɪntɹɛstɪŋ.|Expresso_ex02_whisper
+/content/data/processed_24k/Expresso/ex04/ex04_happy_00115.wav|bˈoʊθ ʌv ðˌɛm ɑːɹ ɡɹˈeɪt ˈæktɚz!|Expresso_ex04_happy
+/content/data/processed_24k/Expresso/ex03/ex03_sad_00340.wav|wˌʌt ɑːɹ ðə tɹˈeɪdɔfs, kˈɑːmpɹəmˌaɪzᵻz?|Expresso_ex03_sad
+/content/data/processed_24k/ESD/Speaker_0014/0014_sadness_04_03801.wav|aɪ dˈɪd ɡˈoʊ, ænd mˌeɪd mˈɛni pɹˈɪzənɚz.|ESD_0014_sadness
+/content/data/processed_24k/ESD/Speaker_0019/0019_surprise_06_03164.wav|aɪv dʒˈʌst ʃˈɑːt ɐ stˈæɡ.|ESD_0019_surprise
+/content/data/processed_24k/ESD/Speaker_0017/0017_sadness_05_04260.wav|fɹʌm ˈiːtʃ kˈeɪk, ðɛɹ spɹˈæŋ ɐ hjˈuːdʒ dˈɑːɡ.|ESD_0017_sadness
+/content/data/processed_24k/ESD/Speaker_0019/0019_happiness_06_01909.wav|ðæt aɪɐm ɐ bˈɔːɹn nˈɜːs.|ESD_0019_happiness
+/content/data/processed_24k/ESD/Speaker_0020/0020_surprise_06_04963.wav|bˈɑːb ɡoʊz tʊ ɐ nˈuː skˈuːl.|ESD_0020_surprise
+/content/data/processed_24k/ESD/Speaker_0011/0011_sadness_03_03640.wav|wiː ɛkspˈɛktᵻd tˈɑːm wʊd dʒˈʌmp fɔːɹ dʒˈɔɪ.|ESD_0011_sadness
+/content/data/processed_24k/ESD/Speaker_0020/0020_sadness_06_04372.wav|hˌaʊ səspˈɪʃəs ðɪs fˈɑːks.|ESD_0020_sadness
+/content/data/processed_24k/ESD/Speaker_0015/0015_anger_04_04849.wav|dˈuː juː hæv ˈɛnɪθˌɪŋ ɪn mˈaɪnd?|ESD_0015_anger
+/content/data/processed_24k/ESD/Speaker_0014/0014_happiness_04_03123.wav|ðə fˈʊtbɔːl tˈiːmz ɡˈɪv ɐ tˈiː pˈɑːɹɾi.|ESD_0014_happiness
+/content/data/processed_24k/ESD/Speaker_0019/0019_sadness_06_02659.wav|ˈækt dɹˈɑːp sˈɛkənd ˈækt sˈiːn.|ESD_0019_sadness
+/content/data/processed_24k/Expresso/ex01/ex01_laughing_00088.wav|bˌʌt ɪf juː sˈeɪ juː ɡɛt ɐlˈɔŋ wɪð jʊɹ pˈɛɹənts, wˈɛl lˈæf jʊɹ ɐ lˈaɪɚ tˈuː! bɹˈɛθ|Expresso_ex01_laughing
+/content/data/processed_24k/ESD/Speaker_0020/0020_sadness_06_04588.wav|nˈoʊ, sˈɛd pˈɪɡi kˈɛɹləsli.|ESD_0020_sadness
+/content/data/processed_24k/ESD/Speaker_0016/0016_happiness_05_01686.wav|ɐ hˈɪpoʊ lˈaɪvz ɪnðə zˈuː.|ESD_0016_happiness
+/content/data/processed_24k/Expresso/ex02/ex02_default_emphasis_00061.wav|ɪts nˌɑːt ɡˌənə biː ˈæstɚɹˌɪsk hˈɑːt.ˈæstɚɹˌɪsk|Expresso_ex02_emphasis
+/content/data/processed_24k/Expresso/ex01/ex01_whisper_00148.wav|aɪm ˈæskɪŋ ˈæstɚɹˌɪsk fɔːɹ ˈæstɚɹˌɪsk hˌɪm.|Expresso_ex01_whisper
+/content/data/processed_24k/ESD/Speaker_0018/0018_surprise_06_01358.wav|ɐ ɹˈeɪdʒɪŋ fˈaɪɚ wʌz ɪn hɪz ˈaɪz.|ESD_0018_surprise
+/content/data/processed_24k/ESD/Speaker_0013/0013_surprise_04_02641.wav|ɡˈɪv mˌiː jʊɹ hˈænd ɔːɹ aɪ wɪl kɹˈaɪ hˈɑːɹdɚ ðɐn bᵻfˈɔːɹ.|ESD_0013_surprise
+/content/data/processed_24k/ESD/Speaker_0012/0012_neutral_04_00072.wav|aɪɐm fɹʌm tˈaʊəl lˈænd.|ESD_0012
+/content/data/processed_24k/ESD/Speaker_0017/0017_surprise_05_04413.wav|ˈæni plˈiːz plˈiːz dˈoʊnt hˈɜːt mˌiː!|ESD_0017_surprise
+/content/data/processed_24k/ESD/Speaker_0011/0011_anger_03_02582.wav|biː ˈɔf nˈaʊ æz kwˈɪk æz juː mˈeɪ!|ESD_0011_anger
+/content/data/processed_24k/ESD/Speaker_0015/0015_neutral_05_00239.wav|ɪnwˌɪtʃ fˈɑːks lˈuːzᵻz ɐ tˈeɪl ænd ɪts ˈɛldɚ sˈɪstɚ fˈaɪndz wˌʌn.|ESD_0015
+/content/data/processed_24k/Expresso/ex02/ex02_confused_00343.wav|ˈændɹuː, plˈiːz duːnˌɑːt kˈɪl hˌɪm!|Expresso_ex02_confused
+/content/data/processed_24k/Expresso/ex01/ex01_happy_00347.wav|aɪ lˈʌv "ʃˈʌɾɚɹ ˈaɪlənd"! θɹˈɪlɚz ɑːɹ maɪ fˈeɪvɚɹᵻt.|Expresso_ex01_happy
+/content/data/processed_24k/ESD/Speaker_0011/0011_neutral_03_03382.wav|fɹˈɛʃ pˈeɪn sˈiːzd pˈɔːlz bˈɑːdi.|ESD_0011
+/content/data/processed_24k/ESD/Speaker_0015/0015_sadness_05_00588.wav|ˌaʊɚ θˈæŋks tə ɡˈɑːdz ˈoʊθ.|ESD_0015_sadness
+/content/data/processed_24k/ESD/Speaker_0018/0018_neutral_06_00663.wav|bˌʌt wʌt ɐbˌaʊt ðɪs θˈɪŋ, stˈɪki!|ESD_0018
+/content/data/processed_24k/Expresso/ex01/ex01_laughing_00061.wav|bɹˈɛθ fɔːɹ wʌt ɪts wˈɜːθ, aɪ θˈɪŋk jʊɹ ɐ stˈændʌp ɡˈaɪ. bɹˈɛθ|Expresso_ex01_laughing
+/content/data/processed_24k/ESD/Speaker_0015/0015_anger_04_04552.wav|hiː wʌz stˈɪl ɪnðə fˈɔːɹɪst!|ESD_0015_anger
+/content/data/processed_24k/ESD/Speaker_0016/0016_neutral_05_02066.wav|ðeɪ wɜː tʃˈɪldɹən ʌv mˈaɪn.|ESD_0016
+/content/data/processed_24k/ESD/Speaker_0012/0012_sadness_04_00429.wav|ænd wʊd spˈɔɪl maɪ dʒˈoʊk.|ESD_0012_sadness
+/content/data/processed_24k/Expresso/ex01/ex01_default_00237.wav|jˈuːs "hˈɜː" ɔːɹ "zˈiː" æz dʒˈɛndɚ nˈuːtɹəl pɹˈoʊnaʊnz?|Expresso_ex01_default
+/content/data/processed_24k/ESD/Speaker_0015/0015_anger_04_04743.wav|ˈɔf fɚðə pɹˈɪzən ʃˈɪp.|ESD_0015_anger
+/content/data/processed_24k/ESD/Speaker_0016/0016_anger_05_01534.wav|ðə stɹˈɔː, tʃˈɑːɹkoʊl ænd ðə pˈiː.|ESD_0016_anger
+/content/data/processed_24k/ESD/Speaker_0016/0016_happiness_05_01683.wav|baɪ hˈʊk ɔːɹ baɪ kɹˈʊk.|ESD_0016_happiness
+/content/data/processed_24k/ESD/Speaker_0011/0011_surprise_03_04191.wav|ʃiː hɐz ɐ hˈaɪ vˈɔɪs.|ESD_0011_surprise
+/content/data/processed_24k/Expresso/ex04/ex04_default_emphasis_00065.wav|ˈæstɚɹˌɪsk wˌaɪ ˈæstɚɹˌɪsk dˈoʊnt juː bᵻlˈiːv ɪt?|Expresso_ex04_emphasis
+/content/data/processed_24k/ESD/Speaker_0014/0014_surprise_04_04263.wav|ɐ hˈæf pˈaʊndz ʌv flˈaʊɚ ænd tˈuː ˈaʊnsᵻz sˈuːɪt.|ESD_0014_surprise
+/content/data/processed_24k/ESD/Speaker_0019/0019_surprise_06_03040.wav|kæn aɪ lˈɑːdʒ hˈɪɹ tənˈaɪt?|ESD_0019_surprise
+/content/data/processed_24k/Expresso/ex01/ex01_sad_00007.wav|hɐz ˈæstɚɹˌɪsk hˈoʊvən ˈæstɚɹˌɪsk kˈænsəld?|Expresso_ex01_sad
+/content/data/processed_24k/ESD/Speaker_0020/0020_happiness_06_03767.wav|aɪ sˈɛd juː lˈʊkt lˈaɪk ɐn ˈɛɡ, sˌɜː.|ESD_0020_happiness
+/content/data/processed_24k/RAVDESS/Actor_18/03-01-02-01-02-02-18.wav|dˈɑːɡz ɑːɹ sˈɪɾɪŋ baɪ ðə dˈɔːɹ.|Actor_18_calm
+/content/data/processed_24k/Expresso/ex03/ex03_laughing_00250.wav|ɑːɹ juː ˈæktʃuːəli blˈækmeɪlɪŋ mˌiː?|Expresso_ex03_laughing
+/content/data/processed_24k/Expresso/ex01/ex01_default_00006.wav|hiː dᵻfˈɛndᵻd mˌiː dˈʊɹɹɪŋ ðə tɹˈaɪəl.|Expresso_ex01_default
+/content/data/processed_24k/ESD/Speaker_0019/0019_anger_06_01593.wav|ðeɪ fˈaʊnd ɐ kˈaʊ ɡɹˈeɪzɪŋ ɪn ɐ fˈiːld.|ESD_0019_anger
+/content/data/processed_24k/ESD/Speaker_0011/0011_happiness_03_02930.wav|ænd aɪ nˈɛvɚ hæd ɐ wˈuːpɪŋ kˈɔf wˈaɪ.|ESD_0011_happiness
+/content/data/processed_24k/ESD/Speaker_0019/0019_happiness_06_02120.wav|aɪ sˈeɪ aɪ wɪl biː ˈɛmpɚɹɚ.|ESD_0019_happiness
+/content/data/processed_24k/ESD/Speaker_0020/0020_happiness_06_03644.wav|ðə nˈæstiɪst θˈɪŋz ðeɪ sˈɔː wɜː ðə kˈɑːbwɛbz.|ESD_0020_happiness
+/content/data/processed_24k/ESD/Speaker_0020/0020_surprise_06_04900.wav|ðə lˈeɪdɪbˌʌɡ tˈoʊld ðˌɛm pɹˈaʊdli.|ESD_0020_surprise
+/content/data/processed_24k/Expresso/ex01/ex01_default_emphasis_00111.wav|wˌʌts ðə nˈɛkst pɹˈɑːdʒɛkt fɚðə ɹˈʌsoʊ bɹˈʌðɚz?|Expresso_ex01_emphasis
+/content/data/processed_24k/ESD/Speaker_0020/0020_neutral_06_04279.wav|ʃiː kˈiːps sˈeɪɪŋ aɪm hˈɜːz.|ESD_0020
+/content/data/processed_24k/ESD/Speaker_0016/0016_neutral_05_02041.wav|dˈʌz ðə wˈʌn ðæt wˈɪnz ɡɛt ðə kɹˈaʊnd?|ESD_0016
+/content/data/processed_24k/Expresso/ex02/ex02_whisper_00203.wav|bɹˈɛθ ðæts ˈɔːlsoʊ wʌt mˌeɪd mˌiː ɡɹˈeɪt.|Expresso_ex02_whisper
+/content/data/processed_24k/ESD/Speaker_0013/0013_anger_04_01245.wav|wiː kæn nˌɑːt dˈuː ɪt sˌɜː.|ESD_0013_anger
+/content/data/processed_24k/ESD/Speaker_0011/0011_neutral_03_03415.wav|wˈɛl ɪɾ ˌɪzənt pˈɪkt æɾ ˈɔːl.|ESD_0011
+/content/data/processed_24k/ESD/Speaker_0020/0020_neutral_06_04169.wav|hɜː pˈɔː wɛnt ˌɪntʊ jʊɹ ˈaɪ?|ESD_0020
+/content/data/processed_24k/ESD/Speaker_0019/0019_sadness_06_02619.wav|tˈɑːm nˈaʊ lˈɛt ˌaʊɚɹ ˈæɹoʊz flˈaɪ!|ESD_0019_sadness
+/content/data/processed_24k/Expresso/ex02/ex02_sad_00087.wav|mˌiː ɪn ɐ stɹˈeɪtdʒækɪt, hˈɛdɪŋ fɔːɹ ɹˈeɪvənwˌʊd.|Expresso_ex02_sad
+/content/data/processed_24k/ESD/Speaker_0011/0011_happiness_03_03066.wav|juː kɹˈuːəlti ʃˌæl kˈɔst jʊɹ lˈaɪf !|ESD_0011_happiness
+/content/data/processed_24k/ESD/Speaker_0014/0014_surprise_04_04227.wav|ðɪ ˈɑːɹt kwˈaɪt sˈeɪf wɪð mˌiː.|ESD_0014_surprise
+/content/data/processed_24k/ESD/Speaker_0015/0015_happiness_04_04973.wav|juː nˈoʊ, ˈænsɚz tə ðə nˈeɪm ʌv tˈɑːmz sˈʌn.|ESD_0015_happiness
+/content/data/processed_24k/ESD/Speaker_0012/0012_happiness_03_04916.wav|æt lˈɛŋθ ðeɪ kˈeɪm tʊ ɐ ʃˈɑːɹp bˈɛnd.|ESD_0012_happiness
+/content/data/processed_24k/Expresso/ex02/ex02_happy_00320.wav|wˌʌt dˈʌz ʃiː mˈiːn bˈaɪ "mənˈɪpjʊlˌeɪt"?|Expresso_ex02_happy
+/content/data/processed_24k/ESD/Speaker_0019/0019_happiness_06_02163.wav|bˈɑːb ɡoʊz tʊ ɐ nˈuː skˈuːl.|ESD_0019_happiness
+/content/data/processed_24k/ESD/Speaker_0013/0013_anger_04_01062.wav|ˈæstɚɹˌɔɪd θɹˈiː hˈʌndɹɪd ænd twˈɛnti fˈaɪv.|ESD_0013_anger
+/content/data/processed_24k/Expresso/ex02/ex02_confused_00328.wav|ɡɛt bˈæk hˈɪɹ!|Expresso_ex02_confused
+/content/data/processed_24k/Expresso/ex01/ex01_default_00183.wav|nˈoʊ, tədˈeɪ ɪn sˈænɪbəl ðɛɹ ˌɪzənt ɡˌənə biː hˈeɪl, ˌɪɾəl biː klˈaʊdi, wɪð ɐ hˈaɪ ʌv fˈɪftiˈeɪt ænd ɐ lˈoʊ ʌv twˈɛntiˈeɪt.|Expresso_ex01_default
+/content/data/processed_24k/Expresso/ex04/ex04_laughing_00358.wav|ˈʌ, ðɪs lˈæf ðɪs ɪz pˈɔɪntləs.|Expresso_ex04_laughing
+/content/data/processed_24k/ESD/Speaker_0016/0016_neutral_05_02284.wav|bˌʌt θˈɪŋz hˈævənt tʃˈeɪndʒ jˈɛt.|ESD_0016
+/content/data/processed_24k/ESD/Speaker_0012/0012_surprise_04_00938.wav|nˈoʊ, sˈɛd pˈɪɡi kˈɛɹləsli.|ESD_0012_surprise
+/content/data/processed_24k/Expresso/ex02/ex02_confused_00158.wav|θˈæŋkfəli ðeɪ lˈaɪkt ɪt.|Expresso_ex02_confused
+/content/data/processed_24k/ESD/Speaker_0011/0011_happiness_03_02953.wav|hˈɪɹ ˈaɪ æm hˈuːm juː sˈiːk.|ESD_0011_happiness
+/content/data/processed_24k/Expresso/ex01/ex01_whisper_00303.wav|sˌoʊ wˌaɪ dˈoʊnt juː dʒˈʌst ʃˈʌt ˈʌp! ðɛɹz fˈɔːɹ ˈʌðɚ pˈiːpəl ɪn hˈɪɹ juː nˈoʊ...|Expresso_ex01_whisper
+/content/data/processed_24k/ESD/Speaker_0011/0011_surprise_03_04066.wav|aɪ tˈɔɪ wɪð maɪ lᵻkˈɜː.|ESD_0011_surprise
+/content/data/processed_24k/Expresso/ex02/ex02_whisper_00285.wav|hˌuː dˈʌɡ ˌʌp ðə dˈɜːt?|Expresso_ex02_whisper
+/content/data/processed_24k/Expresso/ex04/ex04_whisper_00113.wav|ˈæstɚɹˌɪsk wʌt ˈæstɚɹˌɪsk wɜː juː tˈɔːkɪŋ ɐbˌaʊt ˌʌp ˌɔn ðæt klˈɪf, hˈʌ?|Expresso_ex04_whisper
+/content/data/processed_24k/ESD/Speaker_0011/0011_sadness_03_03880.wav|ʃiːl biː fˈiːvɚɹɪʃ ˈæftɚ sˈoʊ mˌʌtʃ θˈɪŋkɪŋ.|ESD_0011_sadness
+/content/data/processed_24k/ESD/Speaker_0015/0015_happiness_05_00071.wav|ˈæsk ɡˈɑːd tə hˈɛlp juː.|ESD_0015_happiness
+/content/data/processed_24k/RAVDESS/Actor_24/03-01-02-01-01-02-24.wav|kˈɪdz ɑːɹ tˈɔːkɪŋ baɪ ðə dˈɔːɹ.|Actor_24_calm
+/content/data/processed_24k/Expresso/ex04/ex04_default_emphasis_00034.wav|mˈɪstɚ mˈeɪsən ɪz klˈeɪmɪŋ ʌnfˈɛɹ dɪsmˈɪsəl.|Expresso_ex04_emphasis
+/content/data/processed_24k/Expresso/ex02/ex02_happy_00007.wav|ɐ sˈuːpɚ lˈɔɪɚ fɚðə sˈuːpɚstˌɑːɹz?|Expresso_ex02_happy
+/content/data/processed_24k/Expresso/ex03/ex03_enunciated_00357.wav|hˈɛlp ɪz ɔnðə wˈeɪ!|Expresso_ex03_enunciated
+/content/data/processed_24k/Expresso/ex03/ex03_confused_00370.wav|tˈɜːmᵻnˌeɪt kˈæmɹə ˈæp.|Expresso_ex03_confused
+/content/data/processed_24k/Expresso/ex02/ex02_default_emphasis_00123.wav|jˈɛs, ɑːktˈoʊbɚ twˈɛnti nˈaɪnθ, twˈɛnti ˈeɪtiːn ˈæstɚɹˌɪsk wʌz ˈæstɚɹˌɪsk ɐ mˈʌndeɪ.|Expresso_ex02_emphasis
+/content/data/processed_24k/ESD/Speaker_0015/0015_happiness_05_00009.wav|kˈɪɾi, kæn juː plˈeɪ tʃˈɛs?|ESD_0015_happiness
+/content/data/processed_24k/ESD/Speaker_0013/0013_sadness_04_02189.wav|wˌʌt ɐn ɪmpˈɛtʃuːəs bˈɔɪ hiː ɪz!|ESD_0013_sadness
+/content/data/processed_24k/Expresso/ex03/ex03_confused_00216.wav|ɛkskjˈuːs mˌiː, sˌɜː? aɪ θˈɪŋk ðɛɹz bˌɪn ɐ mɪstˈeɪk.|Expresso_ex03_confused
+/content/data/processed_24k/ESD/Speaker_0015/0015_neutral_05_00206.wav|aɪm æz bˈæd æz aɪ kæn bˈiː.|ESD_0015
+/content/data/processed_24k/ESD/Speaker_0020/0020_neutral_06_04076.wav|kˈɑːs aɪ nˈoʊ aɪ hˌæd sʌm hˈʌni.|ESD_0020
+/content/data/processed_24k/Expresso/ex01/ex01_default_00120.wav|hiː ˈæstɚɹˌɪsk sˈɜːʔnli ˈæstɚɹˌɪsk dˈɪd ɐ ɡˈʊd dʒˈɑːb!|Expresso_ex01_default
+/content/data/processed_24k/ESD/Speaker_0020/0020_sadness_06_04601.wav|fˈaɪv hˈʌndɹɪd ænd wˈʌn mˈɪliən ɹˈaɪt?|ESD_0020_sadness
+/content/data/processed_24k/ESD/Speaker_0014/0014_happiness_04_03180.wav|ænd aɪ nˈɛvɚ hæd ɐ wˈuːpɪŋ kˈɔf wˈaɪ.|ESD_0014_happiness
+/content/data/processed_24k/ESD/Speaker_0017/0017_sadness_05_04398.wav|wˌʌt dˈuː juː θˈɪŋk ʌv ðɪs kwˈɛstʃən?|ESD_0017_sadness
+/content/data/processed_24k/ESD/Speaker_0013/0013_anger_04_01342.wav|ænd wʌt dˈʌz ɪt mˈiːn?|ESD_0013_anger
+/content/data/processed_24k/Expresso/ex04/ex04_happy_00089.wav|vˈɛɾɚɹənz dˈeɪ ɪn twˈɛnti twˈɛnti wˈʌn ɪz tˈuː jˈɪɹz tˈuː wˈiːks ɐwˈeɪ.|Expresso_ex04_happy
+/content/data/processed_24k/ESD/Speaker_0018/0018_neutral_06_00784.wav|bˌʌt θˈɪŋz hˈævənt tʃˈeɪndʒ jˈɛt.|ESD_0018
+/content/data/processed_24k/ESD/Speaker_0016/0016_happiness_05_01713.wav|ɐ hˈæf pˈaʊndz ʌv flˈaʊɚ ænd tˈuː ˈaʊnsᵻz sˈuːɪt.|ESD_0016_happiness
+/content/data/processed_24k/Expresso/ex03/ex03_whisper_00111.wav|dˈɪd juː hˈɪɹ ɐbˌaʊt ðə pˈaʊɚɹ ˈaʊtlɛt hˌuː ɡɑːt ˌɪntʊ ɐ fˈaɪt wɪð ɐ pˈaʊɚ kˈɔːɹd? hiː θˈɔːt hiː kʊd ˈæstɚɹˌɪsk sˈɑːkɪt ˈæstɚɹˌɪsk tə hˌɪm.|Expresso_ex03_whisper
+/content/data/processed_24k/ESD/Speaker_0020/0020_neutral_06_04193.wav|ˈɔf fɚðə pɹˈɪzən ʃˈɪp.|ESD_0020
+/content/data/processed_24k/ESD/Speaker_0013/0013_surprise_04_02708.wav|hiː ˈoʊd mˈɪstɚ lˈɔːsən, aɪ kˈænt tˈɛl juː hˈaʊ.|ESD_0013_surprise
+/content/data/processed_24k/Expresso/ex01/ex01_confused_00241.wav|aɪ nˈoʊ ɛɡzˈæktli wʌt juːd dˈuː, juːd sˈeɪ hˈaɪ tə hˌɪm ænd wɛn hiː lˈɛft juːd kˈʌt hˌɪm ˈɔf.|Expresso_ex01_confused
+/content/data/processed_24k/ESD/Speaker_0017/0017_neutral_05_03931.wav|wɪl kˈɔːl hɜː lˈɪli, fɔːɹ ʃˈɔːɹt.|ESD_0017
+/content/data/processed_24k/ESD/Speaker_0016/0016_surprise_05_02651.wav|aɪ dˈɪd ɡˈoʊ, ænd mˌeɪd mˈɛni pɹˈɪzənɚz.|ESD_0016_surprise
+/content/data/processed_24k/Expresso/ex01/ex01_confused_00019.wav|ˈɑːfɪsɚ tʃˈɛnoʊˌɪθ? jˈɛs, ɪts dʒˈɑːnə hˈɔːks.|Expresso_ex01_confused
+/content/data/processed_24k/ESD/Speaker_0012/0012_anger_03_04262.wav|aɪ hæv bˈʌnbɛɹid ˈɔːl ˌoʊvɚ ɡˈoʊt ˌɔn tˈuː sˈɛpɹət əkˈeɪʒənz.|ESD_0012_anger
+/content/data/processed_24k/ESD/Speaker_0019/0019_sadness_06_02645.wav|aɪ dˈoʊnt pˈeɪntᵻd tˈaɪɡɚ.|ESD_0019_sadness
+/content/data/processed_24k/Expresso/ex02/ex02_enunciated_00011.wav|aɪ ɹᵻmˈɛmbɚ bɪkˈʌz aɪ hæd wˈʌn fɚɹə wˈaɪl.|Expresso_ex02_enunciated
+/content/data/processed_24k/Expresso/ex03/ex03_sad_00092.wav|ɪts æz ˈæstɚɹˌɪsk ᵻvˈɛntfəl ˈæstɚɹˌɪsk ˌæzɪtˌɪz moʊmˈɛntəs.|Expresso_ex03_sad
+/content/data/processed_24k/ESD/Speaker_0013/0013_neutral_04_01929.wav|jʊɹ ˈoʊn wˈaɪf ɪz nˌɑːt æt hˈoʊm.|ESD_0013
+/content/data/processed_24k/ESD/Speaker_0013/0013_neutral_04_01783.wav|baɪ hˈʊk ɔːɹ baɪ kɹˈʊk.|ESD_0013
+/content/data/processed_24k/Expresso/ex03/ex03_happy_00338.wav|ʃiː ʃˌʊd sˈeɪvɚ ðˈɪs, bɪkˈʌz ɪts ʌnlˈaɪkli tʊ ˈɛvɚ hˈæpən ɐɡˈɛn.|Expresso_ex03_happy
+/content/data/processed_24k/ESD/Speaker_0011/0011_anger_03_02645.wav|hiː sˈɛd tə dʒˈæk, ðə tʃˈæɾɚɹɚ.|ESD_0011_anger
+/content/data/processed_24k/Expresso/ex02/ex02_sad_00078.wav|jˈɛs, tˈuːzdeɪ ɪz dʒˈuːn fˈɔːɹθ.|Expresso_ex02_sad
+/content/data/processed_24k/Expresso/ex03/ex03_default_emphasis_00085.wav|kɹˈɪkɪts ˈæstɚɹˌɪsk ænd ˈæstɚɹˌɪsk fɹˈɑːɡz ˈɔːlweɪz ɹᵻmˈaɪnd mˌiː ʌv kˈæmpɪŋ ˈaʊt.|Expresso_ex03_emphasis
+/content/data/processed_24k/ESD/Speaker_0016/0016_surprise_05_02794.wav|ɹˈiːd baɪ ðə lˈɪvɪŋ pˈuːl!|ESD_0016_surprise
+/content/data/processed_24k/ESD/Speaker_0014/0014_anger_04_02982.wav|wˌaɪ ʃˌʊd ˈaɪ kˈɛɹ ðˌoʊ dˈeɪvɪdz lˈɪps wɜː twˈɪtʃɪŋ?|ESD_0014_anger
+/content/data/processed_24k/ESD/Speaker_0016/0016_anger_05_01476.wav|bˈɔːɹn wˈʌns ˈɛvɹi wˈʌn hˈʌndɹɪd jˈɪɹz, dˈaɪz ɪn flˈeɪmz!|ESD_0016_anger
+/content/data/processed_24k/ESD/Speaker_0019/0019_sadness_06_02726.wav|tˈɑːm fˈɛl wɪð ɐ klˈoʊvən hˈɛd.|ESD_0019_sadness
+/content/data/processed_24k/ESD/Speaker_0020/0020_sadness_06_04514.wav|hiː lˈaɪks dɹˈæɡənz vˈɛɹi mˈʌtʃ.|ESD_0020_sadness
+/content/data/processed_24k/ESD/Speaker_0014/0014_sadness_04_03890.wav|wiː ɛkspˈɛktᵻd tˈɑːm wʊd dʒˈʌmp fɔːɹ dʒˈɔɪ.|ESD_0014_sadness
+/content/data/processed_24k/ESD/Speaker_0016/0016_happiness_05_01673.wav|kˈʌm ˌɔn maɪ dʒˈæk ɪnðə bˈɑːksᵻz!|ESD_0016_happiness
+/content/data/processed_24k/ESD/Speaker_0020/0020_sadness_06_04342.wav|stˈɔːɹi twˈɛnti nˈaɪn ɐ bˈɔɪ ænd ɐ mˈʌŋki.|ESD_0020_sadness
+/content/data/processed_24k/ESD/Speaker_0018/0018_happiness_06_00344.wav|dˈuː juː θˈɪŋk ɪts ɐ wˈuːzəl?|ESD_0018_happiness
+/content/data/processed_24k/Expresso/ex04/ex04_happy_00090.wav|sˌoʊ juː tˈʊk ðˌɛm θɹuː ðə tʃˈɛkpɔɪnt ˈɔːl ðə wˈeɪ ˌʌp tə sᵻkjˈʊɹɹᵻɾi?|Expresso_ex04_happy
+/content/data/processed_24k/ESD/Speaker_0015/0015_sadness_05_00671.wav|æm aɪ ɐn ˈæbsəlˌuːt pˈɔːpɚ?|ESD_0015_sadness
+/content/data/processed_24k/ESD/Speaker_0019/0019_anger_06_01812.wav|ɡˈɪv mˌiː ɐ fˈaɪn fˈæt ɡˈuːs.|ESD_0019_anger
+/content/data/processed_24k/ESD/Speaker_0020/0020_happiness_06_03830.wav|hiː tˈoʊld mˌiː ðæt aɪ ˈɔːt tə tʃˈeɪndʒ.|ESD_0020_happiness
+/content/data/processed_24k/Expresso/ex04/ex04_default_00175.wav|mˈæt, wˌʌɾɚ juː dˌuːɪŋ hˈɪɹ?|Expresso_ex04_default
+/content/data/processed_24k/Expresso/ex03/ex03_confused_00072.wav|jˈɛs, ɪts ɡˌənə biː klˈaʊdi, wɪð ɐ lˈaɪkli tʃˈæns ʌv lˈaɪt ɹˈeɪn təmˈɑːɹoʊ ɪn ɹˈɪtʃmənd.|Expresso_ex03_confused
+/content/data/processed_24k/Expresso/ex01/ex01_confused_00269.wav|ˈʌ bˈʌ bˈaɪ, ˌælɪɡzˈændɹiə.|Expresso_ex01_confused
+/content/data/processed_24k/ESD/Speaker_0017/0017_sadness_05_04117.wav|aɪ duːnˌɑːt ˈiːt bɹˈɛd.|ESD_0017_sadness
+/content/data/processed_24k/ESD/Speaker_0019/0019_sadness_06_02731.wav|ˈeɪdʒ fˈɔːɹɾi fˈaɪv ɪf ɐ dˈeɪ ɐ lˈaɪ.|ESD_0019_sadness
+/content/data/processed_24k/ESD/Speaker_0014/0014_sadness_04_04133.wav|ɐnˈʌðɚ wˌʌn, tˈɛn θˈaʊzənd dˈɑːlɚz.|ESD_0014_sadness
+/content/data/processed_24k/Expresso/ex03/ex03_sad_00277.wav|ʃˌæl aɪ kˈɔːl ˈælən pˈiːɾɚ kˌeɪɪtˈɑːnoʊ?|Expresso_ex03_sad
+/content/data/processed_24k/ESD/Speaker_0011/0011_sadness_03_03839.wav|ðɛɹ ɡoʊz ðə ʃˈɔːl ɐɡˈɛn!|ESD_0011_sadness
+/content/data/processed_24k/ESD/Speaker_0019/0019_happiness_06_02045.wav|klˈɪɹ ɑːɹ jʊɹ ˈaɪz ænd bɹˈaɪt jʊɹ bɹˈɛθ!|ESD_0019_happiness
+/content/data/processed_24k/ESD/Speaker_0011/0011_neutral_03_03442.wav|ænd hɐz juː slˈeɪn hˌɪm?|ESD_0011
+/content/data/processed_24k/ESD/Speaker_0019/0019_anger_06_01772.wav|aɪd dʒˈʌst æz sˈuːn swˈɪm jʊɹ wˈeɪ æz ˈʌðɚz dˈuː.|ESD_0019_anger
+/content/data/processed_24k/ESD/Speaker_0020/0020_anger_06_03538.wav|nˈoʊ, sˈɛd pˈɪɡi kˈɛɹləsli.|ESD_0020_anger
+/content/data/processed_24k/ESD/Speaker_0018/0018_neutral_06_00723.wav|bɪkˈʌz hiː wʌzɐ mˈæn wɪð ˈɪnfɪnət ɹᵻsˈɔːɹs ænd səɡˈæsᵻɾi.|ESD_0018
+/content/data/processed_24k/ESD/Speaker_0014/0014_sadness_04_03830.wav|ˈɔːl smˈaɪl wɜː ɹˈiːəl ænd ðə hˈæpɪɚ,ðə mˈɔːɹ sɪnsˈɪɹ .|ESD_0014_sadness
+/content/data/processed_24k/Expresso/ex03/ex03_default_emphasis_00028.wav|jˈɛs, ˈɔːɡəst ᵻlˈɛvənθ, tˈuː θˈaʊzənd sˈɛvəntˌiːn, wʌzɐ fɹˈaɪdeɪ.|Expresso_ex03_emphasis
+/content/data/processed_24k/ESD/Speaker_0019/0019_happiness_06_01869.wav|æt ðə ɹˈuːtsəvə bˈʊʃ əvə ɡɹˈæs.|ESD_0019_happiness
+/content/data/processed_24k/Expresso/ex02/ex02_confused_00307.wav|wˌɪtʃ ˈænɪməl dˈuː juː nˌɑːt wˈɔnt tə plˈeɪ ɡˈeɪmz wɪð? ɐ tʃˈiːɾə.|Expresso_ex02_confused
+/content/data/processed_24k/Expresso/ex04/ex04_default_emphasis_00057.wav|aɪm nˌɑːt ˈæstɚɹˌɪsk fˈæt!ˈæstɚɹˌɪsk|Expresso_ex04_emphasis
+/content/data/processed_24k/ESD/Speaker_0017/0017_sadness_05_04328.wav|ðiːz wˈɜːdz bᵻhˌaɪnd ðɪ ˈɪɹz ɪz nˈɑːnsəns.|ESD_0017_sadness
+/content/data/processed_24k/Expresso/ex02/ex02_enunciated_00068.wav|ɛŋɡˈeɪdʒɪŋ ɪn ɐ bˈɪt ʌv pɹˈaɪvət ˈɛntɚpɹˌaɪz?|Expresso_ex02_enunciated
+/content/data/processed_24k/ESD/Speaker_0016/0016_sadness_05_02521.wav|ˈæsk ɡˈɑːd tə hˈɛlp juː.|ESD_0016_sadness
+/content/data/processed_24k/ESD/Speaker_0013/0013_surprise_04_02615.wav|ɪɾ ˌɪzənt pˈɪkt æɾ ˈɔːl.|ESD_0013_surprise
+/content/data/processed_24k/Expresso/ex02/ex02_enunciated_00182.wav|ʃˈʊɹ! hiːz ɐ ɹˈaɪɾɚ. hiːz nˈoʊn fɔːɹ ɹˈaɪɾɪŋ "ðə wˈɔːkɪŋ dˈɛd".|Expresso_ex02_enunciated
+/content/data/processed_24k/ESD/Speaker_0018/0018_surprise_06_01281.wav|aɪ θˈæŋk juː fɔːɹ ðɪs mˈɜːsi!|ESD_0018_surprise
+/content/data/processed_24k/Expresso/ex04/ex04_confused_00088.wav|ˈæstɚɹˌɪsk wˈaɪn kˈuːlɚz ˈæstɚɹˌɪsk ɪn maɪ hˈaʊs?|Expresso_ex04_confused
+/content/data/processed_24k/Expresso/ex02/ex02_enunciated_00272.wav|sˈɑːɹi, aɪm nˌɑːt ʃˈʊɹ wɛn ðæt ˈɪz, bˌʌt tədˈeɪ ɪz sˈʌndeɪ, dʒˈuːn fˈɔːɹtiːnθ.|Expresso_ex02_enunciated
+/content/data/processed_24k/Expresso/ex04/ex04_confused_00028.wav|nˈoʊ. hˌuː ɑːɹ ðeɪ ɹˈɪʔn baɪ ænd wʌt ɑːɹ ðə ʒˈɑːnɹəz?|Expresso_ex04_confused
+/content/data/processed_24k/Expresso/ex02/ex02_sad_00297.wav|lˈɛts kˈiːp ɪɾ ˈæstɚɹˌɪsk sˈɪmpəl ˈæstɚɹˌɪsk.|Expresso_ex02_sad
+/content/data/processed_24k/Expresso/ex02/ex02_laughing_00103.wav|dˈuː juː lˈaɪk ˈæstɚɹˌɪsk fˈiːmeɪl ˈæstɚɹˌɪsk kˈʌmɪŋ ʌv ˈeɪdʒ stˈɔːɹiz?|Expresso_ex02_laughing
+/content/data/processed_24k/Expresso/ex03/ex03_default_emphasis_00068.wav|ˌɔn fjˈuːəl, ðɪ ˈæstɚɹˌɪsk tʃˈænsɛlɚɹ ˈæstɚɹˌɪsk hɐz ɐ nˈʌmbɚɹ ʌv ˈɑːpʃənz.|Expresso_ex03_emphasis
+/content/data/processed_24k/Expresso/ex02/ex02_enunciated_00274.wav|kæn juː hˈɪɹ ðə dˈɑːɡ bˈɑːɹkɪŋ ɪnðə dˈɪstəns?|Expresso_ex02_enunciated
+/content/data/processed_24k/Expresso/ex01/ex01_enunciated_00277.wav|θˈæŋks fɔːɹ ˈɔfɚɹɪŋ ˌʌs ðə kˌeɪkˌeɪkˈeɪz ˈæstɚɹˌɪsk əfˈɪʃəl ˈæstɚɹˌɪsk vjˈuːpɔɪnt.|Expresso_ex01_enunciated
+/content/data/processed_24k/Expresso/ex02/ex02_sad_00048.wav|hˌaʊ dˈɪd ɪt ɡˌoʊ sˌoʊ ɹˈɔŋ?|Expresso_ex02_sad
+/content/data/processed_24k/Expresso/ex02/ex02_happy_00127.wav|tɹˈaɪ nˌɑːt tə ɡɛt θˈɜːd dᵻɡɹˈiː bˈɜːnz fɹʌmðə kˌæpuːtʃˈiːnoʊ məʃˈiːn.|Expresso_ex02_happy
+/content/data/processed_24k/ESD/Speaker_0019/0019_happiness_06_01980.wav|ɪt mˈʌst kˈʌm sˈʌmtaɪmz tə dʒˈæm ɐ dˈeɪ.|ESD_0019_happiness
+/content/data/processed_24k/ESD/Speaker_0018/0018_anger_06_00070.wav|kˈɔːld ˈaʊt ðə klˈaʊd.|ESD_0018_anger
+/content/data/processed_24k/ESD/Speaker_0017/0017_happiness_05_03625.wav|kæn jʊɹ nˈeɪm biː mˈɔːɹ hɪlˈɛɹiəs?|ESD_0017_happiness
+/content/data/processed_24k/Expresso/ex03/ex03_sad_00015.wav|pɚhˈæps ðə dˈuːk lˈækɹɔs kˈoʊtʃ ʃˌʊdəv mˈɛnʃənd blˈækfeɪs ˌɪzənt kˈuːl?|Expresso_ex03_sad
+/content/data/processed_24k/Expresso/ex04/ex04_default_00339.wav|wɜː ðɛɹ ˌɛni ˈʌðɚ fɹˈɔːdʒuːlənt tʃˈɑːɹdʒᵻz?|Expresso_ex04_default
+/content/data/processed_24k/Expresso/ex02/ex02_laughing_00117.wav|wˌʌt ɑːɹ wiː ɡˌoʊɪŋ tə dˈuː, mˈɑːm?|Expresso_ex02_laughing
+/content/data/processed_24k/Expresso/ex04/ex04_enunciated_00109.wav|ðɛɹz tˈuː pˈɔːzd tˈaɪmɚz, ðə fˈɜːst sˈɛt fɔːɹ fˈɔːɹɾi sˈɪks mˈɪnɪts ænd nˈaɪn sˈɛkəndz, ænd ðə sˈɛkənd sˈɛt fɔːɹ θˈɜːɾi sˈɛvən mˈɪnɪts.|Expresso_ex04_enunciated
+/content/data/processed_24k/ESD/Speaker_0020/0020_neutral_06_04246.wav|hˌaʊ tˈɑːm ænd dʒˈɛɹi wɛnt tə vˈɪzɪt mˈɪstɚ sˈæm.|ESD_0020
+/content/data/processed_24k/ESD/Speaker_0013/0013_neutral_04_01814.wav|hiː mˌaɪt kˈɔːl ɪt, fɔːɹ ɛɡzˈæmpəl.|ESD_0013
+/content/data/processed_24k/ESD/Speaker_0016/0016_neutral_05_02265.wav|ɐ θˈiːf ɪnðə nˈaɪt.|ESD_0016
+/content/data/processed_24k/ESD/Speaker_0018/0018_happiness_06_00280.wav|fˈɜːst, ˈɪʃuː ɐ ɹᵻwˈɔːɹd.|ESD_0018_happiness
+/content/data/processed_24k/RAVDESS/Actor_14/03-01-07-02-01-02-14.wav|kˈɪdz ɑːɹ tˈɔːkɪŋ baɪ ðə dˈɔːɹ.|Actor_14_strong_disgust
+/content/data/processed_24k/Expresso/ex01/ex01_whisper_00086.wav|hˌaʊ dˈuː juː nˈoʊ ɪf jʊɹ dˈɑːɡ ɪz ɐ smˈɑːɹt dˈɑːɡ? sˈiː ɪf ɪt hɐz kˈɑːlɚɹ aɪdˈiː.|Expresso_ex01_whisper
+/content/data/processed_24k/Expresso/ex03/ex03_sad_00012.wav|ɡˌoʊ ɡɛt jʊɹ swˈɪmsuːt.|Expresso_ex03_sad
+/content/data/processed_24k/ESD/Speaker_0016/0016_anger_05_01441.wav|aɪ hæv hædtə ɡɹˈoʊ ˈoʊld.|ESD_0016_anger
+/content/data/processed_24k/ESD/Speaker_0016/0016_surprise_05_02849.wav|ðæt klˈɔθ dʌznˌɑːt lˈʊk wˈɜːθ mˈʌtʃ!|ESD_0016_surprise
+/content/data/processed_24k/ESD/Speaker_0013/0013_sadness_04_02273.wav|dˈuː juː nˈoʊ ðə lˈɪd ˈoʊpənz?|ESD_0013_sadness
+/content/data/processed_24k/Expresso/ex04/ex04_happy_00359.wav|ðæt hˈæpənd tʊ ˌʌs ˌɔn fɹˈaɪdeɪ.|Expresso_ex04_happy
+/content/data/processed_24k/ESD/Speaker_0019/0019_anger_06_01568.wav|nˌɑːt mˈʌtʃ jˈuːs ɪz ɪt, sˈæm?|ESD_0019_anger
+/content/data/processed_24k/ESD/Speaker_0017/0017_neutral_05_03723.wav|ðə fˈʊtbɔːl tˈiːmz ɡˈɪv ɐ tˈiː pˈɑːɹɾi.|ESD_0017
+/content/data/processed_24k/ESD/Speaker_0013/0013_sadness_04_02347.wav|ʃiː kˈʌm bˈæk tə ðə vˈæli.|ESD_0013_sadness
+/content/data/processed_24k/RAVDESS/Actor_22/03-01-06-02-01-01-22.wav|kˈɪdz ɑːɹ tˈɔːkɪŋ baɪ ðə dˈɔːɹ.|Actor_22_strong_fearful
+/content/data/processed_24k/Expresso/ex03/ex03_whisper_00241.wav|pɚhˈæps juː nˈoʊ bˈɛnɪdˌɪkt kˈʌmbɚbˌætʃ?|Expresso_ex03_whisper
+/content/data/processed_24k/ESD/Speaker_0018/0018_neutral_06_00679.wav|jʊɹ ˈoʊn wˈaɪf ɪz nˌɑːt æt hˈoʊm.|ESD_0018
+/content/data/processed_24k/Expresso/ex01/ex01_sad_00253.wav|aɪɐm nˌɑːt ʃˈʊɹ.|Expresso_ex01_sad
+/content/data/processed_24k/ESD/Speaker_0016/0016_neutral_05_02107.wav|ɪt lˈʊks mˈʌtʃ bˈɛɾɚ.|ESD_0016
+/content/data/processed_24k/Expresso/ex04/ex04_confused_00145.wav|sˌoʊ juːd dˈuː ˈɔːl ðɪs fɔːɹ mˌiː?|Expresso_ex04_confused
+/content/data/processed_24k/ESD/Speaker_0011/0011_anger_03_02761.wav|aɪ bᵻlˈiːv juː ɑːɹ wˈʌn ʌv ðˌɛm!|ESD_0011_anger
+/content/data/processed_24k/ESD/Speaker_0015/0015_anger_04_04550.wav|sˈɛd ðɪ ɐmˈɛɹɪkən tə tʃaɪnˈiːz.|ESD_0015_anger
+/content/data/processed_24k/Expresso/ex02/ex02_laughing_00026.wav|ˈɛvɹɪbˌɑːdi wʌz tʃˈæntɪŋ "ɡˈoʊ, ɡˈoʊ, ɡˈoʊ"!|Expresso_ex02_laughing
+/content/data/processed_24k/ESD/Speaker_0017/0017_sadness_05_04275.wav|ænd ðə nˈɛkst dˈeɪ. nˈɜːs wɪl biː ɹᵻlˈiːst.|ESD_0017_sadness
+/content/data/processed_24k/Expresso/ex04/ex04_sad_00085.wav|wʊd juː lˈaɪk sˌʌm təmˈeɪɾoʊ bˈiːsk?|Expresso_ex04_sad
+/content/data/processed_24k/Expresso/ex01/ex01_confused_00189.wav|ˈʌm ɪf aɪ lˈuːz maɪ tˈɛmpɚ, jʊɹ tˈoʊɾəld mˈæn!|Expresso_ex01_confused
+/content/data/processed_24k/ESD/Speaker_0016/0016_anger_05_01356.wav|tˈɑːm ænd mˈaɪkəl wˈoʊk ˌʌp nˈɛkst mˈɔːɹnɪŋ.|ESD_0016_anger
+/content/data/processed_24k/ESD/Speaker_0012/0012_neutral_04_00164.wav|hiː lˈaɪks dɹˈæɡənz vˈɛɹi mˈʌtʃ.|ESD_0012
+/content/data/processed_24k/ESD/Speaker_0018/0018_happiness_06_00113.wav|ˈæni plˈiːz plˈiːz dˈoʊnt hˈɜːt mˌiː!|ESD_0018_happiness
+/content/data/processed_24k/Expresso/ex04/ex04_default_00036.wav|dˈɪd juː tɹˈaɪ ˈæstɚɹˌɪsk tˈɪklɪŋ ˈæstɚɹˌɪsk ðə mˈɔnstɚ?|Expresso_ex04_default
+/content/data/processed_24k/ESD/Speaker_0017/0017_happiness_05_03556.wav|wˌʌt æm ˈaɪ, aɪm ɐ ɹˈeɪsɚ, sˈʌn ʌv ɡˈɑːd.|ESD_0017_happiness
+/content/data/processed_24k/ESD/Speaker_0016/0016_surprise_05_02847.wav|aɪd ʃˈuːt maɪsˈɛlf. ɐ pˈɔːz.|ESD_0016_surprise
+/content/data/processed_24k/ESD/Speaker_0016/0016_surprise_05_02988.wav|ænd biː wɪð juː,tˈɑːm!|ESD_0016_surprise
+/content/data/processed_24k/Expresso/ex01/ex01_default_emphasis_00179.wav|wˈɛl, aɪm wɪð kˈɛvɪn.|Expresso_ex01_emphasis
+/content/data/processed_24k/Expresso/ex04/ex04_happy_00305.wav|hɜː bˈɑːdi wʌz fˈaʊnd ˌɔn mˈʌndeɪ mˈɔːɹnɪŋ.|Expresso_ex04_happy
+/content/data/processed_24k/ESD/Speaker_0014/0014_anger_04_02904.wav|ðɪs spˈiːtʃ ɹˈaʊzd dˈeɪm ˈɪls tʊ ˈæŋɡɚ.|ESD_0014_anger
+/content/data/processed_24k/ESD/Speaker_0019/0019_anger_06_01557.wav|ðɪ ˈɑːktəpəs hɐz ˈeɪt lˈɛɡz.|ESD_0019_anger
+/content/data/processed_24k/ESD/Speaker_0012/0012_sadness_04_00305.wav|ænd wʌts ðə dʒˈaɪɚ ænd tə ɡˈɪmbəl.|ESD_0012_sadness
+/content/data/processed_24k/Expresso/ex01/ex01_happy_00237.wav|jˈuːs "hˈɜː" ɔːɹ "zˈiː" æz dʒˈɛndɚ nˈuːtɹəl pɹˈoʊnaʊnz?|Expresso_ex01_happy
+/content/data/processed_24k/RAVDESS/Actor_11/03-01-03-01-01-01-11.wav|kˈɪdz ɑːɹ tˈɔːkɪŋ baɪ ðə dˈɔːɹ.|Actor_11_happy
+/content/data/processed_24k/Expresso/ex01/ex01_whisper_00105.wav|pˈʌblɪʃɚ? ðˈæts mˌiː! ɛksklˈeɪmd ðɪ ˌoʊvɚɹˈiːɡɚ fˈɜːst jˈɪɹ ɐsˈoʊsɪˌeɪt.|Expresso_ex01_whisper
+/content/data/processed_24k/RAVDESS/Actor_03/03-01-06-01-02-02-03.wav|dˈɑːɡz ɑːɹ sˈɪɾɪŋ baɪ ðə dˈɔːɹ.|Actor_03_fearful
+/content/data/processed_24k/ESD/Speaker_0018/0018_sadness_06_01149.wav|dˈuː juː hæv ˈɛnɪθˌɪŋ ɪn mˈaɪnd?|ESD_0018_sadness
+/content/data/processed_24k/ESD/Speaker_0016/0016_happiness_05_01641.wav|ʃiː mˈeɪ mˈaɪnd jiː ʌv hɜː.|ESD_0016_happiness
+/content/data/processed_24k/ESD/Speaker_0018/0018_anger_05_04807.wav|ðɪ ˈɑːktəpəs hɐz ˈeɪt lˈɛɡz.|ESD_0018_anger
+/content/data/processed_24k/Expresso/ex02/ex02_happy_00319.wav|wˌʌts ðə lˈeɪziɪst vˈɛdʒɪɾəbəl? ðɪ ˈæstɚɹˌɪsk kˈaʊtʃ ˈæstɚɹˌɪsk pətˈeɪɾoʊ.|Expresso_ex02_happy
+/content/data/processed_24k/ESD/Speaker_0014/0014_happiness_04_03444.wav|ɐ wˈɜːɹɪŋ nˈɔɪz wʌz hˈɜːd.|ESD_0014_happiness
+/content/data/processed_24k/ESD/Speaker_0019/0019_surprise_06_02982.wav|biː ˈɔf nˈaʊ æz kwˈɪk æz juː mˈeɪ!|ESD_0019_surprise
+/content/data/processed_24k/Expresso/ex02/ex02_enunciated_00153.wav|dɹˈɑːp ðə tʃˈiːz!|Expresso_ex02_enunciated
+/content/data/processed_24k/ESD/Speaker_0016/0016_surprise_05_02996.wav|wˌʌt ɑːɹ juː wˈeɪɾɪŋ fɔːɹ? mˈæn.|ESD_0016_surprise
+/content/data/processed_24k/ESD/Speaker_0015/0015_neutral_05_00355.wav|ðɪ ˈaɪ kʊd nˌɑːt kˈætʃ ðˌɛm.|ESD_0015
+/content/data/processed_24k/Expresso/ex03/ex03_sad_00272.wav|θˈɜːd ˌɔn ðæt lˈɪst.|Expresso_ex03_sad
+/content/data/processed_24k/ESD/Speaker_0018/0018_surprise_06_01241.wav|dˈʌz ðə wˈʌn ðæt wˈɪnz ɡɛt ðə kɹˈaʊnd?|ESD_0018_surprise
+/content/data/processed_24k/Expresso/ex01/ex01_whisper_00185.wav|ðə "ˌɛmvˈiː ˈæɡʌstə bɹˈuːɾeɪl θˈɜːɾi sˈɛvən" ɪz fˈɪɾᵻd wɪð ɐn ˈʌpsaɪd dˌaʊn fˈɔːɹk, ænd ʃˈɑːk ɐbsˈɔːɹbɚ wɪð haɪdɹˈɔːlɪk ɹᵻspˈɑːns.|Expresso_ex01_whisper
+/content/data/processed_24k/ESD/Speaker_0018/0018_anger_06_00006.wav|aɪ wʊd skˈɔf æt ðiːz fˈɑːloʊɚz.|ESD_0018_anger
+/content/data/processed_24k/ESD/Speaker_0011/0011_happiness_03_03116.wav|tʃˈæptɚɹ ᵻlˈɛvən ɔnðə dˈɔːɹstɛp.|ESD_0011_happiness
+/content/data/processed_24k/Expresso/ex04/ex04_enunciated_00199.wav|hˈaɪ, wˌʌt kæn aɪ hˈɛlp wɪð?|Expresso_ex04_enunciated
+/content/data/processed_24k/ESD/Speaker_0013/0013_surprise_04_02684.wav|ðə stɹˈɔː, tʃˈɑːɹkoʊl ænd ðə pˈiː.|ESD_0013_surprise
+/content/data/processed_24k/Expresso/ex01/ex01_confused_00028.wav|hiː ɹˈoʊt ɡˈʌlɪvɚz tɹˈævəl.|Expresso_ex01_confused
+/content/data/processed_24k/ESD/Speaker_0019/0019_sadness_06_02628.wav|ˈɔːl maɪ ɡˈʌm tˈɪps ɡɔn æz wˈɛl.|ESD_0019_sadness
+/content/data/processed_24k/Expresso/ex01/ex01_sad_00032.wav|ˈɛvɚ kənsˈɪdɚd ɹˈaɪɾɪŋ ɐn ɐdvˈaɪs kˈɑːlʌm?|Expresso_ex01_sad
+/content/data/processed_24k/RAVDESS/Actor_24/03-01-01-01-01-01-24.wav|kˈɪdz ɑːɹ tˈɔːkɪŋ baɪ ðə dˈɔːɹ.|Actor_24
+/content/data/processed_24k/ESD/Speaker_0018/0018_happiness_06_00317.wav|aɪl sˈɛnd fɔːɹ tˈɑːm tə maɪ bˈuːdwɑːɹ.|ESD_0018_happiness
+/content/data/processed_24k/ESD/Speaker_0015/0015_neutral_05_00285.wav|ænd tˈɪk ɐ tˈæk tˈuː.|ESD_0015
+/content/data/processed_24k/ESD/Speaker_0019/0019_happiness_06_01964.wav|hiː mˌaɪt kˈɔːl ɪt, fɔːɹ ɛɡzˈæmpəl.|ESD_0019_happiness
+/content/data/processed_24k/ESD/Speaker_0020/0020_sadness_06_04578.wav|ðiːz wˈɜːdz bᵻhˌaɪnd ðɪ ˈɪɹz ɪz nˈɑːnsəns.|ESD_0020_sadness
+/content/data/processed_24k/ESD/Speaker_0018/0018_happiness_06_00226.wav|kˈɑːs aɪ nˈoʊ aɪ hˌæd sʌm hˈʌni.|ESD_0018_happiness
+/content/data/processed_24k/ESD/Speaker_0014/0014_surprise_04_04408.wav|ðə sˈɔŋ ɪz kˈɔːld wˈeɪz ænd mˈiːnz.|ESD_0014_surprise
+/content/data/processed_24k/Expresso/ex02/ex02_default_00290.wav|ɪɾ ɪz ɐ ˈæstɚɹˌɪsk nˈætʃɚɹəl ˈæstɚɹˌɪsk ɹɪˈækʃən.|Expresso_ex02_default
+/content/data/processed_24k/ESD/Speaker_0011/0011_neutral_03_03313.wav|ɐ hˈæf pˈaʊndz ʌv flˈaʊɚ ænd tˈuː ˈaʊnsᵻz sˈuːɪt.|ESD_0011
+/content/data/processed_24k/ESD/Speaker_0018/0018_happiness_06_00281.wav|ˈeɪdʒ fˈɔːɹɾi fˈaɪv ɪf ɐ dˈeɪ ɐ lˈaɪ.|ESD_0018_happiness
+/content/data/processed_24k/ESD/Speaker_0014/0014_sadness_04_03855.wav|jʊɹ mˈɪdʒɪt wˈaɪf nˈɛvɚ kæn sˈɪŋ ɐ sˈɔŋ.|ESD_0014_sadness
+/content/data/processed_24k/Expresso/ex02/ex02_happy_00375.wav|wˈʌn pˌiːˈɛm tə nˈaɪn pˌiːˈɛm, ˌɪɾəl biː klˈaʊdi, ænd ɪnðə lˈoʊ fˈɪftiz.|Expresso_ex02_happy
+/content/data/processed_24k/ESD/Speaker_0020/0020_neutral_06_04010.wav|mˈɪdjɪɹ ɪz dˈeɪ, ʃˈaɪɚ jˈɪɹ.|ESD_0020
+/content/data/processed_24k/ESD/Speaker_0015/0015_happiness_04_04958.wav|ɪf ðeɪ mˈʌðɚ nˈuː ɪt.|ESD_0015_happiness
+/content/data/processed_24k/ESD/Speaker_0018/0018_sadness_06_01027.wav|ɪt sˈɛz nˈoʊ wˈeɪ! ʃˈaʊɾᵻd dˈeɪzi.|ESD_0018_sadness
+/content/data/processed_24k/ESD/Speaker_0016/0016_happiness_05_01622.wav|aɪ θˈɔːt juː mˈɛnt hˌaʊ ˈoʊld ɑːɹ juː?|ESD_0016_happiness
+/content/data/processed_24k/ESD/Speaker_0018/0018_sadness_06_00920.wav|fˈɪn ænd ðə fˈɛɹi ʃˈuːmeɪkɚ.|ESD_0018_sadness
+/content/data/processed_24k/ESD/Speaker_0017/0017_surprise_05_04739.wav|sˌoʊ tˈɑːm sˈɔː nˈaɪt æz ɪt wɜː bɹˈɔːd dˈeɪlaɪt.|ESD_0017_surprise
+/content/data/processed_24k/Expresso/ex02/ex02_default_00274.wav|kæn juː hˈɪɹ ðə dˈɑːɡ bˈɑːɹkɪŋ ɪnðə dˈɪstəns?|Expresso_ex02_default
+/content/data/processed_24k/Expresso/ex02/ex02_enunciated_00194.wav|aɪ wʌz nˌɑːt klˈɪɹd fɔːɹ plˈeɪn tɹˈævəl æt ðɪs tˈaɪm.|Expresso_ex02_enunciated
+/content/data/processed_24k/Expresso/ex01/ex01_whisper_00082.wav|wiː ɑːɹ ɡˌoʊɪŋ θɹuː ðə pɹˈɑːsɛs.|Expresso_ex01_whisper
+/content/data/processed_24k/RAVDESS/Actor_16/03-01-04-02-02-01-16.wav|dˈɑːɡz ɑːɹ sˈɪɾɪŋ baɪ ðə dˈɔːɹ.|Actor_16_strong_sad
+/content/data/processed_24k/Expresso/ex02/ex02_whisper_00128.wav|juː tɹˈæʃ hoʊtˈɛl ɹˈuːmz ɪn jʊɹ slˈiːp?|Expresso_ex02_whisper
+/content/data/processed_24k/ESD/Speaker_0015/0015_anger_04_04715.wav|ɪɾ ˌɪzənt pˈɪkt æɾ ˈɔːl.|ESD_0015_anger
+/content/data/processed_24k/ESD/Speaker_0017/0017_happiness_05_03688.wav|ænd biː wɪð juː,tˈɑːm!|ESD_0017_happiness
+/content/data/processed_24k/ESD/Speaker_0016/0016_surprise_05_02716.wav|aɪ səpˈoʊz nˈoʊ, ɪt dˈʌzənt!|ESD_0016_surprise
+/content/data/processed_24k/ESD/Speaker_0019/0019_surprise_06_03170.wav|aɪ sˈeɪ aɪ wɪl biː ˈɛmpɚɹɚ.|ESD_0019_surprise
+/content/data/processed_24k/ESD/Speaker_0015/0015_surprise_05_00917.wav|ðˈɛn sˈædli ɪɾ ɪz mˈʌtʃ fˈɑːɹðɚ.|ESD_0015_surprise
+/content/data/processed_24k/ESD/Speaker_0012/0012_happiness_03_04608.wav|ɔnðə twˈɛnti sˈɛkənd ʌv lˈæst mˈɑːɹtʃ.|ESD_0012_happiness
+/content/data/processed_24k/ESD/Speaker_0019/0019_sadness_06_02577.wav|ʃiː hæd sˈɛd, sˌoʊ ðˈætwˌʌn kʊd kˈiːp ˌʌp ɐ kɑːnvɚsˈeɪʃən!|ESD_0019_sadness
+/content/data/processed_24k/ESD/Speaker_0013/0013_sadness_04_02053.wav|ðeɪ wɛnt ˌʌp tə ðə dˈɑːɹk mˈæs dʒˈɑːb hæd pˈɔɪntᵻd ˈaʊt.|ESD_0013_sadness
+/content/data/processed_24k/ESD/Speaker_0020/0020_neutral_06_04189.wav|bˈoʊθ sˈaɪd wɜː sˈɔftli kˈɜːvd.|ESD_0020
+/content/data/processed_24k/ESD/Speaker_0017/0017_sadness_05_04308.wav|ðə sˈɔŋ ɪz kˈɔːld wˈeɪz ænd mˈiːnz.|ESD_0017_sadness
+/content/data/processed_24k/ESD/Speaker_0017/0017_surprise_05_04432.wav|ðɪs jˈuːzd təbi dʒˈɛɹiz ˌɑːkjʊpˈeɪʃən.|ESD_0017_surprise
+/content/data/processed_24k/RAVDESS/Actor_20/03-01-05-02-01-01-20.wav|kˈɪdz ɑːɹ tˈɔːkɪŋ baɪ ðə dˈɔːɹ.|Actor_20_strong_angry
+/content/data/processed_24k/Expresso/ex04/ex04_confused_00367.wav|ɪts kˈɔːld sˈɑːlɑːmənz pˈæɹədˌɑːks.|Expresso_ex04_confused
+/content/data/processed_24k/Expresso/ex02/ex02_default_00242.wav|wiː ˈæstɚɹˌɪsk mˈʌst ˈæstɚɹˌɪsk ɪmpɹˈuːv ˌaʊɚ ɹᵻlˈeɪʃənz wɪððə ɡˈʌvɚnmənt.|Expresso_ex02_default
+/content/data/processed_24k/ESD/Speaker_0011/0011_neutral_03_03481.wav|ˈælɪs aɪ woʊnt fɚɡˈɛt ɪɾ ɐɡˈɛn.|ESD_0011
+/content/data/processed_24k/ESD/Speaker_0012/0012_neutral_04_00030.wav|ænd aɪ nˈɛvɚ hæd ɐ wˈuːpɪŋ kˈɔf wˈaɪ.|ESD_0012
+/content/data/processed_24k/ESD/Speaker_0020/0020_happiness_06_03936.wav|bˌʌt mˈɑːm aɪm nˌɑːt sˈɜːʔn ɐbˈaʊt.|ESD_0020_happiness
+/content/data/processed_24k/ESD/Speaker_0018/0018_sadness_06_00953.wav|hiː dɹˈɛmpt ðˌɛm ˈɔːl nˈaɪt.|ESD_0018_sadness
+/content/data/processed_24k/ESD/Speaker_0013/0013_sadness_04_02050.wav|ðə nˈaɪn ðɪ ˈɛɡz, aɪ kˈiːp.|ESD_0013_sadness
+/content/data/processed_24k/ESD/Speaker_0020/0020_sadness_06_04647.wav|dˈɪɹ kˈʌstəmɚ,wˈɛlkʌm tʊ ˌaʊɚ ʃˈɪp.|ESD_0020_sadness
+/content/data/processed_24k/ESD/Speaker_0014/0014_happiness_04_03165.wav|ʃˌæl wiː lˈɛt bˈɑːɹbɚɹə ˈɪn?|ESD_0014_happiness
+/content/data/processed_24k/ESD/Speaker_0012/0012_happiness_03_04690.wav|wiː ɛkspˈɛktᵻd tˈɑːm wʊd dʒˈʌmp fɔːɹ dʒˈɔɪ.|ESD_0012_happiness
+/content/data/processed_24k/ESD/Speaker_0018/0018_surprise_06_01228.wav|ˈɔːl maɪ ɡˈʌm tˈɪps ɡɔn æz wˈɛl.|ESD_0018_surprise
+/content/data/processed_24k/ESD/Speaker_0015/0015_surprise_05_01022.wav|aɪɐm fɹʌm tˈaʊəl lˈænd.|ESD_0015_surprise
+/content/data/processed_24k/RAVDESS/Actor_04/03-01-06-02-02-01-04.wav|dˈɑːɡz ɑːɹ sˈɪɾɪŋ baɪ ðə dˈɔːɹ.|Actor_04_strong_fearful
+/content/data/processed_24k/Expresso/ex04/ex04_happy_00307.wav|hˈeɪ, dˈuː juː ɡˈaɪz nˈoʊ wˌɛɹ mˈiːmi wˈɛnt?|Expresso_ex04_happy
+/content/data/processed_24k/Expresso/ex01/ex01_whisper_00193.wav|aɪ hæv θˈɔːts ænd ðeɪɚ lˈaɪk, "aɪ sˈʌk æt ðˈɪs".|Expresso_ex01_whisper
+/content/data/processed_24k/Expresso/ex03/ex03_laughing_00060.wav|aɪ nˈoʊ juːv sˈiːn ðˈæt, ɹˈaɪt?|Expresso_ex03_laughing
+/content/data/processed_24k/ESD/Speaker_0012/0012_neutral_04_00263.wav|bˈɑːb ɡoʊz tʊ ɐ nˈuː skˈuːl.|ESD_0012
+/content/data/processed_24k/Expresso/ex03/ex03_laughing_00106.wav|ænd ˈæstɚɹˌɪsk ðæt ˈæstɚɹˌɪsk tə mˌiː wʌz sˌoʊ ɛɡzˈɪlɐɹəɾɪŋ.|Expresso_ex03_laughing
+/content/data/processed_24k/ESD/Speaker_0016/0016_sadness_05_02625.wav|ðeɪ ɑːɹ mˌeɪd ʌv wˈʊd.|ESD_0016_sadness
+/content/data/processed_24k/ESD/Speaker_0014/0014_neutral_04_03695.wav|wiː kæn nˌɑːt dˈuː ɪt sˌɜː.|ESD_0014
+/content/data/processed_24k/ESD/Speaker_0016/0016_anger_05_01278.wav|ɹˈæt kˈeɪm ænd ɹᵻplˈaɪd ɔnðə lˈiːvz.|ESD_0016_anger
+/content/data/processed_24k/ESD/Speaker_0012/0012_happiness_03_04821.wav|ˈæsk ɡˈɑːd tə hˈɛlp juː.|ESD_0012_happiness
+/content/data/processed_24k/ESD/Speaker_0011/0011_happiness_03_02937.wav|ɪn maɪ əpˈɪniən ðæt ɪz ɐ ɡˈʊd aɪdˈiə!|ESD_0011_happiness
+/content/data/processed_24k/Expresso/ex01/ex01_default_00114.wav|ɪt wʌz ˈæstɚɹˌɪsk vˈɛɹi ˈæstɚɹˌɪsk ɛksˈaɪɾɪŋ!|Expresso_ex01_default
+/content/data/processed_24k/Expresso/ex04/ex04_sad_00130.wav|jˈɛh, ɪts ɐ vˈɛɹi fˈʌni sˈiːn.|Expresso_ex04_sad
+/content/data/processed_24k/ESD/Speaker_0020/0020_happiness_06_03790.wav|aɪ mˌeɪk hɜː kwˈaɪt nˈɜːvi æt tˈaɪmz.|ESD_0020_happiness
+/content/data/processed_24k/ESD/Speaker_0016/0016_happiness_05_01774.wav|ˈɔːl ðɪs hæv wiː wˈʌn baɪ ˌaʊɚ lˈeɪbɚ.|ESD_0016_happiness
+/content/data/processed_24k/ESD/Speaker_0013/0013_sadness_04_02267.wav|aɪl sˈɛnd fɔːɹ tˈɑːm tə maɪ bˈuːdwɑːɹ.|ESD_0013_sadness
+/content/data/processed_24k/Expresso/ex01/ex01_sad_00126.wav|wʊd juː lˈaɪk tə kˈænsəl ðə fˈɜːst wˈʌn ɔːɹ ðə sˈɛkənd wˌʌn?|Expresso_ex01_sad
+/content/data/processed_24k/ESD/Speaker_0014/0014_surprise_04_04228.wav|ˈɔːl maɪ ɡˈʌm tˈɪps ɡɔn æz wˈɛl.|ESD_0014_surprise
+/content/data/processed_24k/Expresso/ex02/ex02_sad_00015.wav|hiːz ɪnðə ɹɪzˈɜːvz, ɹˈaɪt?|Expresso_ex02_sad
+/content/data/processed_24k/ESD/Speaker_0019/0019_surprise_06_02917.wav|ðˈɛn sˈædli ɪɾ ɪz mˈʌtʃ fˈɑːɹðɚ.|ESD_0019_surprise
+/content/data/processed_24k/ESD/Speaker_0011/0011_neutral_03_03341.wav|wˈeɪk nˈaʊ maɪ mˈɛɹi tˈædz!|ESD_0011
+/content/data/processed_24k/Expresso/ex03/ex03_default_00369.wav|nˈæʃənəl fɹˈiːdəm dˈeɪ ɪn nˈæsaʊ ɪz mˈʌndeɪ, fˈɛbɹuːˌɛɹi fˈɜːst.|Expresso_ex03_default
+/content/data/processed_24k/RAVDESS/Actor_06/03-01-04-02-02-02-06.wav|dˈɑːɡz ɑːɹ sˈɪɾɪŋ baɪ ðə dˈɔːɹ.|Actor_06_strong_sad
+/content/data/processed_24k/ESD/Speaker_0014/0014_neutral_04_03512.wav|ˈæstɚɹˌɔɪd θɹˈiː hˈʌndɹɪd ænd twˈɛnti fˈaɪv.|ESD_0014
+/content/data/processed_24k/ESD/Speaker_0014/0014_sadness_04_03939.wav|wˌʌt ɐn ɪmpˈɛtʃuːəs bˈɔɪ hiː ɪz!|ESD_0014_sadness
+/content/data/processed_24k/ESD/Speaker_0011/0011_sadness_03_03553.wav|ðeɪ wɛnt ˌʌp tə ðə dˈɑːɹk mˈæs dʒˈɑːb hæd pˈɔɪntᵻd ˈaʊt.|ESD_0011_sadness
+/content/data/processed_24k/Expresso/ex03/ex03_confused_00133.wav|jˈʌŋɡɚzˈæk dɹˈɔːɪŋ fɚɹə stɹˈeɪt?|Expresso_ex03_confused
+/content/data/processed_24k/Expresso/ex01/ex01_whisper_00209.wav|aɪ lˈʌv ðə mˈuːvi bˈɛnd ɪt lˈaɪk bˈɛkæm!|Expresso_ex01_whisper
+/content/data/processed_24k/ESD/Speaker_0013/0013_surprise_04_02689.wav|ðɛɹ ɡoʊz ðə ʃˈɔːl ɐɡˈɛn!|ESD_0013_surprise
+/content/data/processed_24k/ESD/Speaker_0011/0011_neutral_03_03528.wav|ænd hɪz hˈɑːɹt wˈæɡd wɪð dʒˈɔɪ lˈaɪk ɐ lˈæmz tˈeɪl.|ESD_0011
+/content/data/processed_24k/Expresso/ex02/ex02_happy_00191.wav|juː wˈɔnə mˈɪs ɐ mˈætʃ? juː wˈɔnə blˈoʊ jʊɹ ɹˈaɪd? nˈaʊ nˈoʊ skˈuːlz ɡˌənə ɡˈɪv ɐ skˈɑːlɚʃˌɪp.|Expresso_ex02_happy
+/content/data/processed_24k/ESD/Speaker_0018/0018_happiness_06_00411.wav|fˈɑːðɚ hɐz jˈɛloʊ ˈaɪz.|ESD_0018_happiness
+/content/data/processed_24k/ESD/Speaker_0013/0013_neutral_04_01899.wav|ðæt klˈɔθ dʌznˌɑːt lˈʊk wˈɜːθ mˈʌtʃ!|ESD_0013
+/content/data/processed_24k/Expresso/ex01/ex01_laughing_00266.wav|wˌʌt dˈuː juː dˈuː ɪf juː dˈoʊnt lˈaɪk jʊɹ sˈuːp? lˈæf juː tˈeɪk ɪt tə ðə stˈɑːk ɛkstʃˈeɪndʒ.|Expresso_ex01_laughing
+/content/data/processed_24k/ESD/Speaker_0016/0016_neutral_05_01955.wav|ˈændi wʌts ðə dʒˈaɪɚ ænd tə ɡˈæmbəl.|ESD_0016
+/content/data/processed_24k/ESD/Speaker_0012/0012_happiness_03_04745.wav|hiː sˈɛd tə dʒˈæk, ðə tʃˈæɾɚɹɚ.|ESD_0012_happiness
+/content/data/processed_24k/ESD/Speaker_0020/0020_neutral_06_04195.wav|wiː kæn nˌɑːt dˈuː ɪt sˌɜː.|ESD_0020
+/content/data/processed_24k/ESD/Speaker_0016/0016_neutral_05_02244.wav|aɪ nˈoʊ hˌaʊ tʊ oʊbˈeɪ ˈɔːɹdɚz.|ESD_0016
+/content/data/processed_24k/Expresso/ex03/ex03_confused_00107.wav|jˈɛs, tədˈeɪ ɪz sˈæɾɚdˌeɪ, sɛptˈɛmbɚ twˈɛnti fˈɜːst.|Expresso_ex03_confused
+/content/data/processed_24k/ESD/Speaker_0012/0012_neutral_03_04995.wav|ðeɪd nˈɛvɚ nˈoʊ aɪd ɹˈɛɡjʊlɚ ɹˈæn ɐwˈeɪ.|ESD_0012
+/content/data/processed_24k/RAVDESS/Actor_12/03-01-06-02-01-02-12.wav|kˈɪdz ɑːɹ tˈɔːkɪŋ baɪ ðə dˈɔːɹ.|Actor_12_strong_fearful
+/content/data/processed_24k/ESD/Speaker_0015/0015_happiness_04_04925.wav|ðə hˈæɡ lˈʊkt ɪnðə stˈoʊv.|ESD_0015_happiness
+/content/data/processed_24k/ESD/Speaker_0017/0017_anger_05_03277.wav|aɪ nˈoʊ juː .|ESD_0017_anger
+/content/data/processed_24k/Expresso/ex02/ex02_happy_00178.wav|aɪ wˈɔnə biː ˈæstɚɹˌɪsk blˈoʊn ˈæstɚɹˌɪsk ɐwˈeɪ.|Expresso_ex02_happy
+/content/data/processed_24k/Expresso/ex01/ex01_sad_00305.wav|ɪt mˈʌst biː tˈʌf tə lˈɪv wɪð.|Expresso_ex01_sad
+/content/data/processed_24k/Expresso/ex03/ex03_sad_00105.wav|aɪ kˈænt fˈaɪnd ˌɛni ˌɪnfɚmˈeɪʃən fɔːɹ ðæt loʊkˈeɪʃən, bˌʌt ɪɾ ɪz mˈoʊstli sˈʌni wɪð tˈɛmpɹɪtʃɚz bᵻtwˌiːn fˈɪfti nˈaɪn ænd sˈɛvənti fˈɔːɹ tədˈeɪ ɪn wˈɛsli tʃˈæpəl.|Expresso_ex03_sad
+/content/data/processed_24k/Expresso/ex04/ex04_default_00354.wav|sˌoʊ dˈʌz ðæt kwˈɔlᵻfˌaɪ mˌiː fɔːɹ ɹᵻdˈɛmpʃən?|Expresso_ex04_default
+/content/data/processed_24k/ESD/Speaker_0017/0017_surprise_05_04506.wav|tˈɑːm ænd mˈaɪkəl wˈoʊk ˌʌp nˈɛkst mˈɔːɹnɪŋ.|ESD_0017_surprise
+/content/data/processed_24k/ESD/Speaker_0019/0019_happiness_06_02188.wav|ænd biː wɪð juː,tˈɑːm!|ESD_0019_happiness
+/content/data/processed_24k/ESD/Speaker_0011/0011_anger_03_02529.wav|mˈʌst ɐ nˈeɪm mˈiːn sˈʌmθɪŋ?|ESD_0011_anger
+/content/data/processed_24k/RAVDESS/Actor_03/03-01-04-02-02-01-03.wav|dˈɑːɡz ɑːɹ sˈɪɾɪŋ baɪ ðə dˈɔːɹ.|Actor_03_strong_sad
+/content/data/processed_24k/ESD/Speaker_0013/0013_happiness_04_01536.wav|ɐn ˈaʊɚɹ ˌaʊɾəv ɡˈɪldfɚd tˈaʊn.|ESD_0013_happiness
+/content/data/processed_24k/ESD/Speaker_0012/0012_happiness_03_04926.wav|ɪts pˈɑːɹt ʌv maɪ sˈiːkɹᵻt.|ESD_0012_happiness
+/content/data/processed_24k/ESD/Speaker_0019/0019_surprise_06_03059.wav|kˈɪɾi, kæn juː plˈeɪ tʃˈɛs?|ESD_0019_surprise
+/content/data/processed_24k/ESD/Speaker_0017/0017_happiness_05_03426.wav|bˌʌt aɪ sˈɔː juː wˈɔːkɪŋ.|ESD_0017_happiness
+/content/data/processed_24k/ESD/Speaker_0017/0017_anger_05_03334.wav|bˌʌt θˈɪŋz hˈævənt tʃˈeɪndʒ jˈɛt.|ESD_0017_anger
+/content/data/processed_24k/Expresso/ex04/ex04_enunciated_00354.wav|sˌoʊ dˈʌz ðæt kwˈɔlᵻfˌaɪ mˌiː fɔːɹ ɹᵻdˈɛmpʃən?|Expresso_ex04_enunciated
+/content/data/processed_24k/Expresso/ex04/ex04_default_emphasis_00135.wav|ˈæstɚɹˌɪsk wʌt ˈæstɚɹˌɪsk ɐbˌaʊt spˈiːd ɹˈeɪsɚ?|Expresso_ex04_emphasis
+/content/data/processed_24k/RAVDESS/Actor_14/03-01-05-02-02-01-14.wav|dˈɑːɡz ɑːɹ sˈɪɾɪŋ baɪ ðə dˈɔːɹ.|Actor_14_strong_angry
+/content/data/processed_24k/ESD/Speaker_0015/0015_anger_04_04776.wav|ðɪ ˈɛnd pˈɑːɹt ɪz fˈɪʃ mˈaʊθ.|ESD_0015_anger
+/content/data/processed_24k/Expresso/ex04/ex04_laughing_00282.wav|lˈæf hiː ɪz ɐ bˈɪznəs ɛɡzˈɛkjuːtˌɪv sˌoʊ aɪ wˈʌndɚ ɪf hiː lˈiːnd ˌɔn hɪz ɛkspˈiəɹɪəns?|Expresso_ex04_laughing
+/content/data/processed_24k/RAVDESS/Actor_04/03-01-03-01-02-02-04.wav|dˈɑːɡz ɑːɹ sˈɪɾɪŋ baɪ ðə dˈɔːɹ.|Actor_04_happy
+/content/data/processed_24k/ESD/Speaker_0015/0015_happiness_05_00114.wav|aɪv dʒˈʌst ʃˈɑːt ɐ stˈæɡ.|ESD_0015_happiness
+/content/data/processed_24k/Expresso/ex04/ex04_confused_00027.wav|nˌɑːɾə fˈɜːsttˈaɪm hˈoʊm bˈaɪɚ?|Expresso_ex04_confused
+/content/data/processed_24k/ESD/Speaker_0013/0013_sadness_04_02358.wav|hiː ˈoʊd mˈɪstɚ lˈɔːsən, aɪ kˈænt tˈɛl juː hˈaʊ.|ESD_0013_sadness
+/content/data/processed_24k/ESD/Speaker_0013/0013_anger_04_01015.wav|mˈɪstɚ ʃˈɛɹ mˈæn, aɪ mˈuːv fɚɹə dᵻvˈɪʒən.|ESD_0013_anger
+/content/data/processed_24k/ESD/Speaker_0019/0019_surprise_06_03209.wav|wˌaɪ ɪɾ ɪz dʒˈʌst lˈaɪk ðə ɹˈaʊnd ˈɛɡ wˌɪtʃ sˈaʊndz θˈɪn.|ESD_0019_surprise
+/content/data/processed_24k/ESD/Speaker_0013/0013_anger_04_01199.wav|ðæt klˈɔθ dʌznˌɑːt lˈʊk wˈɜːθ mˈʌtʃ!|ESD_0013_anger
+/content/data/processed_24k/Expresso/ex03/ex03_sad_00069.wav|jˈɛs, tədˈeɪ ɪn dˈɔːɹəl ðə hˈaɪz ɑːɹ ɪnðə mˈɪd fˈɪftiz ænd lˈoʊz ɑːɹ ɪnðə lˈoʊ fˈɔːɹɾiz.|Expresso_ex03_sad
+/content/data/processed_24k/ESD/Speaker_0011/0011_neutral_03_03263.wav|ænd wiː ɑːɹ sˌoʊ θˈɜːsti!|ESD_0011
+/content/data/processed_24k/Expresso/ex01/ex01_default_00267.wav|aɪ hæd tˈuː mʌtʃ tə dɹˈɪŋk.|Expresso_ex01_default
+/content/data/processed_24k/Expresso/ex02/ex02_sad_00312.wav|aɪ ˈæstɚɹˌɪsk nˈiːd ˈæstɚɹˌɪsk tə nˈoʊ!|Expresso_ex02_sad
+/content/data/processed_24k/ESD/Speaker_0015/0015_anger_04_04666.wav|aɪ tˈɔɪ wɪð maɪ lᵻkˈɜː.|ESD_0015_anger
+/content/data/processed_24k/ESD/Speaker_0020/0020_sadness_06_04527.wav|ɪt sˈɛz nˈoʊ wˈeɪ! ʃˈaʊɾᵻd dˈeɪzi.|ESD_0020_sadness
+/content/data/processed_24k/ESD/Speaker_0011/0011_anger_03_02789.wav|ðɛɹ ɡoʊz ðə ʃˈɔːl ɐɡˈɛn!|ESD_0011_anger
+/content/data/processed_24k/Expresso/ex02/ex02_whisper_00214.wav|ɔːlɹˈaɪt pˈiːpəl, wɪɹ ɡˌoʊɪŋ tə tɹˈaɪ sˈʌmθɪŋ ɐ ˈæstɚɹˌɪsk lˈɪɾəl ˈæstɚɹˌɪsk dˈɪfɹənt tədˈeɪ.|Expresso_ex02_whisper
+/content/data/processed_24k/Expresso/ex01/ex01_laughing_00028.wav|hiː ɹˈoʊt ɡˈʌlɪvɚz tɹˈævəl.|Expresso_ex01_laughing
+/content/data/processed_24k/Expresso/ex01/ex01_default_00309.wav|hˌaʊz ɪt ɡˈoʊɪŋ, ɜːmˈɪlə?|Expresso_ex01_default
+/content/data/processed_24k/ESD/Speaker_0016/0016_anger_05_01304.wav|ɐ dˈɛfənɪŋ tʃˈɪɹuːpɪŋ ɹˈɛnt ðɪ ˈɛɹ.|ESD_0016_anger
+/content/data/processed_24k/ESD/Speaker_0011/0011_anger_03_02756.wav|aɪ wʊd skˈɔf æt ðiːz fˈɑːloʊɚz.|ESD_0011_anger
+/content/data/processed_24k/RAVDESS/Actor_19/03-01-08-01-01-02-19.wav|kˈɪdz ɑːɹ tˈɔːkɪŋ baɪ ðə dˈɔːɹ.|Actor_19_surprised
+/content/data/processed_24k/ESD/Speaker_0019/0019_surprise_06_03073.wav|aɪ pˈeɪ hˈæf ɐ kɹˈaʊn ɐ wˈiːk ˈɛkstɹə.|ESD_0019_surprise
+/content/data/processed_24k/Expresso/ex01/ex01_default_emphasis_00177.wav|aɪ nˈoʊ ˈæstɚɹˌɪsk ðɪ ˈæstɚɹˌɪsk hˈʌɡ mˌiː bˈɛɹ.|Expresso_ex01_emphasis
+/content/data/processed_24k/ESD/Speaker_0020/0020_anger_06_03468.wav|bˌʌt ðə tˈuːn ˌɪzənt hɪz ˈoʊn ɪnvˈɛnʃən.|ESD_0020_anger
+/content/data/processed_24k/Expresso/ex03/ex03_enunciated_00130.wav|hiː hɐz mˈɛni, mˈɛni tˈaɪɾəlz.|Expresso_ex03_enunciated
+/content/data/processed_24k/ESD/Speaker_0020/0020_anger_06_03352.wav|ðɪ ˈɛlɪfənt ænd ðə kˈɑːɹpəntɚɹ ɪz ðə lˈɔŋɡɪst.|ESD_0020_anger
+/content/data/processed_24k/Expresso/ex02/ex02_laughing_00161.wav|ˈoʊ, sˌoʊ juː wˈɪtnəst maɪ ɐmˈeɪzɪŋ æθlˈɛɾɪk ɐbˈɪləɾi?|Expresso_ex02_laughing
+/content/data/processed_24k/Expresso/ex04/ex04_laughing_00084.wav|ˈɛvɹɪwˌʌn ɪz tˈeɪkɪŋ ɐ bɹˈɛθ ænd wˈeɪɾɪŋ.|Expresso_ex04_laughing
+/content/data/processed_24k/ESD/Speaker_0020/0020_anger_06_03253.wav|ðeɪ wɛnt ˌʌp tə ðə dˈɑːɹk mˈæs dʒˈɑːb hæd pˈɔɪntᵻd ˈaʊt.|ESD_0020_anger
+/content/data/processed_24k/Expresso/ex03/ex03_default_00359.wav|ɪf juː wˈɔnə dɹˈaɪv mˌiː kɹˈeɪzi, hæv sˌʌm bˈiːpɪŋ sˈʌmwɛɹ.|Expresso_ex03_default
+/content/data/processed_24k/Expresso/ex04/ex04_whisper_00328.wav|ɪnˈʌf tə ɹˈɛkəɡnˌaɪz ɐ dˈuːəl ɛɡzˈɔːst.|Expresso_ex04_whisper
+/content/data/processed_24k/ESD/Speaker_0016/0016_sadness_05_02648.wav|wˌʌt dˈuː juː θˈɪŋk ʌv ðɪs kwˈɛstʃən?|ESD_0016_sadness
+/content/data/processed_24k/ESD/Speaker_0016/0016_anger_05_01462.wav|lˈɛt ɪt ɡˈɪv ˌʌs ɐ tʃˈæns, maɪ pɹˈɛʃəs.|ESD_0016_anger
+/content/data/processed_24k/ESD/Speaker_0015/0015_surprise_05_01147.wav|ɪnwˌɪtʃ pˈɪɡlɪt mˈiːts ɐ ˈɛlɪfənt.|ESD_0015_surprise
+/content/data/processed_24k/Expresso/ex01/ex01_enunciated_00337.wav|aɪ dˈɪdnt plˈeɪ tˈuː wˈɛl ɪnðə θˈɜːd kwˈɔːɹɾɚ.|Expresso_ex01_enunciated
+/content/data/processed_24k/Expresso/ex04/ex04_sad_00202.wav|hˌaʊ dˈuː juː nˈoʊ ɪf jʊɹ dˈɑːɡ ɪz ɐ smˈɑːɹt dˈɑːɡ? sˈiː ɪf ɪt hɐz ɐ ˈæstɚɹˌɪsk kˈɑːlɚɹ aɪdˈiː ˈæstɚɹˌɪsk.|Expresso_ex04_sad
+/content/data/processed_24k/ESD/Speaker_0018/0018_neutral_06_00563.wav|ɐ hˈæf pˈaʊndz ʌv flˈaʊɚ ænd tˈuː ˈaʊnsᵻz sˈuːɪt.|ESD_0018
+/content/data/processed_24k/Expresso/ex01/ex01_default_00084.wav|wˈɛnzdeɪ, dᵻsˈɛmbɚ twˈɛnti fˈɪfθ ɪz ɪn ɐ hˈʌndɹɪd ænd fˈɔːɹɾi dˈeɪz.|Expresso_ex01_default
+/content/data/processed_24k/Expresso/ex03/ex03_sad_00154.wav|ðə suːpɹˈiːm kˈɔːɹt ɪz dᵻlˈɪbɚɹˌeɪɾɪŋ.|Expresso_ex03_sad
+/content/data/processed_24k/RAVDESS/Actor_15/03-01-05-02-01-01-15.wav|kˈɪdz ɑːɹ tˈɔːkɪŋ baɪ ðə dˈɔːɹ.|Actor_15_strong_angry
+/content/data/processed_24k/Expresso/ex01/ex01_whisper_00121.wav|mˈæm, dɹˈɑːp jʊɹ wˈɛpən!|Expresso_ex01_whisper
+/content/data/processed_24k/ESD/Speaker_0013/0013_happiness_04_01429.wav|ðˈɛn ðɛɹwˌʌz ɐ ɹᵻpˈɔːɹt.|ESD_0013_happiness
+/content/data/processed_24k/ESD/Speaker_0018/0018_anger_06_00052.wav|aɪɐm lˈoʊθ tə sˈiː hˌɪm ɡˈoʊ.|ESD_0018_anger
+/content/data/processed_24k/Expresso/ex01/ex01_laughing_00238.wav|lˈæf wʌt dˈuː wiː wˈɔnə dˈuː ðˈæt fɔːɹ?|Expresso_ex01_laughing
+/content/data/processed_24k/Expresso/ex01/ex01_default_00017.wav|ɪz jˈuːtɔ ˌɔn pˌiːˌɛstˈiː?|Expresso_ex01_default
+/content/data/processed_24k/Expresso/ex01/ex01_default_emphasis_00105.wav|ˈæstɚɹˌɪsk dˈɪd ˈæstɚɹˌɪsk ˈændɹiə ˈæstɚɹˌɪsk lˈiːv ˈæstɚɹˌɪsk ˈɛnɪθˌɪŋ fɔːɹ mˌiː?|Expresso_ex01_emphasis
+/content/data/processed_24k/ESD/Speaker_0013/0013_neutral_04_01717.wav|ðˈɛn sˈædli ɪɾ ɪz mˈʌtʃ fˈɑːɹðɚ.|ESD_0013
+/content/data/processed_24k/ESD/Speaker_0012/0012_surprise_04_00820.wav|aɪ sˈeɪ nˈiːðɚ jˈeɪ nˈɔːɹ nˈeɪ.|ESD_0012_surprise
+/content/data/processed_24k/ESD/Speaker_0019/0019_anger_06_01641.wav|wˈeɪk nˈaʊ maɪ mˈɛɹi tˈædz!|ESD_0019_anger
+/content/data/processed_24k/ESD/Speaker_0013/0013_surprise_04_02534.wav|aɪ blˈɪŋkt maɪ ˈaɪz hˈɑːɹd.|ESD_0013_surprise
+/content/data/processed_24k/ESD/Speaker_0018/0018_happiness_06_00216.wav|ðeɪ wɜː tʃˈɪldɹən ʌv mˈaɪn.|ESD_0018_happiness
+/content/data/processed_24k/Expresso/ex02/ex02_whisper_00299.wav|mˈɔːɹnɪŋ. hˌaʊ wʌz jʊɹ slˈiːp?|Expresso_ex02_whisper
+/content/data/processed_24k/ESD/Speaker_0018/0018_sadness_06_01112.wav|ɡˈɪv mˌiː ɐ fˈaɪn fˈæt ɡˈuːs.|ESD_0018_sadness
+/content/data/processed_24k/ESD/Speaker_0016/0016_neutral_05_02002.wav|hiː wʌz stˈɪl ɪnðə fˈɔːɹɪst!|ESD_0016
+/content/data/processed_24k/Expresso/ex01/ex01_confused_00148.wav|aɪm ˈæskɪŋ ˈæstɚɹˌɪsk fɔːɹ ˈæstɚɹˌɪsk hˌɪm.|Expresso_ex01_confused
+/content/data/processed_24k/Expresso/ex02/ex02_happy_00186.wav|wˌʌt ɑːɹ sˌʌm bˈʊk klˈʌbz ɪn mˌɪniːˈæpəlɪs?|Expresso_ex02_happy
+/content/data/processed_24k/ESD/Speaker_0014/0014_happiness_04_03278.wav|dˈeɪzi kɹˈiːmz wɪð pˈɪŋk ˈɛdʒᵻz.|ESD_0014_happiness
+/content/data/processed_24k/Expresso/ex01/ex01_enunciated_00155.wav|ˈɛfɚt ɪz ˈɔːl ɪt tˈeɪks.|Expresso_ex01_enunciated
+/content/data/processed_24k/Expresso/ex04/ex04_happy_00081.wav|ðɪs ˈiːvnɪŋ ɪn lˌɑːs ˈændʒəlɪs ɪɾ ˌɪzənt ɡˌənə biː klˈaʊdi, ˌɪɾəl biː dˈʌsti, wɪð tˈɛmpɹɪtʃɚz bᵻtwˌiːn zˈiəɹoʊ ænd fˈɔːɹ.|Expresso_ex04_happy
+/content/data/processed_24k/Expresso/ex03/ex03_sad_00329.wav|ɑːɹ juː ɡˌoʊɪŋ tə lˈɛt sˌʌm mˈɑːbstɚz mˈaʊθpiːs tˈɔːk tə juː lˈaɪk ðˈæt?|Expresso_ex03_sad
+/content/data/processed_24k/ESD/Speaker_0016/0016_sadness_05_02323.wav|ðə fˈʊtbɔːl tˈiːmz ɡˈɪv ɐ tˈiː pˈɑːɹɾi.|ESD_0016_sadness
+/content/data/processed_24k/Expresso/ex01/ex01_happy_00179.wav|dˈæd, ɑːɹ juː kˈɪdɪŋ mˌiː?|Expresso_ex01_happy
+/content/data/processed_24k/Expresso/ex04/ex04_whisper_00244.wav|wˌʌts ðə pɹˈɑːbləm wɪð tʃˈeɪndʒ?|Expresso_ex04_whisper
+/content/data/processed_24k/ESD/Speaker_0012/0012_sadness_04_00404.wav|hiː wʌz kˈɪld baɪ ɐn ˈæɹoʊ.|ESD_0012_sadness
+/content/data/processed_24k/Expresso/ex03/ex03_laughing_00034.wav|dˈʌz ðæt sˈaʊnd ˈɪntɹɛstɪŋ?|Expresso_ex03_laughing
+/content/data/processed_24k/ESD/Speaker_0011/0011_happiness_03_02951.wav|ðɪs ɪz dʒˈæk, ðə ɹˈɛlətˌɪvz ʌv tˈɑːm.|ESD_0011_happiness
+/content/data/processed_24k/ESD/Speaker_0014/0014_neutral_04_03569.wav|ˌaʊɚ kˈɪŋ dʒˈɔːɹdʒ ɪz lˈeɪbɚɹɚz.|ESD_0014
+/content/data/processed_24k/ESD/Speaker_0011/0011_happiness_03_03194.wav|ɐ wˈɜːɹɪŋ nˈɔɪz wʌz hˈɜːd.|ESD_0011_happiness
+/content/data/processed_24k/ESD/Speaker_0016/0016_happiness_05_01847.wav|ɪnwˌɪtʃ pˈɪɡlɪt mˈiːts ɐ ˈɛlɪfənt.|ESD_0016_happiness
+/content/data/processed_24k/ESD/Speaker_0013/0013_surprise_04_02509.wav|ˈækt dɹˈɑːp sˈɛkənd ˈækt sˈiːn.|ESD_0013_surprise
+/content/data/processed_24k/ESD/Speaker_0020/0020_sadness_06_04550.wav|ðə lˈeɪdɪbˌʌɡ tˈoʊld ðˌɛm pɹˈaʊdli.|ESD_0020_sadness
+/content/data/processed_24k/Expresso/ex04/ex04_enunciated_00022.wav|ɪts ɐ klˈæsɪk!|Expresso_ex04_enunciated
+/content/data/processed_24k/ESD/Speaker_0020/0020_sadness_06_04559.wav|æz sˈuːn æz ʃiː wɛnt ˈɪn, ðɛɹwˌʌz dɪsˈɔːɹdɚ.|ESD_0020_sadness
+/content/data/processed_24k/ESD/Speaker_0016/0016_neutral_05_02166.wav|juː kɹˈuːəlti ʃˌæl kˈɔst jʊɹ lˈaɪf !|ESD_0016
+/content/data/processed_24k/ESD/Speaker_0017/0017_anger_05_03047.wav|juː ɑːɹ nˌɑːɾɚ ɹˈʌnəwˌeɪ,hˈuː ɑːɹ juː?|ESD_0017_anger
+/content/data/processed_24k/RAVDESS/Actor_18/03-01-01-01-02-02-18.wav|dˈɑːɡz ɑːɹ sˈɪɾɪŋ baɪ ðə dˈɔːɹ.|Actor_18
+/content/data/processed_24k/Expresso/ex04/ex04_whisper_00055.wav|ˈæstɚɹˌɪsk sˈɪt dˌaʊn ˈæstɚɹˌɪsk, mˈɪs.|Expresso_ex04_whisper
+/content/data/processed_24k/Expresso/ex02/ex02_enunciated_00269.wav|ɐ dʒˈɛnɚɹəs, wˈɔːɹm, kˈɛɹɪŋ hjˈuːmən bˈiːɪŋ?|Expresso_ex02_enunciated
+/content/data/processed_24k/Expresso/ex01/ex01_confused_00088.wav|bˌʌt ɪf juː sˈeɪ juː ɡɛt ɐlˈɔŋ wɪð jʊɹ pˈɛɹənts, wˈɛl jʊɹ ɐ lˈaɪɚ tˈuː!|Expresso_ex01_confused
+/content/data/processed_24k/ESD/Speaker_0015/0015_anger_04_04830.wav|ʃiːl biː fˈiːvɚɹɪʃ ˈæftɚ sˈoʊ mˌʌtʃ θˈɪŋkɪŋ.|ESD_0015_anger
+/content/data/processed_24k/ESD/Speaker_0018/0018_happiness_06_00243.wav|wiː ˈɔːl sˈiː pˈændə ˌɔn tˌiːvˈiː ɔːɹ ɪnðə zˈuː.|ESD_0018_happiness
+/content/data/processed_24k/ESD/Speaker_0015/0015_sadness_05_00655.wav|aɪ ɡˈɛs ɪts ɐ tʃˈɔɪs fˈiːst.|ESD_0015_sadness
+/content/data/processed_24k/Expresso/ex01/ex01_laughing_00275.wav|jˈɛs, wˈɜːld dˈeɪ ɐɡˈɛnst tʃˈaɪld lˈeɪbɚ bɹˈɛθ ɪz wˈɛnzdeɪ, dʒˈuːn twˈɛlfθ.|Expresso_ex01_laughing
+/content/data/processed_24k/Expresso/ex03/ex03_sad_00245.wav|ʌnwˈɛlkʌm? aɪ ɡˈɛs sˈʌmwʌn stˈɪl hɐz hɜː pˈæntiz ɪn ɐ ˈæstɚɹˌɪsk twˈɪst.ˈæstɚɹˌɪsk|Expresso_ex03_sad
+/content/data/processed_24k/ESD/Speaker_0020/0020_happiness_06_03630.wav|ˈɔːl smˈaɪl wɜː ɹˈiːəl ænd ðə hˈæpɪɚ ðə mˈɔːɹ sɪnsˈɪɹ .|ESD_0020_happiness
+/content/data/processed_24k/ESD/Speaker_0019/0019_surprise_06_03181.wav|ˈælɪs aɪ woʊnt fɚɡˈɛt ɪɾ ɐɡˈɛn.|ESD_0019_surprise
+/content/data/processed_24k/Expresso/ex04/ex04_default_00333.wav|ɪts ˈeɪs, fɹʌmðə pˈɑːɹk.|Expresso_ex04_default
+/content/data/processed_24k/ESD/Speaker_0016/0016_neutral_05_01978.wav|ɹˈæt kˈeɪm ænd ɹᵻplˈaɪd ɔnðə lˈiːvz.|ESD_0016
+/content/data/processed_24k/ESD/Speaker_0013/0013_sadness_04_02271.wav|ˈæsk ɡˈɑːd tə hˈɛlp juː.|ESD_0013_sadness
+/content/data/processed_24k/Expresso/ex04/ex04_confused_00293.wav|kʊd aɪ sˈiː ðæt ɐɡˈɛn?|Expresso_ex04_confused
+/content/data/processed_24k/ESD/Speaker_0018/0018_surprise_06_01231.wav|ɐ fˈɛɹ dʒˈɔː kɹˈækɚ dwˈɔːɹf lˈæŋɡwɪdʒ mˈʌst bˈiː!|ESD_0018_surprise
+/content/data/processed_24k/ESD/Speaker_0019/0019_happiness_06_02140.wav|ðɪ ˈɛnd ʌv fˈɛbɹuːˌɛɹi fˈɔːɹtiːnθ.|ESD_0019_happiness
+/content/data/processed_24k/ESD/Speaker_0011/0011_surprise_03_03943.wav|tˈeɪk kˈɜːɹɪdʒ ˈɔːl ˌɪzənt lˈɔst jˈɛt.|ESD_0011_surprise
+/content/data/processed_24k/ESD/Speaker_0011/0011_neutral_03_03209.wav|ɐ nˈɔːsɪəs dɹˈæft.|ESD_0011
+/content/data/processed_24k/ESD/Speaker_0018/0018_neutral_06_00510.wav|mˈɪdjɪɹ ɪz dˈeɪ, ʃˈaɪɚ jˈɪɹ.|ESD_0018
+/content/data/processed_24k/ESD/Speaker_0014/0014_anger_04_02958.wav|ɐ ɹˈeɪdʒɪŋ fˈaɪɚ wʌzɪn hɪz ˈaɪz.|ESD_0014_anger
+/content/data/processed_24k/Expresso/ex02/ex02_default_emphasis_00076.wav|nˈoʊ, ɪts nˌɑːt ɡˌənə biː kˈoʊld ɪn dˈɪksən ˈæstɚɹˌɪsk təmˈɑːɹoʊ.ˈæstɚɹˌɪsk|Expresso_ex02_emphasis
+/content/data/processed_24k/ESD/Speaker_0019/0019_anger_06_01770.wav|aɪ sˈeɪ aɪ wɪl biː ˈɛmpɚɹɚ.|ESD_0019_anger
+/content/data/processed_24k/ESD/Speaker_0019/0019_happiness_06_01855.wav|ˈændi wʌts ðə dʒˈaɪɚ ænd tə ɡˈɪmbəl.|ESD_0019_happiness
+/content/data/processed_24k/Expresso/ex03/ex03_confused_00116.wav|ˈæstɚɹˌɪsk hˌaʊ ˈæstɚɹˌɪsk wʊd ɪt wˈɜːk?|Expresso_ex03_confused

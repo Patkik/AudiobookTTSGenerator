@@ -4,6 +4,7 @@ All operations on float32 numpy arrays at 24000 Hz.
 """
 import os
 import numpy as np
+import scipy.signal
 import soundfile as sf
 
 
@@ -72,7 +73,11 @@ class AudioPipeline:
         """
         parts: list[np.ndarray] = []
         for audio, pause_ms in chunks:
-            parts.append(audio)
+            arr = np.asarray(audio, dtype=np.float32).squeeze()
+            if arr.ndim > 0 and len(arr) > 0:
+                parts.append(arr)
+            elif arr.ndim == 0:
+                parts.append(np.array([arr], dtype=np.float32))
             if pause_ms > 0:
                 parts.append(AudioPipeline.make_silence(pause_ms, sample_rate))
         return np.concatenate(parts).astype(np.float32) if parts else np.array([], dtype=np.float32)
@@ -102,3 +107,87 @@ class AudioPipeline:
         pcm = (audio * 32767).astype(np.int16).tobytes()
         seg = AudioSegment(data=pcm, sample_width=2, frame_rate=sample_rate, channels=1)
         seg.export(path, format="mp3", bitrate="192k")
+
+    @staticmethod
+    def master_audio(
+        audio: np.ndarray,
+        sample_rate: int = 24_000,
+        enable_eq: bool = True,
+        enable_compression: bool = True,
+        enable_room_tone: bool = True,
+        highpass_hz: float = 80.0,
+        deess_hz: float = 6500.0,
+    ) -> np.ndarray:
+        """
+        Master synthesized speech through a studio-grade DSP chain:
+        1. 80 Hz High-Pass Filter: Cuts sub-bass rumble, mechanical hum, and DC offset.
+        2. 6.5 kHz De-Esser Notch: Tames harsh high-frequency sibilants ('s', 'sh').
+        3. Vocal Dynamic Compressor: Smooths uneven levels with soft-knee limiting.
+        4. Studio Room Tone: Subtle acoustic presence floor (-58 dBFS) eliminating dead digital silence.
+        """
+        arr = np.asarray(audio, dtype=np.float32).squeeze()
+        if arr.ndim == 0 or len(arr) == 0:
+            return np.array([], dtype=np.float32)
+        if len(arr) < 100:
+            return arr.copy()
+
+        out = arr.copy()
+
+        # 1. High-Pass Filter (Butterworth 2nd-order)
+        if enable_eq and highpass_hz > 0:
+            nyquist = sample_rate / 2.0
+            if highpass_hz < nyquist:
+                b_hp, a_hp = scipy.signal.butter(2, highpass_hz / nyquist, btype="highpass")
+                out = scipy.signal.filtfilt(b_hp, a_hp, out).astype(np.float32)
+
+        # 2. De-Esser Notch Filter (Q=3.5 at 6.5 kHz)
+        if enable_eq and deess_hz > 0:
+            nyquist = sample_rate / 2.0
+            if deess_hz < nyquist:
+                b_de, a_de = scipy.signal.iirnotch(deess_hz, 3.5, fs=sample_rate)
+                filtered = scipy.signal.filtfilt(b_de, a_de, out).astype(np.float32)
+                # Gentle blend: 75% notch-filtered, 25% direct
+                out = (0.75 * filtered + 0.25 * out).astype(np.float32)
+
+        # 3. Dynamic Soft-Knee Vocal Compressor
+        if enable_compression:
+            tau = 0.025  # 25 ms smoothing time constant
+            alpha = np.exp(-1.0 / (sample_rate * tau))
+            env = scipy.signal.lfilter([1.0 - alpha], [1.0, -alpha], np.abs(out))
+
+            eps = 1e-7
+            env_db = 20.0 * np.log10(np.maximum(env, eps))
+
+            t = -18.0   # threshold in dBFS
+            w = 6.0     # knee width in dB
+            r = 2.2     # compression ratio
+            makeup_db = 1.5
+
+            gain_db = np.zeros_like(env_db)
+            knee_mask = (2 * (env_db - t) >= -w) & (2 * (env_db - t) <= w)
+            gain_db[knee_mask] = ((1.0 / r - 1.0) * (env_db[knee_mask] - t + w / 2.0) ** 2) / (2.0 * w)
+
+            above_mask = 2 * (env_db - t) > w
+            gain_db[above_mask] = (t + (env_db[above_mask] - t) / r) - env_db[above_mask]
+
+            gain = 10.0 ** ((gain_db + makeup_db) / 20.0)
+            out = out * gain
+
+            # Soft peak ceiling limiter
+            peak = np.max(np.abs(out))
+            if peak > 0.95:
+                out = (out / peak) * 0.95
+
+        # 4. Subtle Studio Room Tone (-58 dBFS acoustic floor)
+        if enable_room_tone:
+            room_amp = 10.0 ** (-58.0 / 20.0)
+            noise = np.random.normal(0, room_amp, len(out)).astype(np.float32)
+            nyquist = sample_rate / 2.0
+            b_band, a_band = scipy.signal.butter(1, [100.0 / nyquist, 4000.0 / nyquist], btype="bandpass")
+            room_tone = scipy.signal.filtfilt(b_band, a_band, noise).astype(np.float32)
+            out = out + room_tone
+
+        # Final safety bounds
+        out = np.clip(out, -1.0, 1.0).astype(np.float32)
+        return out
+
