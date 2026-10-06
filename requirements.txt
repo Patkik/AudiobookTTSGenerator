@@ -1,0 +1,8 @@
+kokoro-onnx==0.4.7
+gradio==6.29.1
+soundfile
+numpy
+ebooklib
+pydub
+pytest
+pytest-mock
