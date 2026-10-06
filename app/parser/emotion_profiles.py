@@ -8,9 +8,12 @@ EmotionProfile fields:
   pause_after_ms  - silence injected AFTER the segment (milliseconds)
   sfx_file      - path to SFX WAV to inject before this segment, or None
   silence_ms    - if set, this profile is ONLY silence (no TTS synthesis)
-  emotion_token - integer ID injected as first token at training/inference time
+  emotion_token - integer ID used by a trained emotion-conditioned model
+  duration_scale - target total duration multiplier retained for training metadata
+  unvoiced_duration_scale, vowel_duration_scale, pre_plosive_pause_ms -
+      phoneme-level targets consumed by the retrained duration predictor
 """
-from dataclasses import dataclass, field
+from dataclasses import dataclass
 from typing import Optional
 
 
@@ -24,6 +27,11 @@ class EmotionProfile:
     sfx_file: Optional[str] = None
     silence_ms: Optional[int] = None
     emotion_token: int = 178  # default: neutral
+    duration_scale: float = 1.0
+    unvoiced_duration_scale: float = 1.0
+    vowel_duration_scale: float = 1.0
+    pre_plosive_pause_ms: int = 0
+    f0_variance_scale: float = 1.0
 
 
 EMOTION_TOKENS: dict[str, int] = {
@@ -50,14 +58,14 @@ EMOTION_TOKENS: dict[str, int] = {
 
 EMOTION_PROFILES: dict[str, EmotionProfile] = {
     "neutral":    EmotionProfile(speed=1.0,  ipa_prefix="→",  volume_db=0.0,  pause_before_ms=0,   pause_after_ms=50,  emotion_token=178),
-    "happy":      EmotionProfile(speed=1.1,  ipa_prefix="↗",  volume_db=0.0,  pause_before_ms=0,   pause_after_ms=50,  emotion_token=179),
-    "sad":        EmotionProfile(speed=0.85, ipa_prefix="↘",  volume_db=-2.0, pause_before_ms=100, pause_after_ms=150, emotion_token=180),
+    "happy":      EmotionProfile(speed=1.0 / 0.95, f0_variance_scale=1.4, ipa_prefix="↗", volume_db=0.0, pause_before_ms=0, pause_after_ms=50, emotion_token=179, duration_scale=0.95),
+    "sad":        EmotionProfile(speed=1.0 / 1.20, ipa_prefix="↘", volume_db=-2.0, pause_before_ms=100, pause_after_ms=150, emotion_token=180, duration_scale=1.20, vowel_duration_scale=1.30),
     "angry":      EmotionProfile(speed=1.15, ipa_prefix="↑",  volume_db=3.0,  pause_before_ms=0,   pause_after_ms=80,  emotion_token=181),
-    "fearful":    EmotionProfile(speed=1.2,  ipa_prefix="↗",  volume_db=-1.0, pause_before_ms=50,  pause_after_ms=100, emotion_token=182),
+    "fearful":    EmotionProfile(speed=1.25, ipa_prefix="↗",  volume_db=-1.0, pause_before_ms=50,  pause_after_ms=100, emotion_token=182, duration_scale=0.80, vowel_duration_scale=0.80, pre_plosive_pause_ms=40),
     "excited":    EmotionProfile(speed=1.2,  ipa_prefix="↗",  volume_db=1.0,  pause_before_ms=0,   pause_after_ms=50,  emotion_token=183),
-    "calm":       EmotionProfile(speed=0.9,  ipa_prefix="→",  volume_db=-1.0, pause_before_ms=50,  pause_after_ms=100, emotion_token=184),
+    "calm":       EmotionProfile(speed=0.8,  ipa_prefix="→",  volume_db=-1.0, pause_before_ms=50,  pause_after_ms=100, emotion_token=184),
     "nervous":    EmotionProfile(speed=1.1,  ipa_prefix="↗",  volume_db=0.0,  pause_before_ms=0,   pause_after_ms=50,  emotion_token=185),
-    "whisper":    EmotionProfile(speed=0.9,  ipa_prefix=None, volume_db=-8.0, pause_before_ms=50,  pause_after_ms=50,  emotion_token=186),
+    "whisper":    EmotionProfile(speed=1.0 / 1.25, ipa_prefix=None, volume_db=-8.0, pause_before_ms=50, pause_after_ms=150, emotion_token=186, duration_scale=1.25, unvoiced_duration_scale=1.25),
     "shout":      EmotionProfile(speed=1.2,  ipa_prefix="↑",  volume_db=4.0,  pause_before_ms=0,   pause_after_ms=100, emotion_token=187),
     "laugh":      EmotionProfile(speed=1.15, ipa_prefix=None, volume_db=0.0,  pause_before_ms=50,  pause_after_ms=100, sfx_file="sfx/laugh.wav", emotion_token=188),
     "cry":        EmotionProfile(speed=0.8,  ipa_prefix="↘",  volume_db=-2.0, pause_before_ms=100, pause_after_ms=200, sfx_file="sfx/cry.wav",   emotion_token=189),

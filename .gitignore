@@ -7,3 +7,5 @@ models/*.onnx
 models/*.bin
 emotions/*.npy
 .pytest_cache/
+
+characters.json

@@ -1,7 +1,12 @@
 import os
 from pathlib import Path
 import pytest
-from training.phonemize_dataset import phonemize_text, reconcile_vocabulary, build_manifest_entry
+from training.phonemize_dataset import (
+    build_manifest_entry,
+    phonemize_text,
+    reconcile_vocabulary,
+    validate_training_row,
+)
 
 def test_reconcile_vocabulary_oov_substitution():
     raw_ipa = "German ʏ and ASCII g with — dash"
@@ -34,3 +39,11 @@ def test_build_manifest_entry(tmp_path):
     assert entry.endswith("|speaker_01|happy")
     parts = entry.split("|")
     assert len(parts) == 4
+
+
+def test_validate_training_row_rejects_theatrical_sources_and_missing_labels():
+    assert validate_training_row({"source": "ESD", "speaker_id": "s1", "emotion": "sad"}) == "excluded source 'esd'"
+    assert validate_training_row({"dataset": "RAVDESS", "speaker_id": "s1", "emotion": "sad"}) == "excluded source 'ravdess'"
+    assert validate_training_row({"source": "expresso", "emotion": "sad"}) == "missing speaker_id"
+    assert validate_training_row({"source": "expresso", "speaker_id": "s1"}) == "missing emotion"
+    assert validate_training_row({"source": "expresso", "speaker_id": "s1", "emotion": "sad"}) is None
