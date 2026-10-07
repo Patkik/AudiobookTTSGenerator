@@ -15,6 +15,7 @@ from app.parser.emotion_profiles import EMOTION_PROFILES, _ALIASES, resolve_prof
 from app.parser.tag_parser import SpeechSegment, calculate_punctuation_pause
 from app.synthesis.voicepack_store import VoicepackStore
 from app.synthesis.audio_pipeline import AudioPipeline
+from app.synthesis.rvc_pipeline import RVCPipeline, RVCConfig, get_default_rudeus_config
 from app.characters.registry import CharacterRegistry
 
 SAMPLE_RATE = 24_000
@@ -60,12 +61,22 @@ class SynthesisEngine:
         emotion_alpha: float = 0.35,
         enable_mastering: bool = True,
         narrative_context_resolver: Optional[NarrativeContextResolver] = None,
+        rvc_pipeline: Optional[RVCPipeline] = None,
+        enable_rvc: bool = True,
+        rvc_configs: Optional[dict[str, RVCConfig]] = None,
     ) -> None:
         self._kokoro = Kokoro(model_path, voices_path)
         self._store = VoicepackStore(voices_path, emotions_dir)
         self._alpha = emotion_alpha
         self._enable_mastering = enable_mastering
         self._narrative_context_resolver = narrative_context_resolver
+        self._rvc_pipeline = rvc_pipeline
+        self._enable_rvc = enable_rvc
+        self._rvc_configs: dict[str, RVCConfig] = dict(rvc_configs) if rvc_configs else {}
+        if "rudeus" not in self._rvc_configs:
+            rudeus_cfg = get_default_rudeus_config()
+            if os.path.exists(rudeus_cfg.model_path):
+                self._rvc_configs["rudeus"] = rudeus_cfg
 
     def set_emotion_alpha(self, alpha: float) -> None:
         """Update global emotion intensity scale."""
@@ -74,6 +85,19 @@ class SynthesisEngine:
     def set_mastering(self, enabled: bool) -> None:
         """Enable or disable studio DSP audio mastering."""
         self._enable_mastering = enabled
+
+    def set_enable_rvc(self, enabled: bool) -> None:
+        """Enable or disable RVC character voice conversion."""
+        self._enable_rvc = enabled
+
+    def set_rvc_config(self, model_name: str, config: RVCConfig) -> None:
+        """Register or update an RVC configuration for a model name."""
+        self._rvc_configs[model_name.lower()] = config
+
+    def get_rvc_config(self, model_name: str) -> Optional[RVCConfig]:
+        """Get the RVC configuration for a model name."""
+        return self._rvc_configs.get(model_name.lower())
+
 
     def synthesize_segments(
         self,
@@ -265,6 +289,18 @@ class SynthesisEngine:
         # Apply volume post-processing
         if seg.profile.volume_db != 0.0:
             audio = AudioPipeline.apply_volume(audio, seg.profile.volume_db)
+
+        # Apply RVC voice conversion if character has an RVC model configured
+        rvc_model = registry.get_rvc_model(seg.character)
+        if (
+            getattr(self, "_enable_rvc", True)
+            and rvc_model
+            and getattr(self, "_rvc_pipeline", None) is not None
+            and len(audio) > 0
+        ):
+            cfg = self.get_rvc_config(rvc_model)
+            if cfg is not None:
+                audio, _ = self._rvc_pipeline.convert(audio, cfg, SAMPLE_RATE)
 
         parts.append(audio)
         flattened_parts = [np.asarray(p, dtype=np.float32).squeeze() for p in parts if len(p) > 0]
