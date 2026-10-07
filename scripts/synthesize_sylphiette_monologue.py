@@ -49,9 +49,9 @@ SYLPHIETTE_MONOLOGUE_SCRIPT = """# Beat 1: Sylphiette (Introspective & Quiet)
 """
 
 
-def synthesize_monologue():
+def synthesize_monologue(voice_id: str = "af_bella", filename: str = "sylphiette_monologue.wav"):
     print("=" * 65)
-    print("🌸 Synthesizing Sylphiette's Monologue (Mushoku Tensei)")
+    print(f"🌸 Synthesizing Sylphiette's Monologue with Voice: {voice_id}")
     print("=" * 65)
 
     model_int8 = str(ROOT_DIR / "models" / "kokoro-expressive.int8.onnx")
@@ -61,6 +61,7 @@ def synthesize_monologue():
     emotions_dir = str(ROOT_DIR / "emotions")
 
     registry = CharacterRegistry()
+    registry.add("SYLPHIETTE", voice_id=voice_id, gender="female", rvc_model=None)
     voice = registry.get_voice("SYLPHIETTE")
     gender = registry.get_gender("SYLPHIETTE")
     rvc = registry.get_rvc_model("SYLPHIETTE")
@@ -92,7 +93,7 @@ def synthesize_monologue():
 
     out_dir = str(ROOT_DIR / "output")
     os.makedirs(out_dir, exist_ok=True)
-    out_file = os.path.join(out_dir, "sylphiette_monologue.wav")
+    out_file = os.path.join(out_dir, filename)
     sf.write(out_file, audio, sr)
 
     duration_sec = len(audio) / sr
@@ -104,8 +105,21 @@ def synthesize_monologue():
     print(f"  Peak Amplitude: {peak_amp:.4f} (clipping limit: 1.0000)")
     assert duration_sec > 15.0, "Audio too short"
     assert peak_amp <= 1.0, "Clipping detected"
-    print("\n🌟 Sylphiette's monologue synthesized and verified successfully!")
+    print(f"🌟 Monologue for {voice_id} synthesized successfully!\n")
+    return out_file
 
 
 if __name__ == "__main__":
-    synthesize_monologue()
+    import argparse
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--voice", default="af_bella", help="Voice ID to use for Sylphiette")
+    parser.add_argument("--both", action="store_true", help="Generate both af_bella and af_jessica")
+    args = parser.parse_args()
+
+    if args.both:
+        synthesize_monologue(voice_id="af_bella", filename="sylphiette_monologue_bella.wav")
+        synthesize_monologue(voice_id="af_jessica", filename="sylphiette_monologue_jessica.wav")
+        # Also copy/save af_bella as the primary default
+        synthesize_monologue(voice_id="af_bella", filename="sylphiette_monologue.wav")
+    else:
+        synthesize_monologue(voice_id=args.voice, filename="sylphiette_monologue.wav")
