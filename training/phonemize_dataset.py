@@ -57,7 +57,7 @@ def phonemize_text(text: str, lang: str = "en-us") -> str:
 
 
 def build_manifest_entry(
-    wav_file: Path | str = None,
+    wav_file: Path | str | None = None,
     raw_text: str = "",
     speaker: str = "hero_speaker",
     emotion: str = "neutral",

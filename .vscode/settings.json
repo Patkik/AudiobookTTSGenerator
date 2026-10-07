@@ -1,0 +1,7 @@
+{
+  "python.defaultInterpreterPath": "${workspaceFolder}/venv/Scripts/python.exe",
+  "python.analysis.extraPaths": [
+    "${workspaceFolder}",
+    "c:/Users/patri/OneDrive/Desktop/Holy folder/kokoro-tts/venv/Lib/site-packages"
+  ]
+}

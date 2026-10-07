@@ -45,6 +45,8 @@ class CharacterRegistry:
         return CHARACTER_ALIASES.get(key, key)
 
     def _load(self) -> None:
+        if not self._path:
+            return
         try:
             with open(self._path, encoding="utf-8") as f:
                 data = json.load(f)
