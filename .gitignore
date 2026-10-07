@@ -5,6 +5,7 @@ __pycache__/
 *.mp3
 models/*.onnx
 models/*.bin
+models/rvc/
 .pytest_cache/
 output/
 
