@@ -258,9 +258,10 @@ class SynthesisEngine:
         # Get style vector (identity-preserving emotion-blended)
         # We estimate token_len from text length (~1.5 chars per phoneme)
         estimated_tokens = max(1, min(int(len(seg.text) * 1.5), 510))
-        # Resolve segment-calibrated alpha scaled by global intensity
+        # Resolve segment-calibrated alpha scaled by global intensity and embedding_scale
         base_alpha = seg.profile.alpha if hasattr(seg.profile, "alpha") and seg.profile.alpha is not None else 0.35
-        effective_alpha = base_alpha * (self._alpha / 0.35) if self._alpha > 0 else 0.0
+        emb_scale = getattr(seg, "embedding_scale", 1.0) or 1.0
+        effective_alpha = min(1.0, (base_alpha * emb_scale) * (self._alpha / 0.35)) if self._alpha > 0 else 0.0
 
         style = self._store.get_style(
             voice_id=voice_id,

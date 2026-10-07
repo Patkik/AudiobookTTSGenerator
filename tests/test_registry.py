@@ -68,3 +68,17 @@ def test_all_characters_includes_rvc_model():
     narrator = next(c for c in chars if c["name"] == "NARRATOR")
     assert narrator.get("rvc_model") is None
 
+
+def test_ruddy_and_silfie_aliases():
+    reg = CharacterRegistry()
+    # Ruddy should resolve to Rudeus settings
+    assert reg.get_voice("RUDDY") == "am_michael"
+    assert reg.get_gender("RUDDY") == "male"
+    assert reg.get_rvc_model("RUDDY") == "rudeus"
+
+    # Silfie should resolve to Sylphiette settings
+    assert reg.get_voice("SILFIE") == "af_sky"
+    assert reg.get_gender("SILFIE") == "female"
+    assert reg.get_rvc_model("SILFIE") is None
+
+

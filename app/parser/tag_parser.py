@@ -54,6 +54,7 @@ class SpeechSegment:
     character: str
     profile: EmotionProfile
     is_silence: bool = False  # True for [pause] / [long pause] tags
+    embedding_scale: float = 1.0
 
 
 class TagParser:

@@ -18,6 +18,7 @@ import gradio as gr
 import soundfile as sf
 
 from app.parser.tag_parser import TagParser
+from app.parser.automated_script_parser import AutomatedScriptParser
 from app.parser.script_resolver import ScriptResolver
 from app.parser.narrative_framing import DefaultNarrativeContextResolver
 from app.synthesis.engine import SynthesisEngine
@@ -27,7 +28,7 @@ from app.characters.registry import CharacterRegistry
 from app.parser.emotion_profiles import EMOTION_PROFILES
 
 registry = CharacterRegistry()
-parser = TagParser()
+parser = AutomatedScriptParser()
 resolver = ScriptResolver()
 engine: SynthesisEngine | None = None
 

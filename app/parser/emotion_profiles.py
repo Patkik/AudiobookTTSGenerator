@@ -69,6 +69,8 @@ EMOTION_PROFILES: dict[str, EmotionProfile] = {
     "monotone":   EmotionProfile(speed=1.0,   ipa_prefix="→",  volume_db=-0.5, pause_before_ms=0,   pause_after_ms=30,  emotion_token=194, alpha=0.10),
     "hesitant":   EmotionProfile(speed=0.92,  ipa_prefix=None, volume_db=0.0,  pause_before_ms=50,  pause_after_ms=80,  emotion_token=195, alpha=0.25),
     "confident":  EmotionProfile(speed=1.02,  ipa_prefix="→",  volume_db=0.5,  pause_before_ms=0,   pause_after_ms=50,  emotion_token=196, alpha=0.22),
+    "tender":     EmotionProfile(speed=0.92,  ipa_prefix="↘",  volume_db=-1.5, pause_before_ms=60,  pause_after_ms=100, emotion_token=180, alpha=0.35),
+    "relieved":   EmotionProfile(speed=0.96,  ipa_prefix="↗",  volume_db=-0.5, pause_before_ms=40,  pause_after_ms=80,  emotion_token=179, alpha=0.32),
     # Pacing-only (no TTS synthesis, just silence injection)
     "pause":      EmotionProfile(silence_ms=500,  emotion_token=178, alpha=0.0),
     "long pause": EmotionProfile(silence_ms=1200, emotion_token=178, alpha=0.0),
@@ -77,7 +79,22 @@ EMOTION_PROFILES: dict[str, EmotionProfile] = {
 
 # Aliases: normalize variant forms to canonical tag name
 _ALIASES: dict[str, str] = {
+    "whispers":   "whisper",
     "whispering": "whisper",
+    "softly":     "whisper",
+    "soft exhale":"sigh",
+    "softening":  "tender",
+    "gentle":     "tender",
+    "warmly":     "tender",
+    "tearful relief": "relieved",
+    "breathless relief": "relieved",
+    "relief":     "relieved",
+    "low voice":  "whisper",
+    "rising resolve": "dramatic",
+    "firm resolve":   "dramatic",
+    "conviction":     "dramatic",
+    "resolve":        "dramatic",
+    "introspective":  "calm",
     "shouting":   "shout",
     "shouted":    "shout",
     "crying":     "cry",
