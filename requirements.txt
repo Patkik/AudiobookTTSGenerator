@@ -6,3 +6,6 @@ ebooklib
 pydub
 pytest
 pytest-mock
+librosa
+pyloudnorm
+faster-whisper

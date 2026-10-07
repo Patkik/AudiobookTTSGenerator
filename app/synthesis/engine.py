@@ -59,6 +59,7 @@ class SynthesisEngine:
         voices_path: str = "models/voices-v1.0.bin",
         emotions_dir: str = "emotions",
         emotion_alpha: float = 0.35,
+        style_blend_beta: float = 0.25,
         enable_mastering: bool = True,
         narrative_context_resolver: Optional[NarrativeContextResolver] = None,
         rvc_pipeline: Optional[RVCPipeline] = None,
@@ -68,6 +69,10 @@ class SynthesisEngine:
         self._kokoro = Kokoro(model_path, voices_path)
         self._store = VoicepackStore(voices_path, emotions_dir)
         self._alpha = emotion_alpha
+        self._beta = style_blend_beta
+        self._prev_style: Optional[np.ndarray] = None
+        self._prev_voice: Optional[str] = None
+        self.speed_scale: float = 1.0
         self._enable_mastering = enable_mastering
         self._narrative_context_resolver = narrative_context_resolver
         self._rvc_pipeline = rvc_pipeline
@@ -97,7 +102,6 @@ class SynthesisEngine:
     def get_rvc_config(self, model_name: str) -> Optional[RVCConfig]:
         """Get the RVC configuration for a model name."""
         return self._rvc_configs.get(model_name.lower())
-
 
     def synthesize_segments(
         self,
@@ -271,12 +275,14 @@ class SynthesisEngine:
             gender=gender,
         )
 
+        style = self._blend_with_previous(voice_id, style)
+
         # Synthesize via kokoro-onnx
         try:
             audio, _ = self._kokoro.create(
                 text=seg.text,
                 voice=style,
-                speed=seg.profile.speed,
+                speed=max(0.5, min(2.0, seg.profile.speed * getattr(self, "speed_scale", 1.0))),
                 lang="en-us",
             )
         except Exception:
@@ -287,9 +293,13 @@ class SynthesisEngine:
         if audio.ndim == 0:
             audio = np.array([audio], dtype=np.float32)
 
-        # Apply volume post-processing
+        # Apply volume and tag-aware post-processing
         if seg.profile.volume_db != 0.0:
             audio = AudioPipeline.apply_volume(audio, seg.profile.volume_db)
+        if seg.profile.f0_variance_scale != 1.0:
+            audio = AudioPipeline.expand_f0_variance(audio, seg.profile.f0_variance_scale, SAMPLE_RATE)
+        if getattr(self, "_enable_mastering", True) and seg.emotion != "neutral":
+            audio = AudioPipeline.process_expression(audio, seg.emotion, SAMPLE_RATE)
 
         # Apply RVC voice conversion if character has an RVC model configured
         rvc_model = registry.get_rvc_model(seg.character)
@@ -306,3 +316,20 @@ class SynthesisEngine:
         parts.append(audio)
         flattened_parts = [np.asarray(p, dtype=np.float32).squeeze() for p in parts if len(p) > 0]
         return np.concatenate(flattened_parts).astype(np.float32)
+
+    def _blend_with_previous(self, voice_id: str, style: np.ndarray) -> np.ndarray:
+        """Carry style latent across segments of the same voice."""
+        if getattr(self, "_prev_voice", None) != voice_id:
+            self._prev_style = None
+        beta = getattr(self, "_beta", 0.0)
+        blended = blend_styles(getattr(self, "_prev_style", None), style, beta)
+        self._prev_style = blended
+        self._prev_voice = voice_id
+        return blended
+
+
+def blend_styles(prev: Optional[np.ndarray], new: np.ndarray, beta: float) -> np.ndarray:
+    """s_target = beta * s_prev + (1 - beta) * s_new."""
+    if prev is None or beta <= 0.0 or prev.shape != new.shape:
+        return new
+    return (beta * prev + (1.0 - beta) * new).astype(np.float32)

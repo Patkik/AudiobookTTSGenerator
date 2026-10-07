@@ -15,3 +15,6 @@ data/raw_datasets/
 data/*.zip
 *.zip
 *.tar.gz
+
+characters.json
+

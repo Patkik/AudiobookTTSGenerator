@@ -70,5 +70,5 @@ def test_empty_text_returns_empty():
 
 def test_segment_has_profile():
     segments = parser.parse("[happy] Hello!")
-    assert segments[0].profile.speed == 1.04
+    assert segments[0].profile.speed == pytest.approx(1.0 / 0.95)
     assert segments[0].profile.emotion_token == EMOTION_TOKENS["happy"]

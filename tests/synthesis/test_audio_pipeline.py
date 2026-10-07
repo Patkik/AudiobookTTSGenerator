@@ -47,3 +47,26 @@ def test_concat_segments_with_pauses():
     pause_100 = int(SAMPLE_RATE * 0.1)
     expected = 240 + pause_50 + 240 + pause_100
     assert len(result) == expected
+
+
+def test_contiguous_chunks_use_equal_power_crossfade():
+    a = np.ones(2400, dtype=np.float32)
+    b = np.ones(2400, dtype=np.float32)
+    result = AudioPipeline.concat_with_pauses([(a, 0), (b, 0)], SAMPLE_RATE)
+    assert len(result) == len(a) + len(b) - int(SAMPLE_RATE * 0.020)
+
+
+def test_expression_profiles_preserve_whisper_dynamics():
+    whisper = AudioPipeline.dynamics_profile("whisper")
+    neutral = AudioPipeline.dynamics_profile("neutral")
+    assert whisper.high_pass_hz == 55.0
+    assert whisper.compressor_ratio == 1.1
+    assert whisper.makeup_gain_db == -4.0
+    assert neutral.compressor_ratio == 2.0
+
+
+def test_expression_processing_is_float32_and_peak_safe():
+    audio = np.linspace(-2.0, 2.0, 2400, dtype=np.float32)
+    result = AudioPipeline.process_expression(audio, "fearful", SAMPLE_RATE)
+    assert result.dtype == np.float32
+    assert np.max(np.abs(result)) <= 0.98
