@@ -12,6 +12,7 @@ from app.parser.tag_parser import TagParser
 from app.parser.script_resolver import ScriptResolver
 from app.synthesis.engine import SynthesisEngine
 from app.synthesis.audio_pipeline import AudioPipeline
+from app.voice_changer import FasterWhisperTranscriber, VoiceChanger, create_training_bundle
 from app.characters.registry import CharacterRegistry
 from app.characters import crud
 from app.characters.voices import FALLBACK_VOICES, voice_choices
@@ -22,6 +23,7 @@ registry = CharacterRegistry(CHARACTERS_FILE)
 parser = TagParser()
 resolver = ScriptResolver()
 engine: SynthesisEngine | None = None
+transcriber = FasterWhisperTranscriber()
 
 SAMPLE_RATE = 24_000
 ALL_TAGS = sorted(EMOTION_PROFILES.keys())
@@ -138,6 +140,60 @@ def export_mp3(wav_path: str):
 
 def toggle_export(wav_path):
     return gr.update(interactive=bool(wav_path))
+
+
+# ── Voice changer handlers ───────────────────────────────────────────────────
+def transcribe_recording(recording_path: str | None):
+    """Return an editable transcript for a microphone/upload recording."""
+    try:
+        return transcriber.transcribe(recording_path), "✅ Transcript ready. Review it before conversion."
+    except Exception as exc:
+        return "", f"❌ Transcription failed: {exc}"
+
+
+def convert_recording(
+    recording_path: str | None,
+    transcript: str,
+    voice_id: str,
+    emotion: str,
+    speed: float,
+):
+    """Render recorded speech content in a selected built-in Kokoro voice."""
+    if not check_models_ok():
+        return None, "⚠️ Model files not ready; cannot convert speech."
+    try:
+        converter = VoiceChanger(_get_engine(), transcriber)
+        output = converter.convert(recording_path, transcript, voice_id, emotion, float(speed))
+    except Exception as exc:
+        return None, f"❌ Conversion failed: {exc}"
+    return output, (
+        "✅ Converted recording ready. This renders the reviewed transcript in the "
+        "selected voice; it does not preserve the source recording's timing or accent."
+    )
+
+
+def bundle_recording_for_training(
+    recording_path: str | None,
+    transcript: str,
+    speaker_id: str,
+    emotion: str,
+    consent_confirmed: bool,
+):
+    """Create a download containing only original, consented recording data."""
+    try:
+        bundle = create_training_bundle(
+            recording_path,
+            transcript,
+            speaker_id,
+            emotion,
+            consent_confirmed,
+        )
+    except Exception as exc:
+        return gr.update(value=None, visible=False), f"❌ Training bundle failed: {exc}"
+    return gr.update(value=bundle, visible=True), (
+        "✅ Training bundle created with the original 24 kHz recording and reviewed "
+        "metadata. Generated audio is intentionally excluded."
+    )
 
 
 # ── Character handlers ───────────────────────────────────────────────────────
@@ -301,7 +357,68 @@ with gr.Blocks(title="Kokoro Expressive Audiobook TTS") as demo:
                     label="Global Speed", scale=1,
                 )
 
-        # ── TAB 2: CHARACTERS ────────────────────────────────────────────────
+        # ── TAB 2: VOICE CHANGER ─────────────────────────────────────────────
+        with gr.Tab("🎙️ Voice Changer"):
+            gr.Markdown(
+                "Record or upload speech, review its transcript, then render it in a built-in "
+                "Kokoro voice. This is offline speech-to-speech rendering, not real-time "
+                "waveform-preserving voice conversion."
+            )
+            changer_voices = voice_choices(_get_voices())
+            changer_default_voice = changer_voices[0][1] if changer_voices else "af_heart"
+            with gr.Row(equal_height=False):
+                with gr.Column(scale=1):
+                    recording_input = gr.Audio(
+                        label="Record or upload speech (max 2 minutes)",
+                        sources=["microphone", "upload"],
+                        type="filepath",
+                    )
+                    transcribe_btn = gr.Button("📝 Transcribe recording")
+                    transcript_input = gr.Textbox(
+                        label="Reviewed transcript",
+                        placeholder="Transcribe a recording, then correct the text here before conversion.",
+                        lines=5,
+                    )
+                    with gr.Row():
+                        changer_voice = gr.Dropdown(
+                            choices=changer_voices,
+                            value=changer_default_voice,
+                            label="Target voice",
+                        )
+                        changer_emotion = gr.Dropdown(
+                            choices=ALL_TAGS,
+                            value="neutral",
+                            label="Expression",
+                        )
+                    changer_speed = gr.Slider(
+                        minimum=0.5,
+                        maximum=2.0,
+                        value=1.0,
+                        step=0.05,
+                        label="Output speed",
+                    )
+                    convert_btn = gr.Button("🔄 Convert to selected voice", variant="primary")
+                with gr.Column(scale=1):
+                    converted_audio = gr.Audio(
+                        label="Converted preview",
+                        type="filepath",
+                        interactive=False,
+                    )
+                    changer_status = gr.Markdown("Record speech, transcribe it, and review the text.")
+                    gr.Markdown(
+                        "### Training data bundle\n"
+                        "Exports the original recording—not synthetic converted audio—plus metadata "
+                        "for the curation pipeline."
+                    )
+                    training_speaker = gr.Textbox(label="Speaker ID", placeholder="e.g. speaker_01")
+                    training_consent = gr.Checkbox(
+                        label="I have permission to use this original recording for model training.",
+                        value=False,
+                    )
+                    bundle_btn = gr.Button("📦 Bundle original recording for training")
+                    bundle_download = gr.File(label="Training bundle download", visible=False)
+
+        # ── TAB 3: CHARACTERS ────────────────────────────────────────────────
         with gr.Tab("👥 Characters"):
             gr.Markdown(
                 "Assign a Kokoro voice to each character. Click a row to edit or delete it. "
@@ -333,7 +450,7 @@ with gr.Blocks(title="Kokoro Expressive Audiobook TTS") as demo:
                 reset_btn = gr.Button("↺ Reset defaults")
             preview_audio = gr.Audio(label="Voice preview", type="filepath", interactive=False)
 
-        # ── TAB 3: TAG REFERENCE ─────────────────────────────────────────────
+        # ── TAB 4: TAG REFERENCE ─────────────────────────────────────────────
         with gr.Tab("📖 Tag Reference"):
             tag_search = gr.Textbox(label="Filter tags", placeholder="e.g. whisper", max_lines=1)
             tag_table = gr.Dataframe(
@@ -361,6 +478,25 @@ with gr.Blocks(title="Kokoro Expressive Audiobook TTS") as demo:
     text_input.change(count_text, inputs=text_input, outputs=word_count)
     insert_btn.click(insert_tag, inputs=[text_input, tag_picker], outputs=[text_input, tag_picker])
     export_btn.click(fn=export_mp3, inputs=audio_output, outputs=mp3_output)
+
+    transcribe_btn.click(
+        transcribe_recording,
+        inputs=recording_input,
+        outputs=[transcript_input, changer_status],
+        concurrency_limit=1,
+    )
+    convert_btn.click(
+        convert_recording,
+        inputs=[recording_input, transcript_input, changer_voice, changer_emotion, changer_speed],
+        outputs=[converted_audio, changer_status],
+        concurrency_limit=1,
+    )
+    bundle_btn.click(
+        bundle_recording_for_training,
+        inputs=[recording_input, transcript_input, training_speaker, changer_emotion, training_consent],
+        outputs=[bundle_download, changer_status],
+        concurrency_limit=1,
+    )
 
     form_outputs = [char_table, new_name, new_voice, selected_name, update_char_btn, delete_char_btn]
     add_char_btn.click(on_add, inputs=[new_name, new_voice], outputs=form_outputs)
