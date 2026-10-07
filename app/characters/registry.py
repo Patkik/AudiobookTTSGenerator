@@ -16,7 +16,7 @@ DEFAULT_CHARACTERS: dict[str, dict] = {
     "NARRATOR":   {"voice_id": "af_heart",   "gender": "female", "rvc_model": None},
     "ALICE":      {"voice_id": "af_bella",   "gender": "female", "rvc_model": None},
     "BOB":        {"voice_id": "am_michael", "gender": "male",   "rvc_model": None},
-    "SYLPHIETTE": {"voice_id": "af_sky",     "gender": "female", "rvc_model": None},
+    "SYLPHIETTE": {"voice_id": "af_nicole",  "gender": "female", "rvc_model": None},
     "RUDEUS":     {"voice_id": "am_michael", "gender": "male",   "rvc_model": "rudeus"},
 }
 

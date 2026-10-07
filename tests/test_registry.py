@@ -47,7 +47,7 @@ def test_rudeus_default_character_with_rvc():
 
 def test_sylphiette_default_character_without_rvc():
     reg = CharacterRegistry()
-    assert reg.get_voice("SYLPHIETTE") == "af_sky"
+    assert reg.get_voice("SYLPHIETTE") == "af_nicole"
     assert reg.get_gender("SYLPHIETTE") == "female"
     assert reg.get_rvc_model("SYLPHIETTE") is None
 
@@ -77,7 +77,7 @@ def test_ruddy_and_silfie_aliases():
     assert reg.get_rvc_model("RUDDY") == "rudeus"
 
     # Silfie should resolve to Sylphiette settings
-    assert reg.get_voice("SILFIE") == "af_sky"
+    assert reg.get_voice("SILFIE") == "af_nicole"
     assert reg.get_gender("SILFIE") == "female"
     assert reg.get_rvc_model("SILFIE") is None
 
