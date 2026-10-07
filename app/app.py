@@ -19,8 +19,10 @@ import soundfile as sf
 
 from app.parser.tag_parser import TagParser
 from app.parser.script_resolver import ScriptResolver
+from app.parser.narrative_framing import DefaultNarrativeContextResolver
 from app.synthesis.engine import SynthesisEngine
 from app.synthesis.audio_pipeline import AudioPipeline
+from app.synthesis.rvc_pipeline import RVCPipeline, RVCConfig
 from app.characters.registry import CharacterRegistry
 from app.parser.emotion_profiles import EMOTION_PROFILES
 
@@ -57,10 +59,15 @@ def _get_engine() -> SynthesisEngine:
         voices = str(ROOT_DIR / "models" / "voices-v1.0.bin")
         emotions = str(ROOT_DIR / "emotions")
         print(f"Loading SynthesisEngine with model: {m}, voices: {voices}")
+        rvc_pipe = RVCPipeline()
+        narrative_resolver = DefaultNarrativeContextResolver()
         engine = SynthesisEngine(
             model_path=m,
             voices_path=voices,
             emotions_dir=emotions,
+            narrative_context_resolver=narrative_resolver,
+            rvc_pipeline=rvc_pipe,
+            enable_rvc=True,
         )
     return engine
 
@@ -69,6 +76,12 @@ def generate_audio(
     global_speed: float = 1.0,
     intensity: float = 0.35,
     enable_mastering: bool = True,
+    enable_rvc: bool = True,
+    rvc_index_rate: float = 0.40,
+    rvc_protect: float = 0.35,
+    rvc_filter_radius: int = 3,
+    rvc_volume_envelope: float = 1.0,
+    rvc_pitch_shift: int = 0,
 ) -> tuple[str | None, str]:
     """Parse text and synthesize audio. Returns (wav_path, segment_summary)."""
     if not check_models_ok():
@@ -79,6 +92,20 @@ def generate_audio(
     eng = _get_engine()
     eng.set_emotion_alpha(intensity)
     eng.set_mastering(enable_mastering)
+    eng.set_enable_rvc(enable_rvc)
+
+    # Update rudeus RVC configuration with UI parameters
+    rudeus_cfg = eng.get_rvc_config("rudeus")
+    if rudeus_cfg:
+        updated_cfg = dataclasses.replace(
+            rudeus_cfg,
+            index_rate=float(rvc_index_rate),
+            protect=float(rvc_protect),
+            filter_radius=int(rvc_filter_radius),
+            volume_envelope=float(rvc_volume_envelope),
+            f0_up_key=int(rvc_pitch_shift),
+        )
+        eng.set_rvc_config("rudeus", updated_cfg)
 
     segments = parser.parse(text)
     if not segments:
@@ -105,8 +132,9 @@ def generate_audio(
             summary_lines.append(f"  {i+1}. [PAUSE {s.profile.silence_ms}ms]")
         else:
             snippet = s.text[:40] + ("..." if len(s.text) > 40 else "")
+            rvc_tag = f" [RVC:{registry.get_rvc_model(s.character)}]" if (enable_rvc and registry.get_rvc_model(s.character)) else ""
             summary_lines.append(
-                f"  {i+1}. [{s.emotion}] {s.character}: \"{snippet}\""
+                f"  {i+1}. [{s.emotion}]{rvc_tag} {s.character}: \"{snippet}\""
             )
     summary = f"✓ {len(segments)} segments | {len(audio)/sr:.1f}s total\n" + "\n".join(summary_lines)
 
@@ -126,13 +154,14 @@ def insert_tag(current_text: str, tag: str) -> str:
     prefix = current_text if current_text else ""
     return prefix + f" [{tag}] "
 
-def add_character(name: str, voice: str, gender: str, current_table) -> tuple:
+def add_character(name: str, voice: str, gender: str, rvc_model: str, current_table) -> tuple:
     """Add a character to the registry and refresh the table."""
     name = name.strip().upper()
+    rvc_val = None if rvc_model in ("None", "—", "", "none") else rvc_model
     if name:
-        registry.add(name, voice, gender)
+        registry.add(name, voice, gender, rvc_model=rvc_val)
     chars = registry.all_characters()
-    return "", [[c["name"], c["voice_id"], c["gender"]] for c in chars]
+    return "", [[c["name"], c["voice_id"], c["gender"], c.get("rvc_model") or "—"] for c in chars]
 
 def export_mp3(wav_path: str) -> str | None:
     """Convert generated WAV to MP3."""
@@ -216,14 +245,49 @@ with gr.Blocks(title="🎙️ Kokoro Expressive Audiobook TTS") as demo:
                     info="EQ, De-Esser & Room Tone",
                 )
 
+            with gr.Accordion("🎙️ RVC Character Voice Conversion (Rudeus / Custom)", open=False):
+                with gr.Row():
+                    rvc_toggle = gr.Checkbox(
+                        value=True,
+                        label="Enable RVC Character Conversion",
+                        info="Converts timbre for characters with assigned RVC models (e.g. RUDEUS)",
+                    )
+                    rvc_pitch_shift = gr.Slider(
+                        minimum=-12, maximum=12, value=0, step=1,
+                        label="🎵 Pitch Shift (Semitones)",
+                        info="0=Default, +12=Female octave, -12=Male octave",
+                    )
+                with gr.Row():
+                    rvc_index_slider = gr.Slider(
+                        minimum=0.0, maximum=1.0, value=0.40, step=0.05,
+                        label="🎚️ Index Feature Rate (index_rate)",
+                        info="Blueprint: 0.30–0.50 (retains Kokoro acting & pitch range)",
+                    )
+                    rvc_protect_slider = gr.Slider(
+                        minimum=0.0, maximum=0.50, value=0.35, step=0.05,
+                        label="🛡️ Protect Voiceless Consonants (protect)",
+                        info="Blueprint: 0.33–0.50 (protects unvoiced breath noise & consonants)",
+                    )
+                with gr.Row():
+                    rvc_filter_slider = gr.Slider(
+                        minimum=0, maximum=7, value=3, step=1,
+                        label="〰️ Filter Radius",
+                        info="Blueprint: 3 (smooths pitch transitions to eliminate cracks)",
+                    )
+                    rvc_volume_slider = gr.Slider(
+                        minimum=0.0, maximum=1.0, value=1.0, step=0.05,
+                        label="🔊 Volume Envelope Mix",
+                        info="Blueprint: 1.0 (retains Kokoro dynamic range shouts vs whispers)",
+                    )
+
         # ── TAB 2: CHARACTERS ─────────────────────────────────────────────────
         with gr.Tab("👥 Characters"):
-            gr.Markdown("Assign a Kokoro voice to each character in your script.")
+            gr.Markdown("Assign a Kokoro voice and optional RVC model to each character in your script.")
             voices_list = _get_voices()
 
             char_table = gr.Dataframe(
-                headers=["name", "voice_id", "gender"],
-                value=[[c["name"], c["voice_id"], c["gender"]]
+                headers=["name", "voice_id", "gender", "rvc_model"],
+                value=[[c["name"], c["voice_id"], c["gender"], c.get("rvc_model") or "—"]
                        for c in registry.all_characters()],
                 label="Registered Characters",
                 interactive=False,
@@ -241,6 +305,12 @@ with gr.Blocks(title="🎙️ Kokoro Expressive Audiobook TTS") as demo:
                     choices=["female", "male"],
                     value="female",
                     label="Gender (for SFX selection)",
+                    scale=1,
+                )
+                new_rvc = gr.Dropdown(
+                    choices=["None", "rudeus"],
+                    value="None",
+                    label="RVC Model",
                     scale=1,
                 )
                 add_char_btn = gr.Button("➕ Add / Update", scale=1)
@@ -269,7 +339,11 @@ with gr.Blocks(title="🎙️ Kokoro Expressive Audiobook TTS") as demo:
     # ── Event Wiring ──────────────────────────────────────────────────────────
     generate_btn.click(
         fn=generate_audio,
-        inputs=[text_input, speed_slider, intensity_slider, mastering_toggle],
+        inputs=[
+            text_input, speed_slider, intensity_slider, mastering_toggle,
+            rvc_toggle, rvc_index_slider, rvc_protect_slider,
+            rvc_filter_slider, rvc_volume_slider, rvc_pitch_shift,
+        ],
         outputs=[audio_output, segment_summary],
     )
     upload_btn.upload(
@@ -284,7 +358,7 @@ with gr.Blocks(title="🎙️ Kokoro Expressive Audiobook TTS") as demo:
     )
     add_char_btn.click(
         fn=add_character,
-        inputs=[new_name, new_voice, new_gender, char_table],
+        inputs=[new_name, new_voice, new_gender, new_rvc, char_table],
         outputs=[new_name, char_table],
     )
     export_btn.click(
