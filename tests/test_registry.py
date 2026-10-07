@@ -36,3 +36,35 @@ def test_update_voice():
     reg.add("ALICE", "af_bella", gender="female")
     reg.add("ALICE", "af_heart", gender="female")  # update
     assert reg.get_voice("ALICE") == "af_heart"
+
+
+def test_rudeus_default_character_with_rvc():
+    reg = CharacterRegistry()
+    assert reg.get_voice("RUDEUS") == "am_michael"
+    assert reg.get_gender("RUDEUS") == "male"
+    assert reg.get_rvc_model("RUDEUS") == "rudeus"
+
+
+def test_sylphiette_default_character_without_rvc():
+    reg = CharacterRegistry()
+    assert reg.get_voice("SYLPHIETTE") == "af_sky"
+    assert reg.get_gender("SYLPHIETTE") == "female"
+    assert reg.get_rvc_model("SYLPHIETTE") is None
+
+
+def test_add_and_set_rvc_model():
+    reg = CharacterRegistry()
+    reg.add("ERIS", "af_bella", gender="female", rvc_model="eris")
+    assert reg.get_rvc_model("ERIS") == "eris"
+    reg.set_rvc_model("ERIS", None)
+    assert reg.get_rvc_model("ERIS") is None
+
+
+def test_all_characters_includes_rvc_model():
+    reg = CharacterRegistry()
+    chars = reg.all_characters()
+    rudeus = next(c for c in chars if c["name"] == "RUDEUS")
+    assert rudeus["rvc_model"] == "rudeus"
+    narrator = next(c for c in chars if c["name"] == "NARRATOR")
+    assert narrator.get("rvc_model") is None
+
