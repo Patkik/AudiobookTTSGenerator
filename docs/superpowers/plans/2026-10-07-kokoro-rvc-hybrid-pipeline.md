@@ -53,26 +53,26 @@ graph TD
   - Registered `RUDEUS`: `voice_id="am_michael"`, `gender="male"`, `rvc_model="rudeus"`
   - Registered `SYLPHIETTE`: `voice_id="af_sky"`, `gender="female"`, `rvc_model=None`
 
-- [ ] **Step 1: Write failing test in `tests/test_registry.py`**
+- [x] **Step 1: Write failing test in `tests/test_registry.py`**
   Add unit tests verifying:
   - `registry.get_rvc_model("RUDEUS") == "rudeus"`
   - `registry.get_rvc_model("SYLPHIETTE") is None`
   - `registry.add("ERIS", "af_bella", "female", rvc_model="eris")` stores and returns `rvc_model` correctly
   - `all_characters()` includes `"rvc_model"` key in dicts.
 
-- [ ] **Step 2: Run test to confirm failure**
+- [x] **Step 2: Run test to confirm failure**
   Run: `.\venv\Scripts\pytest.exe tests/test_registry.py`
 
-- [ ] **Step 3: Implement RVC support in `app/characters/registry.py`**
+- [x] **Step 3: Implement RVC support in `app/characters/registry.py`**
   Update `DEFAULT_CHARACTERS` and `CharacterRegistry` methods:
   - Add `"rvc_model": "rudeus"` to `RUDEUS`
   - Add `"rvc_model": None` to `NARRATOR`, `ALICE`, `BOB`, `SYLPHIETTE`
   - Update `add()`, `get_rvc_model()`, `set_rvc_model()`, and `all_characters()`.
 
-- [ ] **Step 4: Run tests and ensure they pass**
+- [x] **Step 4: Run tests and ensure they pass**
   Run: `.\venv\Scripts\pytest.exe tests/test_registry.py`
 
-- [ ] **Step 5: Commit**
+- [x] **Step 5: Commit**
   Run: `git commit -am "feat: add RVC model mapping to CharacterRegistry with Rudeus preconfigured"`
 
 ---
@@ -91,23 +91,23 @@ graph TD
   - Context cue analyzer supporting keywords: `desperate`, `shouting`, `crying`, `whispering`, `hesitant`, `scared`, `furious`, `tender`.
   - Generates hesitation pauses (`pause_before_ms`), dynamic speed, volume boosts/cuts, and scaled emotional alpha.
 
-- [ ] **Step 1: Write failing test in `tests/parser/test_narrative_framing.py`**
+- [x] **Step 1: Write failing test in `tests/parser/test_narrative_framing.py`**
   Test cases for:
   - Desperate shouting cue (e.g. `"he shouted with desperate anger"`): returns `pause_before_ms >= 150`, `volume_db > 0`, `alpha >= 0.45`.
   - Whisper/fear cue (e.g. `"she whispered, her voice trembling"`): returns `volume_db < 0`, `speed < 1.0`, `emotion="whispering"`.
   - Hesitation cue (e.g. `"he hesitated before answering"`): returns `pause_before_ms >= 300`.
   - Passthrough on neutral text without acting cues.
 
-- [ ] **Step 2: Run test to confirm failure**
+- [x] **Step 2: Run test to confirm failure**
   Run: `.\venv\Scripts\pytest.exe tests/parser/test_narrative_framing.py`
 
-- [ ] **Step 3: Implement `DefaultNarrativeContextResolver` in `app/parser/narrative_framing.py`**
+- [x] **Step 3: Implement `DefaultNarrativeContextResolver` in `app/parser/narrative_framing.py`**
   Implement regex pattern matching and keyword dictionaries to map cues into `NarrativeContextFrame` values. Wire as default in `SynthesisEngine` when no custom resolver is supplied.
 
-- [ ] **Step 4: Run tests and ensure they pass**
+- [x] **Step 4: Run tests and ensure they pass**
   Run: `.\venv\Scripts\pytest.exe tests/parser/test_narrative_framing.py tests/synthesis/test_narrative_context.py`
 
-- [ ] **Step 5: Commit**
+- [x] **Step 5: Commit**
   Run: `git commit -am "feat: implement DefaultNarrativeContextResolver for acting cues and hesitation pauses"`
 
 ---
@@ -127,23 +127,23 @@ graph TD
   - Audio resampler utility (24 kHz -> 40 kHz -> 24 kHz) using `scipy.signal.resample_poly` or `soxr`.
   - Subprocess runner or Python 3.11 runner wrapper with error handling and fallback to original audio if offline.
 
-- [ ] **Step 1: Write failing test in `tests/synthesis/test_rvc_pipeline.py`**
+- [x] **Step 1: Write failing test in `tests/synthesis/test_rvc_pipeline.py`**
   Test cases for:
   - Default `RVCConfig` values matching blueprint (`index_rate=0.40`, `protect=0.35`, `filter_radius=3`, `volume_envelope=1.0`, `f0_method="rmvpe"`).
   - Validation: rejects `index_rate < 0` or `> 1`, rejects invalid `protect`, rejects non-existent model path.
   - Audio resampling and mock conversion preserves shape, float32 dtype, and finite values.
   - Graceful fallback: when external runner fails or is unavailable, returns clean Kokoro audio without crashing.
 
-- [ ] **Step 2: Run test to confirm failure**
+- [x] **Step 2: Run test to confirm failure**
   Run: `.\venv\Scripts\pytest.exe tests/synthesis/test_rvc_pipeline.py`
 
-- [ ] **Step 3: Implement `RVCPipeline` and `RVCConfig` in `app/synthesis/rvc_pipeline.py`**
+- [x] **Step 3: Implement `RVCPipeline` and `RVCConfig` in `app/synthesis/rvc_pipeline.py`**
   Implement the configuration dataclass, input validation, audio format handling, and execution engine with fallback.
 
-- [ ] **Step 4: Run tests and ensure they pass**
+- [x] **Step 4: Run tests and ensure they pass**
   Run: `.\venv\Scripts\pytest.exe tests/synthesis/test_rvc_pipeline.py`
 
-- [ ] **Step 5: Commit**
+- [x] **Step 5: Commit**
   Run: `git commit -am "feat: implement RVC post-processor pipeline with blueprint hyperparameters and fallback"`
 
 ---
@@ -160,22 +160,22 @@ graph TD
   - `SynthesisEngine(..., rvc_pipeline=...)`
   - Per-segment RVC routing: if character has `rvc_model` and RVC is enabled, convert segment audio through `RVCPipeline` before assembling final mastered output.
 
-- [ ] **Step 1: Write failing test in `tests/synthesis/test_engine_rvc_routing.py`**
+- [x] **Step 1: Write failing test in `tests/synthesis/test_engine_rvc_routing.py`**
   Test cases for:
   - RVC routing triggered for `RUDEUS` lines when `rvc_pipeline` is active.
   - Non-RVC characters (e.g. `SYLPHIETTE`, `NARRATOR`) bypass RVC and synthesize directly via Kokoro.
   - Preserves silence segments and pause durations.
 
-- [ ] **Step 2: Run test to confirm failure**
+- [x] **Step 2: Run test to confirm failure**
   Run: `.\venv\Scripts\pytest.exe tests/synthesis/test_engine_rvc_routing.py`
 
-- [ ] **Step 3: Implement RVC routing in `app/synthesis/engine.py`**
+- [x] **Step 3: Implement RVC routing in `app/synthesis/engine.py`**
   Wire `RVCPipeline` into `synthesize_segments()` and `_synthesize_one()`. Check `registry.get_rvc_model(seg.character)` and pass configured audio through conversion.
 
-- [ ] **Step 4: Run tests and ensure they pass**
+- [x] **Step 4: Run tests and ensure they pass**
   Run: `.\venv\Scripts\pytest.exe tests/synthesis/test_engine_rvc_routing.py`
 
-- [ ] **Step 5: Commit**
+- [x] **Step 5: Commit**
   Run: `git commit -am "feat: wire RVC character routing into SynthesisEngine"`
 
 ---
@@ -196,23 +196,23 @@ graph TD
     3. Emotional inflections (crying, laughing, breathless)
   - Exports normalized, trimmed 40 kHz mono WAVs + training manifest `rvc_train_manifest.txt`.
 
-- [ ] **Step 1: Write failing test in `tests/training/test_prepare_rvc_dataset.py`**
+- [x] **Step 1: Write failing test in `tests/training/test_prepare_rvc_dataset.py`**
   Test cases for:
   - Three-P tag classification function.
   - Loudness normalization to -23 LUFS (or target dBFS).
   - Resampling to 40 kHz mono.
   - Manifest generation format.
 
-- [ ] **Step 2: Run test to confirm failure**
+- [x] **Step 2: Run test to confirm failure**
   Run: `.\venv\Scripts\pytest.exe tests/training/test_prepare_rvc_dataset.py`
 
-- [ ] **Step 3: Implement `training/prepare_rvc_dataset.py`**
+- [x] **Step 3: Implement `training/prepare_rvc_dataset.py`**
   Build the dataset curator tool using `soundfile`, `scipy.signal`, and `pyloudnorm`.
 
-- [ ] **Step 4: Run tests and ensure they pass**
+- [x] **Step 4: Run tests and ensure they pass**
   Run: `.\venv\Scripts\pytest.exe tests/training/test_prepare_rvc_dataset.py`
 
-- [ ] **Step 5: Commit**
+- [x] **Step 5: Commit**
   Run: `git commit -am "feat: implement RVC dataset augmentation utility for Three-P vocal projections"`
 
 ---
@@ -236,19 +236,19 @@ graph TD
     - Number/Slider: "Pitch Shift (semitones)" (default `0`)
   - Updated character table in UI with "RVC Model" column.
 
-- [ ] **Step 1: Write failing test in `tests/test_app_integration.py`**
+- [x] **Step 1: Write failing test in `tests/test_app_integration.py`**
   Test that `generate_audio()` respects RVC parameters and character registry mappings.
 
-- [ ] **Step 2: Run test to confirm failure**
+- [x] **Step 2: Run test to confirm failure**
   Run: `.\venv\Scripts\pytest.exe tests/test_app_integration.py`
 
-- [ ] **Step 3: Update `app/app.py`**
+- [x] **Step 3: Update `app/app.py`**
   Add the RVC UI controls, wire them into `generate_audio()`, and update the character table.
 
-- [ ] **Step 4: Run tests and ensure they pass**
+- [x] **Step 4: Run tests and ensure they pass**
   Run: `.\venv\Scripts\pytest.exe tests/test_app_integration.py`
 
-- [ ] **Step 5: Commit**
+- [x] **Step 5: Commit**
   Run: `git commit -am "feat: add RVC voice conversion controls and character mapping to Gradio UI"`
 
 ---
@@ -265,14 +265,14 @@ graph TD
   1. All unit tests pass (`.\venv\Scripts\pytest.exe`).
   2. Generates demo WAV with clean vocal handover, zero clipping, and distinct character timbres.
 
-- [ ] **Step 1: Create demo script `scripts/demo_sylphiette_rudeus.py`**
+- [x] **Step 1: Create demo script `scripts/demo_sylphiette_rudeus.py`**
   Synthesizes a short dramatic scene between Sylphiette and Rudeus.
 
-- [ ] **Step 2: Run full test suite**
+- [x] **Step 2: Run full test suite**
   Run: `.\venv\Scripts\pytest.exe` (ensure all tests pass, 0 failures).
 
-- [ ] **Step 3: Run demo script to verify audio generation**
+- [x] **Step 3: Run demo script to verify audio generation**
   Run: `.\venv\Scripts\python.exe scripts/demo_sylphiette_rudeus.py`
 
-- [ ] **Step 4: Final commit and summary**
+- [x] **Step 4: Final commit and summary**
   Run: `git commit -am "test: verify full Kokoro TTS + RVC pipeline with Sylphiette and Rudeus dialogue"`
